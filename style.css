@@ -211,6 +211,8 @@ img {
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.2);
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
 .innerWrapper .button:hover {
