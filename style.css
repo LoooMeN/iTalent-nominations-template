@@ -13,7 +13,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -114,6 +114,8 @@ img {
     align-items: center;
     font-size: 2vw;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .buttons .button:hover {
@@ -140,7 +142,7 @@ img {
     }
 
     .buttons .button {
-        font-size: 1.1vw;
+        font-size: 0.8vw;
     }
 
     .gradient h2 {
@@ -171,10 +173,10 @@ img {
 
 .kriterii img {
     z-index: 1000;
-    width: 10vw;
-    height: 10vw;
-    top: -5vw;
-    left: calc(50% - 5vw);
+    width: 7vw;
+    height: 7vw;
+    top: -3.5vw;
+    left: calc(50% - 3.5vw);
     position: absolute;
 }
 
