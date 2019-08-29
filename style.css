@@ -125,7 +125,7 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
-    #section1 .container > div:first-child {
+    #section1 .container>div:first-child {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2vw;
@@ -146,7 +146,7 @@ img {
     .gradient h2 {
         font-size: 2vw;
     }
-    
+
     .gradient p {
         font-size: 1vw;
     }
@@ -231,7 +231,7 @@ img {
     .innerWrapper h1 {
         font-size: 2vw;
     }
-    
+
     .innerWrapper p {
         font-size: 1vw;
     }
@@ -261,7 +261,8 @@ img {
     flex-direction: column;
 }
 
-.vimogi .text h3, .vimogi .text p {
+.vimogi .text h3,
+.vimogi .text p {
     margin-bottom: 1vw;
 }
 
@@ -321,7 +322,7 @@ img {
     .vimogi .text h3 {
         font-size: 1.5vw;
     }
-    
+
     .vimogi .text p {
         font-size: 1vw;
     }
