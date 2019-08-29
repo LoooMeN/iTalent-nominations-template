@@ -1,3 +1,163 @@
+#navigation.desktop {
+    padding-top: 28px;
+}
+
+#bottomfooter {
+    display: none;
+}
+
+#footer {
+    background-image: linear-gradient(to top, #b3b3b3, #c6c6c6, #d8d8d8, #ececec, #ffffff);
+    background-size: cover;
+}
+
+#topfooter {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.footer-widget {
+    width: 100% !important;
+}
+
+.myItem1 {
+    display:flex;
+    width: 150px;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .footer-widget {
+        width: 100% !important;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #topfooter {
+        grid-template-columns: 1fr;
+    }
+    
+    .myItem1 {
+        margin: auto;
+    }
+}
+
+#footer h3, .footer-widget p, .footer-widget a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #6F838D !important;
+}
+
+.footer-widget a {
+    transition: color 0.5s;
+}
+
+.footer-widget a:hover {
+    color: #333333 !important;
+}
+
+.myRound {
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.myRound:hover {
+    box-shadow: 0px 4px 10px #333;
+}
+
+.shadow {
+    box-shadow: 0px 4px 10px #909090;
+}
+
+#menu-item-91 a{
+    color: #0099FF !important;
+}
+
+.my_button_left {
+   width: 200px;
+   margin-left: auto;
+   margin-right: 10px;
+   border: 3px solid #0099FF;
+   padding: 10px;
+   font-weight: 600;
+   color: #0099FF;
+   background-color: white;
+}
+
+.my_button_left:hover {
+    animation: my_animation 0.2s 1 forwards;
+}
+
+.my_button_right:hover {
+    animation: my_animation 0.2s 1 forwards;
+}
+
+.my_button_right {
+   width: 200px;
+   margin-left: 10px;
+   margin-right: auto;
+   border: 3px solid #0099FF;
+   padding: 10px;
+   font-weight: 600;
+   color: #0099FF;
+   background-color: white;
+}
+
+.my_div {
+    width: 49%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .my_div {
+        display: block;
+        width: 100%;
+    }
+    
+    .my_button_right {
+        margin: 10px auto;
+    }
+    
+    .my_button_left {
+        margin: 10px auto;
+    }
+}
+
+@keyframes my_animation {
+    0% {border: 3px solid #0099FF; color: #0099FF; background-color: white;}
+    100% {border: 3px solid white; color: white; background-color: #0099FF;}
+}
+
+.single-extra {
+    display: none;
+}
+
+.post-bottom-content {
+    display: none;
+}
+
+.post-content {
+    width: 100% !important;
+}
+.wp-block-pullquote {
+    border-width: 3px 0px;
+    border-style: solid;
+}
+
+@media screen and (max-width: 600px) {
+
+    .upbtn {
+        display: none !important;
+    }
+
+}
+
 .shadow {
     box-shadow: 0px 4px 10px #909090;
 }
@@ -69,7 +229,7 @@
     justify-content: center;
 }
 
-.whiteText {
+.myWhiteText {
     color: white;
 }
 
@@ -279,7 +439,7 @@ img {
 #section3 .icon {
     background-image: url("https://italent.org.ua/wp-content/uploads/2019/08/Ellipse1-1.png");
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     padding: 20px;
     width: 3vw;
     height: 3vw;
@@ -347,7 +507,7 @@ img {
     text-decoration: none;
     color: #00B1FF;
     font-weight: 600;
-    padding: 10px 20px;
+    padding: 10px 40px;
     font-size: 2.5vw;
     border-radius: 5px;
     text-align: center;
@@ -434,7 +594,6 @@ img {
 
 .judge {
     padding: 30px;
-    min-height: 400px;
     border-radius: 10px;
     background-color: white;
 }
@@ -442,7 +601,7 @@ img {
 .judge img {
     border-radius: 5px;
     margin-bottom: 20px;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
 }
 
@@ -497,7 +656,7 @@ a {
     }
 
     .judgeDescr {
-        font-size: 1vw;
+        font-size: 0.75vw;
         line-height: 1.5vw;
     }
 
@@ -508,6 +667,90 @@ a {
 
     .judges {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+.gradient p {
+    margin: 0px;
+}
+
+.myWhiteText {
+    margin-bottom: 0px;
+}
+
+.myOwnBigButton p {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+    .innerWrapper h1 {
+        font-size: 25px !important;
+    }
+
+    .innerWrapper p {
+        font-size: 15px;
+    }
+
+    .innerWrapper {
+        margin-bottom: 30px;
+    }
+
+
+
+    .buttons .button p {
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .subtitle {
+        line-height: 25px;
+        margin-bottom: 50px;
+        font-size: 5vw;
+    }
+
+    .kriterii {
+        grid-template-columns: 1fr;
+    }
+
+    .kriterii img {
+        width: 80px;
+        height: 80px;
+        top: -40px;
+        left: calc(50% - 40px);
+    }
+
+    .vimogi .text h3 {
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .vimogi .text p {
+        font-size: 11px;
+        margin-top: 0;
+    }
+
+    #section3 .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    #section3 .button {
+        font-size: 13px;
+    }
+
+    .myOwnBigButton {
+        margin-bottom: 30px;
+    }
+    
+
+
+    .judgeDescr {
+        line-height: 18px;
+        font-size: 12px;
     }
 
 }
