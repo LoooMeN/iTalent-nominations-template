@@ -1,0 +1,22 @@
+{
+    "remotePath": "./www/wp-content/",
+    "host": "udcpo.ftp.tools",
+    "username": "udcpo_italent",
+    "password": "n05C7BNdoJ0y",
+    "port": 21,
+    "secure": true,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
