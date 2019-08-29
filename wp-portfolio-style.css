@@ -71,23 +71,19 @@
     box-shadow: 0px 4px 10px #333;
 }
 
-.shadow {
-    box-shadow: 0px 4px 10px #909090;
-}
-
 #menu-item-91 a{
     color: #0099FF !important;
 }
 
 .my_button_left {
-   width: 200px;
-   margin-left: auto;
-   margin-right: 10px;
-   border: 3px solid #0099FF;
-   padding: 10px;
-   font-weight: 600;
-   color: #0099FF;
-   background-color: white;
+width: 200px;
+margin-left: auto;
+margin-right: 10px;
+border: 3px solid #0099FF;
+padding: 10px;
+font-weight: 600;
+color: #0099FF;
+background-color: white;
 }
 
 .my_button_left:hover {
@@ -99,14 +95,14 @@
 }
 
 .my_button_right {
-   width: 200px;
-   margin-left: 10px;
-   margin-right: auto;
-   border: 3px solid #0099FF;
-   padding: 10px;
-   font-weight: 600;
-   color: #0099FF;
-   background-color: white;
+width: 200px;
+margin-left: 10px;
+margin-right: auto;
+border: 3px solid #0099FF;
+padding: 10px;
+font-weight: 600;
+color: #0099FF;
+background-color: white;
 }
 
 .my_div {
@@ -207,8 +203,12 @@
     margin: 5em auto 0em auto;
 }
 
+.childGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .block {
-    margin-bottom: 1em;
     border-radius: 8px;
     width: 100%;
     position: relative;
@@ -216,6 +216,29 @@
     height: 35vw;
     text-align: center;
     color: white;
+    transition: border-radius 1s;
+}
+
+.childGroup {
+    border-radius: 15px;
+    margin-bottom: 2vw;
+    overflow: hidden;
+    transition: box-shadow 1s;
+    box-shadow: 0px 4px 10px #909090;
+}
+
+.explanation {
+    padding: 0px 20px;
+    position: initial;
+    opacity: 1;
+    transition: opacity 0s;
+}
+
+.explanation li {
+    list-style: disk;
+    padding: 0px 30px 10px 0px;
+    font-size: 3vw;
+    line-height: 3.3vw;
 }
 
 .gradient {
@@ -231,6 +254,7 @@
 
 .myWhiteText {
     color: white;
+    margin-bottom: 0px;
 }
 
 .gradient h2 {
@@ -239,16 +263,22 @@
 
 .gradient p {
     font-size: 3vw;
+    padding: 0px 30px;
+    line-height: 20px;
+}
+
+.gradient span {
+    font-weight: 600;
 }
 
 .blueGrad {
-    background: rgba(2, 0, 36, 0.6);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.6) 0%, rgba(9, 9, 121, 0.6) 0%, rgba(0, 212, 255, 0.6) 100%);
+    background: rgba(2, 0, 36, 0.8);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.8) 0%, rgba(9, 9, 121, 0.8) 0%, rgba(0, 212, 255, 0.8) 100%);
 }
 
 .redGrad {
-    background: rgba(2, 0, 36, 0.6);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.6) 0%, rgba(9, 9, 121, 0.6) 0%, rgba(255, 59, 0, 0.6) 100%);
+    background: rgba(2, 0, 36, 0.8);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.8) 0%, rgba(9, 9, 121, 0.8) 0%, rgba(255, 59, 0, 0.8) 100%);
 }
 
 img {
@@ -289,8 +319,60 @@ img {
     width: 15%;
 }
 
+@keyframes myShake {
+    55%, 95% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    
+    60%, 90% {
+        transform: translate3d(1px, 0, 0);
+    }
+    
+    65%, 75%, 85% {
+        transform: translate3d(-2px, 0, 0);
+    }
+    
+    70%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
+
 @media only screen and (min-width: 768px) {
-    #section1 .container > div:first-child {
+
+    .childGroup:hover > .explanation {
+        transition: opacity 1s;
+        opacity: 1;
+        position: initial;
+    }
+    
+    .childGroup:hover > .block {
+        border-radius: 8px 8px 0px 0px;
+    }
+    
+    .childGroup:hover {
+        transition: box-shadow 1s;
+        box-shadow: 0px 4px 10px #909090;
+        animation: none;
+    }
+
+    .explanation {
+        opacity: 0;
+        position: absolute;
+    }
+
+    .explanation li {
+        font-size: 1vw;
+        line-height: 1.3vw;
+    }
+
+    .childGroup {
+        box-shadow: none;
+        transform: translatex(0);
+        perspective: 1000px;
+        animation: myShake 3s infinite;
+    }
+
+    .childGrid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2vw;
@@ -327,7 +409,7 @@ img {
 
 .kriterii {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 2vw;
     row-gap: 10vw;
 }
@@ -345,7 +427,7 @@ img {
     position: relative;
     border-radius: 10px;
     padding: 2em;
-    padding-top: 6vw;
+    padding-top: 12vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -357,9 +439,11 @@ img {
     color: white;
 }
 
-.innerWrapper h1 {
+.myWhiteText {
     text-transform: uppercase;
     font-size: 4vw;
+    margin: 20px;
+    line-height: 6vw;
 }
 
 .innerWrapper p {
@@ -368,12 +452,17 @@ img {
 
 .innerWrapper .button {
     padding: 5px 20px;
+    width: 70%;
     border: 1px solid white;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.2);
     cursor: pointer;
+    font-size: 3vw;
+    margin: auto;
     color: white;
     text-decoration: none;
+    font-weight: 500;
+    line-height: 3.3vw;
 }
 
 .innerWrapper .button:hover {
@@ -384,7 +473,7 @@ img {
 @media only screen and (min-width: 768px) {
     .kriterii {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 3vw;
         row-gap: 10vw;
     }
@@ -393,14 +482,34 @@ img {
         font-size: 2vw;
     }
 
-    .innerWrapper h1 {
-        font-size: 2vw;
+    .kriterii .innerWrapper {
+        padding-top: 5vw;
+    }
+
+    .innerWrapper .button {
+        font-size: 0.8vw;
+        line-height: 1vw;
+    }
+
+    .myWhiteText {
+        font-size: 1.5vw;
+        line-height: 2vw;
+        margin-bottom: 30px;
     }
     
     .innerWrapper p {
         font-size: 1vw;
+        line-height: 1.5vw;
     }
 }
+
+@media only screen and (min-width: 1440px) {
+    .kriterii {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Section 3 */
 
 #section3 .container {
     display: grid;
@@ -487,10 +596,13 @@ img {
 
     .vimogi .text h3 {
         font-size: 1.5vw;
+        margin-top: 0px;
     }
     
     .vimogi .text p {
         font-size: 1vw;
+        margin-top: 0px;
+        line-height: 1.5vw;
     }
 
     #section3 .subtitle {
@@ -566,6 +678,7 @@ img {
     font-weight: bold;
     text-align: center;
     font-size: 5vw;
+    margin: 0px 30px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -598,10 +711,13 @@ img {
     background-color: white;
 }
 
-.judge img {
+.judgeImg {
     border-radius: 5px;
     margin-bottom: 20px;
-    height: 150px;
+    width: 100%;
+    min-height: 150px;
+    max-height: 300px;
+    margin: auto;
     object-fit: cover;
 }
 
@@ -639,10 +755,19 @@ a {
 
 #section5 {
     background-image: url('https://italent.org.ua/wp-content/uploads/2019/08/judgeBG.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0px 50px;
+    background-repeat: repeat-x;
+    background-size: fill;
+    background-position: top;
     padding-bottom: 10vw;
+}
+
+#section5 .judgeIcon {
+    width: 40px;
+    height: 40px;
+}
+
+#section5 .subtitle {
+    margin-bottom: 4vw;
 }
 
 .judgeButton:hover {
@@ -653,6 +778,12 @@ a {
 
     .judgeName {
         font-size: 1vw;
+    }
+
+    .judgeImg {
+        width: 100%;
+        min-height: 250px;
+        max-height: 300px;
     }
 
     .judgeDescr {
@@ -666,6 +797,14 @@ a {
     }
 
     .judges {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .judges {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -675,17 +814,11 @@ a {
     margin: 0px;
 }
 
-.myWhiteText {
-    margin-bottom: 0px;
-}
-
 .myOwnBigButton p {
     font-weight: 700;
 }
 
 @media only screen and (max-width: 768px) {
-
-
 
     .innerWrapper h1 {
         font-size: 25px !important;
@@ -698,8 +831,6 @@ a {
     .innerWrapper {
         margin-bottom: 30px;
     }
-
-
 
     .buttons .button p {
         font-size: 2.5vw;
@@ -746,8 +877,6 @@ a {
         margin-bottom: 30px;
     }
     
-
-
     .judgeDescr {
         line-height: 18px;
         font-size: 12px;
