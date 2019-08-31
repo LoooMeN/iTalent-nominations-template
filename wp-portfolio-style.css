@@ -1,9 +1,15 @@
 #navigation.desktop {
     padding-top: 28px;
 }
-
 #bottomfooter {
     display: none;
+}
+
+.smol {
+    margin-top: 30px;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    opacity: 0.7;
 }
 
 #footer {
@@ -33,6 +39,28 @@
         width: 100% !important;
         justify-content: center;
         text-align: center;
+    }
+
+    .smol {
+        margin-top: 30px;
+        font-size: 3vw;
+        line-height: 4vw;
+        opacity: 0.7;
+    }
+    
+    .textwidget {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;   
+    }
+    
+    .textwidget p {
+        display: inline-block;
+        margin-bottom: 0px;
+    }
+    
+    .custom-html-widget p{
+        display: none;
     }
     
     #topfooter {
@@ -365,7 +393,7 @@ img {
         line-height: 1.3vw;
     }
 
-    .childGroup {
+    .animateShake {
         box-shadow: none;
         transform: translatex(0);
         perspective: 1000px;
@@ -376,6 +404,10 @@ img {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2vw;
+    }
+
+    .solo {
+        grid-template-columns: 1fr;
     }
 
     .block {
@@ -515,6 +547,7 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3vw;
+    min-height: 800px;
 }
 
 #section3 .subtitle {
@@ -533,7 +566,7 @@ img {
     flex-direction: column;
 }
 
-.vimogi .text h3, .vimogi .text p {
+.vimogi .text h3, .vimogi .text p, .vimogi .text .li {
     margin-bottom: 1vw;
 }
 
@@ -541,7 +574,7 @@ img {
     font-size: 3vw;
 }
 
-.vimogi .text p {
+.vimogi .text p, .vimogi .text li {
     font-size: 2vw;
 }
 
@@ -599,7 +632,7 @@ img {
         margin-top: 0px;
     }
     
-    .vimogi .text p {
+    .vimogi .text p, .vimogi .text li {
         font-size: 1vw;
         margin-top: 0px;
         line-height: 1.5vw;
