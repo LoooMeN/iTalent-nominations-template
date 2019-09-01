@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap&subset=cyrillic');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+    --mainColor: #00B1FF;
+}
+
+body {
+    /* background-color: black; */
+}
+
+a {
+    text-decoration: none;
+    color: var(--mainColor);
+    width: 15vw;
+    font-weight: 700;
+    width: 15vw;
+    padding: 15px 40px;
+    margin: auto 0xp;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.spacer50 {
+    width: 100%;
+    height: 50px;
+}
+
+.spacer25 {
+    width: 100%;
+    height: 25px;
+}
+
+.section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Heading */
+
+#heading h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    /* color: white; */
+}
+
+.bg1 {
+    width: 100%;
+    position: absolute;
+    top: center;
+    left: center;
+    z-index: -1;
+    object-fit: fill;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://italent.org.ua/wp-content/uploads/2019/09/general_block.png');
+    background-size: 100%;
+    background-position: center top;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding-bottom: -50px;
+    padding-top: 7%;
+    max-height: 600px;
+    background-repeat: no-repeat;*/
+}
+
+.headerImg {
+    width: 70%;
+}
+
+/* Section 2 */
+
+.container {
+    width: 45%;
+    margin: 0px auto;
+}
+
+#textBlockOne {
+    background-image: url('https://italent.org.ua/wp-content/uploads/2019/09/bg2.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    background-size: auto;
+    background-position: center top;
+    /* height: 50em; */
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: var(--mainColor);
+    font-size: 2vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p {
+    opacity: 0.7;
+    line-height: 150%;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+
+    p {
+        font-size: 8px;
+        line-height: 9px;
+    }
+
+    .title {
+        font-size: 3vw;
+    }
+
+    #heading h1 {
+        font-size: 20px;
+    }
+
+}
