@@ -7,6 +7,10 @@
     --mainColor: #00B1FF;
 }
 
+.headerImg {
+    width: 60%;
+}
+
 body {
     /* background-color: black; */
 }
@@ -14,14 +18,20 @@ body {
 a {
     text-decoration: none;
     color: var(--mainColor);
-    width: 15vw;
+    font-size: 1vw;
     font-weight: 700;
-    width: 15vw;
+    width: 20%;
     padding: 15px 40px;
     margin: auto 0xp;
     border-radius: 5px;
     background-color: white;
     cursor: pointer;
+    transition: color 1s, background-color 1s;
+}
+
+a:hover {
+    color: white;
+    background-color: var(--mainColor);
 }
 
 .spacer50 {
@@ -44,9 +54,9 @@ a {
 
 #heading h1 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 3vw;
     line-height: 46px;
-    /* color: white; */
+    color: white;
 }
 
 .bg1 {
@@ -65,24 +75,22 @@ a {
     justify-content: center;
     background-image: url('https://italent.org.ua/wp-content/uploads/2019/09/general_block.png');
     background-size: 100%;
-    background-position: center top;
-    margin-top: -50px;
-    margin-bottom: 50px;
-    padding-bottom: -50px;
-    padding-top: 7%;
-    max-height: 600px;
-    background-repeat: no-repeat;*/
+    background-position: center 75%;
+    margin: -60px 0px;
+    padding: 20% 0px;
+    background-repeat: no-repeat;
 }
 
-.headerImg {
-    width: 70%;
-}
-
-/* Section 2 */
+/* Section textBlockOne */
 
 .container {
-    width: 45%;
-    margin: 0px auto;
+    width: 80%;
+    margin: 60px auto;
+}
+
+.container p {
+    width: 60%;
+    margin: auto;
 }
 
 #textBlockOne {
@@ -90,9 +98,10 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: top;
-    background-size: auto;
-    background-position: center top;
-    /* height: 50em; */
+    background-size: 100%;
+    background-position: -40px top;
+    margin: 60px auto;
+    padding: 0px 0px;
     background-repeat: no-repeat;
 }
 
@@ -109,21 +118,196 @@ p {
     font-size: 14px;
 }
 
+/* Section List */
+
+#list .grid {
+    width: 80%;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 20px 0px;
+    display: flex;
+    align-content: top;
+    line-height: 30px;
+}
+
+li:before {
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url('https://italent.org.ua/wp-content/uploads/2019/09/checkmark.png');
+    background-size: cover;
+    margin-right: 20px;
+}
+
+#list img {
+    width: 100%;
+}
+
+.list {
+    text-align: right;
+}
+
+/* Section textBlockTwo */
+
+#textBlockTwo .grid {
+    background: linear-gradient(106.55deg, #E6EAFF 13.66%, #CDFFF6 85.88%);
+    box-shadow: 0px 10px 40px rgba(67, 70, 155, 0.25);
+    border-radius: 40px;
+    margin: 60px auto;
+    width: 100%;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+#textBlockTwo .grid img {
+    width: 100%;
+    height: 100%;
+}
+
+#textBlockTwo .flex {
+    padding: 30px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+#textBlockTwo p {
+    padding: 30px 0px;
+}
+
+.flex h1 {
+    text-transform: uppercase;
+}
+
+/* Section CTA */
+
+#ctaButton .container {
+    background: linear-gradient(180deg, #B2FEFA 0%, #0ED2F7 100%);
+    box-shadow: 0px 10px 18px rgba(67, 70, 155, 0.24);
+    border-radius: 26px;
+    margin: 60px auto;
+    width: 80%;
+    min-height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.matrix {
+    background: linear-gradient(5.36deg, #19D5F7 -3.06%, rgba(127, 207, 238, 0) 85.46%);
+    border-radius: 49px;
+    position: absolute;
+    z-index: -10;
+    top: -90%;
+    left: 40%;
+    width: 387.31px;
+    height: 935.61px;
+    transform: matrix(-0.43, 1.1, -0.67, -0.57, 0, 0);
+}
+
+#ctaButton .title {
+    color: #303351;
+    width: 60%;
+    margin: 0px auto;
+}
+
+@media only screen and (max-width: 1000px)
+{
+
+    #ctaButton .container {
+        width: 80%;
+    }
+
+    #textBlockTwo .grid {
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+
+    #textBlockTwo .grid img {
+        height: 300px;
+    }
+
+    #list .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    li {
+        line-height: 20px;
+    }
+
+    li:before {
+        height: 20px;
+        width: 20px;
+    }
+
+    #grid .grid h1 {
+        text-align: left;
+    }
+
+    #grid .grid img {
+        /* display: none; */
+    }
+
+}
 
 @media only screen and (max-width: 768px)
 {
 
+    #list .grid {
+        grid-template-columns: 1fr;
+    }
+
+    #list .grid h1 {
+        text-align: left;
+    }
+
+    #list .grid img {
+        display: none;
+    }
+
     p {
-        font-size: 8px;
-        line-height: 9px;
+        font-size: 16px;
+        line-height: 18px;
     }
 
     .title {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     #heading h1 {
         font-size: 20px;
+    }
+
+    a {
+        font-size: 12px;
+        width: auto;
+        padding: 10px 20px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    #textBlockOne {
+        background-position: center top;
     }
 
 }

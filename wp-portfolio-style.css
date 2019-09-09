@@ -5,6 +5,18 @@
     display: none;
 }
 
+.space {
+    display: none !important;
+}
+
+.section-title {
+    color: #00B1FF;
+}
+
+.section-title:after {
+    background: #00B1FF !important;
+}
+
 .smol {
     margin-top: 30px;
     font-size: 1vw;
@@ -301,7 +313,7 @@ background-color: white;
 
 .blueGrad {
     background: rgba(2, 0, 36, 0.8);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.8) 0%, rgba(9, 9, 121, 0.8) 0%, rgba(0, 212, 255, 0.8) 100%);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0.8) 0%, rgba(9, 9, 121, 0.8) 100%, rgba(2, 0, 36, 0.8) 0%);
 }
 
 .redGrad {
@@ -805,6 +817,16 @@ a {
 
 .judgeButton:hover {
     box-shadow: 0px 4px 10px #333;
+}
+
+.solo img {
+    width: 100%;
+    height: initial;
+    background-size: cover;
+}
+
+#section1 .mywhiteText {
+    text-transform: none;
 }
 
 @media only screen and (min-width: 768px) {
