@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap&subset=cyrillic');
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap&subset=cyrillic');
 * {
     margin: 0px;
     padding: 0px;
@@ -9,6 +9,10 @@
 
 .headerImg {
     width: 60%;
+}
+
+h1 {
+    color: #303351;
 }
 
 body {
@@ -281,7 +285,7 @@ li:before {
 
     p {
         font-size: 16px;
-        line-height: 18px;
+        line-height: 26px;
     }
 
     .title {
@@ -307,7 +311,102 @@ li:before {
     }
 
     #textBlockOne {
-        background-position: center top;
+        background-position: center center;
     }
 
+}
+
+/* Section textBlockThree */
+
+#textBlockThree {
+    margin: 60px auto;
+}
+
+#textBlockThree .myBox {
+    width: 70%;
+    margin: 0px auto;
+}
+
+#textBlockThree .flex {
+    justify-content: space-around;
+    display: flex;
+}
+
+#textBlockThree a {
+    /* width: 100%; */
+}
+
+.leftButton {
+    background-color: #5FC1F0;
+    color: white;
+}
+
+.rightButton {
+    background-color: #8643A0;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    #textBlockThree .flex {
+        flex-direction: column;
+    }
+
+    #textBlockThree .flex a {
+        margin: 10px auto;
+    }
+}
+
+/* FOOTER */
+
+#footer h1 {
+    color: #81939B;
+    margin: 30px 0px;
+}
+
+#footer a {
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px #909090;
+    width: 75px;
+    height: 75px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer a:hover {
+    background-color: white;
+}
+
+#footer .flex {
+    margin: 0px auto;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#footer p {
+    margin-top: 80px;
+    color: #303351;
+}
+
+#footer img {
+    width: 50%;
+    height: 50%;
+}
+
+#footer {
+    background-image: url('https://italent.org.ua/wp-content/uploads/2019/09/Group.png');
+    background-position: center bottom;
+    background-size: cover;
+    margin-top: -400px;
+    padding-top: 400px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    #footer .flex {
+        width: 60%;
+    }
 }
