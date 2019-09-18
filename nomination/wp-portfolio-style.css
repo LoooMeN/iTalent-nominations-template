@@ -1,6 +1,7 @@
 #navigation.desktop {
     padding-top: 28px;
 }
+
 #bottomfooter {
     display: none;
 }
@@ -40,13 +41,13 @@
 }
 
 .myItem1 {
-    display:flex;
+    display: flex;
     width: 150px;
     justify-content: space-around;
 }
 
 @media only screen and (max-width: 767px) {
-    
+
     .footer-widget {
         width: 100% !important;
         justify-content: center;
@@ -59,32 +60,34 @@
         line-height: 4vw;
         opacity: 0.7;
     }
-    
+
     .textwidget {
         display: flex;
         justify-content: space-around;
-        flex-direction: row;   
+        flex-direction: row;
     }
-    
+
     .textwidget p {
         display: inline-block;
         margin-bottom: 0px;
     }
-    
-    .custom-html-widget p{
+
+    .custom-html-widget p {
         display: none;
     }
-    
+
     #topfooter {
         grid-template-columns: 1fr;
     }
-    
+
     .myItem1 {
         margin: auto;
     }
 }
 
-#footer h3, .footer-widget p, .footer-widget a {
+#footer h3,
+.footer-widget p,
+.footer-widget a {
     text-transform: uppercase;
     font-weight: 700;
     color: #6F838D !important;
@@ -111,19 +114,19 @@
     box-shadow: 0px 4px 10px #333;
 }
 
-#menu-item-91 a{
+#menu-item-91 a {
     color: #0099FF !important;
 }
 
 .my_button_left {
-width: 200px;
-margin-left: auto;
-margin-right: 10px;
-border: 3px solid #0099FF;
-padding: 10px;
-font-weight: 600;
-color: #0099FF;
-background-color: white;
+    width: 200px;
+    margin-left: auto;
+    margin-right: 10px;
+    border: 3px solid #0099FF;
+    padding: 10px;
+    font-weight: 600;
+    color: #0099FF;
+    background-color: white;
 }
 
 .my_button_left:hover {
@@ -135,14 +138,14 @@ background-color: white;
 }
 
 .my_button_right {
-width: 200px;
-margin-left: 10px;
-margin-right: auto;
-border: 3px solid #0099FF;
-padding: 10px;
-font-weight: 600;
-color: #0099FF;
-background-color: white;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: auto;
+    border: 3px solid #0099FF;
+    padding: 10px;
+    font-weight: 600;
+    color: #0099FF;
+    background-color: white;
 }
 
 .my_div {
@@ -155,19 +158,28 @@ background-color: white;
         display: block;
         width: 100%;
     }
-    
+
     .my_button_right {
         margin: 10px auto;
     }
-    
+
     .my_button_left {
         margin: 10px auto;
     }
 }
 
 @keyframes my_animation {
-    0% {border: 3px solid #0099FF; color: #0099FF; background-color: white;}
-    100% {border: 3px solid white; color: white; background-color: #0099FF;}
+    0% {
+        border: 3px solid #0099FF;
+        color: #0099FF;
+        background-color: white;
+    }
+
+    100% {
+        border: 3px solid white;
+        color: white;
+        background-color: #0099FF;
+    }
 }
 
 .single-extra {
@@ -181,6 +193,7 @@ background-color: white;
 .post-content {
     width: 100% !important;
 }
+
 .wp-block-pullquote {
     border-width: 3px 0px;
     border-style: solid;
@@ -228,7 +241,7 @@ background-color: white;
     .subtitle {
         font-size: 2vw;
     }
-    
+
     .container {
         width: 60%;
     }
@@ -337,6 +350,7 @@ img {
 .buttons .button {
     display: flex;
     border-radius: 8px;
+    background-color: white;
     padding: 0.5em;
     justify-content: space-around;
     align-items: center;
@@ -360,35 +374,41 @@ img {
 }
 
 @keyframes myShake {
-    55%, 95% {
+
+    55%,
+    95% {
         transform: translate3d(-1px, 0, 0);
     }
-    
-    60%, 90% {
+
+    60%,
+    90% {
         transform: translate3d(1px, 0, 0);
     }
-    
-    65%, 75%, 85% {
+
+    65%,
+    75%,
+    85% {
         transform: translate3d(-2px, 0, 0);
     }
-    
-    70%, 80% {
+
+    70%,
+    80% {
         transform: translate3d(2px, 0, 0);
     }
 }
 
 @media only screen and (min-width: 768px) {
 
-    .childGroup:hover > .explanation {
+    .childGroup:hover>.explanation {
         transition: opacity 1s;
         opacity: 1;
         position: initial;
     }
-    
-    .childGroup:hover > .block {
+
+    .childGroup:hover>.block {
         border-radius: 8px 8px 0px 0px;
     }
-    
+
     .childGroup:hover {
         transition: box-shadow 1s;
         box-shadow: 0px 4px 10px #909090;
@@ -437,7 +457,7 @@ img {
     .gradient h2 {
         font-size: 2vw;
     }
-    
+
     .gradient p {
         font-size: 1vw;
     }
@@ -540,7 +560,7 @@ img {
         line-height: 2vw;
         margin-bottom: 30px;
     }
-    
+
     .innerWrapper p {
         font-size: 1vw;
         line-height: 1.5vw;
@@ -578,7 +598,9 @@ img {
     flex-direction: column;
 }
 
-.vimogi .text h3, .vimogi .text p, .vimogi .text .li {
+.vimogi .text h3,
+.vimogi .text p,
+.vimogi .text .li {
     margin-bottom: 1vw;
 }
 
@@ -586,7 +608,8 @@ img {
     font-size: 3vw;
 }
 
-.vimogi .text p, .vimogi .text li {
+.vimogi .text p,
+.vimogi .text li {
     font-size: 2vw;
 }
 
@@ -643,8 +666,9 @@ img {
         font-size: 1.5vw;
         margin-top: 0px;
     }
-    
-    .vimogi .text p, .vimogi .text li {
+
+    .vimogi .text p,
+    .vimogi .text li {
         font-size: 1vw;
         margin-top: 0px;
         line-height: 1.5vw;
@@ -731,11 +755,11 @@ img {
     .myButton {
         font-size: 1vw;
     }
-    
+
     .myP {
         font-size: 2vw;
     }
-    
+
     .myOwnBigButton {
         font-size: 1vw;
         grid-template-columns: 97fr 3fr;
@@ -931,7 +955,7 @@ a {
     .myOwnBigButton {
         margin-bottom: 30px;
     }
-    
+
     .judgeDescr {
         line-height: 18px;
         font-size: 12px;
