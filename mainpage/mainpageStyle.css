@@ -1,9 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.shadow {
+  -webkit-box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
+          box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
+}
+
 body {
   width: 80%;
   margin: auto;
+  font-family: Montserrat;
 }
 
-body .container {
-  background-color: red;
+body .section {
+  border: 2px solid black;
+  margin: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .title {
+  color: #00B1FF;
+  text-align: center;
+}
+
+body .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body .desktop {
+    display: none;
+  }
+  body .mobile {
+    display: block;
+  }
+}
+
+#dates img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  #dates .title {
+    text-align: left;
+  }
 }
 /*# sourceMappingURL=mainpageStyle.css.map */
