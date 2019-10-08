@@ -1,0 +1,179 @@
+@mixin myFlex($direction, $align: center, $justify: center) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin myGrid($columns, $align: center, $justify: center, $gap: 10px) {
+    display: grid;
+    grid-template-columns: $columns;
+    align-items: $align;
+    justify-content: $justify;
+    grid-gap: $gap;
+}
+
+@mixin bgOverride($size: 2vh) {
+    padding: $size 0px $size 0px;
+    $size: $size * -1;
+    margin: $size 0px $size 0px;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+    &:hover {
+        color: white;
+    }
+}
+
+p {
+    font-size: 16px;
+}
+
+.shadow {
+    box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Montserrat;
+
+    .section {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 120px;
+    }
+
+    .smallSection {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 120px;
+    }
+
+    .title,
+    h2 {
+        color: #00b1ff;
+        line-height: 48px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .bigger {
+        font-size: 50px;
+    }
+
+    .subTitle {
+        color: #00b1ff;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .myWhite {
+        color: #fff;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .myMobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .myDesktop {
+        display: none;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    .myMobile {
+        display: block !important;
+    }
+}
+
+// SECTION 1
+
+#head {
+
+    iframe {
+        height: 70vh;
+    }
+
+    .grod {
+        @include myGrid(1fr 1fr, center top);
+
+        div {
+            p {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            ul {
+                list-style: none;
+
+                li {
+                    position: relative;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+
+                li:before {
+                    content: "\2022";
+                    color: #00b1ff;
+                    font-size: 40px;
+                    position: absolute;
+                    left: -25px;
+                    top: -19px;
+                }
+            }
+        }
+    }
+
+}
+
+// SECTION 2
+
+#about {
+
+    div {
+        background-image: url('https://italent.org.ua/wp-content/uploads/2019/10/bgForStuff.svg');
+        background-position: center center;
+        background-size: contain;
+        @include bgOverride(150px);
+        @include myFlex(column);
+        text-align: center;
+
+        p {
+            font-size: 30px;
+            width: 80%;
+            color: #303351;
+        }
+
+        h3 {
+            font-size: 35px;
+            width: 80%;
+            margin-bottom: 0;
+            color: #303351;
+        }
+
+    }
+
+}
+
+// SECTION 3

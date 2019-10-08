@@ -1,4 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('./icomoon/style.css');
+
+/* Underline From Left */
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #2F80ED;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+    right: 0;
+}
 
 @mixin myFlex($direction, $align: center, $justify: center) {
     display: flex;
@@ -7,55 +42,189 @@
     justify-content: $justify;
 }
 
-@mixin myGrid($columns, $align: center, $justify: center) {
+@mixin myGrid($columns, $align: center, $justify: center, $gap: 10px) {
     display: grid;
     grid-template-columns: $columns;
     align-items: $align;
     justify-content: $justify;
+    grid-gap: $gap;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.bgOverride {
+    padding: 2vh 0px 2vh 0px;
+    margin: -2vh 0px -2vh 0px;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 16px;
 }
 
 .shadow {
     box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
 }
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    width: 80%;
-    margin: auto;
+
     font-family: Montserrat;
 
     .section {
-        border: 2px solid black;
-        // height: 300px;
-        margin: 20px 0px;
-        @include myFlex(column);
+        width: 80%;
+        margin: auto;
+        margin-bottom: 120px;
     }
 
-    .title {
-        color: #00B1FF;
+    .title,
+    h2 {
+        color: #00b1ff;
+        line-height: 48px;
         text-align: center;
+        font-weight: 700;
+        font-size: 40px;
     }
 
-    .mobile {
+    .subTitle {
+        color: #00b1ff;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .myWhite {
+        color: #fff;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .myMobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .myDesktop {
         display: none;
     }
 
-    @media only screen and (max-width: 768px) {
-        .desktop {
-            display: none;
+    .title {
+        font-size: 1.5em;
+    }
+
+    .myMobile {
+        display: block !important;
+    }
+}
+
+
+#mediaLinks {
+    .grod {
+        @include myGrid(repeat(4, 1fr));
+
+        .discord:hover {
+            background-color: #989FEC;
         }
 
-        .mobile {
-            display: block;
+        .telegram:hover {
+            background-color: #47B0D3;
+        }
+
+        .facebook:hover {
+            background-color: #3B5998;
+        }
+
+        .faq:hover {
+            background-color: #48A0DC;
+        }
+
+
+        a {
+            padding: 10px 40px;
+            border-radius: 10px;
+            @include myFlex(row, center, space-between);
+            transition: box-shadow 0.5s, background-color 0.5s, color 0.5s;
+            color: black;
+
+            img {
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+
+            &:hover {
+                color: white;
+                box-shadow: none;
+            }
         }
     }
 }
 
+@media only screen and (max-width: 768px) {
+    #mediaLinks {
+        .grod {
+            grid-template-columns: 1fr 1fr;
+
+            a {
+                padding: 10px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+
 // SECTION 1
+
+.aboutWrap {
+    background-image: url('https://www.italent.org.ua/wp-content/uploads/2019/10/aboutBg.svg');
+    background-size: cover;
+    background-position: bottom;
+    z-index: -10;
+    padding-top: 1vh;
+    margin-top: -1vh;
+    background-repeat: no-repeat;
+}
+
 
 #dates {
     img {
         width: 100%;
-        object-fit: contain;
+    }
+
+    .imgWrap {
+        filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
     }
 
     @media only screen and (max-width: 768px) {
@@ -63,5 +232,802 @@ body {
             text-align: left;
         }
     }
+}
 
+#mainPartners {
+    .grod {
+        @include myGrid(1fr 1fr);
+
+        a {
+            text-align: center;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #mainPartners {
+        .grod {
+
+            grid-template-columns: 1fr;
+
+            a {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// SECTION 2
+
+#about {
+
+    .title {
+        margin-bottom: 40px;
+    }
+
+    .myContainer {
+        @include myGrid(repeat(4, 1fr), center, center, 40px);
+
+        .holder {
+            background-image: url('https://www.italent.org.ua/wp-content/uploads/2019/09/about_bg.png');
+            background-size: cover;
+            background-position: center center;
+            @include myFlex(column, center, top);
+            position: relative;
+            height: 100%;
+            padding: 0px 20px;
+            padding-top: 20px;
+            overflow: hidden;
+            margin: 10px;
+            border-radius: 8px;
+
+            div {
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+
+                img {
+                    width: 75px;
+                }
+            }
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .bg {
+            width: 100%;
+            z-index: -1;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #about .myContainer {
+        grid-gap: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #about .myContainer {
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+
+        .holder {}
+    }
+}
+
+// REGISTRATION
+
+#registration {
+    a {
+        text-align: center;
+        width: 100%;
+
+
+        .regBtn {
+            border-radius: 20px;
+            margin: auto;
+            overflow: hidden;
+            font-weight: 700;
+            width: 40%;
+            background-color: #2F80ED;
+            padding: 20px 40px;
+            transition: box-shadow 0.5s;
+
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #registration {
+        a .regBtn {
+            width: 90%;
+            padding: 20px 0px;
+        }
+    }
+}
+
+// SECTION 3
+
+#nominations {
+    min-height: 100vh;
+
+    a {
+        text-decoration: none;
+    }
+
+    .upper {
+        @include myGrid(1fr 1fr);
+        padding: 30px;
+
+        .buttons {
+            @include myGrid(1fr 1fr 1fr, center, space-between);
+
+            button {
+                background: white;
+                border: none;
+                min-height: 30px;
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+                outline: none;
+                transition: color 0.5s;
+            }
+
+            button:hover {
+                color: black;
+            }
+        }
+    }
+
+    .grod {
+        @include myGrid(repeat(3, 1fr), center, center, 5px);
+        overflow: hidden;
+        transition: all 1s;
+
+        .nomination {
+            text-align: center;
+            // border: 1px solid black;
+            overflow: hidden;
+            padding: 30px;
+            animation: fadeIn 3s;
+            position: relative;
+            cursor: pointer;
+            left: 0px;
+            z-index: 1;
+            background: none;
+            text-align: left;
+            transition: all 1s;
+            @include myGrid(1fr 3fr, top, center, 0px);
+            grid-auto-rows: 1fr;
+            // min-height: 125px;
+            border-radius: 8px;
+        }
+
+        .nomination::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(14.78deg, #2F80ED 28.14%, rgba(127, 127, 213, 0) 194.58%);
+            opacity: 0;
+            transition: opacity 0.4s;
+            z-index: -1;
+        }
+
+        .icon {
+            color: #2F80ED;
+            font-size: 60px;
+            transition: all 1s;
+        }
+
+        h2 {
+            color: black;
+            transition: all 0.3s;
+            text-align: left;
+            font-size: 20px;
+            line-height: 26px;
+            font-weight: 500;
+        }
+
+        .myContainer {}
+
+        .flexington {
+            color: white;
+            @include myFlex(row, center, space-between);
+            padding-right: 5vw;
+        }
+
+        img {
+            width: 30px;
+            height: 30px;
+            transform: translateY(-10px);
+        }
+
+        .nomination:hover {
+
+            h2,
+            .icon {
+                color: white;
+            }
+
+            &::before {
+                opacity: 1;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1440px) {
+        .grod {
+            .myContainer h2 {
+                padding-left: 10px;
+            }
+
+            padding: 10px;
+            align-items: top;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .grod {
+            grid-template-columns: 1fr;
+
+            .nomination {
+                padding: 10px;
+                grid-gap: 10px;
+                min-height: 100px;
+
+                .myContainer h2 {
+                    margin: 0;
+                }
+
+                .flexington p,
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1440px) {
+        .upper {
+            @include myGrid(1fr 1fr);
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .upper {
+            @include myGrid(1fr);
+            padding: 20px 0px;
+        }
+    }
+}
+
+// SECTION 4
+
+#cybersport {
+    @include myGrid(3fr 2fr, center, center, 60px);
+    padding: 0px 40px;
+
+    p {
+        line-height: 24px;
+        margin: 50px 0;
+        width: 80%;
+    }
+
+    a {
+        background: #00B1FF;
+        border-radius: 6px;
+        color: white;
+        font-weight: bold;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: box-shadow 0.5s;
+        cursor: pointer;
+    }
+
+    a:hover {
+        box-shadow: none;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #cybersport {
+        grid-template-columns: 1fr;
+        padding: 0;
+
+        a {
+            width: 100%;
+        }
+    }
+}
+
+// SECTION 5
+
+#judges {
+    text-align: center;
+
+    img {
+        width: 80%;
+    }
+
+    a {
+        position: relative;
+        top: -50px;
+        background: #00B1FF;
+        border-radius: 6px;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 15px 40px;
+        text-decoration: none;
+        transition: box-shadow 0.5s;
+    }
+
+    a:hover {
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #judges {
+        .title {
+            margin-bottom: 20px;
+        }
+
+        a {
+            width: 100%;
+            top: 20px;
+        }
+    }
+}
+
+.mentorBg {
+    background-image: url('https://www.italent.org.ua/wp-content/uploads/2019/09/mentorBg.svg');
+    background-position: center top;
+    background-size: cover;
+}
+
+#mentor {
+    @include myGrid(1fr 2fr 3fr);
+
+    .heading {}
+
+    .title {
+        margin-bottom: 40px;
+    }
+
+    .mentorBtn {
+        background: #00B1FF;
+        border-radius: 6px;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 10px 0px;
+        text-decoration: none;
+        transition: box-shadow 0.5s;
+        width: 80%;
+        text-align: center;
+    }
+
+    .mentorBtn:hover {
+        box-shadow: none;
+    }
+
+    .info {
+
+        div {
+            @include myGrid(1fr 6fr, center, center, 10px);
+            margin-bottom: 16px;
+
+            margin: auto;
+
+            img {
+                align-self: baseline;
+                width: 50px;
+                justify-self: right;
+            }
+
+            h2 {
+                margin-left: 20px;
+                color: black;
+                margin: 0;
+                font-size: 16px;
+            }
+
+            ul li {
+                color: #6F838D;
+                list-style: none;
+                margin: 0 0 16px 0em;
+                padding: 0;
+                position: relative;
+                font-size: 14px;
+            }
+
+            ul li::before {
+                color: #00B1FF;
+                content: "\2022";
+                font-size: 3em;
+                left: -0.6em;
+                position: absolute;
+                top: -5px;
+            }
+
+
+            div {
+                @include myFlex(column, baseline, top);
+                width: 60%;
+                justify-self: left;
+                margin-left: 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #mentor {
+        grid-template-columns: 1fr;
+
+        .mentorBtn {
+            margin-bottom: 20px;
+        }
+
+        .info {
+            div {
+                grid-template-columns: 1fr 4fr;
+
+                div {
+                    grid-column: 1 / 3;
+                    width: 100%;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+// SECTION 6
+
+.stealth {
+    overflow: hidden;
+}
+
+#lastWinners {
+    @include myGrid(1fr);
+
+    .upper {
+        @include myFlex(row, center, space-between);
+    }
+
+    .buttons {
+        @include myFlex(row, center, space-between);
+
+        .arrowButton {
+            margin-left: 15px;
+            background: none;
+            border: #00B1FF 1px solid;
+            border-radius: 100px;
+            width: 40px;
+            height: 40px;
+            outline: none;
+            cursor: pointer;
+            position: relative;
+            transition: background-color 0.5s;
+
+            i {
+                position: absolute;
+                font-size: 10px;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                color: #00B1FF;
+                transition: color 0.5s;
+            }
+
+            &:hover {
+                background-color: #00B1FF;
+
+                i {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    #fillMe {
+        @include myGrid(repeat(3, 1fr), center, center, 30px);
+
+        .toDel {
+            transition: left 0.5s;
+            position: relative;
+            animation-duration: 0.5s;
+            animation-fill-mode: forwards;
+        }
+
+        .cont {
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 30px 0;
+            @include myFlex(column);
+            padding: 75 px 50px;
+            transition: box-shadow 0.5s;
+            position: relative;
+            background-image: url('https://www.italent.org.ua/wp-content/uploads/2019/10/winnerBg.svg');
+            background-size: cover;
+            background-position: center center;
+
+
+            &:after {
+                background-color: #E5EFF7;
+                opacity: 1;
+                content: '';
+                width: 100%;
+                height: 100%;
+                z-index: 0;
+                position: absolute;
+                transition: opacity 0.5s;
+            }
+
+
+            .arrow {
+                margin: 0;
+                font-size: 10px;
+                transform: translateX(25%);
+                opacity: 0;
+                width: 30px;
+                z-index: 1;
+                transition: opacity 0.5s;
+            }
+
+            .number {
+                text-align: center;
+                background-color: #00B1FF;
+                color: white;
+                font-size: 40px;
+                padding: 20px;
+                width: 50px;
+                height: 50px;
+                line-height: 48px;
+                font-weight: 700;
+                border-radius: 25px;
+                z-index: 1;
+                transition: all 0.5s;
+            }
+
+            h2 {
+                color: black;
+                font-weight: 700;
+                font-size: 24px;
+                margin-bottom: 0;
+                z-index: 1;
+                transition: color 0.5s;
+                margin-top: 40px;
+            }
+
+            p {
+                color: black;
+                font-size: 18px;
+                margin-top: 10px;
+                transition: color 0.5s;
+                z-index: 1;
+            }
+
+            &:hover {
+                box-shadow: 0px 0px 20px rgba(47, 20, 50, 0.31);
+
+                .number {
+                    background-color: #fff;
+                    color: #2F80ED;
+                    box-shadow: 0px 2px 4px rgba(47, 20, 50, 0.48);
+                }
+
+                h2,
+                p {
+                    color: #fff;
+                }
+
+                .arrow {
+                    opacity: 1;
+                }
+
+                &:after {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #lastWinners {
+        .upper {
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+
+        #fillMe {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@keyframes fromRight {
+    from {
+        left: 3000px;
+    }
+
+    to {
+        left: 0px
+    }
+}
+
+@keyframes toLeft {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: -3000px
+    }
+}
+
+@keyframes fromLeft {
+    from {
+        left: -3000px;
+    }
+
+    to {
+        left: 0px
+    }
+}
+
+@keyframes toRight {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 3000px
+    }
+}
+
+#organizers {
+    .myContainer {
+        @include myGrid(repeat(3, 1fr));
+
+        div {
+            margin-top: 50px;
+            text-align: left;
+            @include myFlex(column);
+
+            img {
+                width: 150px;
+                filter: grayscale(100%);
+                transition: filter 0.5s;
+            }
+
+            span {
+                min-height: 175px;
+            }
+
+            .bigger {
+                width: 250px;
+            }
+
+            p {
+                justify-self: left;
+            }
+
+            &:hover {
+                img {
+                    filter: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #organizers {
+        h2 {
+            font-size: 36px;
+        }
+
+        .myContainer {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+#plakat {
+    .grod {
+        @include myGrid(1fr 1fr);
+
+        div {
+            img {
+                width: 100%;
+            }
+
+            p {
+                margin-bottom: 30px;
+            }
+
+            a {
+                background-color: #00b1ff;
+                padding: 10px 20px;
+                border-radius: 10px;
+                transition: box-shadow 0.5s;
+
+                &:hover {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #plakat {
+        .grod {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+#contact {
+
+    img {
+        width: 100%;
+    }
+
+    .grod {
+        @include myGrid(1fr 1fr 1fr 2fr, center, center, 20px);
+
+        .mobileFirst {
+            @include myGrid(1fr 8fr);
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #contact {
+        .grod {
+            @include myGrid(1fr);
+
+            div {
+                order: 1;
+                margin-bottom: 20px;
+            }
+
+            .mobileFirst {
+                order: 0;
+            }
+        }
+    }
 }

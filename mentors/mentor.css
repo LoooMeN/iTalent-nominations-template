@@ -1,0 +1,163 @@
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  font-size: 16px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
+          box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+body .section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+body .smallSection {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+body .title,
+body h2 {
+  color: #00b1ff;
+  line-height: 48px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+body .bigger {
+  font-size: 50px;
+}
+
+body .subTitle {
+  color: #00b1ff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+body .myWhite {
+  color: #fff;
+}
+
+body .left {
+  text-align: left;
+}
+
+body .myMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .myDesktop {
+    display: none;
+  }
+  .title {
+    font-size: 1.5em;
+  }
+  .myMobile {
+    display: block !important;
+  }
+}
+
+#head iframe {
+  height: 70vh;
+}
+
+#head .grod {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center top;
+      -ms-flex-align: center top;
+          align-items: center top;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 10px;
+}
+
+#head .grod div p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#head .grod div ul {
+  list-style: none;
+}
+
+#head .grod div ul li {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#head .grod div ul li:before {
+  content: "\2022";
+  color: #00b1ff;
+  font-size: 40px;
+  position: absolute;
+  left: -25px;
+  top: -19px;
+}
+
+#about div {
+  background-image: url("https://italent.org.ua/wp-content/uploads/2019/10/bgForStuff.svg");
+  background-position: center center;
+  background-size: contain;
+  padding: 150px 0px 150px 0px;
+  margin: -150px 0px -150px 0px;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+#about div p {
+  font-size: 30px;
+  width: 80%;
+  color: #303351;
+}
+
+#about div h3 {
+  font-size: 35px;
+  width: 80%;
+  margin-bottom: 0;
+  color: #303351;
+}
+/*# sourceMappingURL=mentor.css.map */
