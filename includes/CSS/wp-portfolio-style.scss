@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 #navigation.desktop {
     padding-top: 28px;
 }
@@ -218,6 +220,7 @@
 
 .section {
     margin-bottom: 10vw;
+    font-family: Montserrat;
 }
 
 .unselectable {
@@ -418,6 +421,11 @@ img {
     .explanation {
         opacity: 0;
         position: absolute;
+    }
+
+    .shown {
+        opacity: 1;
+        position: initial;
     }
 
     .explanation li {
@@ -961,4 +969,48 @@ a {
         font-size: 12px;
     }
 
+}
+
+#partner {
+
+    width: 60%;
+    margin: auto;
+
+    div {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+        grid-gap: 20px;
+        text-align: center;
+
+        p {
+            text-align: left;
+
+            span {
+                font-weight: bold;
+            }
+        }
+
+        a {
+            img {
+                width: 100%;
+                min-height: 300px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #partner {
+        div {
+            grid-template-columns: 1fr;
+
+            a {
+                img {
+                    min-height: 0px;
+                }
+            }
+        }
+    }
 }

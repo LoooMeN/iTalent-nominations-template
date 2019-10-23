@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-@import url("./icomoon/style.css");
-/* Underline From Left */
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
@@ -45,24 +43,15 @@ a:hover {
   color: white;
 }
 
-.bgOverride {
-  padding: 2vh 0px 2vh 0px;
-  margin: -2vh 0px -2vh 0px;
-  background-repeat: no-repeat;
-}
-
 p {
   font-size: 16px;
+  margin: 15px 0px;
+  line-height: 20px;
 }
 
 .shadow {
   -webkit-box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
           box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
-}
-
-html {
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -75,13 +64,23 @@ body .section {
   margin-bottom: 120px;
 }
 
-body .title,
-body h2 {
+body .smallSection {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+body .title {
   color: #00b1ff;
   line-height: 48px;
   text-align: center;
   font-weight: 700;
   font-size: 40px;
+  margin: 40px 0px;
+}
+
+body .bigger {
+  font-size: 50px;
 }
 
 body .subTitle {
@@ -105,13 +104,19 @@ body .myMobile {
 }
 
 @media only screen and (max-width: 768px) {
-  .myDesktop {
+  body .section {
+    width: 95%;
+  }
+  body .smallSection {
+    width: 95%;
+  }
+  body .myDesktop {
     display: none;
   }
-  .title {
+  body .title {
     font-size: 1.5em;
   }
-  .myMobile {
+  body .myMobile {
     display: block !important;
   }
 }
@@ -178,7 +183,7 @@ body .myMobile {
 #mediaLinks .grod a p {
   font-size: 18px;
   font-weight: 500;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 #mediaLinks .grod a:hover {
@@ -202,6 +207,44 @@ body .myMobile {
   }
   #mediaLinks .grod a p {
     font-size: 12px;
+  }
+}
+
+#mediaAboutUs .grod {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 10px;
+}
+
+#mediaAboutUs .grod iframe {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  #mediaAboutUs .grod {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #mediaAboutUs .grod iframe {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #mediaAboutUs .grod {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #mediaAboutUs .grod iframe {
+    height: 250px;
   }
 }
 
@@ -361,7 +404,7 @@ body .myMobile {
 
 #registration a .regBtn {
   border-radius: 20px;
-  margin: auto;
+  margin: 20px auto;
   overflow: hidden;
   font-weight: 700;
   width: 40%;
@@ -765,13 +808,13 @@ body .myMobile {
           justify-content: center;
   grid-gap: 10px;
   margin-bottom: 16px;
-  margin: auto;
 }
 
 #mentor .info div img {
   -ms-flex-item-align: baseline;
       align-self: baseline;
   width: 50px;
+  height: 50px;
   -ms-grid-column-align: right;
       justify-self: right;
 }
@@ -798,7 +841,7 @@ body .myMobile {
   font-size: 3em;
   left: -0.6em;
   position: absolute;
-  top: -5px;
+  top: -21px;
 }
 
 #mentor .info div div {
@@ -831,6 +874,9 @@ body .myMobile {
   #mentor .info div {
     -ms-grid-columns: 1fr 4fr;
         grid-template-columns: 1fr 4fr;
+  }
+  #mentor .info div div:first-child {
+    display: none;
   }
   #mentor .info div div {
     -ms-grid-column: 1;

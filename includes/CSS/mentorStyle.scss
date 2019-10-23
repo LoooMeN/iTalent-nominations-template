@@ -1,0 +1,301 @@
+// SECTION 1
+@import 'utilityStyle';
+
+#head {
+	iframe {
+		height: 70vh;
+	}
+
+	.grod {
+		@include myGrid(1fr 1fr, center top);
+
+		div {
+			p {
+				font-size: 30px;
+				font-weight: 600;
+				line-height: 40px;
+			}
+
+			ul {
+				list-style: none;
+				padding-left: 40px;
+
+				li {
+					position: relative;
+					padding: 0;
+					font-size: 18px;
+					line-height: 20px;
+					margin-bottom: 10px;
+				}
+
+				li:before {
+					content: "\2022";
+					color: #00b1ff;
+					font-size: 40px;
+					line-height: 40px;
+					position: absolute;
+					left: -25px;
+					top: -19px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#head {
+		iframe {
+			height: 40vh;
+		}
+
+		.grod {
+			grid-template-columns: 1fr;
+		}
+	}
+}
+
+// SECTION 2
+
+.mentorBg {
+	background-image: url("https://italent.org.ua/wp-content/uploads/2019/10/mentorBg.svg");
+	@include bgOverride(20vh);
+	background-size: contain;
+	background-position: center 65%;
+}
+
+#about {
+	div {
+		background-image: url("https://italent.org.ua/wp-content/uploads/2019/10/bgForStuff.svg");
+		background-position: center center;
+		background-size: contain;
+		@include bgOverride(150px);
+		@include myFlex(column);
+		margin: -100px 0 -100px 0;
+		text-align: center;
+
+		p {
+			font-size: 30px;
+			width: 80%;
+			color: #303351;
+			line-height: 40px;
+		}
+
+		h3 {
+			font-size: 35px;
+			line-height: 44px;
+			width: 80%;
+			margin-bottom: 0;
+			color: #303351;
+		}
+	}
+}
+
+// SECTION 3
+
+#ctaMentor {
+	.grod {
+		@include myGrid(1fr 1fr, center, space-around, 100px);
+
+		div {
+			background-color: white;
+			padding: 40px;
+
+			p {
+				font-size: 20px;
+				line-height: 28px;
+			}
+
+			a {
+				div {
+					background-color: #00b1ff;
+					padding: 0;
+					@include myFlex(row);
+					width: 4em;
+					height: 4em;
+					border-radius: 50px;
+
+					i {
+						color: white;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#about {
+		// margin-bottom: 200px;
+
+		div {
+			background-size: cover;
+			text-align: left;
+		}
+	}
+
+	#ctaMentor {
+		.grod {
+			grid-template-columns: 1fr;
+			grid-gap: 50px;
+		}
+	}
+
+	.mentorBg {
+		background-size: 1200px;
+		background-position: center 75%;
+	}
+}
+
+.wrapperAttention {
+	background-image: url("https://italent.org.ua/wp-content/uploads/2019/10/disksBg.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	@include bgOverride(30px);
+}
+
+#attentionMentor {
+	@include myFlex(column);
+
+	.textIcon {
+		background-color: #00b1ff;
+		color: white;
+		width: 75px;
+		height: 75px;
+		border-radius: 15px;
+		@include myFlex(row);
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+	h2 {
+		// margin-bottom: 0;
+	}
+
+	p {
+		text-align: center;
+		color: #6f838d;
+		line-height: 160%;
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.wrapperAttention {
+		background-image: none;
+		@include bgOverride(0px);
+	}
+
+	#attentionMentor {
+		p {
+			font-size: 18px;
+		}
+	}
+}
+
+#howMentorsWork {
+	.grod {
+		margin-top: 100px;
+		@include myGrid(1fr 1fr 1fr, top, center);
+
+		.flexington {
+			@include myGrid(60px 7fr, top, top, 30px);
+
+			.myIcon {
+				width: 100%;
+				@include myFlex(column);
+				position: relative;
+				height: 60px;
+
+				img {
+					position: absolute;
+					width: 60px;
+					height: 60px;
+					top: 0;
+				}
+
+				p {
+					// position: relative;
+					margin: 0;
+					// top: 0;
+					font-size: 30px;
+					color: #00b1ff;
+					font-weight: 700;
+					text-align: center;
+				}
+			}
+		}
+
+		div {
+			h3 {
+				margin-top: 0;
+			}
+
+			p {
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#howMentorsWork {
+		.grod {
+			@include myGrid(1fr, top, center);
+		}
+	}
+}
+
+
+.mentorListBg {
+	background-image: url('https://italent.org.ua/wp-content/uploads/2019/10/mentorListbG.svg');
+	@include bgOverride(20vh);
+	background-size: contain;
+	background-position: center;
+}
+
+#mentorList {
+	.grod {
+		@include myGrid(repeat(4, 1fr), top);
+
+		div {
+			background-color: white;
+			@include myFlex(column, center, top);
+			text-align: center;
+			padding: 30px 0px;
+
+			img {
+				width: 60%;
+				height: initial;
+				border-radius: 100px;
+			}
+
+			h4 {
+				padding: 0px 10px;
+				margin-bottom: 0;
+				margin-top: 14px;
+				font-size: 14px;
+				line-height: 16px;
+			}
+
+			p {
+				padding: 0px 10px;
+				font-size: 12px;
+				line-height: 16px;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.mentorListBg {
+		background-size: cover;
+	}
+
+	#mentorList {
+		.grod {
+			@include myGrid(repeat(1, 1fr), top);
+		}
+	}
+}

@@ -1,3 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #2F80ED;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+    right: 0;
+}
+
 @mixin myFlex($direction, $align: center, $justify: center) {
     display: flex;
     flex-direction: $direction;
@@ -15,7 +50,7 @@
 
 @mixin bgOverride($size: 2vh) {
     padding: $size 0px $size 0px;
-    $size: $size * -1;
+    $size: -$size;
     margin: $size 0px $size 0px;
     background-repeat: no-repeat;
 }
@@ -32,19 +67,15 @@ a {
 
 p {
     font-size: 16px;
+    margin: 15px 0px;
+    line-height: 20px;
 }
 
 .shadow {
     box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
 }
 
-html {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-
     font-family: Montserrat;
 
     .section {
@@ -60,12 +91,13 @@ body {
     }
 
     .title,
-    h2 {
+        {
         color: #00b1ff;
         line-height: 48px;
         text-align: center;
         font-weight: 700;
         font-size: 40px;
+        margin: 40px 0px;
     }
 
     .bigger {
@@ -94,86 +126,25 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .myDesktop {
-        display: none;
-    }
-
-    .title {
-        font-size: 1.5em;
-    }
-
-    .myMobile {
-        display: block !important;
-    }
-}
-
-// SECTION 1
-
-#head {
-
-    iframe {
-        height: 70vh;
-    }
-
-    .grod {
-        @include myGrid(1fr 1fr, center top);
-
-        div {
-            p {
-                font-size: 30px;
-                font-weight: 600;
-            }
-
-            ul {
-                list-style: none;
-
-                li {
-                    position: relative;
-                    font-size: 18px;
-                    margin-bottom: 10px;
-                }
-
-                li:before {
-                    content: "\2022";
-                    color: #00b1ff;
-                    font-size: 40px;
-                    position: absolute;
-                    left: -25px;
-                    top: -19px;
-                }
-            }
-        }
-    }
-
-}
-
-// SECTION 2
-
-#about {
-
-    div {
-        background-image: url('https://italent.org.ua/wp-content/uploads/2019/10/bgForStuff.svg');
-        background-position: center center;
-        background-size: contain;
-        @include bgOverride(150px);
-        @include myFlex(column);
-        text-align: center;
-
-        p {
-            font-size: 30px;
-            width: 80%;
-            color: #303351;
+    body {
+        .section {
+            width: 95%;
         }
 
-        h3 {
-            font-size: 35px;
-            width: 80%;
-            margin-bottom: 0;
-            color: #303351;
+        .smallSection {
+            width: 95%;
         }
 
+        .myDesktop {
+            display: none;
+        }
+
+        .title {
+            font-size: 1.5em;
+        }
+
+        .myMobile {
+            display: block !important;
+        }
     }
-
 }
-
-// SECTION 3

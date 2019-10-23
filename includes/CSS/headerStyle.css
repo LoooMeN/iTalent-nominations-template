@@ -1,0 +1,77 @@
+@import url("/includes/icomoon/style.css");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.headerSpace {
+  height: 150px;
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000000;
+}
+
+#header .hvr-underline-from-left:before {
+  background: #00B1FF;
+}
+
+#header .flexington {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 0px 7px 27px rgba(0, 0, 0, 0.174);
+          box-shadow: 0px 7px 27px rgba(0, 0, 0, 0.174);
+  height: 70px;
+}
+
+#header .flexington img {
+  height: 50px;
+  padding: 10px 0;
+}
+
+#header .flexington nav {
+  min-width: 50%;
+  color: #6F838D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .flexington .navElement {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  color: #6F838D;
+  cursor: pointer;
+}
+
+#header .flexington .navElement:hover {
+  color: #00B1FF;
+}
+/*# sourceMappingURL=headerStyle.css.map */
