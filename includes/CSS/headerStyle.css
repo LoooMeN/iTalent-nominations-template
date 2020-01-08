@@ -14,8 +14,12 @@
   z-index: 1000000;
 }
 
-#header .hvr-underline-from-left:before {
+#header .noTrigger-hvr-underline-from-left:before {
   background: #00B1FF;
+}
+
+#header .noTrigger-hvr-underline-from-left {
+  width: 100%;
 }
 
 #header .flexington {
@@ -39,7 +43,7 @@
   padding: 10px 0;
 }
 
-#header .flexington nav {
+#header .flexington .myDesktop {
   min-width: 50%;
   color: #6F838D;
   display: -webkit-box;
@@ -58,20 +62,48 @@
 
 #header .flexington .navElement {
   height: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-weight: bold;
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s;
-  color: #6F838D;
+  width: 200px;
   cursor: pointer;
 }
 
-#header .flexington .navElement:hover {
+#header .flexington .navElement .hidden {
+  display: none;
+  background-color: white;
+}
+
+#header .flexington .navElement .hidden div {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 40px;
+  width: 100%;
+  min-height: 40px;
+  color: #6F838D;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+#header .flexington .navElement .hidden div:hover {
+  color: #00B1FF;
+}
+
+#header .flexington .navElement a {
+  line-height: 70px;
+  color: #6F838D;
+  font-weight: bold;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+#header .flexington .navElement:hover .hidden {
+  display: block;
+}
+
+#header .flexington .navElement:hover .noTrigger-hvr-underline-from-left:before {
+  right: 0;
+}
+
+#header .flexington .navElement:hover a {
   color: #00B1FF;
 }
 /*# sourceMappingURL=headerStyle.css.map */

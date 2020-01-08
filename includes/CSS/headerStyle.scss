@@ -14,8 +14,12 @@
     position: fixed;
     z-index: 1000000;
 
-    .hvr-underline-from-left:before {
+    .noTrigger-hvr-underline-from-left:before {
         background: #00B1FF;
+    }
+
+    .noTrigger-hvr-underline-from-left {
+        width: 100%;
     }
 
     .flexington {
@@ -31,7 +35,7 @@
             padding: 10px 0;
         }
 
-        nav {
+        .myDesktop {
             min-width: 50%;
             color: #6F838D;
             display: flex;
@@ -42,16 +46,52 @@
 
         .navElement {
             height: 100%;
-            align-items: center;
-            display: flex;
-            font-weight: bold;
-            transition: color 0.2s;
-            color: #6F838D;
+            width: 200px;
             cursor: pointer;
+
+            .hidden {
+                display: none;
+                background-color: white;
+                // box-shadow: 2px 2px 3px #888, -2px 2px 3px #888;
+                // border: 1px solid #6F838D;
+
+                div {
+                    padding: 10px;
+                    box-sizing: border-box;
+                    line-height: 40px;
+                    width: 100%;
+                    min-height: 40px;
+                    // border-bottom: 1px solid #6F838D;
+                    color: #6F838D;
+                    transition: color 0.2s;
+
+                    &:hover {
+                        color: #00B1FF;
+                        // border-bottom: 1px solid #00B1FF;
+                    }
+                }
+            }
+
+            a {
+                line-height: 70px;
+                color: #6F838D;
+                font-weight: bold;
+                transition: color 0.2s;
+            }
         }
 
         .navElement:hover {
-            color: #00B1FF;
+            .hidden {
+                display: block;
+            }
+
+            .noTrigger-hvr-underline-from-left:before {
+                right: 0;
+            }
+
+            a {
+                color: #00B1FF;
+            }
         }
     }
 }

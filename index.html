@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/includes/CSS/mainpageStyle.css">
-    <script src="/includes/JS/includeHTML.js"></script>
+    <link rel="stylesheet" href="./includes/CSS/mainpageStyle.css">
+    <script src="./includes/JS/includeHTML.js"></script>
     <title>mainpage</title>
 </head>
 
 <body>
-    <div w3-include-html="/includes/header.html"></div>
+    <div w3-include-html="./includes/header.html"></div>
     <section class="section" id="mediaLinks">
         <div class="grod">
             <a href="https://discord.gg/ywTQTpN" target="_blank" class="button unselectable shadow discord">
@@ -33,6 +33,70 @@
         </div>
     </section>
 
+    <section class="section" id="prizes">
+        <h2 class="title">ПРИЗИ</h2>
+        <p class="desc">від генерального партнеру конкурсу</p>
+        <div class="prizeImg">
+            <a href="https://rozetka.com.ua/search/?text=logitech&producer=42&p=1" target="_blank">
+                <img src="https://italent.org.ua/wp-content/uploads/2019/11/Logitech_print_black_LG.svg" alt="logitech">
+            </a>
+        </div>
+        <div class="grod">
+            <div>
+                <div class="place">
+                    <h3>I</h3>
+                    <p>місце</p>
+                </div>
+                <img src="https://italent.org.ua/wp-content/uploads/2019/11/mk270-gallery-—-копия-1.png" alt="prize">
+                <a href="https://hard.rozetka.com.ua/ua/logitech_wireless_combo_mk270_rus_920_004518/p288493/"
+                    target="_blank">
+                    <h3>LOGITECH Wireless Combo MK270 - EER - Russian layout</h3>
+                    <a href="https://hard.rozetka.com.ua/ua/logitech_multimedia_speakers_z150_black/p367330/"
+                        target="_blank">
+                        <h3>LOGITECH Audio System 2.0 Z150 - EU - MIDNIGHT BLACK</h3>
+                    </a>
+            </div>
+            <div>
+                <div class="place">
+                    <h3>II</h3>
+                    <p>місце</p>
+                </div>
+                <img src="https://italent.org.ua/wp-content/uploads/2019/11/mk270-gallery-—-копия.png" alt="prize">
+                <a href="https://hard.rozetka.com.ua/ua/logitech_wireless_combo_mk270_rus_920_004518/p288493/"
+                    target="_blank">
+                    <h3>LOGITECH Wireless Combo MK270 - EER - Russian layout</h3>
+                </a>
+            </div>
+            <div>
+                <div class="place">
+                    <h3>III</h3>
+                    <p>місце</p>
+                </div>
+                <img src="https://italent.org.ua/wp-content/uploads/2019/11/wireless-mouse-m185.png" alt="prize">
+                <a href="https://hard.rozetka.com.ua/ua/logitech_wireless_mouse_m185_910_002238_grey/p178123/"
+                    target="_blank">
+                    <h3>LOGITECH Wireless Mouse M185 - EER2 - SWIFT GREY</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="superPrize">
+        <div>
+            <h2 class="title left">СУПЕР ПРИЗ!</h2>
+            <div class="flexington">
+                <p>ВІД СПЕЦІАЛЬНОГО ПАРТНЕРА КОНКУРСА - ПОРТАЛУ <a href="https://dou.ua/" target="_blank">DOU</a></p>
+                <a clas="img" href="https://dou.ua/" target="_blank">
+                    <img src="https://italent.org.ua/wp-content/uploads/2019/11/dou_logo.svg" alt="dou">
+                </a>
+            </div>
+            <p style="text-align: center;"><span>Ноутбук Asus X509FL-BQ053 Slate Grey</span></p>
+        </div>
+        <a href="https://rozetka.com.ua/ua/asus_90nb0n12_m01880/p96163792/" target="_blank">
+            <img src="https://italent.org.ua/wp-content/uploads/2019/10/super-prize-season-6.png" alt="superPrize">
+        </a>
+    </section>
+
     <!-- ДАТИ ТА ЕТАПИ -->
     <div class="aboutWrap bgOverride">
         <section class="section" id="dates">
@@ -46,13 +110,28 @@
 
         <section class="section" id="mainPartners">
             <h2 class="title">ПАРТНЕРИ</h2>
-            <div class="grod">
-                <a href="https://rozetka.com.ua/search/?text=logitech&producer=42&p=1" target="_blank"><img
-                        src="https://italent.org.ua/wp-content/uploads/2019/10/Logitech-G-horz-Black.png"
-                        alt="logitech"></a>
-                <a href="https://www.grammarly.com/" target="_blank"><img
-                        src="https://italent.org.ua/wp-content/uploads/2019/10/logo-grammarly-1.png"
-                        alt="grammarly"></a>
+            <div class="grod generalPartners">
+                <a href="https://rozetka.com.ua/search/?text=logitech&producer=42&p=1" target="_blank">
+                    <img src="https://italent.org.ua/wp-content/uploads/2019/11/Logitech_print_black_LG.svg"
+                        alt="logitech">
+                </a>
+                <a href="https://www.grammarly.com/" target="_blank">
+                    <img src="https://italent.org.ua/wp-content/uploads/2019/11/logo-grammarly.svg" alt="grammarly">
+                </a>
+            </div>
+            <div class="grod specialPartners">
+                <a href="https://dou.ua/" target="_blank">
+                    <img src="https://italent.org.ua/wp-content/uploads/2019/11/dou_logo.svg" alt="dou">
+                </a>
+                <a href="http://cyberzone.kiev.ua/" target="_blank">
+                    <img src="https://italent.org.ua/wp-content/uploads/2019/11/cyberzone.svg" alt="cyberzone">
+                </a>
+                <a href="https://www.insart.com/" target="_blank">
+                    <img src="https://italent.org.ua/wp-content/uploads/2019/11/insart.svg" alt="insart">
+                </a>
+                <a href="http://gameinside.ua/" target="_blank">
+                    <img src="https://italent.org.ua/wp-content/uploads/2019/11/gameinside_dark.svg" alt="gameinside">
+                </a>
             </div>
         </section>
 
