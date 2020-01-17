@@ -30,67 +30,104 @@
         box-shadow: 0px 7px 27px rgba(0, 0, 0, 0.174);
         height: 70px;
 
-        img {
-            height: 50px;
-            padding: 10px 0;
-        }
-
-        .myDesktop {
-            min-width: 50%;
-            color: #6F838D;
+        .menuWrapper {
             display: flex;
+            width: 80%;
             flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-        }
+            justify-content: space-between;
 
-        .navElement {
-            height: 100%;
-            width: 200px;
-            cursor: pointer;
+            img {
+                height: 50px;
+                padding: 10px 0;
+            }
 
-            .hidden {
-                display: none;
-                background-color: white;
-                // box-shadow: 2px 2px 3px #888, -2px 2px 3px #888;
-                // border: 1px solid #6F838D;
+            .switch {
+                display: flex;
+                align-items: center;
 
-                div {
-                    padding: 10px;
-                    box-sizing: border-box;
-                    line-height: 40px;
-                    width: 100%;
-                    min-height: 40px;
-                    // border-bottom: 1px solid #6F838D;
-                    color: #6F838D;
-                    transition: color 0.2s;
+                .arrow {
+                    margin-left: 10px;
+                    background-color: black;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 15%;
+                    transform: rotate(225deg);
+                    transition: 0.5s all;
+                    position: relative;
+
+                    &:before {
+                        content: "1";
+                        color: white;
+                        background-color: white;
+                        position: absolute;
+                        transform: rotate(-45deg);
+                        font-size: 1px;
+                        text-align: center;
+                        width: 16px;
+                        height: 10px;
+                        left: 1px;
+                        top: 3px;
+                    }
 
                     &:hover {
-                        color: #00B1FF;
-                        // border-bottom: 1px solid #00B1FF;
+                        transform: rotate(45deg);
                     }
                 }
             }
 
-            a {
-                line-height: 70px;
+            .myDesktop {
+                min-width: 50%;
                 color: #6F838D;
-                font-weight: bold;
-                transition: color 0.2s;
-            }
-        }
-
-        .navElement:hover {
-            .hidden {
-                display: block;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
             }
 
-            .noTrigger-hvr-underline-from-left:before {
-                right: 0;
+            .navElement {
+                height: 100%;
+                width: 200px;
+                cursor: pointer;
+
+                .hidden {
+                    display: none;
+                    background-color: white;
+
+                    div {
+                        padding: 10px;
+                        box-sizing: border-box;
+                        line-height: 40px;
+                        width: 100%;
+                        min-height: 40px;
+                        color: #6F838D;
+                        transition: color 0.2s;
+
+                        &:hover {
+                            color: #00B1FF;
+                        }
+                    }
+                }
+
+                a {
+                    line-height: 70px;
+                    color: #6F838D;
+                    font-weight: bold;
+                    transition: color 0.2s;
+                }
             }
 
-            a {
-                color: #00B1FF;
+            .navElement:hover {
+                .hidden {
+                    display: block;
+                }
+
+                .noTrigger-hvr-underline-from-left:before {
+                    right: 0;
+                }
+
+                a {
+                    color: #00B1FF;
+                }
             }
         }
     }

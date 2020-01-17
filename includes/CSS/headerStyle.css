@@ -38,12 +38,68 @@
   height: 70px;
 }
 
-#header .flexington img {
+#header .flexington .menuWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header .flexington .menuWrapper img {
   height: 50px;
   padding: 10px 0;
 }
 
-#header .flexington .myDesktop {
+#header .flexington .menuWrapper .switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .flexington .menuWrapper .switch .arrow {
+  margin-left: 10px;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 15%;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  position: relative;
+}
+
+#header .flexington .menuWrapper .switch .arrow:before {
+  content: "1";
+  color: white;
+  background-color: white;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  font-size: 1px;
+  text-align: center;
+  width: 16px;
+  height: 10px;
+  left: 1px;
+  top: 3px;
+}
+
+#header .flexington .menuWrapper .switch .arrow:hover {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#header .flexington .menuWrapper .myDesktop {
   min-width: 50%;
   color: #6F838D;
   display: -webkit-box;
@@ -53,25 +109,26 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-#header .flexington .navElement {
+#header .flexington .menuWrapper .navElement {
   height: 100%;
   width: 200px;
   cursor: pointer;
 }
 
-#header .flexington .navElement .hidden {
+#header .flexington .menuWrapper .navElement .hidden {
   display: none;
   background-color: white;
 }
 
-#header .flexington .navElement .hidden div {
+#header .flexington .menuWrapper .navElement .hidden div {
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -83,11 +140,11 @@
   transition: color 0.2s;
 }
 
-#header .flexington .navElement .hidden div:hover {
+#header .flexington .menuWrapper .navElement .hidden div:hover {
   color: #00B1FF;
 }
 
-#header .flexington .navElement a {
+#header .flexington .menuWrapper .navElement a {
   line-height: 70px;
   color: #6F838D;
   font-weight: bold;
@@ -95,15 +152,15 @@
   transition: color 0.2s;
 }
 
-#header .flexington .navElement:hover .hidden {
+#header .flexington .menuWrapper .navElement:hover .hidden {
   display: block;
 }
 
-#header .flexington .navElement:hover .noTrigger-hvr-underline-from-left:before {
+#header .flexington .menuWrapper .navElement:hover .noTrigger-hvr-underline-from-left:before {
   right: 0;
 }
 
-#header .flexington .navElement:hover a {
+#header .flexington .menuWrapper .navElement:hover a {
   color: #00B1FF;
 }
 /*# sourceMappingURL=headerStyle.css.map */
