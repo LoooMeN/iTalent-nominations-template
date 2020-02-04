@@ -1,15 +1,13 @@
 <head>
     <link rel="stylesheet" href="./includes/CSS/wp-portfolio-style.css" />
-    <script>
-        var request = new XMLHttpRequest();
-        request.open("GET", "./includes/data/settings.json", false);
-        request.send(null)
-        settings = JSON.parse(request.responseText);
-    </script>
+    <script src="./includes/JS/includeHTML.js"></script>
 </head>
 
 <body>
-
+    <div w3-include-html="./includes/header.html"></div>
+    <script>
+        includeHTML();
+    </script>
     <section class="section" id="partner">
         <h2 style="text-align: left; margin-bottom: 20px;">Партнер номінації:</h2>
         <div>
@@ -223,6 +221,7 @@
     <section class="section" id="registration">
         <script>
             let container = document.querySelector('#registration');
+            console.log(settings["reg_status"]);
             if (settings["reg_status"] == "open")
                 container.innerHTML =
                 '<h2 class = "title">РЕЄСТРАЦІЮ ВІДКРИТО</h2><a href = "' + settings["reg_link"] +

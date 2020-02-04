@@ -52,6 +52,69 @@
           justify-content: space-between;
 }
 
+#header .flexington .menuWrapper .mobileMenuSwitch {
+  width: 30px;
+}
+
+#header .flexington .menuWrapper .rotateLeft {
+  -webkit-animation: rotateLeft 0.5s;
+          animation: rotateLeft 0.5s;
+}
+
+#header .flexington .menuWrapper .rotateRight {
+  -webkit-animation: rotateRight 0.5s;
+          animation: rotateRight 0.5s;
+}
+
+#header .flexington .menuWrapper .myMobile nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  padding: 20px 0;
+  width: 100%;
+  background-color: white;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  position: absolute;
+  left: 100%;
+}
+
+#header .flexington .menuWrapper .myMobile nav a {
+  font-size: 20px;
+  border-bottom: 2px solid black;
+}
+
+#header .flexington .menuWrapper .myMobile nav .navSubElement {
+  color: black;
+  margin: 20px 0;
+  margin-left: 60px;
+}
+
+#header .flexington .menuWrapper .myMobile nav .navElement {
+  margin: 20px;
+  width: 100%;
+}
+
+#header .flexington .menuWrapper .myMobile nav .navElement:active {
+  color: white;
+}
+
+#header .flexington .menuWrapper .myMobile .open {
+  left: 0;
+}
+
+#header .flexington .menuWrapper .myMobile .closed {
+  left: 100%;
+}
+
 #header .flexington .menuWrapper img {
   height: 50px;
   padding: 10px 0;
@@ -164,6 +227,50 @@
   color: #00B1FF;
 }
 
+@-webkit-keyframes rotateLeft {
+  from {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes rotateLeft {
+  from {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes rotateRight {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotateRight {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
 @media only screen and (max-width: 768px) {
   #header .flexington .menuWrapper {
     width: 100%;
@@ -176,9 +283,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
