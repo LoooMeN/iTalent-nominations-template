@@ -1218,8 +1218,8 @@ body .left {
 #lastWinners #fillMe {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1297,8 +1297,6 @@ body .left {
   color: white;
   font-size: 40px;
   padding: 20px;
-  width: 50px;
-  height: 50px;
   line-height: 48px;
   font-weight: 700;
   border-radius: 25px;

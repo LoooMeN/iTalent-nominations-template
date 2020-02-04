@@ -1,0 +1,120 @@
+{
+    "nomination1": {
+        "ukrName": "flex",
+        "ruName": "flex",
+        "url": "flex",
+        "age": {
+            "1": {
+                "from": "8",
+                "to": "15",
+                "tema": "вільна",
+                "task": "none"
+            },
+            "2": {
+                "from": "15",
+                "to": "19",
+                "tema": "вільна",
+                "task": "none"
+            }
+        },
+        "partner": {
+            "name": "none",
+            "image_link": "none",
+            "desc": "none",
+            "link": "none"
+        },
+        "kriterii": {
+            "1": {
+                "name": "TECHNICAL",
+                "desc": "<p>Складність геометрії, наявність UV розгортки, використання модифікаторів і оптимізація геометрії</p>",
+                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+            },
+            "2": {
+                "name": "ТЕКСТУРУВАННЯ",
+                "desc": "<p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p> <
+                    a href = 'https://italent.org.ua/sound_recommendations/'
+                target = '_blank' > < div class = 'button unselectable' > РЕКОМЕНДАЦІЇ ДО ЗВУКУ < /div></a > ",
+                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+            },
+            "3": {
+                "name": "ТЕКСТУРУВАННЯ",
+                "desc": "<p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p> <
+                    a href = 'https://italent.org.ua/sound_recommendations/'
+                target = '_blank' > < div class = 'button unselectable' > РЕКОМЕНДАЦІЇ ДО ЗВУКУ < /div></a > ",
+                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+            }
+        },
+        "vimogi": {
+            "1": {
+                "name": "flex",
+                "desc": "сюда надо копировать html",
+                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+            },
+            "2": {
+                "name": "flex",
+                "desc": "сюда надо копировать html",
+            }
+        },
+        "rekomendacii": {
+            "1": {
+                "name": "none",
+                "desc": "none",
+            }
+        }
+    },
+    "nomination2": {
+        "ukrName": "flex",
+        "ruName": "flex",
+        "url": "flex",
+        "age": {
+            "1": {
+                "from": "8",
+                "to": "14",
+                "tema": "flex",
+                "task": "flex"
+            },
+            "2": {
+                "from": "8",
+                "to": "14",
+                "tema": "flex",
+                "task": "flex"
+            }
+        },
+        "partner": {
+            "name": "flex",
+            "image_link": "flex",
+            "desc": "flex",
+            "link": "flex"
+        },
+        "kriterii": {
+            "1": {
+                "name": "flex",
+                "desc": "сюда надо копировать html",
+            },
+            "2": {
+                "name": "flex",
+                "desc": "сюда надо копировать html",
+            }
+        },
+        "vimogi": {
+            "1": {
+                "name": "flex",
+                "desc": "сюда надо копировать html",
+            },
+            "2": {
+                "name": "flex",
+                "desc": "сюда надо копировать html",
+            }
+        },
+        "rekomendacii": {
+            "1": {
+                "name": "flex",
+                "desc": "сюда надо копировать html",
+            },
+            "2": {
+                "name": "flex",
+                "desc": "сюда надо копировать html",
+            }
+        }
+    }
+}

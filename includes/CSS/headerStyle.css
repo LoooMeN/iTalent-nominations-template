@@ -163,4 +163,31 @@
 #header .flexington .menuWrapper .navElement:hover a {
   color: #00B1FF;
 }
+
+@media only screen and (max-width: 768px) {
+  #header .flexington .menuWrapper {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #header .flexington .menuWrapper .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #header .flexington .menuWrapper .logo div {
+    margin-right: 20px;
+  }
+  #header .flexington .menuWrapper .navElement {
+    color: black;
+  }
+}
 /*# sourceMappingURL=headerStyle.css.map */

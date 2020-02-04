@@ -1,5 +1,11 @@
 <head>
     <link rel="stylesheet" href="./includes/CSS/wp-portfolio-style.css" />
+    <script>
+        var request = new XMLHttpRequest();
+        request.open("GET", "./includes/data/settings.json", false);
+        request.send(null)
+        settings = JSON.parse(request.responseText);
+    </script>
 </head>
 
 <body>
@@ -213,11 +219,17 @@
             }
         }
     </style>
+
     <section class="section" id="registration">
-        <h2 class="title">РЕЄСТРАЦІЮ ВІДКРИТО</h2>
-        <a href="https://forms.gle/vTrBqb5HXp3SkCby8" target="_blank">
-            <div class="regBtn shadow">ЗАРЕЄСТРУВАТИСЯ</div>
-        </a>
+        <script>
+            let container = document.querySelector('#registration');
+            if (settings["reg_status"] == "open")
+                container.innerHTML =
+                '<h2 class = "title">РЕЄСТРАЦІЮ ВІДКРИТО</h2><a href = "' + settings["reg_link"] +
+                '" target = "_blank"><div class ="regBtn shadow">ЗАРЕЄСТРУВАТИСЯ</div> </a>';
+            else
+                container.remove();
+        </script>
     </section>
 
     <section id="section4" class="section">

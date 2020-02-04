@@ -132,3 +132,28 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    #header {
+        .flexington {
+            .menuWrapper {
+                width: 100%;
+                flex-direction: column;
+
+                .logo {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    div {
+                        margin-right: 20px;
+                    }
+                }
+
+                .navElement {
+                    color: black;
+                }
+            }
+        }
+    }
+}

@@ -85,15 +85,15 @@ let testList = [{
         'link': 'https://www.italent.org.ua/nominations/web-front-end/'
     },
     {
-        'ruName': 'Secret',
-        'ukName': 'Секретні номінації',
-        'icon': 'icon-add',
-        'sec': 'all',
-        'link': 'https://www.italent.org.ua/nominations/secretnominations/'
+        'ruName': 'Програмная обработка текстов',
+        'ukName': 'Програмна обробка текстів',
+        'icon': 'icon-grammar',
+        'sec': 'tech',
+        'link': 'https://italent.org.ua/nominations/prog-text/'
     }
 ]
 
-let lang = 'uk';
+let lang = 'ua';
 
 let button1 = document.querySelector('#all');
 let button2 = document.querySelector('#tech');
