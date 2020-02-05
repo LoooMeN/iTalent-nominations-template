@@ -1,4 +1,155 @@
 @import url("/includes/icomoon/style.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2F80ED;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+.noTrigger-hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.noTrigger-hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2F80ED;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  margin: 15px 0px;
+  line-height: 20px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
+          box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
+}
+
+.myMobile {
+  display: none;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+body .section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+body .smallSection {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+body .title {
+  color: #00b1ff;
+  line-height: 48px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 40px 0px;
+}
+
+body .bigger {
+  font-size: 50px;
+}
+
+body .subTitle {
+  color: #00b1ff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+body .myWhite {
+  color: #fff;
+}
+
+body .left {
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  body .section {
+    width: 90%;
+  }
+  body .smallSection {
+    width: 90%;
+  }
+  body .title {
+    font-size: 2em;
+  }
+  .myMobile {
+    display: block;
+  }
+  .myDesktop {
+    display: none !important;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -50,6 +201,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+#header .flexington .menuWrapper .logo {
+  margin-right: 50px;
 }
 
 #header .flexington .menuWrapper .mobileMenuSwitch {
@@ -280,6 +435,9 @@
             flex-direction: column;
   }
   #header .flexington .menuWrapper .logo {
+    margin-right: 0;
+  }
+  #header .flexington .menuWrapper .logoWrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -289,11 +447,10 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #header .flexington .menuWrapper .logo div {
+  #header .flexington .menuWrapper .logoWrapper div {
     margin-right: 20px;
   }
   #header .flexington .menuWrapper .navElement {
     color: black;
   }
 }
-/*# sourceMappingURL=headerStyle.css.map */

@@ -1,10 +1,4 @@
 var judgeList = [{
-    //name = имя
-    //descr = должность
-    //photo = ссылка на фото
-    //position: mentor / judge / all
-    //fb: ссылка на фб
-    //noms: номинации которые судит
     'name': 'АШИРОВ АРТУР',
     'descr': 'HEAD OF DEVELOPMENT, TECH LEAD У TAIN UKRAINE',
     'photo': 'https://italent.org.ua/wp-content/uploads/2018/09/%D0%B0%D1%88%D0%B8%D1%80%D0%BE%D0%B2.png',

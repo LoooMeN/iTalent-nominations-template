@@ -1,0 +1,207 @@
+@import 'utilityStyle';
+
+#footer {
+    width: 100%;
+    margin-bottom: 0;
+
+    .row1 {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 40px;
+        @include myGrid(1fr 3fr 1fr, center, space-between);
+
+        .menu {
+            @include myFlex(row, center, center);
+            max-width: 60%;
+            margin: auto;
+
+            .footerMenuItem {
+                color: #6F838D;
+                font-weight: 600;
+                transition: color 0.2s;
+                margin: 0 30px;
+
+                &:hover {
+                    color: #00B1FF;
+                }
+            }
+        }
+
+        .media {
+            justify-self: right;
+
+            a {
+                margin: 0 10px;
+            }
+        }
+
+        .logo {
+            width: 100%;
+        }
+    }
+
+    .row2 {
+        background-image: url('/includes/images/backgrounds/footerBg.png');
+        background-size: cover;
+        min-height: 200px;
+
+        * {
+            margin-bottom: 0;
+        }
+
+        .row2Wrapper {
+            width: 80%;
+            margin: auto;
+            @include myGrid(1fr 1fr 1fr, top);
+            padding-top: 40px;
+
+            .secondaryMenu {
+                width: 60%;
+                justify-self: center;
+                @include myGrid(repeat(2, 1fr), top, center, 10px);
+                height: 70px;
+
+                .secondaryMenuItem {
+                    color: white;
+                    font-weight: 600;
+                }
+            }
+
+            .subscribe {
+                position: relative;
+
+                #formMessage {
+                    @include myFlex(row);
+                    font-size: 40px;
+                    position: absolute;
+                    top: 0px;
+                    z-index: 1;
+                    width: 100%;
+                    text-align: center;
+                    left: 0px;
+                    transition: 0.5s opacity;
+                    font-weight: 700;
+                    opacity: 0;
+                    color: white;
+                }
+
+                form {
+                    margin: auto;
+                    z-index: 5;
+                    transition: 0.5s opacity;
+                    @include myFlex(column);
+                    max-width: 350px;
+
+                    input {
+                        width: 100%;
+
+                        &[type=email] {
+                            margin-bottom: 10px;
+                            padding: 18px;
+                            border: none;
+                            border-radius: 5px;
+                            outline: none;
+                            box-sizing: border-box;
+                        }
+
+                        &[type=submit] {
+                            box-sizing: border-box;
+                            background-color: #56CCF2;
+                            border: none;
+                            color: white;
+                            outline: none;
+                            border-radius: 5px;
+                            padding: 15px;
+                            font-size: 16px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+            .contacts {
+                width: 60%;
+                margin: auto;
+
+                div {
+                    @include myFlex(row, center, left);
+                    margin-bottom: 20px;
+
+                    .footerIcon {
+                        margin-right: 20px;
+                    }
+
+                    p {
+                        color: white;
+                        font-size: 14px;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #footer {
+        .row1 {
+            @include myGrid(1fr);
+            margin-bottom: 10px;
+
+            .logo {
+                width: 100%;
+            }
+
+            .menu {
+                max-width: 100%;
+                margin: 30px 0;
+                @include myGrid(1fr 1fr, center);
+
+                .footerMenuItem {
+                    font-size: 22px;
+                    width: 100%;
+                    margin: 10px 0;
+                    font-weight: 700;
+                }
+            }
+
+            .media {
+                justify-self: center;
+                @include myFlex(row);
+
+                a {
+                    margin: 0 20px;
+
+                    img {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+
+        .row2 {
+            background-image: url('/includes/images/backgrounds/footerBgMobile.svg');
+
+            .row2Wrapper {
+                @include myGrid(1fr);
+
+                .secondaryMenu {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+
+                .subscribe {
+                    margin-bottom: 40px;
+                }
+
+                .contacts {
+                    div {
+                        margin-bottom: 40px;
+                    }
+
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=cyrillic,cyrillic-ext");
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
@@ -133,13 +133,13 @@ body .left {
 
 @media only screen and (max-width: 768px) {
   body .section {
-    width: 95%;
+    width: 90%;
   }
   body .smallSection {
-    width: 95%;
+    width: 90%;
   }
   body .title {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .myMobile {
     display: block;
@@ -148,4 +148,3 @@ body .left {
     display: none !important;
   }
 }
-/*# sourceMappingURL=utilityStyle.css.map */

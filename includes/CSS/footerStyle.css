@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=cyrillic,cyrillic-ext");
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2F80ED;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+.noTrigger-hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.noTrigger-hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2F80ED;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  margin: 15px 0px;
+  line-height: 20px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
+          box-shadow: 0px 0px 18px rgba(67, 70, 155, 0.24);
+}
+
+.myMobile {
+  display: none;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+body .section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+body .smallSection {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+body .title {
+  color: #00b1ff;
+  line-height: 48px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 40px 0px;
+}
+
+body .bigger {
+  font-size: 50px;
+}
+
+body .subTitle {
+  color: #00b1ff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+body .myWhite {
+  color: #fff;
+}
+
+body .left {
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  body .section {
+    width: 90%;
+  }
+  body .smallSection {
+    width: 90%;
+  }
+  body .title {
+    font-size: 2em;
+  }
+  .myMobile {
+    display: block;
+  }
+  .myDesktop {
+    display: none !important;
+  }
+}
+
+#footer {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+#footer .row1 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-gap: 10px;
+}
+
+#footer .row1 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 60%;
+  margin: auto;
+}
+
+#footer .row1 .menu .footerMenuItem {
+  color: #6F838D;
+  font-weight: 600;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  margin: 0 30px;
+}
+
+#footer .row1 .menu .footerMenuItem:hover {
+  color: #00B1FF;
+}
+
+#footer .row1 .media {
+  -ms-grid-column-align: right;
+      justify-self: right;
+}
+
+#footer .row1 .media a {
+  margin: 0 10px;
+}
+
+#footer .row1 .logo {
+  width: 100%;
+}
+
+#footer .row2 {
+  background-image: url("/includes/images/backgrounds/footerBg.png");
+  background-size: cover;
+  min-height: 200px;
+}
+
+#footer .row2 * {
+  margin-bottom: 0;
+}
+
+#footer .row2 .row2Wrapper {
+  width: 80%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 10px;
+  padding-top: 40px;
+}
+
+#footer .row2 .row2Wrapper .secondaryMenu {
+  width: 60%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 10px;
+  height: 70px;
+}
+
+#footer .row2 .row2Wrapper .secondaryMenu .secondaryMenuItem {
+  color: white;
+  font-weight: 600;
+}
+
+#footer .row2 .row2Wrapper .subscribe {
+  position: relative;
+}
+
+#footer .row2 .row2Wrapper .subscribe #formMessage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  left: 0px;
+  -webkit-transition: 0.5s opacity;
+  transition: 0.5s opacity;
+  font-weight: 700;
+  opacity: 0;
+  color: white;
+}
+
+#footer .row2 .row2Wrapper .subscribe form {
+  margin: auto;
+  z-index: 5;
+  -webkit-transition: 0.5s opacity;
+  transition: 0.5s opacity;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 350px;
+}
+
+#footer .row2 .row2Wrapper .subscribe form input {
+  width: 100%;
+}
+
+#footer .row2 .row2Wrapper .subscribe form input[type=email] {
+  margin-bottom: 10px;
+  padding: 18px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#footer .row2 .row2Wrapper .subscribe form input[type=submit] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #56CCF2;
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#footer .row2 .row2Wrapper .contacts {
+  width: 60%;
+  margin: auto;
+}
+
+#footer .row2 .row2Wrapper .contacts div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-bottom: 20px;
+}
+
+#footer .row2 .row2Wrapper .contacts div .footerIcon {
+  margin-right: 20px;
+}
+
+#footer .row2 .row2Wrapper .contacts div p {
+  color: white;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #footer .row1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+  }
+  #footer .row1 .logo {
+    width: 100%;
+  }
+  #footer .row1 .menu {
+    max-width: 100%;
+    margin: 30px 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-gap: 10px;
+  }
+  #footer .row1 .menu .footerMenuItem {
+    font-size: 22px;
+    width: 100%;
+    margin: 10px 0;
+    font-weight: 700;
+  }
+  #footer .row1 .media {
+    justify-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #footer .row1 .media a {
+    margin: 0 20px;
+  }
+  #footer .row1 .media a img {
+    width: 50px;
+  }
+  #footer .row2 {
+    background-image: url("/includes/images/backgrounds/footerBgMobile.svg");
+  }
+  #footer .row2 .row2Wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-gap: 10px;
+  }
+  #footer .row2 .row2Wrapper .secondaryMenu {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #footer .row2 .row2Wrapper .subscribe {
+    margin-bottom: 40px;
+  }
+  #footer .row2 .row2Wrapper .contacts {
+    margin-bottom: 20px;
+  }
+  #footer .row2 .row2Wrapper .contacts div {
+    margin-bottom: 40px;
+  }
+}

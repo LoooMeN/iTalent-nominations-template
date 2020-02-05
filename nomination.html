@@ -1,13 +1,10 @@
 <head>
     <link rel="stylesheet" href="./includes/CSS/wp-portfolio-style.css" />
-    <script src="./includes/JS/includeHTML.js"></script>
+    <script src="./includes/JS/functions.js"></script>
 </head>
 
 <body>
     <div w3-include-html="./includes/header.html"></div>
-    <script>
-        includeHTML();
-    </script>
     <section class="section" id="partner">
         <h2 style="text-align: left; margin-bottom: 20px;">Партнер номінації:</h2>
         <div>
@@ -218,18 +215,7 @@
         }
     </style>
 
-    <section class="section" id="registration">
-        <script>
-            let container = document.querySelector('#registration');
-            console.log(settings["reg_status"]);
-            if (settings["reg_status"] == "open")
-                container.innerHTML =
-                '<h2 class = "title">РЕЄСТРАЦІЮ ВІДКРИТО</h2><a href = "' + settings["reg_link"] +
-                '" target = "_blank"><div class ="regBtn shadow">ЗАРЕЄСТРУВАТИСЯ</div> </a>';
-            else
-                container.remove();
-        </script>
-    </section>
+    <section class="section" id="registration"></section>
 
     <section id="section4" class="section">
         <div class="container">
@@ -295,5 +281,16 @@
             </a>
         </div>
     </section> -->
-
+    <div w3-include-html="./includes/footer.html"></div>
+    <script>
+        build_page();
+        let container = document.querySelector('#registration');
+        console.log(settings["reg_status"]);
+        if (settings["reg_status"] == "open")
+            container.innerHTML =
+            '<h2 class = "title">РЕЄСТРАЦІЮ ВІДКРИТО</h2><a href = "' + settings["reg_link"] +
+            '" target = "_blank"><div class ="regBtn shadow">ЗАРЕЄСТРУВАТИСЯ</div> </a>';
+        else
+            container.remove();
+    </script>
 </body>

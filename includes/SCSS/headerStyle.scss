@@ -1,4 +1,5 @@
 @import url("/includes/icomoon/style.css");
+@import 'utilityStyle';
 
 * {
     padding: 0;
@@ -35,6 +36,10 @@
             width: 80%;
             flex-direction: row;
             justify-content: space-between;
+
+            .logo {
+                margin-right: 50px;
+            }
 
             .mobileMenuSwitch {
                 width: 30px;
@@ -216,6 +221,10 @@
                 flex-direction: column;
 
                 .logo {
+                    margin-right: 0;
+                }
+
+                .logoWrapper {
                     display: flex;
                     justify-content: space-around;
                     align-items: center;

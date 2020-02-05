@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=cyrillic,cyrillic-ext");
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
@@ -133,13 +133,13 @@ body .left {
 
 @media only screen and (max-width: 768px) {
   body .section {
-    width: 95%;
+    width: 90%;
   }
   body .smallSection {
-    width: 95%;
+    width: 90%;
   }
   body .title {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .myMobile {
     display: block;
@@ -151,6 +151,7 @@ body .left {
 
 #head iframe {
   height: 70vh;
+  margin-bottom: 40px;
 }
 
 #head .grod {
@@ -204,6 +205,10 @@ body .left {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  #head .grod div p {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }
 
 .mentorBg {
@@ -240,16 +245,17 @@ body .left {
 }
 
 #about div p {
-  font-size: 30px;
-  width: 80%;
+  font-size: 36px;
+  width: 90%;
   color: #303351;
   line-height: 40px;
 }
 
 #about div h3 {
-  font-size: 35px;
+  font-size: 40px;
   line-height: 44px;
-  width: 80%;
+  font-weight: 800;
+  width: 90%;
   margin-bottom: 0;
   color: #303351;
 }
@@ -304,8 +310,25 @@ body .left {
 
 @media only screen and (max-width: 768px) {
   #about div {
-    background-size: cover;
     text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-repeat: no-repeat;
+    padding: 30px;
+    background-size: cover;
+    border-radius: 20px;
+    background-position-x: -80px;
+  }
+  #about div h3 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+  }
+  #about div p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
   }
   #ctaMentor .grod {
     -ms-grid-columns: 1fr;
@@ -313,8 +336,8 @@ body .left {
     grid-gap: 50px;
   }
   .mentorBg {
-    background-size: 1200px;
-    background-position: center 75%;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -554,4 +577,3 @@ body .left {
     grid-gap: 10px;
   }
 }
-/*# sourceMappingURL=mentorStyle.css.map */

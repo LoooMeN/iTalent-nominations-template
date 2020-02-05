@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=cyrillic,cyrillic-ext');
 
 .hvr-underline-from-left {
     display: inline-block;
@@ -155,15 +155,15 @@ body {
 @media only screen and (max-width: 768px) {
     body {
         .section {
-            width: 95%;
+            width: 90%;
         }
 
         .smallSection {
-            width: 95%;
+            width: 90%;
         }
 
         .title {
-            font-size: 1.5em;
+            font-size: 2em;
         }
     }
 

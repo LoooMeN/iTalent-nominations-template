@@ -1,4 +1,3 @@
-@import url('/icomoon/style.css');
 @import 'utilityStyle';
 
 #mediaLinks {
@@ -500,10 +499,23 @@
 
 @media only screen and (max-width: 768px) {
     #cybersport {
+        img {
+            display: none;
+        }
+
         grid-template-columns: 1fr;
         padding: 0;
 
+        div {
+            text-align: center;
+
+            p {
+                width: 100%;
+            }
+        }
+
         a {
+            box-sizing: border-box;
             width: 100%;
         }
     }
@@ -553,6 +565,7 @@
     background-image: url('https://www.italent.org.ua/wp-content/uploads/2019/09/mentorBg.svg');
     background-position: center top;
     background-size: cover;
+    padding: 100px 0px;
 }
 
 #mentor {
@@ -650,6 +663,10 @@
                     grid-column: 1 / 3;
                     width: 100%;
                     margin: 0;
+
+                    ul {
+                        margin-left: 58px;
+                    }
                 }
             }
         }
@@ -932,13 +949,20 @@
 
 @media only screen and (max-width: 768px) {
     #lastWinners {
-        .upper {
-            flex-direction: column;
-            margin-bottom: 30px;
-        }
-
         #fillMe {
             grid-template-columns: 1fr;
+
+            .toDel {
+                .cont {
+                    .number {
+                        width: 60%;
+                    }
+
+                    h2 {
+                        font-size: 20px;
+                    }
+                }
+            }
         }
     }
 }
@@ -1027,6 +1051,12 @@
 
         .myContainer {
             grid-template-columns: 1fr;
+
+            div {
+                p {
+                    text-align: center;
+                }
+            }
         }
     }
 }
