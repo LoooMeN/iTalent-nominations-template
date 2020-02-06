@@ -1,12 +1,18 @@
 <head>
-    <link rel="stylesheet" href="./includes/CSS/wp-portfolio-style.css" />
-    <script src="./includes/JS/functions.js"></script>
+    <link rel="stylesheet" href="/includes/CSS/nominationStyle.css">
+    <script src="/includes/JS/functions.js"></script>
 </head>
 
 <body>
-    <div w3-include-html="./includes/header.html"></div>
+
+    <div w3-include-html="/includes/header.html"></div>
+
+    <script>
+        var page = '3D';
+    </script>
+
     <section class="section" id="partner">
-        <h2 style="text-align: left; margin-bottom: 20px;">Партнер номінації:</h2>
+        <h2>Партнер номінації:</h2>
         <div>
             <a href="https://www.grammarly.com/" target="_blank" rel="noopener noreferrer"><img
                     src="https://italent.org.ua/wp-content/uploads/2019/10/grammarly_logo.svg" alt="grammarly"></a>
@@ -16,281 +22,183 @@
         </div>
     </section>
 
-    <section id="section1" class="section">
-        <div class="container">
-            <div class="childGrid solo ">
-                <div class="childGroup animateShake shadow">
-                    <div class="block">
-                        <img src="https://content.linkedin.com/content/dam/me/learning/blog/2019/spring/Fastest.Growing.Skills.in.Tech.jpg"
-                            alt="Вікова категорія 1">
-                        <div class="gradient blueGrad">
-                            <h2 class="myWhiteText">Від 8 до 19 років</h2>
-                            <p><span>Тема роботи:</span> на вибір</p>
-                        </div>
+    <section id="ageGroups" class="section">
+        <div class="ageGroupsWrapper">
+            <div class="ageGroupWrapper shadow">
+                <div class="ageGroupPreview">
+                    <img src="https://content.linkedin.com/content/dam/me/learning/blog/2019/spring/Fastest.Growing.Skills.in.Tech.jpg"
+                        alt="Вікова категорія 1">
+                    <div class="age blueGrad">
+                        <h2>Від 8 до 19 років</h2>
+                        <p>Тема роботи: на вибір</p>
                     </div>
-                    <ul class="explanation shown">
-                        <p>Проблеми, які ваш проект може вирішувати:</p>
-                        <li>Електронний конспект. Додаток, який дозволяє сфотографувати свій конспект і розпізнати його.
-                            Може бути корисно, щоб робити пошук по конспектах з таких предметів, як історія чи зарубіжна
-                            література.</li>
-                        <li>Питально-відповідальна система з якогось предмету (наприклад, з географії) за структурованою
-                            інформацією з підручника.</li>
-                        <li>Визначення фейкових новин / визначення тролінгу в коментарях до новин.</li>
-                        <li>Перекладач з діалектної української на літературну (і навпаки). Можна брати будь-який
-                            діалект України: львівську ґвару, подільський діалект, волинський діалект, лемківську мову,
-                            закарпатський говір тощо.</li>
-                        <li>Транслітератор власних назв з англійської на українську (Hemingway => Гемінґвей).</li>
-                        <li>Зібрати імена добрих і злих літературних персонажів і написати класифікатор на лінгвістичних
-                            ознаках, який визначає, чи персонаж із вашим іменем був би злим чи добрим.</li>
-                        <li>Генератор мовних каламбурів.</li>
-                        <li>Визначення вірусних заголовків новин: як написати заголовок новини так, щоб на нього клацала
-                            максимальна кількість людей.</li>
-                        <li>[Помічник ЗНО] Генерація твору про образ персонажа. У літературному творі знайти абзаци, де
-                            описаний персонаж, і визначити абзаци,
-                            які описують його зовнішній вигляд, характер тощо. (На ЗНО є чіткий опис того, що має
-                            містити твір про образ персонажа)</li>
-                        <li>[Помічник ЗНО] Пошук аргументів для твору на ЗНО. Вимоги до твору кажуть, що має бути
-                            аргумент, приклад із життя і приклад з літератури. Можна спробувати автоматично шукати
-                            приклад з літератури.</li>
-                        <li>Своя (вільна) тема, яка стосується опрацювання текстів.</li>
-                    </ul>
                 </div>
+                <ul class="explanation">
+                    <h3>Проблеми, які ваш проект може вирішувати:</h3>
+                    <li>Електронний конспект. Додаток, який дозволяє сфотографувати свій конспект і розпізнати його.
+                        Може бути корисно, щоб робити пошук по конспектах з таких предметів, як історія чи зарубіжна
+                        література.</li>
+                    <li>Питально-відповідальна система з якогось предмету (наприклад, з географії) за структурованою
+                        інформацією з підручника.</li>
+                    <li>Визначення фейкових новин / визначення тролінгу в коментарях до новин.</li>
+                    <li>Перекладач з діалектної української на літературну (і навпаки). Можна брати будь-який
+                        діалект України: львівську ґвару, подільський діалект, волинський діалект, лемківську мову,
+                        закарпатський говір тощо.</li>
+                    <li>Транслітератор власних назв з англійської на українську (Hemingway => Гемінґвей).</li>
+                    <li>Зібрати імена добрих і злих літературних персонажів і написати класифікатор на лінгвістичних
+                        ознаках, який визначає, чи персонаж із вашим іменем був би злим чи добрим.</li>
+                    <li>Генератор мовних каламбурів.</li>
+                    <li>Визначення вірусних заголовків новин: як написати заголовок новини так, щоб на нього клацала
+                        максимальна кількість людей.</li>
+                    <li>Своя (вільна) тема, яка стосується опрацювання текстів.</li>
+                </ul>
             </div>
-            <div class="buttons">
-                <a href="https://discord.gg/ywTQTpN" target="_blank" class="button unselectable shadow">
-                    <img src="https://italent.org.ua/wp-content/uploads/2019/08/discord.png" alt="discord">
-                    <p>Приєднуйтеся Discord</p>
-                </a>
-                <a href="https://telegram.im/@ITalent_ua" target="_blank" class="button unselectable shadow">
-                    <img src="https://italent.org.ua/wp-content/uploads/2019/08/telegram.png" alt="telegram">
-                    <p>Приєднуйтеся Telegram</p>
-                </a>
-                <a href="https://www.facebook.com/iTalent.ua/" target="_blank" class="button unselectable shadow">
-                    <img src="https://italent.org.ua/wp-content/uploads/2019/08/facebook.png" alt="facebook">
-                    <p>Приєднуйтеся Facebook</p>
-                </a>
-                <a href="https://italent.org.ua/faq-it/" target="_blank" class="button unselectable shadow">
-                    <img src="https://italent.org.ua/wp-content/uploads/2019/08/info.png" alt="faq">
-                    <p>Перегляньте FAQ</p>
-                </a>
-            </div>
-            <p class="smol">*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
-                перемоги - одна робота отримує одну нагороду.</p>
         </div>
-    </section>
+        <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
+            перемоги - одна робота отримує одну нагороду.</p>
+    </section> -->
 
-    <section id="section2" class="section">
-        <div class="container">
-            <h1 class="subtitle">Критерії за якими будуть<br>оцінювати вашу роботу</h1>
+    <div class="kriteriiBg">
+        <section id="kriterii" class="section">
+            <h1 class="title">Критерії за якими будуть<br>оцінювати вашу роботу</h1>
             <div class="kriterii">
                 <div class='innerWrapper shadow'>
                     <img src="https://image.flaticon.com/icons/svg/1055/1055687.svg" alt="icon">
-                    <h1 class="myWhiteText">Інтерфейс і юзабіліті</h1>
-                    <p>Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та
+                    <h2>Інтерфейс і юзабіліті</h2>
+                    <p>Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий.
+                        Легкість запуску та
                         використання, швидкість роботи</p>
                 </div>
                 <div class='innerWrapper shadow'>
                     <img src="https://image.flaticon.com/icons/svg/993/993427.svg" alt="icon">
-                    <h1 class="myWhiteText">Practical & Innovating</h1>
-                    <p>Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу
+                    <h2>Practical & Innovating</h2>
+                    <p>Корисність, можливість прикладного застосування. Іноваційність самої розробки або
+                        способу
                         реалізації</p>
                 </div>
                 <div class='innerWrapper shadow'>
                     <img src="https://image.flaticon.com/icons/svg/1197/1197511.svg" alt="icon">
-                    <h1 class="myWhiteText">Technical</h1>
-                    <p>наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання
-                        технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.</p>
+                    <h2>Technical</h2>
+                    <p>наскільки проект технологічний, чистота коду, кількість та складність алгоритмів;
+                        використання
+                        технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.
+                    </p>
                 </div>
                 <div class='innerWrapper shadow'>
                     <img src="https://image.flaticon.com/icons/svg/214/214353.svg" alt="icon">
-                    <h1 class="myWhiteText">Відповідність</h1>
-                    <p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не
+                    <h2>Відповідність</h2>
+                    <p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам –
+                        розглядитись суддями не
                         будуть.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
-    <section class="section" id="section3">
-        <div class="container">
-            <div>
-                <h1 class="subtitle">Вимоги до<br>вашої роботи:</h1>
-            </div>
+    <div class="vimogiBg">
+        <section class="section" id="vimogi">
+            <h1 class="title">Вимоги до<br>вашої роботи:</h1>
             <div class="vimogi">
-                <img class="icon" src="https://image.flaticon.com/icons/svg/149/149012.svg" alt="icon">
-                <div class="text">
-                    <h3>Архів із роботою</h3>
-                    <p>має містити:</p>
-                    <ul>
-                        <li>Папку «Build» із скомпільованою програмою, готовою до запуску. Якщо програма не запуститься
-                            – робота не буде розглядатись</li>
-                        <li>Папку «Source» із проектом програми із усіма файлами вихідного коду</li>
-                        <li>Папку «Test Data» із тестовими файлами, якщо такі необхідні для перевірки роботи програми
-                            (Наприклад, якщо програма обробляє зображення – декілька відповідних зображень)</li>
-                    </ul>
+                <div class="vimogaWrapper">
+                    <img class="icon" src="https://image.flaticon.com/icons/svg/149/149012.svg" alt="icon">
+                    <div class="text">
+                        <h3>Архів із роботою</h3>
+                        <p>має містити:</p>
+                        <ul>
+                            <li>Папку «Build» із скомпільованою програмою, готовою до запуску. Якщо
+                                програма не
+                                запуститься
+                                – робота не буде розглядатись</li>
+                            <li>Папку «Source» із проектом програми із усіма файлами вихідного коду</li>
+                            <li>Папку «Test Data» із тестовими файлами, якщо такі необхідні для
+                                перевірки роботи
+                                програми
+                                (Наприклад, якщо програма обробляє зображення – декілька відповідних
+                                зображень)</li>
+                        </ul>
+                    </div>
                 </div>
-                <img class="icon" src="https://image.flaticon.com/icons/svg/2055/2055783.svg" alt="icon">
-                <div class="text">
-                    <h3>Якщо ви робите сайт</h3>
-                    <p>то він має бути розміщеній в інтернеті і має коректно відображатись та працювати в останніх двох
-                        релізах браузеру
-                        Chrome</p>
+                <div class="vimogaWrapper">
+                    <img class="icon" src="https://image.flaticon.com/icons/svg/2055/2055783.svg" alt="icon">
+                    <div class="text">
+                        <h3>Якщо ви робите сайт</h3>
+                        <p>то він має бути розміщеній в інтернеті і має коректно відображатись та
+                            працювати в останніх
+                            двох
+                            релізах браузеру
+                            Chrome</p>
+                    </div>
                 </div>
-                <img class="icon" src="https://image.flaticon.com/icons/svg/1055/1055644.svg" alt="icon">
-                <div class="text">
-                    <h3>Додати</h3>
-                    <p>файл manual.pdf з інформацією про проект (опис, інструкція по запуску та роботі)</p>
+                <div class="vimogaWrapper">
+                    <img class="icon" src="https://image.flaticon.com/icons/svg/1055/1055644.svg" alt="icon">
+                    <div class="text">
+                        <h3>Додати</h3>
+                        <p>файл manual.pdf з інформацією про проект (опис, інструкція по запуску та
+                            роботі)</p>
+                    </div>
                 </div>
-                <img class="icon" src="https://image.flaticon.com/icons/svg/149/149012.svg" alt="icon">
-                <div class="text">
-                    <h3>Архів з роботою</h3>
-                    <p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p>
-                    <p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>
-                    <p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p>
-                    <p>УВАГА! Не забудьте надати доступ до архіву.</p>
-                    <a href="https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg" target="_blank"
-                        class="button shadow">ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>
+                <div class="vimogaWrapper">
+                    <img class="icon" src="https://image.flaticon.com/icons/svg/149/149012.svg" alt="icon">
+                    <div class="text">
+                        <h3>Архів з роботою</h3>
+                        <p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p>
+                        <p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>
+                        <p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p>
+                        <p>УВАГА! Не забудьте надати доступ до архіву.</p>
+                        <a href="https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg"
+                            target="_blank">
+                            <div class="button shadow">ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</div>
+                        </a>
+                    </div>
                 </div>
-                <img class="icon" src="https://image.flaticon.com/icons/svg/214/214353.svg" alt="icon">
-                <div class="text">
-                    <h3>Відповідність</h3>
-                    <a href="http://italent.org.ua/project-demands/" target="_blank" class="button shadow">ЗАГАЛЬНИМ
-                        ВИМОГАМ ДО РОБІТ</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <style>
-        #registration {
-            min-height: 300px;
-            width: 80%;
-            margin: auto;
-            margin-bottom: 120px;
-        }
-
-        #registration a {
-            text-align: center;
-            width: 100%;
-            color: white;
-        }
-
-        #registration a .regBtn {
-            border-radius: 20px;
-            margin: auto;
-            overflow: hidden;
-            font-weight: 700;
-            width: 40%;
-            background-color: #2F80ED;
-            padding: 20px 40px;
-            -webkit-transition: -webkit-box-shadow 0.5s;
-            transition: -webkit-box-shadow 0.5s;
-            transition: box-shadow 0.5s;
-            transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
-        }
-
-        #registration a .regBtn:hover {
-            -webkit-box-shadow: none;
-            box-shadow: none;
-        }
-
-        #registration .title,
-        #registration h2 {
-            color: #00b1ff;
-            line-height: 48px;
-            text-align: center;
-            font-weight: 700;
-            font-size: 40px;
-        }
-
-        @media only screen and (max-width: 768px) {
-            #registration a .regBtn {
-                width: 90%;
-                padding: 20px 0px;
-            }
-
-            #registration .title {
-                font-size: 1.5em;
-            }
-        }
-    </style>
-
-    <section class="section" id="registration"></section>
-
-    <section id="section4" class="section">
-        <div class="container">
-            <a href="https://italent.org.ua/#last_season" class="myOwnBigButton shadow unselectable">
-                <p>роботи попредніх сезонів</p>
-                <img class="buttonImg" src="https://italent.org.ua/wp-content/uploads/2019/08/Vector-3.png">
-            </a>
-            <a href="http://italent.org.ua/mentorship/" class="myOwnBigButton shadow unselectable">
-                <p>потрібна допомога с проектом?</p>
-                <img class="buttonImg" src="https://italent.org.ua/wp-content/uploads/2019/08/Vector-3.png">
-            </a>
-        </div>
-    </section>
-
-    <link rel="stylesheet" href="/">
-    <!-- <section id="section5" class="section">
-        <div class="container">
-            <h1 class="subtitle">судді номінації:</h1>
-            <div class="judges">
-                <div class="judge shadow">
-                    <img class="judgeImg"
-                        src="https://italent.org.ua/wp-content/uploads/2018/11/photo_2018-02-23_23-23-50-Bohdan-Glushko.jpg"
-                        alt="ГЛУШКО БОГДАН">
-                    <h2 class="judgeName">ГЛУШКО БОГДАН</h2>
-                    <p class="judgeDescr">CEO, Z-DIGITAL AGENCY</p>
-                    <a href="https://www.facebook.com/nesdown" target="_blank"><img
-                            src="https://italent.org.ua/wp-content/uploads/2019/08/facebook-logo.png" alt="facebook"
-                            class="judgeIcon"></a>
-                </div>
-                <div class="judge shadow">
-                    <img class="judgeImg"
-                        src="https://italent.org.ua/wp-content/uploads/2018/09/%D0%BD%D0%B5%D0%B9%D0%BC%D0%B0%D0%BD.jpg"
-                        alt="НЕЙМАН ЄВГЕН">
-                    <h2 class="judgeName">НЕЙМАН ЄВГЕН</h2>
-                    <p class="judgeDescr">PHP ПРОГРАМІСТ, DREAMSCAPE NETWORKS</p>
-                    <a href="https://www.facebook.com/profile.php?id=100010240179599" target="_blank"><img
-                            src="https://italent.org.ua/wp-content/uploads/2019/08/facebook-logo.png" alt="facebook"
-                            class="judgeIcon"></a>
-                </div>
-                <div class="judge shadow">
-                    <img class="judgeImg"
-                        src="https://italent.org.ua/wp-content/uploads/2019/04/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80-%D0%90%D0%BD%D0%B4%D1%80%D1%83%D1%89%D0%B5%D0%BD%D0%BA%D0%BE.png"
-                        alt="ОЛЕКСАНДР АНДРЮЩЕНКО">
-                    <h2 class="judgeName">ОЛЕКСАНДР АНДРЮЩЕНКО</h2>
-                    <p class="judgeDescr">USER – TESTER MIDDLEWARE COREZOID</p>
-                    <a href="https://www.facebook.com/sasha.andruischenko" target="_blank"><img
-                            src="https://italent.org.ua/wp-content/uploads/2019/08/facebook-logo.png" alt="facebook"
-                            class="judgeIcon"></a>
-                </div>
-                <div class="judge shadow">
-                    <img class="judgeImg"
-                        src="https://italent.org.ua/wp-content/uploads/2018/09/%D0%90%D0%BD%D1%82%D0%BE%D0%BD-300x300.png"
-                        alt="ЄРЕМЕНКО АНТОН">
-                    <h2 class="judgeName">ЄРЕМЕНКО АНТОН</h2>
-                    <p class="judgeDescr">FOUNDER italent</p>
-                    <a href="https://www.facebook.com/anton.eremenko.73" target="_blank"><img
-                            src="https://italent.org.ua/wp-content/uploads/2019/08/facebook-logo.png" alt="facebook"
-                            class="judgeIcon"></a>
+                <div class="vimogaWrapper">
+                    <img class="icon" src="https://image.flaticon.com/icons/svg/214/214353.svg" alt="icon">
+                    <div class="text">
+                        <h3>Відповідність</h3>
+                        <a href="https://italent.org.ua/project-demands/" target="_blank">
+                            <div class="button shadow">ЗАГАЛЬНИМ
+                                ВИМОГАМ ДО РОБІТ</div>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <a href="https://italent.org.ua/#judges">
-                <div class="judgeButton shadow unselectable">усі судді</div>
-            </a>
+        </section>
+    </div>
+
+    <!-- <section class="section" id="registration"></section> -->
+
+    <section id="CTAbuttons" class="section">
+        <a href="https://italent.org.ua/#last_season" class="CTAbutton shadow unselectable">
+            <p>роботи попредніх сезонів</p>
+            <img class="buttonImg" src="https://italent.org.ua/wp-content/uploads/2019/08/Vector-3.png">
+        </a>
+        <a href="https://italent.org.ua/mentorship/" class="CTAbutton shadow unselectable">
+            <p>потрібна допомога с проектом?</p>
+            <img class="buttonImg" src="https://italent.org.ua/wp-content/uploads/2019/08/Vector-3.png">
+        </a>
+    </section>
+
+    <section id="judgeList" class="section">
+        <h1 class="title">СУДДІ НОМІНАЦІЇ</h1>
+        <div class="grod" id="judgeGrod">
+            <script type="module" src="/includes/JS/judges.js"></script>
         </div>
-    </section> -->
-    <div w3-include-html="./includes/footer.html"></div>
+        <a href="https://italent.org.ua/#judges">
+            <div class="judgeButton shadow">усі судді</div>
+        </a>
+    </section>
+
+    <div w3-include-html="/includes/footer.html"></div>
+
     <script>
         build_page();
-        let container = document.querySelector('#registration');
-        console.log(settings["reg_status"]);
-        if (settings["reg_status"] == "open")
-            container.innerHTML =
-            '<h2 class = "title">РЕЄСТРАЦІЮ ВІДКРИТО</h2><a href = "' + settings["reg_link"] +
-            '" target = "_blank"><div class ="regBtn shadow">ЗАРЕЄСТРУВАТИСЯ</div> </a>';
-        else
-            container.remove();
+        // let container = document.querySelector('#registration');
+        // if (settings["reg_status"] == "open")
+        //     container.innerHTML =
+        //     '<h2 class = "title">РЕЄСТРАЦІЮ ВІДКРИТО</h2><a href = "' + settings["reg_link"] +
+        //     '" target = "_blank"><div class ="regBtn shadow">ЗАРЕЄСТРУВАТИСЯ</div> </a>';
+        // else
+        //     container.remove();
     </script>
+
 </body>

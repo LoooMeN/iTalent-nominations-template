@@ -33,6 +33,10 @@ function set_email_acceptor() {
     submit.addEventListener("click", (event) => {
         if (input.value.includes('@') && input.value.includes('.')) {
             message.innerHTML = "ДЯКУЄМО ЗА ПІДПИСКУ";
+            axios.get('includes/PHP/saveEmail.php?email=test@gmail.com');
+            // var request = new XMLHttpRequest();
+            // request.open("GET", "includes/PHP/saveEmail.php?email=" + input.value, false);
+            // request.send();
         } else
             message.innerHTML = "НЕВІРНИЙ ЕМЕЙЛ";
         message.style.opacity = 1;

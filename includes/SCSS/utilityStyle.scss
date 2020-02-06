@@ -10,6 +10,24 @@
     overflow: hidden;
 }
 
+.blueGrad {
+    background: rgba(2, 0, 36, 0.8);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0.8) 0%, rgba(9, 9, 121, 0.8) 100%, rgba(2, 0, 36, 0.8) 0%);
+}
+
+.white {
+    color: white;
+}
+
+span {
+    font-weight: 700;
+}
+
+.redGrad {
+    background: rgba(2, 0, 36, 0.8);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.8) 0%, rgba(9, 9, 121, 0.8) 0%, rgba(255, 59, 0, 0.8) 100%);
+}
+
 .hvr-underline-from-left:before {
     content: "";
     position: absolute;
