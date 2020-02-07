@@ -275,3 +275,128 @@ body .left {
     font-size: 12px;
   }
 }
+
+#faq .title {
+  margin: 0;
+  font-size: 40px;
+}
+
+#faq .subtitle {
+  margin: 0;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+#faq .legend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#faq .legend span {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+#faq .legend .redLeg {
+  color: red;
+}
+
+#faq .legend .greenLeg {
+  color: green;
+}
+
+#faq .legend .blueLeg {
+  color: blue;
+}
+
+#faq .questionsGrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#faq .questionsGrid .questionBox {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#faq .questionsGrid .questionBox h2 {
+  font-weight: 600;
+}
+
+#faq .questionsGrid .bigBox {
+  width: 600px;
+}
+
+#faq .questionsGrid .red {
+  border-color: rgba(255, 0, 0, 0.5);
+  background: rgba(36, 2, 0, 0.8);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 0, 212, 0.1)), color-stop(100%, rgba(121, 9, 9, 0.1)), color-stop(0%, rgba(36, 2, 0, 0.1)));
+  background: linear-gradient(90deg, rgba(255, 0, 212, 0.1) 0%, rgba(121, 9, 9, 0.1) 100%, rgba(36, 2, 0, 0.1) 0%);
+}
+
+#faq .questionsGrid .green {
+  border-color: rgba(2, 80, 2, 0.5);
+  background: rgba(0, 36, 2, 0.8);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(212, 255, 0, 0.1)), color-stop(100%, rgba(9, 121, 9, 0.1)), color-stop(0%, rgba(0, 36, 2, 0.1)));
+  background: linear-gradient(90deg, rgba(212, 255, 0, 0.1) 0%, rgba(9, 121, 9, 0.1) 100%, rgba(0, 36, 2, 0.1) 0%);
+}
+
+#faq .questionsGrid .blue {
+  border-color: rgba(0, 0, 255, 0.5);
+  background: rgba(2, 0, 36, 0.8);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 212, 255, 0.1)), color-stop(100%, rgba(9, 9, 121, 0.1)), color-stop(0%, rgba(2, 0, 36, 0.1)));
+  background: linear-gradient(90deg, rgba(0, 212, 255, 0.1) 0%, rgba(9, 9, 121, 0.1) 100%, rgba(2, 0, 36, 0.1) 0%);
+}
+
+@media only screen and (max-width: 768px) {
+  #faq .questionsGrid .questionBox {
+    width: 100%;
+    height: initial;
+    min-height: 300px;
+  }
+}

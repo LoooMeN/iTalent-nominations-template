@@ -206,3 +206,73 @@ body {
         display: none !important;
     }
 }
+
+#mediaLinks {
+    .grod {
+        @include myGrid(repeat(4, 1fr));
+
+        .discord:hover {
+            background-color: #989FEC;
+        }
+
+        .telegram:hover {
+            background-color: #47B0D3;
+        }
+
+        .facebook:hover {
+            background-color: #3B5998;
+        }
+
+        .faq:hover {
+            background-color: #48A0DC;
+        }
+
+
+        a {
+            padding: 10px 40px;
+            border-radius: 10px;
+            @include myFlex(row, center, flex-start);
+            transition: box-shadow 0.5s, background-color 0.5s, color 0.5s;
+            color: black;
+
+            img {
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                margin: 0;
+            }
+
+            &:hover {
+                color: white;
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #mediaLinks {
+        .grod {
+            grid-template-columns: 1fr 1fr;
+
+            a {
+                padding: 10px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
