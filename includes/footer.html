@@ -54,3 +54,29 @@
         </div>
     </div>
 </section>
+
+<script>
+    let form = document.querySelector("#emailForm");
+    let input = document.querySelector("#emailFormInput");
+    let submit = document.querySelector("#emailFormSubmit");
+    let message = document.querySelector("#formMessage");
+
+    form.addEventListener("click", (event) => {
+        event.preventDefault();
+    })
+
+    submit.addEventListener("click", (event) => {
+        if (input.value.includes('@') && input.value.includes('.')) {
+            message.innerHTML = "ДЯКУЄМО ЗА ПІДПИСКУ";
+            axios.get('includes/PHP/saveEmail.php?email=test@gmail.com');
+        } else
+            message.innerHTML = "НЕВІРНИЙ ЕМЕЙЛ";
+        message.style.opacity = 1;
+        form.style.opacity = 0;
+        setTimeout((elem) => {
+            message.style.opacity = 0;
+            form.style.opacity = 1;
+            message.innerHTML = "";
+        }, 2000);
+    })
+</script>

@@ -306,7 +306,10 @@
 // SECTION 3
 
 #nominations {
-    min-height: 100vh;
+
+    .nominationsWrapper {
+        min-height: 100vh;
+    }
 
     a {
         text-decoration: none;
@@ -673,126 +676,6 @@
     }
 }
 
-#prizes {
-
-    h2 {
-        margin-bottom: 10px;
-    }
-
-    .prizeImg {
-        width: 300px;
-        margin: auto;
-        margin-bottom: 60px;
-
-        img {
-            width: 300px;
-        }
-    }
-
-    .desc {
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 40px;
-        box-sizing: border-box;
-    }
-
-    .grod {
-        @include myGrid(1fr 1fr 1fr, baseline);
-
-        div {
-            a {
-                color: blue;
-            }
-
-            .place {
-                @include myFlex(row, center, left);
-                text-align: center;
-
-                h3 {
-                    @include myFlex(row);
-                    background-color: #00B1FF;
-                    width: 40px;
-                    font-size: 24px;
-                    height: 40px;
-                    margin-right: 20px;
-                    color: white;
-                    margin-bottom: 0;
-                }
-            }
-
-            h3 {
-                font-size: 12px;
-                margin-bottom: 10px;
-            }
-
-            img {
-                width: 50%;
-            }
-        }
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    #prizes {
-        .grod {
-            grid-template-columns: 1fr;
-
-            div {
-                margin-bottom: 40px;
-
-                .place {
-                    margin-bottom: 0;
-                }
-
-                img {
-                    width: 100%;
-                }
-
-            }
-        }
-    }
-}
-
-#superPrize {
-    @include myGrid(repeat(2, 1fr));
-
-    span {
-        font-weight: 800;
-    }
-
-    .flexington {
-        @include myFlex(row);
-
-        a {
-            color: black;
-            font-weight: 800;
-        }
-
-        .img {
-            width: 50%;
-        }
-
-        p {
-            text-align: right;
-        }
-
-        img {
-            width: 60%;
-            margin-left: 30px;
-        }
-    }
-
-    img {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    #superPrize {
-        @include myGrid(repeat(1, 1fr));
-    }
-}
-
 // SECTION 6
 
 .stealth {
@@ -1032,6 +915,7 @@
 
             p {
                 justify-self: left;
+                text-align: center;
             }
 
             &:hover {

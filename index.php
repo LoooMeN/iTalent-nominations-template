@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/mainpageStyle.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"
+        integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
     <script src="/includes/JS/functions.js"></script>
-    <title>mainpage</title>
+    <?php include "./includes/header.html";?>
+    <title>Головна</title>
 </head>
 
 <body>
-    <div w3-include-html="/includes/header.html"></div>
     <section class="section" id="mediaLinks">
         <div class="grod">
             <a href="https://discord.gg/ywTQTpN" target="_blank" class="button unselectable shadow discord">
@@ -33,70 +34,6 @@
             </a>
         </div>
     </section>
-
-    <!-- <section class="section" id="prizes">
-        <h2 class="title">ПРИЗИ</h2>
-        <p class="desc">від генерального партнеру конкурсу</p>
-        <div class="prizeImg">
-            <a href="https://rozetka.com.ua/search/?text=logitech&producer=42&p=1" target="_blank">
-                <img src="https://italent.org.ua/wp-content/uploads/2019/11/Logitech_print_black_LG.svg" alt="logitech">
-            </a>
-        </div>
-        <div class="grod">
-            <div>
-                <div class="place">
-                    <h3>I</h3>
-                    <p>місце</p>
-                </div>
-                <img src="https://italent.org.ua/wp-content/uploads/2019/11/mk270-gallery-—-копия-1.png" alt="prize">
-                <a href="https://hard.rozetka.com.ua/ua/logitech_wireless_combo_mk270_rus_920_004518/p288493/"
-                    target="_blank">
-                    <h3>LOGITECH Wireless Combo MK270 - EER - Russian layout</h3>
-                    <a href="https://hard.rozetka.com.ua/ua/logitech_multimedia_speakers_z150_black/p367330/"
-                        target="_blank">
-                        <h3>LOGITECH Audio System 2.0 Z150 - EU - MIDNIGHT BLACK</h3>
-                    </a>
-            </div>
-            <div>
-                <div class="place">
-                    <h3>II</h3>
-                    <p>місце</p>
-                </div>
-                <img src="https://italent.org.ua/wp-content/uploads/2019/11/mk270-gallery-—-копия.png" alt="prize">
-                <a href="https://hard.rozetka.com.ua/ua/logitech_wireless_combo_mk270_rus_920_004518/p288493/"
-                    target="_blank">
-                    <h3>LOGITECH Wireless Combo MK270 - EER - Russian layout</h3>
-                </a>
-            </div>
-            <div>
-                <div class="place">
-                    <h3>III</h3>
-                    <p>місце</p>
-                </div>
-                <img src="https://italent.org.ua/wp-content/uploads/2019/11/wireless-mouse-m185.png" alt="prize">
-                <a href="https://hard.rozetka.com.ua/ua/logitech_wireless_mouse_m185_910_002238_grey/p178123/"
-                    target="_blank">
-                    <h3>LOGITECH Wireless Mouse M185 - EER2 - SWIFT GREY</h3>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="superPrize">
-        <div>
-            <h2 class="title left">СУПЕР ПРИЗ!</h2>
-            <div class="flexington">
-                <p>ВІД СПЕЦІАЛЬНОГО ПАРТНЕРА КОНКУРСА - ПОРТАЛУ <a href="https://dou.ua/" target="_blank">DOU</a></p>
-                <a clas="img" href="https://dou.ua/" target="_blank">
-                    <img src="https://italent.org.ua/wp-content/uploads/2019/11/dou_logo.svg" alt="dou">
-                </a>
-            </div>
-            <p style="text-align: center;"><span>Ноутбук Asus X509FL-BQ053 Slate Grey</span></p>
-        </div>
-        <a href="https://rozetka.com.ua/ua/asus_90nb0n12_m01880/p96163792/" target="_blank">
-            <img src="https://italent.org.ua/wp-content/uploads/2019/10/super-prize-season-6.png" alt="superPrize">
-        </a>
-    </section> -->
 
     <!-- ДАТИ ТА ЕТАПИ -->
     <div class="aboutWrap bgOverride">
@@ -177,7 +114,7 @@
         </a>
     </section> -->
 
-    <!-- <section class="section" id="mediaAboutUs">
+    <section class="section" id="mediaAboutUs">
         <h2 class="title">ЗМІ ПРО НАС</h2>
         <div class="grod">
             <iframe width="620" height="400" src="https://www.youtube.com/embed/5ZceWbnfJt4" frameborder="0"
@@ -187,20 +124,22 @@
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-    </section> -->
+    </section>
 
 
     <section class="section" id="nominations">
-        <div class="upper">
-            <h1 class="title left">ІТ - НОМІНАЦІЇ</h1>
-            <div class="buttons">
-                <div><button class="hvr-underline-from-left" id="all">Усі</button></div>
-                <div><button class="hvr-underline-from-left" id="tech">Технічні номінації</button></div>
-                <div><button class="hvr-underline-from-left" id="hud">Художні номінації</button></div>
+        <div class="nominationsWrapper">
+            <div class="upper">
+                <h1 class="title left">ІТ - НОМІНАЦІЇ</h1>
+                <div class="buttons">
+                    <div><button class="hvr-underline-from-left" id="all">Усі</button></div>
+                    <div><button class="hvr-underline-from-left" id="tech">Технічні номінації</button></div>
+                    <div><button class="hvr-underline-from-left" id="hud">Художні номінації</button></div>
+                </div>
             </div>
-        </div>
-        <div class="grod" id="noms">
-            <script src="/includes/JS/nominations.js"></script>
+            <div class="grod" id="noms">
+                <script src="/includes/JS/nominations.js"></script>
+            </div>
         </div>
     </section>
 
@@ -220,7 +159,7 @@
         <div class="title">СУДДІ</div>
         <img src="https://www.italent.org.ua/wp-content/uploads/2019/09/judges.svg" alt="judges">
         <div class="link">
-            <a class="shadow" href="http://italent.org.ua/judges/">ДЕТАЛЬНІШЕ</a>
+            <a class="shadow" href="/judges.php">ДЕТАЛЬНІШЕ</a>
         </div>
     </section>
 
@@ -244,7 +183,7 @@
             <div></div>
             <div class="heading">
                 <div class="title left">ЗНАЙДІТЬ СОБІ<br>МЕНТОРА</div>
-                <a class="" href="https://italent.org.ua/mentor/" target="_blank">
+                <a class="" href="/mentor.php" target="_blank">
                     <div class="shadow mentorBtn">ЗАЕРЄСТРУВАТИСЯ НА МЕНТОРСТВО</div>
                 </a>
             </div>
@@ -292,22 +231,20 @@
         </section>
     </div>
 
-    <div class="stealth">
-        <section class="section" id="lastWinners">
-            <div class="upper">
-                <h1 class="title left">ПЕРЕМОЖЦІ МИНУЛИХ СЕЗОНІВ</h1>
-            </div>
-            <div id="fillMe">
-                <a class="toDel" target="_blank" href="http://winners.italent.org.ua/">
-                    <div class="cont">
-                        <div class="number">МИНУЛІ СЕЗОНИ</div>
-                        <h2>ПЕРЕМОЖЦІ І УЧАСНИКИ</h2>
-                        <p>ПЕРЕГЛЯНУТИ</p><i class="arrow icon-arrowRight"></i>
-                    </div>
-                </a>
-            </div>
-        </section>
-    </div>
+    <section class="section" id="lastWinners">
+        <div class="upper">
+            <h1 class="title left">ПЕРЕМОЖЦІ МИНУЛИХ СЕЗОНІВ</h1>
+        </div>
+        <div id="fillMe">
+            <a class="toDel" target="_blank" href="http://winners.italent.org.ua/">
+                <div class="cont">
+                    <div class="number">МИНУЛІ СЕЗОНИ</div>
+                    <h2>ПЕРЕМОЖЦІ І УЧАСНИКИ</h2>
+                    <p>ПЕРЕГЛЯНУТИ</p><i class="arrow icon-arrowRight"></i>
+                </div>
+            </a>
+        </div>
+    </section>
 
     <section class="section" id="organizers">
         <h2 class="title">ОРГАНІЗАТОРИ</h2>
@@ -351,10 +288,8 @@
             </div>
         </div>
     </section>
-    <div w3-include-html="./includes/footer.html"></div>
-    <script>
-        build_page();
-    </script>
+    <?php include "./includes/footer.html";?>
+    <script>build_page();</script>
 </body>
 
 </html>

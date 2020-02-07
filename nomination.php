@@ -1,12 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/nominationStyle.css">
     <script src="/includes/JS/functions.js"></script>
+    <?php include "./includes/header.html";?>
 </head>
 
 <body>
-
-    <div w3-include-html="/includes/header.html"></div>
-
     <script>
         var page = '3D';
     </script>
@@ -56,7 +60,7 @@
         </div>
         <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
             перемоги - одна робота отримує одну нагороду.</p>
-    </section> -->
+    </section>
 
     <div class="kriteriiBg">
         <section id="kriterii" class="section">
@@ -188,17 +192,19 @@
         </a>
     </section>
 
-    <div w3-include-html="/includes/footer.html"></div>
+    <?php include "./includes/footer.html";?>
 
     <script>
         build_page();
-        // let container = document.querySelector('#registration');
-        // if (settings["reg_status"] == "open")
-        //     container.innerHTML =
-        //     '<h2 class = "title">РЕЄСТРАЦІЮ ВІДКРИТО</h2><a href = "' + settings["reg_link"] +
-        //     '" target = "_blank"><div class ="regBtn shadow">ЗАРЕЄСТРУВАТИСЯ</div> </a>';
-        // else
-        //     container.remove();
+        let container = document.querySelector('#registration');
+        if (settings["reg_status"] == "open")
+            container.innerHTML =
+            '<h2 class = "title">РЕЄСТРАЦІЮ ВІДКРИТО</h2><a href = "' + settings["reg_link"] +
+            '" target = "_blank"><div class ="regBtn shadow">ЗАРЕЄСТРУВАТИСЯ</div> </a>';
+        else
+            container.remove();
     </script>
 
 </body>
+
+</html>

@@ -186,3 +186,89 @@ body .left {
     display: none !important;
   }
 }
+
+#demands .title {
+  text-transform: uppercase;
+}
+
+#demands a {
+  width: 300px;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: #008AE5;
+  text-align: center;
+  font-weight: 600;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+#demands a:hover {
+  color: #008AE5;
+  background-color: white;
+}
+
+#demands .vimogiWrapper {
+  margin: 50px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 10px;
+}
+
+#demands .vimogiWrapper .vimogi {
+  padding: 10px 20px;
+}
+
+#demands .vimogiWrapper .vimogi h3 {
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+#demands .vimogiWrapper .vimogi .vimogiElement {
+  margin-left: 25px;
+}
+
+#demands .vimogiWrapper .vimogi .vimogiElement li {
+  margin-bottom: 20px;
+}
+
+#demands .vimogiWrapper .vimogi .vimogiElement li h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#demands .vimogiWrapper .vimogi .vimogiElement li p {
+  max-width: 400px;
+  margin: 0;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+  #demands a {
+    padding: 10px;
+  }
+  #demands .vimogiWrapper {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #demands .vimogiWrapper .vimogi h3 {
+    font-size: 20px;
+  }
+}

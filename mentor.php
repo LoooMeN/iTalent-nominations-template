@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="/includes/CSS/mentorStyle.css">
     <script src="/includes/JS/functions.js"></script>
     <title>Ментори</title>
+    <?php include "./includes/header.html";?>
 </head>
 
 <body>
-    <div w3-include-html="/includes/header.html"></div>
     <script>
         var page = 'mentor';
     </script>
@@ -52,7 +52,7 @@
                 <div class="shadow">
                     <p>Якщо в тебе маленьке та не дуже складне питання<br>Звернись до чату - тут тобі дадуть швидку
                         відповідь</p>
-                    <a href="">
+                    <a class="discord" href="">
                         <div>
                             <i class="icon-arrowRight"></i>
                         </div>
@@ -62,7 +62,7 @@
                     <p>Якщо ти хочеш отримати детальні настанови по своєму проекту<br>Запишись на індивідуальне
                         менторство iTalent
                     </p>
-                    <a href="">
+                    <a href="https://forms.gle/meG18JJbdyZQeVZt6">
                         <div>
                             <i class="icon-arrowRight"></i>
                         </div>
@@ -135,7 +135,7 @@
             </div>
         </section>
     </div>
-    <div w3-include-html="./includes/footer.html"></div>
+    <?php include "./includes/footer.html";?>
     <script>
         build_page();
     </script>

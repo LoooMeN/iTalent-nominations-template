@@ -1,0 +1,52 @@
+@import 'utilityStyle';
+
+#judgeList {
+    .grod {
+        @include myGrid(1fr, top);
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        margin-bottom: 40px;
+
+        div {
+            margin: auto;
+            background-color: white;
+            @include myFlex(column, center, top);
+            text-align: center;
+            padding: 30px 0px;
+            height: 350px;
+            width: 350px;
+
+            img {
+                width: 60%;
+                height: initial;
+                border-radius: 100px;
+            }
+
+            h4 {
+                padding: 0px 10px;
+                margin-bottom: 0;
+                margin-top: 14px;
+                font-size: 14px;
+                line-height: 16px;
+            }
+
+            p {
+                padding: 0px 10px;
+                font-size: 12px;
+                line-height: 16px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .judgeButton {
+        text-transform: uppercase;
+        width: 300px;
+        margin: auto;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px;
+        background-color: #00B1FF;
+        border-radius: 10px;
+        text-align: center;
+    }
+}

@@ -34,9 +34,6 @@ function set_email_acceptor() {
         if (input.value.includes('@') && input.value.includes('.')) {
             message.innerHTML = "ДЯКУЄМО ЗА ПІДПИСКУ";
             axios.get('includes/PHP/saveEmail.php?email=test@gmail.com');
-            // var request = new XMLHttpRequest();
-            // request.open("GET", "includes/PHP/saveEmail.php?email=" + input.value, false);
-            // request.send();
         } else
             message.innerHTML = "НЕВІРНИЙ ЕМЕЙЛ";
         message.style.opacity = 1;
@@ -51,7 +48,7 @@ function set_email_acceptor() {
 
 function get_settings() {
     var request = new XMLHttpRequest();
-    request.open("GET", "includes/data/settings.json", false);
+    request.open("GET", "/includes/data/settings.json", false);
     request.send();
     settings = JSON.parse(request.responseText);
 }
@@ -95,13 +92,13 @@ function includeHTML() {
             return;
         }
     }
-    if (window.screen.width <= 768)
-        set_hamburger_trigger();
-    set_media();
-    set_email_acceptor()
 }
 
 function build_page() {
     get_settings();
-    includeHTML();
+    if (window.screen.width <= 768)
+        set_hamburger_trigger();
+    set_media();
+    set_email_acceptor()
+    document.title = document.title + " | iTalent всеукраїнський конкурс з IT та кіберспорту";
 }

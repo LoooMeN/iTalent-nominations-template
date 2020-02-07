@@ -1,7 +1,7 @@
 @import 'utilityStyle';
 
 #partner {
-    width: 60%;
+    width: 80%;
     margin: auto;
     margin-bottom: 60px;
 
@@ -19,7 +19,7 @@
 
             img {
                 width: 100%;
-                min-width: 300px;
+                min-width: 275px;
             }
         }
     }
@@ -97,10 +97,11 @@
 
 .kriteriiBg {
     background-image: url('/includes/images/backgrounds/kriteriiBg.svg');
-    background-size: cover;
-    padding: 100px 0;
-    margin: -100px 0;
-    background-position-y: -100px;
+    background-size: contain;
+    padding: 800px 0;
+    background-repeat: no-repeat;
+    margin: -800px 0;
+    background-position: center center;
 }
 
 #kriterii {
@@ -112,13 +113,13 @@
 
     .kriterii {
         @include myGrid(1fr 1fr 1fr);
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 
         .innerWrapper {
             background-image: url('/includes/images/backgrounds/kriterii_bg.svg');
             background-size: cover;
-            height: 400px;
-            width: 400px;
+            height: 350px;
+            width: 350px;
             @include myFlex(column);
             padding: 20px;
             position: relative;
@@ -130,19 +131,35 @@
             margin-bottom: 11%;
 
             img {
-                width: 120px;
+                width: 100px;
             }
 
             h2 {
                 font-size: 20px;
                 font-weight: bold;
                 text-transform: uppercase;
-                margin: 40px 0;
+                margin: 15px 0;
             }
 
             p {
                 margin: 0;
-                width: 80%;
+                width: 85%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #kriterii {
+        .kriterii {
+            .innerWrapper {
+                h2 {
+                    margin: 15px 0;
+                }
+
+                p {
+                    width: 100%;
+                }
             }
         }
     }

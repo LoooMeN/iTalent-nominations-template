@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
 
     <style>
@@ -18,7 +20,7 @@
             background: #000;
             margin: 5px;
         }
-    
+
         .youtube-player iframe,
         .youtube-player object,
         .youtube-player embed {
@@ -30,7 +32,7 @@
             z-index: 100;
             background: transparent;
         }
-    
+
         .youtube-player img {
             bottom: 0;
             display: block;
@@ -48,11 +50,11 @@
             -moz-transition: .4s all;
             transition: .4s all;
         }
-    
+
         .youtube-player img:hover {
             -webkit-filter: brightness(75%);
         }
-    
+
         .youtube-player .play {
             height: 72px;
             width: 72px;
@@ -64,20 +66,19 @@
             background: url("//i.imgur.com/TxzC70f.png") no-repeat;
             cursor: pointer;
         }
-    
     </style>
-    
-    
+
+
     <div class="youtube-player" data-id="aSL-iIskEFU"></div>
     <div class="youtube-player" data-id="hHW1oY26kxQ"></div>
-    
+
     <script>
         /* Light YouTube Embeds by @labnol */
-    
+
         /* Web: http://labnol.org/?p=27941 */
-    
+
         document.addEventListener("DOMContentLoaded",
-            function() {
+            function () {
                 var div, n,
                     v = document.getElementsByClassName("youtube-player");
                 for (n = 0; n < v.length; n++) {
@@ -88,13 +89,13 @@
                     v[n].appendChild(div);
                 }
             });
-    
+
         function labnolThumb(id) {
             var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
                 play = '<div class="play"></div>';
             return thumb.replace("ID", id) + play;
         }
-    
+
         function labnolIframe() {
             var iframe = document.createElement("iframe");
             iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.id + "?autoplay=1");
@@ -102,8 +103,8 @@
             iframe.setAttribute("allowfullscreen", "1");
             this.parentNode.replaceChild(iframe, this);
         }
-    
     </script>
-    
+
 </body>
+
 </html>

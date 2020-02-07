@@ -106,13 +106,31 @@ p {
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+html,
 body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: Montserrat;
 }
 
 body .section {
   width: 80%;
   margin: auto;
+  padding-top: 120px;
+  margin-top: -120px;
   margin-bottom: 120px;
 }
 
@@ -170,7 +188,7 @@ body .left {
 }
 
 #partner {
-  width: 60%;
+  width: 80%;
   margin: auto;
   margin-bottom: 60px;
 }
@@ -202,7 +220,7 @@ body .left {
 
 #partner div a img {
   width: 100%;
-  min-width: 300px;
+  min-width: 275px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -308,10 +326,11 @@ body .left {
 
 .kriteriiBg {
   background-image: url("/includes/images/backgrounds/kriteriiBg.svg");
-  background-size: cover;
-  padding: 100px 0;
-  margin: -100px 0;
-  background-position-y: -100px;
+  background-size: contain;
+  padding: 800px 0;
+  background-repeat: no-repeat;
+  margin: -800px 0;
+  background-position: center center;
 }
 
 #kriterii {
@@ -334,15 +353,15 @@ body .left {
       -ms-flex-pack: center;
           justify-content: center;
   grid-gap: 10px;
-  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 #kriterii .kriterii .innerWrapper {
   background-image: url("/includes/images/backgrounds/kriterii_bg.svg");
   background-size: cover;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -368,19 +387,28 @@ body .left {
 }
 
 #kriterii .kriterii .innerWrapper img {
-  width: 120px;
+  width: 100px;
 }
 
 #kriterii .kriterii .innerWrapper h2 {
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 40px 0;
+  margin: 15px 0;
 }
 
 #kriterii .kriterii .innerWrapper p {
   margin: 0;
-  width: 80%;
+  width: 85%;
+}
+
+@media only screen and (max-width: 768px) {
+  #kriterii .kriterii .innerWrapper h2 {
+    margin: 15px 0;
+  }
+  #kriterii .kriterii .innerWrapper p {
+    width: 100%;
+  }
 }
 
 /* Section 3 */

@@ -1,0 +1,85 @@
+@import 'utilityStyle';
+
+#demands {
+    .title {
+        text-transform: uppercase;
+    }
+
+    a {
+        width: 300px;
+        color: white;
+        box-sizing: border-box;
+        padding: 20px 30px;
+        border-radius: 10px;
+        background-color: #008AE5;
+        text-align: center;
+        font-weight: 600;
+        transition: 0.3s all;
+
+        &:hover {
+            color: #008AE5;
+            background-color: white;
+        }
+    }
+
+    .vimogiWrapper {
+        margin: 50px 0;
+        @include myGrid(1fr 1fr, top);
+
+        .vimogi {
+            padding: 10px 20px;
+
+            h3 {
+                border: 1px solid black;
+                padding: 10px 20px;
+                border-radius: 10px;
+                font-weight: 600;
+                font-size: 26px;
+                margin-bottom: 20px;
+            }
+
+            .vimogiElement {
+                margin-left: 25px;
+
+                li {
+                    margin-bottom: 20px;
+
+                    h4 {
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        font-weight: 700;
+                        margin-bottom: 10px;
+                        ;
+                    }
+
+                    p {
+                        max-width: 400px;
+                        margin: 0;
+                        font-size: 13px;
+                        opacity: 0.8;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #demands {
+
+        a {
+            padding: 10px;
+        }
+
+        .vimogiWrapper {
+            grid-template-columns: 1fr;
+
+            .vimogi {
+                h3 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

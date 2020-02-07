@@ -1,5 +1,5 @@
 @import url("/includes/icomoon/style.css");
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=cyrillic,cyrillic-ext");
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
@@ -9,6 +9,26 @@
           box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
+}
+
+.blueGrad {
+  background: rgba(2, 0, 36, 0.8);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 212, 255, 0.8)), color-stop(100%, rgba(9, 9, 121, 0.8)), color-stop(0%, rgba(2, 0, 36, 0.8)));
+  background: linear-gradient(90deg, rgba(0, 212, 255, 0.8) 0%, rgba(9, 9, 121, 0.8) 100%, rgba(2, 0, 36, 0.8) 0%);
+}
+
+.white {
+  color: white;
+}
+
+span {
+  font-weight: 700;
+}
+
+.redGrad {
+  background: rgba(2, 0, 36, 0.8);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 0.8)), color-stop(0%, rgba(9, 9, 121, 0.8)), to(rgba(255, 59, 0, 0.8)));
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.8) 0%, rgba(9, 9, 121, 0.8) 0%, rgba(255, 59, 0, 0.8) 100%);
 }
 
 .hvr-underline-from-left:before {
@@ -87,13 +107,31 @@ p {
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+html,
 body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: Montserrat;
 }
 
 body .section {
   width: 80%;
   margin: auto;
+  padding-top: 120px;
+  margin-top: -120px;
   margin-bottom: 120px;
 }
 
@@ -156,7 +194,7 @@ body .left {
 }
 
 .headerSpace {
-  height: 150px;
+  min-height: 100px;
 }
 
 #header {
