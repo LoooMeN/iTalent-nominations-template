@@ -96,6 +96,7 @@
 
                     input {
                         width: 100%;
+                        -webkit-appearance: none;
 
                         &[type=email] {
                             margin-bottom: 10px;

@@ -359,6 +359,7 @@ body .left {
 
 #footer .row2 .row2Wrapper .subscribe form input {
   width: 100%;
+  -webkit-appearance: none;
 }
 
 #footer .row2 .row2Wrapper .subscribe form input[type=email] {
