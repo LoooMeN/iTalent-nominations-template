@@ -82,7 +82,7 @@
 @media only screen and (max-width: 768px) {
     #faq {
         .legend {
-            // flex-direction: column;
+            flex-direction: column;
         }
 
         .questionsGrid {

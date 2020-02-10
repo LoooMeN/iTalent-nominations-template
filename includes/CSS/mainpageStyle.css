@@ -230,9 +230,9 @@ body .left {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-transition: background-color 0.5s, color 0.5s, -webkit-box-shadow 0.5s;
   transition: background-color 0.5s, color 0.5s, -webkit-box-shadow 0.5s;
   transition: box-shadow 0.5s, background-color 0.5s, color 0.5s;
@@ -256,6 +256,61 @@ body .left {
   color: white;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.youtube-player {
+  position: relative;
+  padding-bottom: 56.23%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin: 5px;
+}
+
+.youtube-player iframe,
+.youtube-player object,
+.youtube-player embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: transparent;
+}
+
+.youtube-player img {
+  bottom: 0;
+  display: block;
+  left: 0;
+  margin: auto;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  height: auto;
+  cursor: pointer;
+  -webkit-transition: .4s all;
+  transition: .4s all;
+}
+
+.youtube-player img:hover {
+  -webkit-filter: brightness(75%);
+}
+
+.youtube-player .play {
+  height: 72px;
+  width: 72px;
+  left: 50%;
+  top: 50%;
+  margin-left: -36px;
+  margin-top: -36px;
+  position: absolute;
+  background: url("//i.imgur.com/TxzC70f.png") no-repeat;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
@@ -423,6 +478,8 @@ body .left {
       -ms-flex-pack: center;
           justify-content: center;
   grid-gap: 40px;
+  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 #about .myContainer .holder {
@@ -439,15 +496,16 @@ body .left {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: top;
-      -ms-flex-pack: top;
-          justify-content: top;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
-  height: 100%;
+  width: 350px;
+  height: 350px;
   padding: 0px 20px;
   padding-top: 20px;
   overflow: hidden;
-  margin: 10px;
+  margin: auto;
   border-radius: 8px;
 }
 
@@ -493,6 +551,10 @@ body .left {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 40px;
+  }
+  #about .myContainer .holder {
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -592,15 +654,18 @@ body .left {
       -ms-flex-pack: center;
           justify-content: center;
   grid-gap: 5px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   overflow: hidden;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 #nominations .grod .nomination {
   text-align: center;
   overflow: hidden;
   padding: 30px;
+  width: 300px;
   -webkit-animation: fadeIn 3s;
           animation: fadeIn 3s;
   position: relative;
@@ -612,17 +677,19 @@ body .left {
   text-align: left;
   -webkit-transition: all 1s;
   transition: all 1s;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 3fr;
-      grid-template-columns: 1fr 3fr;
-  -webkit-box-align: top;
-      -ms-flex-align: top;
-          align-items: top;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  grid-gap: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   grid-auto-rows: 1fr;
   border-radius: 8px;
   padding: 10px;
@@ -650,6 +717,7 @@ body .left {
   line-height: 60px;
   height: 60px;
   width: 60px;
+  margin: 20px;
 }
 
 #nominations .grod h2 {
@@ -662,29 +730,25 @@ body .left {
   font-weight: 500;
 }
 
-#nominations .grod .flexington {
-  color: white;
+#nominations .grod .myContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-right: 5vw;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-#nominations .grod img {
-  width: 30px;
-  height: 30px;
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+#nominations .grod .myContainer p {
+  display: none;
+  margin: 0;
 }
 
 #nominations .grod .nomination:hover h2,
@@ -694,6 +758,10 @@ body .left {
 
 #nominations .grod .nomination:hover::before {
   opacity: 1;
+}
+
+#nominations .grod .nomination:hover .myContainer p {
+  display: block;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -720,10 +788,6 @@ body .left {
   }
   #nominations .grod .nomination .myContainer h2 {
     margin: 0;
-  }
-  #nominations .grod .nomination .flexington p,
-  #nominations .grod .nomination img {
-    display: none;
   }
 }
 
@@ -832,12 +896,10 @@ body .left {
 }
 
 #judges img {
-  width: 80%;
+  max-width: 400px;
 }
 
 #judges a {
-  position: relative;
-  top: -50px;
   background: #00B1FF;
   border-radius: 6px;
   color: white;
@@ -857,6 +919,9 @@ body .left {
 }
 
 @media only screen and (max-width: 768px) {
+  #judges img {
+    width: 200px;
+  }
   #judges .title {
     margin-bottom: 20px;
   }

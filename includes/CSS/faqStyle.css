@@ -394,6 +394,12 @@ body .left {
 }
 
 @media only screen and (max-width: 768px) {
+  #faq .legend {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   #faq .questionsGrid .questionBox {
     width: 100%;
     height: initial;

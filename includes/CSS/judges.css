@@ -187,6 +187,95 @@ body .left {
   }
 }
 
+#mediaLinks .grod {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 10px;
+}
+
+#mediaLinks .grod .discord:hover {
+  background-color: #989FEC;
+}
+
+#mediaLinks .grod .telegram:hover {
+  background-color: #47B0D3;
+}
+
+#mediaLinks .grod .facebook:hover {
+  background-color: #3B5998;
+}
+
+#mediaLinks .grod .faq:hover {
+  background-color: #48A0DC;
+}
+
+#mediaLinks .grod a {
+  padding: 10px 40px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-transition: background-color 0.5s, color 0.5s, -webkit-box-shadow 0.5s;
+  transition: background-color 0.5s, color 0.5s, -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s, background-color 0.5s, color 0.5s;
+  transition: box-shadow 0.5s, background-color 0.5s, color 0.5s, -webkit-box-shadow 0.5s;
+  color: black;
+}
+
+#mediaLinks .grod a img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+#mediaLinks .grod a p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+#mediaLinks .grod a:hover {
+  color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #mediaLinks .grod {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  #mediaLinks .grod a {
+    padding: 10px;
+  }
+  #mediaLinks .grod a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  #mediaLinks .grod a p {
+    font-size: 12px;
+  }
+}
+
 #judgeList .grod {
   display: -ms-grid;
   display: grid;

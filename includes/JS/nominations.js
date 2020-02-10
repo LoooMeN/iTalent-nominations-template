@@ -5,84 +5,84 @@ let testList = [{
         'ukName': '2D графіка',
         'icon': 'icon-whh-shapes',
         'sec': 'hud',
-        'link': 'https://www.italent.org.ua/nominations/2d-graphics/'
+        'link': '/nominations/2d-graphics/'
     },
     {
         'ruName': '3D графика',
         'ukName': '3D графіка',
         'icon': 'icon-modeling',
         'sec': 'hud',
-        'link': 'https://www.italent.org.ua/nominations/3d-graphics/'
+        'link': '/nominations/3d-graphics/'
     },
     {
         'ruName': 'Цифрове фото',
         'ukName': 'Цифрове фото',
         'icon': 'icon-ps-photobucket',
         'sec': 'hud',
-        'link': 'https://www.italent.org.ua/nominations/digital-photo/'
+        'link': '/nominations/digital-photo/'
     },
     {
         'ruName': 'Відеомейкінг',
         'ukName': 'Відеомейкінг',
         'icon': 'icon-video-edition',
         'sec': 'hud',
-        'link': 'https://www.italent.org.ua/nominations/video-making/'
+        'link': '/nominations/video-making/'
     },
     {
         'ruName': '2D анімація',
         'ukName': '2D анімація',
         'icon': 'icon-cat',
         'sec': 'hud',
-        'link': 'https://www.italent.org.ua/nominations/2d-animation/'
+        'link': '/nominations/2d-animation/'
     },
     {
         'ruName': 'Програмна розробка',
         'ukName': 'Програмна розробка',
         'icon': 'icon-monitor',
         'sec': 'tech',
-        'link': 'https://www.italent.org.ua/nominations/program-development/'
+        'link': '/nominations/program-development/'
     },
     {
         'ruName': 'Розробка на scratch',
         'ukName': 'Розробка на scratch',
         'icon': 'icon-snake',
         'sec': 'tech',
-        'link': 'https://www.italent.org.ua/nominations/scratch-development/'
+        'link': '/nominations/scratch-development/'
     },
     {
         'ruName': 'Gamedev',
         'ukName': 'Gamedev',
         'icon': 'icon-development',
         'sec': 'tech',
-        'link': 'https://www.italent.org.ua/nominations/gamedev/'
+        'link': '/nominations/gamedev/'
     },
     {
         'ruName': 'Апаратна розробка',
         'ukName': 'Апаратна розробка',
         'icon': 'icon-processor',
         'sec': 'tech',
-        'link': 'https://www.italent.org.ua/nominations/device-development/'
+        'link': '/nominations/device-development/'
     },
     {
         'ruName': 'Сайт на конструкторі',
         'ukName': 'Сайт на конструкторі',
         'icon': 'icon-add',
         'sec': 'tech',
-        'link': 'https://www.italent.org.ua/nominations/page-on-constructor/'
+        'link': '/nominations/page-on-constructor/'
     },
     {
         'ruName': 'ВЕБ Application',
         'ukName': 'ВЕБ Application',
         'icon': 'icon-application',
         'sec': 'tech',
-        'link': 'https://www.italent.org.ua/nominations/web-application/'
+        'link': '/nominations/web-application/'
     },
     {
         'ruName': 'ВЕБ Front-end',
         'ukName': 'ВЕБ Front-end',
         'icon': 'icon-data',
         'sec': 'tech',
-        'link': 'https://www.italent.org.ua/nominations/web-front-end/'
+        'link': '/nominations/web-front-end/'
     },
     {
         'ruName': 'Програмная обработка текстов',
@@ -151,9 +151,7 @@ function create(toCreate) {
         text.innerText = 'Дізнатись більше ...'
         nom.appendChild(icon1);
         box.appendChild(name);
-        flexington.appendChild(text);
-        flexington.appendChild(icon2);
-        flexington.classList.add('flexington');
+        box.appendChild(text);
         box.appendChild(flexington);
         box.classList.add('myContainer');
         nom.appendChild(box);
@@ -168,6 +166,46 @@ function create(toCreate) {
         });
     }, 500)
 }
+
+// function create(toCreate) {
+//     if (document.querySelector('.nomination'))
+//         deleteNom();
+//     toCreate.forEach((elem) => {
+//         let nom = document.createElement('div');
+//         let icon1 = document.createElement('i');
+//         let name = document.createElement('h2');
+//         let text = document.createElement('p');
+//         let icon2 = document.createElement('img');
+//         let box = document.createElement('div');
+//         let flexington = document.createElement('div');
+//         let a = document.createElement('a');
+
+//         a.href = elem.link;
+//         icon1.classList.add(elem.icon, 'icon');
+//         icon2.src = 'https://www.italent.org.ua/wp-content/uploads/2019/09/more.svg';
+//         nom.classList.add('nomination');
+//         nom.style.opacity = 0;
+//         name.innerText = elem.name;
+//         text.innerText = 'Дізнатись більше ...'
+//         nom.appendChild(icon1);
+//         box.appendChild(name);
+//         flexington.appendChild(text);
+//         flexington.appendChild(icon2);
+//         flexington.classList.add('flexington');
+//         box.appendChild(flexington);
+//         box.classList.add('myContainer');
+//         nom.appendChild(box);
+//         a.appendChild(nom);
+//         a.classList.add('nomLink');
+//         main.appendChild(a);
+//     });
+//     let noms = document.querySelectorAll('.nomination');
+//     setTimeout(() => {
+//         noms.forEach((elem) => {
+//             elem.style.opacity = 1;
+//         });
+//     }, 500)
+// }
 
 function deleteNom() {
     let noms = document.querySelectorAll('.nomLink');

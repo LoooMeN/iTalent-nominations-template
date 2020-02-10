@@ -144,18 +144,20 @@
 
     .myContainer {
         @include myGrid(repeat(4, 1fr), center, center, 40px);
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 
         .holder {
             background-image: url('https://www.italent.org.ua/wp-content/uploads/2019/09/about_bg.png');
             background-size: cover;
             background-position: center center;
-            @include myFlex(column, center, top);
+            @include myFlex(column);
             position: relative;
-            height: 100%;
+            width: 350px;
+            height: 350px;
             padding: 0px 20px;
             padding-top: 20px;
             overflow: hidden;
-            margin: 10px;
+            margin: auto;
             border-radius: 8px;
 
             div {
@@ -196,7 +198,10 @@
         grid-template-columns: 1fr;
         grid-gap: 40px;
 
-        .holder {}
+        .holder {
+            width: 300px;
+            height: 300px;
+        }
     }
 }
 
@@ -271,13 +276,15 @@
 
     .grod {
         @include myGrid(repeat(3, 1fr), center, center, 5px);
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         overflow: hidden;
-        transition: all 1s;
+        transition: all 0.5s;
 
         .nomination {
             text-align: center;
             overflow: hidden;
             padding: 30px;
+            width: 300px;
             animation: fadeIn 3s;
             position: relative;
             margin-bottom: 20px;
@@ -287,7 +294,7 @@
             background: none;
             text-align: left;
             transition: all 1s;
-            @include myGrid(1fr 3fr, top, center, 0px);
+            @include myFlex(row, center, flex-start);
             grid-auto-rows: 1fr;
             border-radius: 8px;
             padding: 10px;
@@ -313,6 +320,7 @@
             line-height: 60px;
             height: 60px;
             width: 60px;
+            margin: 20px;
         }
 
         h2 {
@@ -324,18 +332,14 @@
             font-weight: 500;
         }
 
-        .myContainer {}
+        .myContainer {
+            @include myFlex(column, flex-start, flex-start);
+            // transform: translateY(calc(-100% + 100px));
 
-        .flexington {
-            color: white;
-            @include myFlex(row, center, space-between);
-            padding-right: 5vw;
-        }
-
-        img {
-            width: 30px;
-            height: 30px;
-            transform: translateY(-10px);
+            p {
+                display: none;
+                margin: 0;
+            }
         }
 
         .nomination:hover {
@@ -347,6 +351,12 @@
 
             &::before {
                 opacity: 1;
+            }
+
+            .myContainer {
+                p {
+                    display: block;
+                }
             }
         }
     }
@@ -373,11 +383,6 @@
 
                 .myContainer h2 {
                     margin: 0;
-                }
-
-                .flexington p,
-                img {
-                    display: none;
                 }
             }
         }
@@ -460,12 +465,10 @@
     text-align: center;
 
     img {
-        width: 80%;
+        max-width: 400px;
     }
 
     a {
-        position: relative;
-        top: -50px;
         background: #00B1FF;
         border-radius: 6px;
         color: white;
@@ -483,6 +486,10 @@
 
 @media only screen and (max-width: 768px) {
     #judges {
+        img {
+            width: 200px;
+        }
+
         .title {
             margin-bottom: 20px;
         }

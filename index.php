@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="/includes/CSS/mainpageStyle.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"
         integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
-    <script src="/includes/JS/functions.js"></script>
     <?php include "./includes/header.html";?>
     <title>Головна</title>
 </head>
@@ -117,13 +116,10 @@
     <section class="section" id="mediaAboutUs">
         <h2 class="title">ЗМІ ПРО НАС</h2>
         <div class="grod">
-            <iframe width="620" height="400" src="https://www.youtube.com/embed/5ZceWbnfJt4" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe width="620" height="400" src="https://www.youtube.com/embed/5-0Wlzu0e8Q" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="youtube-player" data-id="5-0Wlzu0e8Q"></div>
+            <div class="youtube-player" data-id="5ZceWbnfJt4"></div>
         </div>
+        <script src="/includes/JS/youtube.js"></script>
     </section>
 
 
@@ -289,7 +285,6 @@
         </div>
     </section>
     <?php include "./includes/footer.html";?>
-    <script>build_page();</script>
 </body>
 
 </html>

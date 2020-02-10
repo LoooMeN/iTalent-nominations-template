@@ -67,38 +67,22 @@ function set_media() {
     });
 }
 
-function includeHTML() {
-    var z, i, elmnt, file, xhttp;
-    z = document.getElementsByTagName("div");
-    for (i = 0; i < z.length; i++) {
-        elmnt = z[i];
-        file = elmnt.getAttribute("w3-include-html");
-        if (file) {
-            xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function () {
-                if (this.readyState == 4) {
-                    if (this.status == 200) {
-                        elmnt.innerHTML = this.responseText;
-                    }
-                    if (this.status == 404) {
-                        elmnt.innerHTML = "Page not found.";
-                    }
-                    elmnt.removeAttribute("w3-include-html");
-                    includeHTML();
-                }
-            }
-            xhttp.open("GET", file, true);
-            xhttp.send();
-            return;
-        }
+function handleReg() {
+    let container = document.querySelector('#registration');
+    if (container) {
+        if (settings["reg_status"] == "open")
+            container.innerHTML =
+            '<h2 class = "title">РЕЄСТРАЦІЮ ВІДКРИТО</h2><a href = "' + settings["reg_link"] +
+            '" target = "_blank"><div class ="regBtn shadow">ЗАРЕЄСТРУВАТИСЯ</div> </a>';
+        else
+            container.remove();
     }
 }
 
-function build_page() {
-    get_settings();
-    if (window.screen.width <= 768)
-        set_hamburger_trigger();
-    set_media();
-    set_email_acceptor()
-    document.title = document.title + " | iTalent всеукраїнський конкурс з IT та кіберспорту";
-}
+get_settings();
+handleReg();
+if (window.screen.width <= 768)
+    set_hamburger_trigger();
+set_media();
+set_email_acceptor()
+document.title = document.title + " | iTalent всеукраїнський конкурс з IT та кіберспорту";

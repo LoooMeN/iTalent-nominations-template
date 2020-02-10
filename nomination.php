@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/nominationStyle.css">
-    <script src="/includes/JS/functions.js"></script>
     <?php include "./includes/header.html";?>
+    <title>NOMINTION</title>
 </head>
 
 <body>
     <script>
         var page = '3D';
     </script>
+
+    <section class="section" id="aboutNomination">
+        <h1 class="title">3D ГРАФІКА</h1>
+        <p>У цій номінації вам потрібно зробити 3D модель і надати рендери у різних ракурсах. Уважно читайте вимоги до 3D моделі.</p>
+    </section>
 
     <section class="section" id="partner">
         <h2>Партнер номінації:</h2>
@@ -169,7 +174,7 @@
         </section>
     </div>
 
-    <!-- <section class="section" id="registration"></section> -->
+    <section class="section" id="registration"></section>
 
     <section id="CTAbuttons" class="section">
         <a href="https://italent.org.ua/#last_season" class="CTAbutton shadow unselectable">
@@ -193,18 +198,7 @@
     </section>
 
     <?php include "./includes/footer.html";?>
-
-    <script>
-        build_page();
-        let container = document.querySelector('#registration');
-        if (settings["reg_status"] == "open")
-            container.innerHTML =
-            '<h2 class = "title">РЕЄСТРАЦІЮ ВІДКРИТО</h2><a href = "' + settings["reg_link"] +
-            '" target = "_blank"><div class ="regBtn shadow">ЗАРЕЄСТРУВАТИСЯ</div> </a>';
-        else
-            container.remove();
-    </script>
-
+    
 </body>
 
 </html>

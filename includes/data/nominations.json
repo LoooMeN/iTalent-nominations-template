@@ -1,20 +1,24 @@
 {
     "nomination1": {
-        "ukrName": "3D Графіка",
-        "ruName": "3D Графика",
+        "ukrName": "3D ГРАФІКА",
+        "ruName": "3D ГРАФИКА",
         "url": "https://italent.org.ua/nominations/3d-graphics/",
+        "desc": "У цій номінації вам потрібно зробити 3D модель і надати рендери у різних ракурсах. Уважно читайте вимоги до 3D моделі.",
+        "id": "3D",
         "age": {
             "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "вільна",
-                "task": "none"
+                "task": "none",
+                "image": "https://cdnb.artstation.com/p/assets/images/images/006/404/353/large/siddhartha-sinha-1-1.jpg?1503615265"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "вільна",
-                "task": "none"
+                "task": "none",
+                "image": "https://i.all3dp.com/wp-content/uploads/2019/02/19134741/yoda-an-iconic-figure-from-star-wars-is-popular-huanksta-pinshape-190217.jpg"
             }
         },
         "partner": {
@@ -31,17 +35,17 @@
             },
             "2": {
                 "name": "ТЕКСТУРУВАННЯ",
-                "desc": "<p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p> <a href = 'https://italent.org.ua/sound_recommendations/'target = '_blank' > < div class = 'button unselectable' > РЕКОМЕНДАЦІЇ ДО ЗВУКУ < /div></a > ",
+                "desc": "<p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p> <a href = 'https://italent.org.ua/sound_recommendations/'target = '_blank' > <div class = 'button unselectable' > РЕКОМЕНДАЦІЇ ДО ЗВУКУ </div></a> ",
                 "icon_link": "https://image.flaticon.com/icons/svg/1055/1055671.svg"
             },
             "3": {
                 "name": "LIGHTING",
-                "desc": "Як освітлена сцена, за допомогою чого? як це реалізовано і наскільки світло композиційно і естетично пасує сцені",
+                "desc": "<p>Як освітлена сцена, за допомогою чого? як це реалізовано і наскільки світло композиційно і естетично пасує сцені</p>",
                 "icon_link": "https://image.flaticon.com/icons/svg/427/427735.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
-                "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
+                "desc": "<p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -83,19 +87,23 @@
             },
             "8": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg'target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
             },
             "9": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
-            },
+            }
         },
         "rekomendacii": {
             "1": {
                 "name": "none",
-                "desc": "none",
+                "desc": "none"
+            },
+            "2": {
+                "name": "none",
+                "desc": "none"
             }
         }
     },
@@ -103,18 +111,22 @@
         "ukrName": "ЦИФРОВА ФОТОГРАФІЯ",
         "ruName": "ЦИФРОВАЯ ФОТОГРАФИЯ",
         "url": "https://italent.org.ua/nominations/digital-photo/",
+        "desc": "У цій номінації вам потрібно зняти оригінальне фото і обробити його. Уважно читайте завдання до фото.",
+        "id": "PHOTO",
         "age": {
             "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "Тема роботи: “Я – не я” – “хто це зробив?”",
-                "task": "Розкрити тему “Я – не я” ми пропонуємо виконавши роботу шляхом зіставлення в одному кадрі “себе” та “свого другого я”."
+                "task": "Розкрити тему “Я – не я” ми пропонуємо виконавши роботу шляхом зіставлення в одному кадрі “себе” та “свого другого я”.",
+                "image": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/04/e0ce93ecb4876af5b43fb9a9ef7e7c3c.jpg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: “Я і моя тінь”",
-                "task": "Я і твоя тінь – фотошоп тіні, тобто тінь в кадрі повинна відрізнятися від самої людини. Вітається історія у фотографії. Приклад: стоїть дівчинка, а тінь, яку вона відкидує у формі бабусі.Фото людини в кадрі має бути зроблено власноруч, фото тіні - або зроблено власноруч та оброблено, або повінстью зроблено в редакторі (брати і обробляти чужі фото - заборонено)"
+                "task": "Я і твоя тінь – фотошоп тіні, тобто тінь в кадрі повинна відрізнятися від самої людини. Вітається історія у фотографії. Приклад: стоїть дівчинка, а тінь, яку вона відкидує у формі бабусі.Фото людини в кадрі має бути зроблено власноруч, фото тіні - або зроблено власноруч та оброблено, або повінстью зроблено в редакторі (брати і обробляти чужі фото - заборонено)",
+                "image": "https://www.oldtappanmanor.com/wp-content/uploads/2017/05/photographer.jpg"
             }
         },
         "partner": {
@@ -163,12 +175,12 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
             },
             "5": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -187,21 +199,24 @@
         "ukrName": "2D ГРАФІКА",
         "ruName": "2D ГРАФИКА",
         "url": "https://italent.org.ua/nominations/2d-graphics/",
+        "desc": "У цій номінації вам потрібно намалювати зображення/іллюстрацію згідно з вимогами номіцації. Уважно читайте завдання до зображення.",
+        "id": "2DG",
         "age": {
             "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "Тема роботи: Тема роботи: зимовий персонаж у стилі Сай фай (Sci–fi).",
-                "task": "Необхідно намалювати лише самого персонажа."
+                "task": "Необхідно намалювати лише самого персонажа.",
+                "image": "https://www.liveabout.com/thmb/Z0v5wfzDA-fOTkaL_ksqKkWHt5Y=/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-667156305-59befb3daf5d3a00102437f8.jpg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: зимовий персонаж у Сай фай (Sci – fi) стилі.",
-                "task": "Необхідно намалювати персонажа у відповідному стилю Sci-fi оточенні."
+                "task": "Необхідно намалювати персонажа у відповідному стилю Sci-fi оточенні.",
+                "image": "https://www.mapleridgenews.com/wp-content/uploads/2018/03/10915337_web1_180309-LAT--Murray-Phillips-Dies_1.jpg"
             }
         },
-        //Тут капелька хелпер для художников
         "partner": {
             "name": "none",
             "image_link": "none",
@@ -233,7 +248,7 @@
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
-            },
+            }
         },
         "vimogi": {
             "1": {
@@ -253,12 +268,12 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
             },
             "5": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -277,18 +292,22 @@
         "ukrName": "ВІДЕО МЕЙКІНГ",
         "ruName": "ВИДЕО МЕЙКИНГ",
         "url": "https://italent.org.ua/nominations/video-making/",
+        "desc": "У цій номінації вам потрібно написати сценарій, зняти і змонтувати свій відеоролик. Уважно читайте завдання до відеоролику.",
+        "id": "VID",
         "age": {
             "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "Тема роботи: екранізація твору чи його частини, або суперможливість героя (тема на вибір).",
-                "task": "<p>Cтворена Вами екранізація твору (або його частини) – короткої історії, п’єси, фільму, вірша, мультика чи коміксу, тощо.</p><p>Cуперможливість героя. Тобто, сюжет має розкривати причини/наслідки чи варіанти того, що відбувається з героєм унаслідок отримання або втрати ним суперможливості. Для кожного ці можливості можуть бути різними – мова не йде обо’язково про здатність літати або ставати невидимим.</p>"
+                "task": "<p>Cтворена Вами екранізація твору (або його частини) – короткої історії, п’єси, фільму, вірша, мультика чи коміксу, тощо.</p><p>Cуперможливість героя. Тобто, сюжет має розкривати причини/наслідки чи варіанти того, що відбувається з героєм унаслідок отримання або втрати ним суперможливості. Для кожного ці можливості можуть бути різними – мова не йде обо’язково про здатність літати або ставати невидимим.</p>",
+                "image": "https://i.ytimg.com/vi/KT4yih-vjRc/maxresdefault.jpg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: Що якби?",
-                "task": "<p>Відомий персонаж потрапляє у незвичайні для нього обставини. У персонажі і його сетінгу можна змінювати все: дії, характер самого персонажа, обставини.</p><p>Приклади: 'Гаррі Поттер опинився в українській школі', 'Білл Гейтс на безлюдному острові'.</p>"
+                "task": "<p>Відомий персонаж потрапляє у незвичайні для нього обставини. У персонажі і його сетінгу можна змінювати все: дії, характер самого персонажа, обставини.</p><p>Приклади: 'Гаррі Поттер опинився в українській школі', 'Білл Гейтс на безлюдному острові'.</p>",
+                "image": "http://edge.alluremedia.com.au/m/l/2017/04/davinci.jpg"
             }
         },
         "partner": {
@@ -322,7 +341,7 @@
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
-            },
+            }
         },
         "vimogi": {
             "1": {
@@ -362,7 +381,7 @@
             },
             "8": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -381,18 +400,22 @@
         "ukrName": "2D АНІМАЦІЯ",
         "ruName": "2D АНИМАЦИЯ",
         "url": "https://italent.org.ua/nominations/2d-animation/",
+        "desc": "У цій номінації вам потрібно написати сценарій, намалювати/зняти свою анімацію. Уважно читайте вимоги до анімації.",
+        "id": "2DA",
         "age": {
             "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "Тема роботи: вільна",
-                "task": "none"
+                "task": "none",
+                "image": "https://helpx.adobe.com/content/dam/help/en/animate/how-to/create-2d-animation/_jcr_content/main-pars/image/create-2d-animation_1408x792.jpg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: вільна",
-                "task": "none"
+                "task": "none",
+                "image": "http://animataurus.com/wp-content/uploads/2016/11/WALK_CYCLE.jpg"
             }
         },
         "partner": {
@@ -409,7 +432,7 @@
             },
             "2": {
                 "name": "SOUNDTRACK",
-                "desc": "<p>Якість музичного супроводу та його відповідність до відеоряду, наскільки звуки відповідають тому, що відбувається в кадрі (звук кроків, звуки природи, побутовий шум)</p><a href='https://italent.org.ua/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ДО ЗВУКУ</div></a>",
+                "desc": "<p>Якість музичного супроводу та його відповідність до відеоряду, наскільки звуки відповідають тому, що відбувається в кадрі</p><a href='https://italent.org.ua/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ДО ЗВУКУ</div></a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/148/148755.svg"
             },
             "3": {
@@ -431,7 +454,7 @@
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
-            },
+            }
         },
         "vimogi": {
             "1": {
@@ -446,7 +469,7 @@
             },
             "3": {
                 "name": "Баланс звуку",
-                "desc": "<a href='https://italent.org.ua/sound_recommendations/' target='_blank' class='button shadow'>ПЕРЕГЛЯНЬТЕ ЦІ РЕКОМЕНДАЦІЇ</a>",
+                "desc": "<a href='https://italent.org.ua/sound_recommendations/' target='_blank' class=''><div class='button shadow'>ПЕРЕГЛЯНЬТЕ ЦІ РЕКОМЕНДАЦІЇ</div></a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/148/148755.svg"
             },
             "4": {
@@ -466,7 +489,7 @@
             },
             "7": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -485,18 +508,22 @@
         "ukrName": "ПРОГРАМНА РОЗРОБКА",
         "ruName": "ПРОГРАМНАЯ РАЗРАБОТКА",
         "url": "https://italent.org.ua/nominations/program-development/",
+        "desc": "У цій номінації вам потрібно зробити мобільний або десктопний додаток. Уважно читайте вимоги до вашої розробки.",
+        "id": "PROG",
         "age": {
             "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "Тема роботи: вільна",
-                "task": "Проблеми які ваш проект може вирішувати: Пошук телефонів (де друга шкарпетка?)Оффлайн путівник по пам’яткам міст (міні гід у телефоні)Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)SOS додатки (наприклад: сповіщення поліції про пограбування)Додатки для дієти (по штрихкоду дізнатись кількість калорій)"
+                "task": "Проблеми які ваш проект може вирішувати: Пошук телефонів (де друга шкарпетка?)Оффлайн путівник по пам’яткам міст (міні гід у телефоні)Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)SOS додатки (наприклад: сповіщення поліції про пограбування)Додатки для дієти (по штрихкоду дізнатись кількість калорій)",
+                "image": "https://content.linkedin.com/content/dam/me/learning/blog/2019/spring/Fastest.Growing.Skills.in.Tech.jpg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: вільна",
-                "task": "Проблеми які ваш проект може вирішувати: Пошук телефонів (де друга шкарпетка?)Оффлайн путівник по пам’яткам міст (міні гід у телефоні)Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)SOS додатки (наприклад: сповіщення поліції про пограбування)Додатки для дієти (по штрихкоду дізнатись кількість калорій)"
+                "task": "Проблеми які ваш проект може вирішувати: Пошук телефонів (де друга шкарпетка?)Оффлайн путівник по пам’яткам міст (міні гід у телефоні)Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)SOS додатки (наприклад: сповіщення поліції про пограбування)Додатки для дієти (по штрихкоду дізнатись кількість калорій)",
+                "image": "https://i.ytimg.com/vi/vt79JcPfZQA/maxresdefault.jpg"
             }
         },
         "partner": {
@@ -521,11 +548,11 @@
                 "desc": "наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.",
                 "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
             },
-            "5": {
+            "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
-            },
+            }
         },
         "vimogi": {
             "1": {
@@ -540,12 +567,12 @@
             },
             "3": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
             },
             "4": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -564,12 +591,15 @@
         "ukrName": "SCRATCH",
         "ruName": "SCRATCH",
         "url": "https://italent.org.ua/nominations/scratch-development/",
+        "desc": "У цій номінації вам потрібно зробити свою гру і зняти трейлер до неї. Уважно читайте завдання до гри.",
+        "id": "SCRATCH",
         "age": {
             "1": {
                 "from": "8",
                 "to": "14",
                 "tema": "Тема роботи: fly and gun - вертикальний аркадний шутер.",
-                "task": "<a href='https://www.youtube.com/watch?v=1jI5tnS5Oek&amp;feature=youtu.be'><p>Приклади</p></a>"
+                "task": "<a href='https://www.youtube.com/watch?v=1jI5tnS5Oek&amp;feature=youtu.be'><p>Приклади</p></a>",
+                "image": "https://content.linkedin.com/content/dam/me/learning/blog/2019/spring/Fastest.Growing.Skills.in.Tech.jpg"
             }
         },
         "partner": {
@@ -608,7 +638,7 @@
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
-            },
+            }
         },
         "vimogi": {
             "1": {
@@ -638,12 +668,12 @@
             },
             "6": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
             },
             "7": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -662,18 +692,22 @@
         "ukrName": "GAMEDEV",
         "ruName": "GAMEDEV  ",
         "url": "https://italent.org.ua/nominations/gamedev/",
+        "desc": "У цій номінації вам потрібно зробити свою гру, надати трейлер та туторіал. Уважно читайте вимоги до гри.",
+        "id": "GAMEDEV",
         "age": {
             "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "Тема роботи: вільна",
-                "task": "none"
+                "task": "none",
+                "image": "https://www.itstarterseries.com/wp-content/uploads/2018/05/how-to-become-a-game-developer.png"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: вільна",
-                "task": "none"
+                "task": "none",
+                "image": "http://geomedia.com/wp-content/uploads/2016/04/20160427_160639.jpg"
             }
         },
         "partner": {
@@ -717,7 +751,7 @@
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
-            },
+            }
         },
         "vimogi": {
             "1": {
@@ -747,12 +781,12 @@
             },
             "6": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
             },
             "7": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -771,18 +805,22 @@
         "ukrName": "АПАРАТНА РОЗРОБКА",
         "ruName": "АПАРАТНАЯ РАЗРАБОТКА",
         "url": "https://italent.org.ua/nominations/device-development/",
+        "desc": "У цій номінації вам потрібно зробити програмуємий пристрій (робот, вимірювач, ферму і т.д.). Уважно читайте вимоги до вашої розробки.",
+        "id": "PROGAPP",
         "age": {
             "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "Тема роботи: вільна",
-                "task": "<ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP 8266 / ESP32 / STM 32</li><li>Інші апаратні платформи</li></ul>"
+                "task": "<ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP 8266 / ESP32 / STM 32</li><li>Інші апаратні платформи</li></ul>",
+                "image": "https://www.swri.org/sites/default/files/styles/client_services_banner/public/industries/AdobeStock_85831696.jpeg?itok=uEDuVx48&c=f191c9c62de2448c67d3f9580ba32c25"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: вільна",
-                "task": "<ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP 8266 / ESP32 / STM 32</li><li>Інші апаратні платформи</li></ul>"
+                "task": "<ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP 8266 / ESP32 / STM 32</li><li>Інші апаратні платформи</li></ul>",
+                "image": "https://www.eng.mcmaster.ca/sites/default/files/bf05lr00330.jpg"
             }
         },
         "partner": {
@@ -811,7 +849,7 @@
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
-            },
+            }
         },
         "vimogi": {
             "1": {
@@ -829,7 +867,6 @@
                 "desc": "відео, тривалістю до 5 хвилин, в якому Ви показуєте та розповідаєте про призначення розробки, як працює пристрій, що саме і як Ви робили. Відео необхідно завантажити на Youtube та надати посилання, доступ до нього має бути обмежений для перегляду лише за посиланням",
                 "icon_link": "https://image.flaticon.com/icons/svg/148/148723.svg"
             },
-
             "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
@@ -842,7 +879,7 @@
             },
             "6": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -861,12 +898,15 @@
         "ukrName": "САЙТ НА КОНСТРУКТОРІ",
         "ruName": "САЙТ НА КОНСТРУКТОРЕ",
         "url": "https://italent.org.ua/nominations/page-on-constructor/",
+        "desc": "У цій номінації вам потрібно зробити свій сайт на конструкторі сайту. Уважно читайте завдання до сайту.",
+        "id": "WEBCONST",
         "age": {
             "1": {
                 "from": "8",
                 "to": "14",
                 "tema": "Тема роботи: вільна",
-                "task": "none"
+                "task": "none",
+                "image": "http://www.rexcelitservices.com/wp-content/uploads/2017/04/cms_development_system.png"
             }
         },
         "partner": {
@@ -895,7 +935,7 @@
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
-            },
+            }
         },
         "vimogi": {
             "1": {
@@ -915,7 +955,7 @@
             },
             "4": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -934,12 +974,15 @@
         "ukrName": "WEB APPLICATION",
         "ruName": "WEB APPLICATION",
         "url": "https://italent.org.ua/nominations/web-application/",
+        "desc": "У цій номінації вам потрібно зробити свій веб додаток. Уважно читайте вимоги до вашого додатку.",
+        "id": " WEBAPP",
         "age": {
             "1": {
                 "from": "8",
                 "to": "19",
                 "tema": "Тема роботи: вільна",
-                "task": "none"
+                "task": "none",
+                "image": "http://sdssoftwares.co.uk/images/web-development-agency.jpg"
             }
         },
         "partner": {
@@ -968,7 +1011,7 @@
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
-            },
+            }
         },
         "vimogi": {
             "1": {
@@ -988,12 +1031,12 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
             },
             "5": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -1012,12 +1055,15 @@
         "ukrName": "WEB FRONT-END",
         "ruName": "WEB FRONT-END",
         "url": "https://italent.org.ua/nominations/web-front-end/",
+        "desc": "У цій номінації вам потрібно зробити свій веб сайт. Уважно читайте вимоги до вашого сайту.",
+        "id": "WEBFRONT",
         "age": {
             "1": {
                 "from": "8",
                 "to": "19",
                 "tema": "Тема роботи: вільна",
-                "task": ""
+                "task": "none",
+                "image": "https://www.lbcc.edu/sites/main/files/imagecache/carousel/main-images/hero-web_development.png?1563728376"
             }
         },
         "partner": {
@@ -1046,7 +1092,7 @@
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
-            },
+            }
         },
         "vimogi": {
             "1": {
@@ -1066,12 +1112,12 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
             },
             "5": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },
@@ -1087,15 +1133,18 @@
         }
     },
     "nomination13": {
-        "ukrName": "Програмна обробка текстів",
-        "ruName": "Програмная оброботка текстов",
+        "ukrName": "ПРОГРАМНА ОБРОБКА ТЕКСТІВ",
+        "ruName": "ПРОГРАМНАЯ ОБРОБОТКА",
         "url": "https://italent.org.ua/nominations/web-front-end/",
+        "desc": "У цій номінації вам потрібно зробити програму, сторінку (веб аплікацію) або додаток на смартфон який обробляє / аналізує / створює тексти",
+        "id": "",
         "age": {
             "1": {
                 "from": "8",
                 "to": "19",
                 "tema": "Тема роботи: на вибір",
-                "task": "<ul class='explanation shown'><p>Проблеми, які ваш проект може вирішувати:</p><li>Електронний конспект. Додаток, який дозволяє сфотографувати свій конспект і розпізнати його.Може бути корисно, щоб робити пошук по конспектах з таких предметів, як історія чи зарубіжна література.</li><li>Питально-відповідальна система з якогось предмету (наприклад, з географії) за структурованою інформацією з підручника.</li><li>Визначення фейкових новин / визначення тролінгу в коментарях до новин.</li><li>Перекладач з діалектної української на літературну (і навпаки). Можна брати будь-який діалект України: львівську ґвару, подільський діалект, волинський діалект, лемківську мову, закарпатський говір тощо.</li><li>Транслітератор власних назв з англійської на українську (Hemingway =&gt; Гемінґвей).</li><li>Зібрати імена добрих і злих літературних персонажів і написати класифікатор на лінгвістичних ознаках, який визначає, чи персонаж із вашим іменем був би злим чи добрим.</li><li>Генератор мовних каламбурів.</li><li>Визначення вірусних заголовків новин: як написати заголовок новини так, щоб на нього клацала максимальна кількість людей.</li><li>Своя (вільна) тема, яка стосується опрацювання текстів.</li></ul>"
+                "task": "<ul class='explanation shown'><p>Проблеми, які ваш проект може вирішувати:</p><li>Електронний конспект. Додаток, який дозволяє сфотографувати свій конспект і розпізнати його.Може бути корисно, щоб робити пошук по конспектах з таких предметів, як історія чи зарубіжна література.</li><li>Питально-відповідальна система з якогось предмету (наприклад, з географії) за структурованою інформацією з підручника.</li><li>Визначення фейкових новин / визначення тролінгу в коментарях до новин.</li><li>Перекладач з діалектної української на літературну (і навпаки). Можна брати будь-який діалект України: львівську ґвару, подільський діалект, волинський діалект, лемківську мову, закарпатський говір тощо.</li><li>Транслітератор власних назв з англійської на українську (Hemingway =&gt; Гемінґвей).</li><li>Зібрати імена добрих і злих літературних персонажів і написати класифікатор на лінгвістичних ознаках, який визначає, чи персонаж із вашим іменем був би злим чи добрим.</li><li>Генератор мовних каламбурів.</li><li>Визначення вірусних заголовків новин: як написати заголовок новини так, щоб на нього клацала максимальна кількість людей.</li><li>Своя (вільна) тема, яка стосується опрацювання текстів.</li></ul>",
+                "image": "https://content.linkedin.com/content/dam/me/learning/blog/2019/spring/Fastest.Growing.Skills.in.Tech.jpg"
             }
         },
         "partner": {
@@ -1124,7 +1173,7 @@
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
-            },
+            }
         },
         "vimogi": {
             "1": {
@@ -1144,12 +1193,12 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
             },
             "5": {
                 "name": "Відповідність",
-                "desc": "<a href='http://italent.org.ua/project-demands/' target='_blank' class='button shadow'>ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ</a>",
+                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
             }
         },

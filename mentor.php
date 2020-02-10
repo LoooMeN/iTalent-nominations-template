@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/mentorStyle.css">
-    <script src="/includes/JS/functions.js"></script>
     <title>Ментори</title>
     <?php include "./includes/header.html";?>
 </head>
@@ -18,8 +17,8 @@
 
     <section class="smallSection" id="head">
         <h2 class="title left bigger">Менторство</h2>
-        <iframe width="100%" src="https://www.youtube.com/embed/EL3f55WH7qc" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="youtube-player" data-id="EL3f55WH7qc"></div>
+        <script src="/includes/JS/youtube.js"></script>
         <div class="grod">
             <div>
                 <p>Навіщо це тобі?<br> Часто під час створення проекту для конкурсу у тебе може виникнути питання:</p>
@@ -136,9 +135,6 @@
         </section>
     </div>
     <?php include "./includes/footer.html";?>
-    <script>
-        build_page();
-    </script>
 </body>
 
 </html>

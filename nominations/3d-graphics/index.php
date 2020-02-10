@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
+    <?php include '../../includes/header.html';?>
+    <title>3D ГРАФІКА</title>
+</head>
+<body>
+    <script>
+        var page = '3D';
+    </script>
+    <section class='section' id='aboutNomination'>
+    <h1 class='title'>3D ГРАФІКА</h1>
+    <p>У цій номінації вам потрібно зробити 3D модель і надати рендери у різних ракурсах. Уважно читайте вимоги до 3D моделі.</p>
+</section>
+
+    <section id='ageGroups' class='section'>
+        <div class='ageGroupsWrapper'>
+            <div class='ageGroupWrapper shadow'>
+                <div class='ageGroupPreview'>
+                    <img src='https://cdnb.artstation.com/p/assets/images/images/006/404/353/large/siddhartha-sinha-1-1.jpg?1503615265'
+                        alt='Вікова категорія 1'>
+                    <div class='age blueGrad'>
+                        <h2>Від 8 до 15 років</h2>
+                        <p>Тема роботи: вільна</p>
+                    </div>
+                </div></div><div class='ageGroupWrapper shadow'>
+        <div class='ageGroupPreview'>
+            <img src='https://i.all3dp.com/wp-content/uploads/2019/02/19134741/yoda-an-iconic-figure-from-star-wars-is-popular-huanksta-pinshape-190217.jpg'
+                alt='Вікова категорія 1'>
+            <div class='age redGrad'>
+                <h2>Від 15 до 19 років</h2>
+                <p>Тема роботи: вільна</p>
+            </div>
+        </div></div>        </div>
+    <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
+        перемоги - одна робота отримує одну нагороду.</p>
+    </section>
+    <div class='kriteriiBg'>
+    <section id='kriterii' class='section'>
+        <h1 class='title'>Критерії за якими будуть<br>оцінювати вашу роботу</h1>
+        <div class='kriterii'>
+            <div class='innerWrapper shadow'>
+                <img src='https://image.flaticon.com/icons/svg/1197/1197511.svg' alt='icon'>
+                <h2>TECHNICAL</h2>
+                <p>Складність геометрії, наявність UV розгортки, використання модифікаторів і оптимізація геометрії</p></div>
+            <div class='innerWrapper shadow'>
+                <img src='https://image.flaticon.com/icons/svg/1055/1055671.svg' alt='icon'>
+                <h2>ТЕКСТУРУВАННЯ</h2>
+                <p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p> <a href = 'https://italent.org.ua/sound_recommendations/'target = '_blank' > <div class = 'button unselectable' > РЕКОМЕНДАЦІЇ ДО ЗВУКУ </div></a> </div>
+            <div class='innerWrapper shadow'>
+                <img src='https://image.flaticon.com/icons/svg/427/427735.svg' alt='icon'>
+                <h2>LIGHTING</h2>
+                <p>Як освітлена сцена, за допомогою чого? як це реалізовано і наскільки світло композиційно і естетично пасує сцені</p></div>
+            <div class='innerWrapper shadow'>
+                <img src='https://image.flaticon.com/icons/svg/214/214353.svg' alt='icon'>
+                <h2>ВІДПОВІДНІСТЬ</h2>
+                <p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p></div>
+        </div>
+    </section>
+</div>
+    <div class='vimogiBg'>
+        <section class='section' id='vimogi'>
+            <h1 class='title'>Вимоги до<br>вашої роботи:</h1>
+            <div class='vimogi'>
+    <div class='vimogaWrapper'>
+                    <img class='icon' src='https://image.flaticon.com/icons/svg/148/148711.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Необхідно надати</h3>
+                        <p>3Д сцену в форматах .obj або .fbx у корені архіву</p>
+                    </div>
+                </div><div class='vimogaWrapper'>
+                    <img class='icon' src='https://image.flaticon.com/icons/svg/1055/1055672.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Робота має бути</h3>
+                        <p>оригінальною (розробленою САМОСТІЙНО) У разі використання готових моделей або туторіалів – проект має бути змінений що найменше на 70%. У разі використання готових рішень – це необхідно вказати в описі роботи та вказати посилання на модель або туторіал.</p>
+                    </div>
+                </div><div class='vimogaWrapper'>
+                    <img class='icon' src='https://image.flaticon.com/icons/svg/148/148957.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Папка Clay</h3>
+                        <p>має містити Clay render вашої роботи</p>
+                    </div>
+                </div><div class='vimogaWrapper'>
+                    <img class='icon' src='https://image.flaticon.com/icons/svg/148/148957.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Папка Render</h3>
+                        <p>має містити зображення головної 3D сцени. Якісний не шумний рендер розміру 1289*720 або 1920*1080</p>
+                    </div>
+                </div><div class='vimogaWrapper'>
+                    <img class='icon' src='https://image.flaticon.com/icons/svg/148/148957.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Папка Tex</h3>
+                        <p>має містити використані вами текстури</p>
+                    </div>
+                </div><div class='vimogaWrapper'>
+                    <img class='icon' src='https://image.flaticon.com/icons/svg/148/148957.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Папка Source</h3>
+                        <p>З файлами що використовувалися в роботі</p>
+                    </div>
+                </div><div class='vimogaWrapper'>
+                    <img class='icon' src='https://image.flaticon.com/icons/svg/148/148957.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Папка Screenshots</h3>
+                        <p>Зі скріншотами процессу розробки (обов’язково зі скріншотами сцени з увімкненною сіткою)</p>
+                    </div>
+                </div><div class='vimogaWrapper'>
+                    <img class='icon' src='https://image.flaticon.com/icons/svg/149/149012.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Архів з роботою</h3>
+                        <p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>
+                    </div>
+                </div><div class='vimogaWrapper'>
+                    <img class='icon' src='https://image.flaticon.com/icons/svg/214/214353.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Відповідність</h3>
+                        <a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>
+                    </div>
+                </div></div>
+    </section>
+</div><section class='section' id='registration'></section>
+
+<section id='CTAbuttons' class='section'>
+    <a href='https://italent.org.ua/#last_season' class='CTAbutton shadow unselectable'>
+        <p>роботи попредніх сезонів</p>
+        <img class='buttonImg' src='https://italent.org.ua/wp-content/uploads/2019/08/Vector-3.png'>
+    </a>
+    <a href='https://italent.org.ua/mentorship/' class='CTAbutton shadow unselectable'>
+        <p>потрібна допомога с проектом?</p>
+        <img class='buttonImg' src='https://italent.org.ua/wp-content/uploads/2019/08/Vector-3.png'>
+    </a>
+</section>
+
+<section id='judgeList' class='section'>
+    <h1 class='title'>СУДДІ НОМІНАЦІЇ</h1>
+    <div class='grod' id='judgeGrod'>
+        <script type='module' src='/includes/JS/judges.js'></script>
+    </div>
+    <a href='https://italent.org.ua/#judges'>
+        <div class='judgeButton shadow'>усі судді</div>
+    </a>
+</section>
+
+<?php include '../../includes/footer.html';?>
+
+</body>
+
+</html>
