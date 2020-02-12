@@ -113,19 +113,19 @@
     <section class="section" id="mediaLinks">
         <div class="grod">
             <a href="https://discord.gg/ywTQTpN" target="_blank" class="button unselectable shadow discord">
-                <img src="https://italent.org.ua/wp-content/uploads/2019/08/discord.png" alt="discord">
+                <img src="/includes/images/icons/discord.png" alt="discord">
                 <p>Приєднуйтеся Discord</p>
             </a>
             <a href="https://telegram.im/@ITalent_ua" target="_blank" class="button unselectable shadow telegram">
-                <img src="https://italent.org.ua/wp-content/uploads/2019/08/telegram.png" alt="telegram">
+                <img src="/includes/images/icons/telegram.png" alt="telegram">
                 <p>Приєднуйтеся Telegram</p>
             </a>
             <a href="https://www.facebook.com/iTalent.ua/" target="_blank" class="button unselectable shadow facebook">
-                <img src="https://italent.org.ua/wp-content/uploads/2019/08/facebook.png" alt="facebook">
+                <img src="/includes/images/icons/facebook.png" alt="facebook">
                 <p>Приєднуйтеся Facebook</p>
             </a>
             <a href="https://italent.org.ua/faq-it/" target="_blank" class="button unselectable shadow faq">
-                <img src="https://italent.org.ua/wp-content/uploads/2019/08/info.png" alt="faq">
+                <img src="/includes/images/icons/info.png" alt="faq">
                 <p>Перегляньте FAQ</p>
             </a>
         </div>

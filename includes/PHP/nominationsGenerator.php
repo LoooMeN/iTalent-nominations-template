@@ -131,11 +131,11 @@ $string .= "<section class='section' id='registration'></section>
 <section id='CTAbuttons' class='section'>
     <a href='https://italent.org.ua/#last_season' class='CTAbutton shadow unselectable'>
         <p>роботи попредніх сезонів</p>
-        <img class='buttonImg' src='https://italent.org.ua/wp-content/uploads/2019/08/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
     </a>
     <a href='https://italent.org.ua/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
-        <img class='buttonImg' src='https://italent.org.ua/wp-content/uploads/2019/08/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
     </a>
 </section>
 

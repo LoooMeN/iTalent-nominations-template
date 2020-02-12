@@ -11,14 +11,14 @@
                 "to": "15",
                 "tema": "вільна",
                 "task": "none",
-                "image": "https://cdnb.artstation.com/p/assets/images/images/006/404/353/large/siddhartha-sinha-1-1.jpg?1503615265"
+                "image": "/includes/images/backgrounds/3DAgeBg_1.jpg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "вільна",
                 "task": "none",
-                "image": "https://i.all3dp.com/wp-content/uploads/2019/02/19134741/yoda-an-iconic-figure-from-star-wars-is-popular-huanksta-pinshape-190217.jpg"
+                "image": "/includes/images/backgrounds/3DAgeBg_2.webp"
             }
         },
         "partner": {
@@ -31,69 +31,69 @@
             "1": {
                 "name": "TECHNICAL",
                 "desc": "<p>Складність геометрії, наявність UV розгортки, використання модифікаторів і оптимізація геометрії</p>",
-                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+                "icon_link": "/includes/images/icons/monitor.svg"
             },
             "2": {
                 "name": "ТЕКСТУРУВАННЯ",
                 "desc": "<p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p> <a href = 'https://italent.org.ua/sound_recommendations/'target = '_blank' > <div class = 'button unselectable' > РЕКОМЕНДАЦІЇ ДО ЗВУКУ </div></a> ",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055671.svg"
+                "icon_link": "/includes/images/icons/HandWithIcons.svg"
             },
             "3": {
                 "name": "LIGHTING",
                 "desc": "<p>Як освітлена сцена, за допомогою чого? як це реалізовано і наскільки світло композиційно і естетично пасує сцені</p>",
-                "icon_link": "https://image.flaticon.com/icons/svg/427/427735.svg"
+                "icon_link": "/includes/images/icons/LightIcon.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "<p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Необхідно надати",
                 "desc": "3Д сцену в форматах .obj або .fbx у корені архіву",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148711.svg"
+                "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
             "2": {
                 "name": "Робота має бути",
                 "desc": "оригінальною (розробленою САМОСТІЙНО) У разі використання готових моделей або туторіалів – проект має бути змінений що найменше на 70%. У разі використання готових рішень – це необхідно вказати в описі роботи та вказати посилання на модель або туторіал.",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055672.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "3": {
                 "name": "Папка Clay",
                 "desc": "має містити Clay render вашої роботи",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148957.svg"
+                "icon_link": "/includes/images/icons/folderIcon.svg"
             },
             "4": {
                 "name": "Папка Render",
                 "desc": "має містити зображення головної 3D сцени. Якісний не шумний рендер розміру 1289*720 або 1920*1080",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148957.svg"
+                "icon_link": "/includes/images/icons/folderIcon.svg"
             },
             "5": {
                 "name": "Папка Tex",
                 "desc": "має містити використані вами текстури",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148957.svg"
+                "icon_link": "/includes/images/icons/folderIcon.svg"
             },
             "6": {
                 "name": "Папка Source",
                 "desc": "З файлами що використовувалися в роботі",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148957.svg"
+                "icon_link": "/includes/images/icons/folderIcon.svg"
             },
             "7": {
                 "name": "Папка Screenshots",
                 "desc": "Зі скріншотами процессу розробки (обов’язково зі скріншотами сцени з увімкненною сіткою)",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148957.svg"
+                "icon_link": "/includes/images/icons/folderIcon.svg"
             },
             "8": {
                 "name": "Архів з роботою",
                 "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "9": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -119,14 +119,14 @@
                 "to": "15",
                 "tema": "Тема роботи: “Я – не я” – “хто це зробив?”",
                 "task": "Розкрити тему “Я – не я” ми пропонуємо виконавши роботу шляхом зіставлення в одному кадрі “себе” та “свого другого я”.",
-                "image": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/04/e0ce93ecb4876af5b43fb9a9ef7e7c3c.jpg"
+                "image": "/includes/images/backgrounds/PhotoAgeBg_1.jpg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: “Я і моя тінь”",
                 "task": "Я і твоя тінь – фотошоп тіні, тобто тінь в кадрі повинна відрізнятися від самої людини. Вітається історія у фотографії. Приклад: стоїть дівчинка, а тінь, яку вона відкидує у формі бабусі.Фото людини в кадрі має бути зроблено власноруч, фото тіні - або зроблено власноруч та оброблено, або повінстью зроблено в редакторі (брати і обробляти чужі фото - заборонено)",
-                "image": "https://www.oldtappanmanor.com/wp-content/uploads/2017/05/photographer.jpg"
+                "image": "/includes/images/backgrounds/PhotoAgeBg_2.jpg"
             }
         },
         "partner": {
@@ -139,49 +139,49 @@
             "1": {
                 "name": "CREATIVITY",
                 "desc": "Творчий задум, наскільки повно та креативно у роботі розкрита тема номінації, які образи та додаткові елементи автор використав для візуалізації поставленої задачі",
-                "icon_link": "https://image.flaticon.com/icons/svg/993/993427.svg"
+                "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
             "2": {
                 "name": "FRAMESTYLE",
                 "desc": "Дотримання правил компонування кадру: правил композиції, третин, золотого перетину, тощо",
-                "icon_link": "https://image.flaticon.com/icons/svg/330/330686.svg"
+                "icon_link": "/includes/images/icons/eye.svg"
             },
             "3": {
                 "name": "TECHNICAL",
                 "desc": "Технічне виконання: наскільки влучно були використані можливості графічних редакторів — Adobe Photoshop, Adobe Lightroom тощо",
-                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+                "icon_link": "/includes/images/icons/monitor.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Оригінальні фото",
                 "desc": "<p>до обробки у форматі *.jpg (для старшої групи – обидва оригінальні фото). Файли мають називатися наступним чином: ПРІЗВИЩЕ_ІМ’Я_Original.jpg.</p><p>УСІ ФОТО МАЮТЬ БУТИ ЗРОБЛЕНІ ВАМИ (можна із допомогою вчителя / батьів і т.п.)</p>",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148711.svg"
+                "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
             "2": {
                 "name": "Архів з роботою",
                 "desc": "після використання графічних редакторів у форматі *.jpg. Файл має називатись наступним чином: ПРІЗВИЩЕ_ІМ’Я_Result.jpg.",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148711.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "3": {
                 "name": "вихідний файл",
                 "desc": "(*psd – для Adobe Photoshop’у,. *.xcf — для Gimp’у — тощо) ОБОВ’ЯЗКОВО з усіма не склеєними шарами. Назва файлу маэ бути ПРІЗВИЩЕ_ІМ’Я",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055644.svg"
+                "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
             "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -207,14 +207,14 @@
                 "to": "15",
                 "tema": "Тема роботи: Тема роботи: зимовий персонаж у стилі Сай фай (Sci–fi).",
                 "task": "Необхідно намалювати лише самого персонажа.",
-                "image": "https://www.liveabout.com/thmb/Z0v5wfzDA-fOTkaL_ksqKkWHt5Y=/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-667156305-59befb3daf5d3a00102437f8.jpg"
+                "image": "/includes/images/backgrounds/2DAgeBg_2.jpg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: зимовий персонаж у Сай фай (Sci – fi) стилі.",
                 "task": "Необхідно намалювати персонажа у відповідному стилю Sci-fi оточенні.",
-                "image": "https://www.mapleridgenews.com/wp-content/uploads/2018/03/10915337_web1_180309-LAT--Murray-Phillips-Dies_1.jpg"
+                "image": "/includes/images/backgrounds/2DGAgeBg_1.jpg"
             }
         },
         "partner": {
@@ -227,54 +227,54 @@
             "1": {
                 "name": "IDEA & IMPRESSION",
                 "desc": "Креативність і оригінальність ідеї. Сила впливу на сприйняття глядача.",
-                "icon_link": "https://image.flaticon.com/icons/svg/1373/1373027.svg"
+                "icon_link": "/includes/images/icons/BrainInBox.svg"
             },
             "2": {
                 "name": "TECHNICAL",
                 "desc": "Якість рисовки. Гармонія пропорцій і композиції. Перспектива. Поєднання кольорів.",
-                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+                "icon_link": "/includes/images/icons/monitor.svg"
             },
             "3": {
                 "name": "STYLE",
                 "desc": "Ступінь відповідності роботи заданій тематиці і стилю.",
-                "icon_link": "https://image.flaticon.com/icons/svg/330/330686.svg"
+                "icon_link": "/includes/images/icons/eye.svg"
             },
             "4": {
                 "name": "MASTERING",
                 "desc": "Тільки для старшої вікової категорії. Професійний підхід. Оцінується рівень роботи, якщо б вона розглядалась, як частина портфоліо професіонала.",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055671.svg"
+                "icon_link": "/includes/images/icons/HandWithIcons.svg"
             },
             "5": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Папка “Процес”",
                 "desc": "Має містити скріншоти вашої роботи зі стадії скетчингу, покраски і деталізації (щонайменше три для кожного етапу)",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148957.svg"
+                "icon_link": "/includes/images/icons/folderIcon.svg"
             },
             "2": {
                 "name": "Результуюче зображення",
                 "desc": "<p>розміщене у корені архіву. <br><br>Файл має називатись ім’ям конкурсанта: ПРІЗВИЩЕ_ІМ’Я.jpg. Угорі результуючого файлу має бути написано ваше ПІБ, нозва поботи і вік. На приклад: Ivahin_Ivan “Злий орк” 13 років.</p>",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148711.svg"
+                "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
             "3": {
                 "name": "якщо в роботі",
                 "desc": "використовуються нестандартні шрифти — вони також мають бути доданими до архіву.",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -300,14 +300,14 @@
                 "to": "15",
                 "tema": "Тема роботи: екранізація твору чи його частини, або суперможливість героя (тема на вибір).",
                 "task": "<p>Cтворена Вами екранізація твору (або його частини) – короткої історії, п’єси, фільму, вірша, мультика чи коміксу, тощо.</p><p>Cуперможливість героя. Тобто, сюжет має розкривати причини/наслідки чи варіанти того, що відбувається з героєм унаслідок отримання або втрати ним суперможливості. Для кожного ці можливості можуть бути різними – мова не йде обо’язково про здатність літати або ставати невидимим.</p>",
-                "image": "https://i.ytimg.com/vi/KT4yih-vjRc/maxresdefault.jpg"
+                "image": "/includes/images/backgrounds/VideoAgeBg_1.jpg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: Що якби?",
                 "task": "<p>Відомий персонаж потрапляє у незвичайні для нього обставини. У персонажі і його сетінгу можна змінювати все: дії, характер самого персонажа, обставини.</p><p>Приклади: 'Гаррі Поттер опинився в українській школі', 'Білл Гейтс на безлюдному острові'.</p>",
-                "image": "http://edge.alluremedia.com.au/m/l/2017/04/davinci.jpg"
+                "image": "/includes/images/backgrounds/VideoAgeBg_2.jpg"
             }
         },
         "partner": {
@@ -320,69 +320,69 @@
             "1": {
                 "name": "СЮЖЕТ",
                 "desc": "<p>Чи відповідає відео темі та назві номінації, повнота розкриття теми, цілісність та цікавість сюжету, cила впливу на сприйняття глядача</p><a href='https://bit.ly/2IGyYNW' target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/524/524527.svg"
+                "icon_link": "/includes/images/icons/puzzle.svg"
             },
             "2": {
                 "name": "ОПЕРАТОРСЬКА РОБОТА",
                 "desc": "<p>Відповідність базовим правилам побудови кадру, наявність крупних планів, врахування освітлення.</p><a href='https://italent.org.ua/advice_for_operators/'target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/330/330686.svg"
+                "icon_link": "/includes/images/icons/eye.svg"
             },
             "3": {
                 "name": "МОНТАЖ ТА ОБРОБКА",
                 "desc": "<p>Якість відео монтажу, чи використовувались спеціальні ефекти.</p><a href='https://www.youtube.com/watch?v=HIJpN6LBM0I' target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/1149/1149168.svg"
+                "icon_link": "/includes/images/icons/monitor2.svg"
             },
             "4": {
                 "name": "ЗВУКОВИЙ СУПРОВІД",
                 "desc": "<p>Наскільки звуки в кадрі відповідають відеоматеріалу. Зверніть увагу – звук можна записати окремо, якісно і змонтувати чудову роботу.</p><a href='https://italent.org.ua/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148755.svg"
+                "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
             "5": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Необхідно надати",
                 "desc": "посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148723.svg"
+                "icon_link": "/includes/images/icons/Camera.svg"
             },
             "2": {
                 "name": "Додати зображення",
                 "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148711.svg"
+                "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
             "3": {
                 "name": "Додати титри",
                 "desc": "Титри вашої роботи мають перечисляти усіх хто приймав участь у цій роботі",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             },
             "4": {
                 "name": "Тривалість роботи",
                 "desc": "повинна бути не менше 1 хвилини та не перевищувати 3 хвилини",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148855.svg"
+                "icon_link": "/includes/images/icons/SandClock.svg"
             },
             "5": {
                 "name": "Тема",
                 "desc": "роботи має відповідати завданню.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             },
             "6": {
                 "name": "Оригінальна ідея",
                 "desc": "Відео має бути зняте вами (дозволено використання лише 20% вставок сторонніх відео матеріалів)",
-                "icon_link": "https://image.flaticon.com/icons/svg/427/427735.svg"
+                "icon_link": "/includes/images/icons/LightIcon.svg"
             },
             "7": {
                 "name": "Назва роботи",
                 "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 6 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 6 сезон – “Уявіть собі” – Ivahin_Ivan",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             },
             "8": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -408,14 +408,14 @@
                 "to": "15",
                 "tema": "Тема роботи: вільна",
                 "task": "none",
-                "image": "https://helpx.adobe.com/content/dam/help/en/animate/how-to/create-2d-animation/_jcr_content/main-pars/image/create-2d-animation_1408x792.jpg"
+                "image": "/includes/images/backgrounds/2DAAge_1.jpg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: вільна",
                 "task": "none",
-                "image": "http://animataurus.com/wp-content/uploads/2016/11/WALK_CYCLE.jpg"
+                "image": "/includes/images/backgrounds/2DAAge_2.jpg"
             }
         },
         "partner": {
@@ -428,69 +428,69 @@
             "1": {
                 "name": "STORYLINE",
                 "desc": "Цілісність історії, наскільки цікаво дивитись відео. Авторський сюжет, унікальність історії.",
-                "icon_link": "https://image.flaticon.com/icons/svg/524/524527.svg"
+                "icon_link": "/includes/images/icons/puzzle.svg"
             },
             "2": {
                 "name": "SOUNDTRACK",
                 "desc": "<p>Якість музичного супроводу та його відповідність до відеоряду, наскільки звуки відповідають тому, що відбувається в кадрі</p><a href='https://italent.org.ua/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ДО ЗВУКУ</div></a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148755.svg"
+                "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
             "3": {
                 "name": "FRAMESTYLE",
                 "desc": "Якість та кількість покадрової анімації",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055687.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "4": {
                 "name": "VISUAL",
                 "desc": "Якість стилю виконання",
-                "icon_link": "https://image.flaticon.com/icons/svg/330/330686.svg"
+                "icon_link": "/includes/images/icons/eye.svg"
             },
             "5": {
                 "name": "ОРИГІНАЛЬНА ІДЕЯ",
                 "desc": "Наскільки ідея унікальна",
-                "icon_link": "https://image.flaticon.com/icons/svg/1373/1373027.svg"
+                "icon_link": "/includes/images/icons/BrainInBox.svg"
             },
             "6": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Необхідно надати",
                 "desc": "посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148723.svg"
+                "icon_link": "/includes/images/icons/Camera.svg"
             },
             "2": {
                 "name": "Наявність сюжету в роботі",
                 "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148711.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "3": {
                 "name": "Баланс звуку",
                 "desc": "<a href='https://italent.org.ua/sound_recommendations/' target='_blank' class=''><div class='button shadow'>ПЕРЕГЛЯНЬТЕ ЦІ РЕКОМЕНДАЦІЇ</div></a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148755.svg"
+                "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
             "4": {
                 "name": "Тривалість роботи",
                 "desc": "повинна бути не менше 1 хвилини та не перевищувати 3 хвилини",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148855.svg"
+                "icon_link": "/includes/images/icons/SandClock.svg"
             },
             "5": {
                 "name": "Додати зображення",
                 "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148711.svg"
+                "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
             "6": {
                 "name": "Назва роботи",
                 "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 6 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 6 сезон – “Уявіть собі” – Ivahin_Ivan",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             },
             "7": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -516,14 +516,14 @@
                 "to": "15",
                 "tema": "Тема роботи: вільна",
                 "task": "Проблеми які ваш проект може вирішувати: Пошук телефонів (де друга шкарпетка?)Оффлайн путівник по пам’яткам міст (міні гід у телефоні)Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)SOS додатки (наприклад: сповіщення поліції про пограбування)Додатки для дієти (по штрихкоду дізнатись кількість калорій)",
-                "image": "https://content.linkedin.com/content/dam/me/learning/blog/2019/spring/Fastest.Growing.Skills.in.Tech.jpg"
+                "image": "/includes/images/backgrounds/ProgAgeBg_1.jpg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: вільна",
                 "task": "Проблеми які ваш проект може вирішувати: Пошук телефонів (де друга шкарпетка?)Оффлайн путівник по пам’яткам міст (міні гід у телефоні)Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)SOS додатки (наприклад: сповіщення поліції про пограбування)Додатки для дієти (по штрихкоду дізнатись кількість калорій)",
-                "image": "https://i.ytimg.com/vi/vt79JcPfZQA/maxresdefault.jpg"
+                "image": "/includes/images/backgrounds/ProgAgeBg_2.jpg"
             }
         },
         "partner": {
@@ -536,44 +536,44 @@
             "1": {
                 "name": "ІНТЕРФЕЙС І ЮЗАБІЛІТІ",
                 "desc": "Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та використання, швидкість роботи",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055687.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "2": {
                 "name": "PRACTICAL & INNOVATING",
                 "desc": "Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу реалізації",
-                "icon_link": "https://image.flaticon.com/icons/svg/993/993427.svg"
+                "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
             "3": {
                 "name": "TECHNICAL",
                 "desc": "наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.",
-                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+                "icon_link": "/includes/images/icons/monitor.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Архів із роботою",
                 "desc": "<p>має містити:</p><ul><li>Папку «Build» із скомпільованою програмою, готовою до запуску. Якщо програма не запуститься – робота не буде розглядатись</li><li>Папку «Source» із проектом програми із усіма файлами вихідного коду</li><li>Папку «Test Data» із тестовими файлами, якщо такі необхідні для перевірки роботи програми (Наприклад, якщо програма обробляє зображення – декілька відповідних зображень)</li></ul>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "2": {
                 "name": "Додати",
                 "desc": "файл manual.pdf з інформацією про проект (опис, інструкція по запуску та роботі)",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055644.svg"
+                "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
             "3": {
                 "name": "Архів з роботою",
                 "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "4": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -599,7 +599,7 @@
                 "to": "14",
                 "tema": "Тема роботи: fly and gun - вертикальний аркадний шутер.",
                 "task": "<a href='https://www.youtube.com/watch?v=1jI5tnS5Oek&amp;feature=youtu.be'><p>Приклади</p></a>",
-                "image": "https://content.linkedin.com/content/dam/me/learning/blog/2019/spring/Fastest.Growing.Skills.in.Tech.jpg"
+                "image": "/includes/images/backgrounds/ProgAgeBg_1.jpg"
             }
         },
         "partner": {
@@ -612,69 +612,69 @@
             "1": {
                 "name": "FUN&STORYLINE",
                 "desc": "Наскільки цікаво грати в цю гру, наявність, цілісність та цікавість сюжетної історії",
-                "icon_link": "https://image.flaticon.com/icons/svg/864/864763.svg"
+                "icon_link": "/includes/images/icons/ConfetiIcon.svg"
             },
             "2": {
                 "name": "COMPLETENESS",
                 "desc": "Чи дороблена гра",
-                "icon_link": "https://image.flaticon.com/icons/svg/1632/1632670.svg"
+                "icon_link": "/includes/images/icons/listIcon.svg"
             },
             "3": {
                 "name": "SOUNDTRACK",
                 "desc": "Якість музичного супроводу, автентичність та його відповідність сюжету гри",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148755.svg"
+                "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
             "4": {
                 "name": "VISUAL",
                 "desc": "Стиль, якість виконання, наскільки приємно дивитись на гру, зручність управління та навігації, наявність підказок та довідки",
-                "icon_link": "https://image.flaticon.com/icons/svg/330/330686.svg"
+                "icon_link": "/includes/images/icons/eye.svg"
             },
             "5": {
                 "name": "PROGRAMMING",
                 "desc": "Кількість та складність алгоритмів, блоків",
-                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+                "icon_link": "/includes/images/icons/monitor.svg"
             },
             "6": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Необхідно надати",
                 "desc": "посилання на онлайн версію проекту",
-                "icon_link": "https://image.flaticon.com/icons/svg/2055/2055783.svg"
+                "icon_link": "/includes/images/icons/worldIcon.svg"
             },
             "2": {
                 "name": "Необхідно зробити",
                 "desc": "відео-огляд своєї гри, тривалістю до 5 хвилин. В цьому відео показати саму гру, а також розповісти що саме і як Ви робили. Відео необхідно завантажити на Youtube та надати посилання, доступ до нього має бути обмежений для перегляду лише за посиланням",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148723.svg"
+                "icon_link": "/includes/images/icons/Camera.svg"    
             },
             "3": {
                 "name": "Необхідно зробити туторіал",
                 "desc": "В гру має бути додано пояснення, як в неї грати: у вигляді туторіалу, як частини гри (наприклад, перший рівень - ознайомчий) або у вигляді текстової довідки",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055644.svg"
+                "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
             "4": {
                 "name": "Тема",
                 "desc": "робота має бути зроблена у жанрі вертикальний аркадний шутер",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             },
             "5": {
                 "name": "Якщо в грі",
                 "desc": "є більше одного рівня – необхідно передбачити вибір рівня в меню гри (це необхідно щоб суддям не довелося проходити всі рівні до кінця, щоб оцінити роботу)",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055672.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "6": {
                 "name": "Архів з роботою",
                 "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "7": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -700,14 +700,14 @@
                 "to": "15",
                 "tema": "Тема роботи: вільна",
                 "task": "none",
-                "image": "https://www.itstarterseries.com/wp-content/uploads/2018/05/how-to-become-a-game-developer.png"
+                "image": "/includes/images/backgrounds/GameAgeBg_1.png"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: вільна",
                 "task": "none",
-                "image": "http://geomedia.com/wp-content/uploads/2016/04/20160427_160639.jpg"
+                "image": "/includes/images/backgrounds/GameAgeBg_2.png"
             }
         },
         "partner": {
@@ -720,74 +720,74 @@
             "1": {
                 "name": "FUN",
                 "desc": "Цікавість сюжетної історії, оригінальність ідеї гри, креативність рішення. Наскільки цікаво грати в гру.",
-                "icon_link": "https://image.flaticon.com/icons/svg/864/864763.svg"
+                "icon_link": "/includes/images/icons/ConfetiIcon.svg"
             },
             "2": {
                 "name": "GAMEDESIGN",
                 "desc": "Стиль, якість виконання, наскільки приємно дивитись на гру. Зручність управління та навігації, наявність підказок.",
-                "icon_link": "https://image.flaticon.com/icons/svg/524/524527.svg"
+                "icon_link": "/includes/images/icons/puzzle.svg"
             },
             "3": {
                 "name": "COMPLETENESS",
                 "desc": "Чи можна гру вже завтра викладати в Steam, або вона ще на стадії технічної демо-версії.",
-                "icon_link": "https://image.flaticon.com/icons/svg/1632/1632670.svg"
+                "icon_link": "/includes/images/icons/listIcon.svg"
             },
             "4": {
                 "name": "АУДІО - СУПРОВІД",
                 "desc": "Якість музичного супроводу та його відповідність сюжету гри",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148755.svg"
+                "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
             "5": {
                 "name": "VISUAL",
                 "desc": "Якість графіки. Дотримання обраної стилістики гри. Використання власноручно зроблених ігрових ассетів.",
-                "icon_link": "https://image.flaticon.com/icons/svg/330/330686.svg"
+                "icon_link": "/includes/images/icons/eye.svg"
             },
             "6": {
                 "name": "TECHNICAL",
                 "desc": "Наскільки використовуються засоби програмування, кількість та складність алгоритмів; використання засобів та технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.",
-                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+                "icon_link": "/includes/images/icons/monitor.svg"
             },
             "7": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Архів із грою",
                 "desc": "Папку із файлами запуску гри розміром не більше 5 гб. Якщо гра не запускається із цієї папки – робота розглядатись не буде.",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "2": {
                 "name": "Tutorial",
                 "desc": "Вбудована в гру інструкція про те як в неї грати. Наприклад: відео інструкція на початку гри (із можливістю пропустити відео), окремий навчальний рівень, частина першого рівня і т.д.",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055644.svg"
+                "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
             "3": {
                 "name": "Необхідно зробити",
                 "desc": "<p>відео-огляд своєї гри, тривалістю до 5 хвилин. В цьому відео показати:</p><ul><li>Геймплей (сам ігровий процесс)</li><li>Ігрові механіки (пояснити їх)</li><li>Концепт, сюжет гри</li></ul><p>Відео необхідно завантажити на Youtube та надати посилання, доступ до нього має бути обмежений для перегляду лише за посиланням</p>",
-                "icon_link": ""
+                "icon_link": "/includes/images/icons/Camera.svg"
             },
             "4": {
                 "name": "Якщо в грі",
                 "desc": "є більше одного рівня – необхідно передбачити вибір рівня в меню гри (це необхідно щоб суддям не довелося проходити всі рівні до кінця, щоб оцінити роботу)",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055672.svg"
+                "icon_link": "/includes/images/icons/monitor.svg"
             },
             "5": {
                 "name": "Архів із проектом гри",
                 "desc": "Окремий архів із усіма вихідними файлами гри",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "6": {
                 "name": "Архів з роботою",
                 "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "7": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -813,14 +813,14 @@
                 "to": "15",
                 "tema": "Тема роботи: вільна",
                 "task": "<ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP 8266 / ESP32 / STM 32</li><li>Інші апаратні платформи</li></ul>",
-                "image": "https://www.swri.org/sites/default/files/styles/client_services_banner/public/industries/AdobeStock_85831696.jpeg?itok=uEDuVx48&c=f191c9c62de2448c67d3f9580ba32c25"
+                "image": "/includes/images/backgrounds/ProgApAgeBg_1.jpeg"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Тема роботи: вільна",
                 "task": "<ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP 8266 / ESP32 / STM 32</li><li>Інші апаратні платформи</li></ul>",
-                "image": "https://www.eng.mcmaster.ca/sites/default/files/bf05lr00330.jpg"
+                "image": "/includes/images/backgrounds/ProgApAgeBg_2.jpeg"
             }
         },
         "partner": {
@@ -833,54 +833,54 @@
             "1": {
                 "name": "DESIGN",
                 "desc": "Наскільки зовнішній вигляд та інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055687.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "2": {
                 "name": "SOFTWARE & HARDWARE",
                 "desc": "кількість та складність алгоритмів; використання засобів та технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.п. Якість, складність та функціональність апаратної частини розробки",
-                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+                "icon_link": "/includes/images/icons/monitor.svg"
             },
             "3": {
                 "name": "PRACTICAL & INNOVATION",
                 "desc": "Корисність, можливість прикладного застосування. Інноваційність самої розробки або способу реалізації, оригінальність",
-                "icon_link": "https://image.flaticon.com/icons/svg/993/993427.svg"
+                "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Необхідно надати",
                 "desc": "посилання на архів у форматі zip. Назва архіву має бути ПРІЗВИЩЕ_ІМ’Я.zip.",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "2": {
                 "name": "Архів має містити",
                 "desc": "Папку «Source» із проектом програми із усіма файлами вихідного коду. Папку «Presentation» із pdf документом, який містить детальний опис розробки (функції, схема, лістинг основної частини коду, інструкція по використанню, фотографії пристрою та за наявності – знімки екрану інтерфейсу)",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "3": {
                 "name": "Необхідно зробити",
                 "desc": "відео, тривалістю до 5 хвилин, в якому Ви показуєте та розповідаєте про призначення розробки, як працює пристрій, що саме і як Ви робили. Відео необхідно завантажити на Youtube та надати посилання, доступ до нього має бути обмежений для перегляду лише за посиланням",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148723.svg"
+                "icon_link": "/includes/images/icons/Camera.svg"
             },
             "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Запропоновані теми розробки:",
                 "desc": "<ul><li>Reimagine настольної гри (розумні шахи, ….)</li><li>Smart City</li><li>Smart House</li><li>Smart Farm</li><li>Smart Toy</li><li>Smart Security</li><li>Дослідницький танк / маніпулятор</li><li>Вільна тема</li></ul>",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055672.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "6": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -906,7 +906,7 @@
                 "to": "14",
                 "tema": "Тема роботи: вільна",
                 "task": "none",
-                "image": "http://www.rexcelitservices.com/wp-content/uploads/2017/04/cms_development_system.png"
+                "image": "/includes/images/backgrounds/WebConstAgeBg.png"
             }
         },
         "partner": {
@@ -919,44 +919,44 @@
             "1": {
                 "name": "КРЕАТИВНІСТЬ І ДИЗАЙН",
                 "desc": "Креативність проекту — незвичайні рішення в дизайні, ефекти, ілюстрації",
-                "icon_link": "https://image.flaticon.com/icons/svg/1373/1373027.svg"
+                "icon_link": "/includes/images/icons/BrainInBox.svg"
             },
             "2": {
                 "name": "КОНТЕНТ",
                 "desc": "Контент цікавий, оригінальний, легкий для сприйняття",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055671.svg"
+                "icon_link": "/includes/images/icons/HandWithIcons.svg"
             },
             "3": {
                 "name": "ІДЕЯ ПРОЕКТУ",
                 "desc": "Проекту несе в собі певну ідею, наскільки він цікавий та може бути корисний іншим користувачам",
-                "icon_link": "https://image.flaticon.com/icons/svg/427/427735.svg"
+                "icon_link": "/includes/images/icons/LightIcon.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Сайт має бути",
                 "desc": "зроблений із використанням CMS (WordPress, Joomla та ін.) або Конструктора (Wix, Tilda і т.п.)",
-                "icon_link": "https://image.flaticon.com/icons/svg/2055/2055783.svg"
+                "icon_link": "/includes/images/icons/worldIcon.svg"
             },
             "2": {
                 "name": "Сайт має бути",
                 "desc": "розміщено в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome",
-                "icon_link": "https://image.flaticon.com/icons/svg/2055/2055783.svg"
+                "icon_link": "/includes/images/icons/worldIcon.svg"
             },
             "3": {
                 "name": "Надати доступ",
                 "desc": "до адмін панелі сайту. Логін та пароль мають бути надані окремим текстовим файлом",
-                "icon_link": "https://image.flaticon.com/icons/svg/179/179543.svg"
+                "icon_link": "/includes/images/icons/keyIcon.svg"
             },
             "4": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -982,7 +982,7 @@
                 "to": "19",
                 "tema": "Тема роботи: вільна",
                 "task": "none",
-                "image": "http://sdssoftwares.co.uk/images/web-development-agency.jpg"
+                "image": "/includes/images/backgrounds/WebAppAgeBg.jpg"
             }
         },
         "partner": {
@@ -995,49 +995,49 @@
             "1": {
                 "name": "БАЗА ДАНИХ І BACK-END",
                 "desc": "коректність і складність спроектованої бази-даних. Рівень і складність функціональної частини проекту",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148824.svg"
+                "icon_link": "/includes/images/icons/DataBase.svg"
             },
             "2": {
                 "name": "ДИЗАЙН ТА FRONT-END",
                 "desc": "Юзабіліті, влучна типографіка, розмітка тексту. Відповідність стандартам розробки, використання javascript фреймворків. Технічна реалізація.",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055687.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "3": {
                 "name": "ІДЕЯ ПРОЕКТУ",
                 "desc": "Проект цікавий і корисний, може відбутися як бізнес або соціальний проект",
-                "icon_link": "https://image.flaticon.com/icons/svg/427/427735.svg"
+                "icon_link": "/includes/images/icons/LightIcon.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Код сайту",
                 "desc": "<p>Back-end частина та база даних мають бути оригінальними (розробленим САМОСТІЙНО).</p><p>Front-end вашого сайту може використовувати готові рішення дизайну чи верстки. У разі використання готових рішень – це необхідно вказати в описі роботи та вказати посилання на оригінал.</p>",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055672.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "2": {
                 "name": "Сайт має бути",
                 "desc": "розміщено в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome",
-                "icon_link": "https://image.flaticon.com/icons/svg/2055/2055783.svg"
+                "icon_link": "/includes/images/icons/worldIcon.svg"
             },
             "3": {
                 "name": "Якщо для тестування сайту",
                 "desc": "необхідно занести в нього певний динамічний контент (наприклад для блогів, форумів і т.п.) – необхідно надати сайт із уже внесеними даними.",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148824.svg"
+                "icon_link": "/includes/images/icons/DataBase.svg"
             },
             "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -1063,7 +1063,7 @@
                 "to": "19",
                 "tema": "Тема роботи: вільна",
                 "task": "none",
-                "image": "https://www.lbcc.edu/sites/main/files/imagecache/carousel/main-images/hero-web_development.png?1563728376"
+                "image": "/includes/images/backgrounds/WebFrontAgeBg.png"
             }
         },
         "partner": {
@@ -1076,49 +1076,49 @@
             "1": {
                 "name": "ВІЗУАЛЬНА РЕАЛІЗАЦІЯ",
                 "desc": "Дизайн та зручність. Логічність структури та навігації. Влучність типографіки, самих текстів та ілюстрацій. Якість верстки.",
-                "icon_link": "https://image.flaticon.com/icons/svg/330/330686.svg"
+                "icon_link": "/includes/images/icons/eye.svg"
             },
             "2": {
                 "name": "АДАПТИВНІСТЬ",
                 "desc": "Сайт добре адаптований для мобільних пристроїв",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055687.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "3": {
                 "name": "ІДЕЯ ПРОЕКТУ",
                 "desc": "Наявність та цікавість ідеї проекту, повнота її реалізації. Наскільки проект може бути корисний іншим користувачам.",
-                "icon_link": "https://image.flaticon.com/icons/svg/427/427735.svg"
+                "icon_link": "/includes/images/icons/LightIcon.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Дизайн та код",
                 "desc": "сайту має бути оригінальним (розробленим САМОСТІЙНО або у разі використання готових шаблонів – сайт має бути змінений що найменше на 70% від оригінального). У разі використання готових рішень – це необхідно вказати в описі роботи та вказати посилання на оригінал",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055672.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "2": {
                 "name": "Сайт має бути",
                 "desc": "розміщено в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome",
-                "icon_link": "https://image.flaticon.com/icons/svg/2055/2055783.svg"
+                "icon_link": "/includes/images/icons/worldIcon.svg"
             },
             "3": {
                 "name": "Якщо для тестування сайту",
                 "desc": "необхідно занести в нього певний динамічний контент (наприклад для блогів, форумів і т.п.) – необхідно надати сайт із уже внесеними даними.",
-                "icon_link": "https://image.flaticon.com/icons/svg/148/148824.svg"
+                "icon_link": "/includes/images/icons/DataBase.svg"
             },
             "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
@@ -1134,8 +1134,8 @@
     },
     "nomination13": {
         "ukrName": "ПРОГРАМНА ОБРОБКА ТЕКСТІВ",
-        "ruName": "ПРОГРАМНАЯ ОБРОБОТКА",
-        "url": "https://italent.org.ua/nominations/web-front-end/",
+        "ruName": "ПРОГРАМНАЯ ОБРОБОТКА ТЕКСТОВ",
+        "url": "https://italent.org.ua/nominations/prog-text/",
         "desc": "У цій номінації вам потрібно зробити програму, сторінку (веб аплікацію) або додаток на смартфон який обробляє / аналізує / створює тексти",
         "id": "",
         "age": {
@@ -1144,12 +1144,12 @@
                 "to": "19",
                 "tema": "Тема роботи: на вибір",
                 "task": "<ul class='explanation shown'><p>Проблеми, які ваш проект може вирішувати:</p><li>Електронний конспект. Додаток, який дозволяє сфотографувати свій конспект і розпізнати його.Може бути корисно, щоб робити пошук по конспектах з таких предметів, як історія чи зарубіжна література.</li><li>Питально-відповідальна система з якогось предмету (наприклад, з географії) за структурованою інформацією з підручника.</li><li>Визначення фейкових новин / визначення тролінгу в коментарях до новин.</li><li>Перекладач з діалектної української на літературну (і навпаки). Можна брати будь-який діалект України: львівську ґвару, подільський діалект, волинський діалект, лемківську мову, закарпатський говір тощо.</li><li>Транслітератор власних назв з англійської на українську (Hemingway =&gt; Гемінґвей).</li><li>Зібрати імена добрих і злих літературних персонажів і написати класифікатор на лінгвістичних ознаках, який визначає, чи персонаж із вашим іменем був би злим чи добрим.</li><li>Генератор мовних каламбурів.</li><li>Визначення вірусних заголовків новин: як написати заголовок новини так, щоб на нього клацала максимальна кількість людей.</li><li>Своя (вільна) тема, яка стосується опрацювання текстів.</li></ul>",
-                "image": "https://content.linkedin.com/content/dam/me/learning/blog/2019/spring/Fastest.Growing.Skills.in.Tech.jpg"
+                "image": "/includes/images/backgrounds/ProgTextAgeBg.jpg"
             }
         },
         "partner": {
             "name": "Grammarly",
-            "image_link": "https://italent.org.ua/wp-content/uploads/2019/10/grammarly_logo.svg",
+            "image_link": "/includes/images/partners/logo-grammarly.svg",
             "desc": "Grammarly — це міжнародна компанія, яку заснували українці. Нещодавно вона стала 'єдинорогом' (її вартість перевищила 1 млрд $). Grammarly створює онлайн-сервіс на основі штучного інтелекту для допомоги в написанні текстів англійською мовою.",
             "link": "https://www.grammarly.com/"
         },
@@ -1157,49 +1157,49 @@
             "1": {
                 "name": "ІНТЕРФЕЙС І ЮЗАБІЛІТІ",
                 "desc": "Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та використання, швидкість роботи",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055687.svg"
+                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "2": {
                 "name": "PRACTICAL & INNOVATING",
                 "desc": "Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу реалізації",
-                "icon_link": "https://image.flaticon.com/icons/svg/993/993427.svg"
+                "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
             "3": {
                 "name": "TECHNICAL",
                 "desc": "наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.",
-                "icon_link": "https://image.flaticon.com/icons/svg/427/427735.svg"
+                "icon_link": "/includes/images/icons/monitor.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
-                "icon_link": "https://image.flaticon.com/icons/svg/1197/1197511.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
                 "name": "Архів із роботою",
                 "desc": "<p>має містити:</p><ul><li>Папку «Build» із скомпільованою програмою, готовою до запуску. Якщо програма не запуститься – робота не буде розглядатись</li><li>Папку «Source» із проектом програми із усіма файлами вихідного коду</li><li>Папку «Test Data» із тестовими файлами, якщо такі необхідні для перевірки роботи програми (Наприклад, якщо програма обробляє зображення – декілька відповідних зображень)</li></ul>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "2": {
                 "name": "Якщо ви робите сайт",
                 "desc": "то він має бути розміщеній в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome",
-                "icon_link": "https://image.flaticon.com/icons/svg/2055/2055783.svg"
+                "icon_link": "/includes/images/icons/worldIcon.svg"
             },
             "3": {
                 "name": "Додати",
                 "desc": "файл manual.pdf з інформацією про проект (опис, інструкція по запуску та роботі)",
-                "icon_link": "https://image.flaticon.com/icons/svg/1055/1055644.svg"
+                "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
             "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/149/149012.svg"
+                "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Відповідність",
                 "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
-                "icon_link": "https://image.flaticon.com/icons/svg/214/214353.svg"
+                "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
