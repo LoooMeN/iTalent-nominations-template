@@ -14,21 +14,21 @@
             </div>
             <nav class="myDesktop">
                 <div class="navElement">
-                    <a class="noTrigger-hvr-underline-from-left">iTalent</a>
+                    <a href="/" class="noTrigger-hvr-underline-from-left">iTalent</a>
                     <div class="hidden shadow">
-                        <a href="/#about">
+                        <a href="#about">
                             <div>Про конкурс</div>
                         </a>
-                        <a href="/#lastWinners">
+                        <a href="#lastWinners">
                             <div>Переможці минулого сезону</div>
                         </a>
-                        <a href="/#judges">
+                        <a href="#judges">
                             <div>Судді</div>
                         </a>
-                        <a href="/#mentor">
+                        <a href="#mentor">
                             <div>Ментори</div>
                         </a>
-                        <a href="/#contact">
+                        <a href="#contact">
                             <div>Контакти</div>
                         </a>
                     </div>
@@ -45,12 +45,14 @@
 
             <div class="myMobile">
                 <nav id="mobileMenu" class="closed">
-                    <a class="navElement">iTalent</a>
-                    <a class="navSubElement">iTalent</a>
-                    <a class="navSubElement">iTalent</a>
-                    <a class="navElement">iTalent</a>
-                    <a class="navElement">iTalent</a>
-                    <a class="navElement">iTalent</a>
+                    <a href="/" class="navElement">iTalent</a>
+                    <a href="#about" class="navElement">Про конкурс</a>
+                    <a href="#lastWinners" class="navElement">Переможці минулого сезону</a>
+                    <a href="#judges" class="navElement">Судді</a>
+                    <a href="#mentor" class="navElement">Ментори</a>
+                    <a href="#nominations" class="navElement">IT-номінації</a>
+                    <a href="http://cybersport.italent.org.ua/" target="_blank" class="navElement">Кіберспорт</a>
+                    <a href="#contact" class="navElement">Контакти</a>
                     <!-- <div class="switch">
                         UA
                         <div class="arrow"></div>
@@ -64,4 +66,17 @@
         </div>
     </div>
 </section>
+<script>
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+            document.querySelector(".flexington").style.boxShadow = "0px 7px 27px rgba(0, 0, 0, 0.174)";
+        } else {
+            document.querySelector(".flexington").style.boxShadow = "none";
+        }
+    }
+</script>
 <div class="headerSpace"></div>

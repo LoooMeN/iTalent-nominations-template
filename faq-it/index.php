@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/faqStyle.css">
     <title>FAQ IT</title>
-    <?php include "./includes/header.html";?>
+    <?php include "../includes/header.html";?>
 </head>
 
 <body>
@@ -131,5 +131,6 @@
         </div>
     </section>
 </body>
+<?php include "../includes/footer.html";?>
 
 </html>
