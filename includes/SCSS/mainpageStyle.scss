@@ -40,7 +40,7 @@
 // SECTION 1
 
 .aboutWrap {
-    background-image: url('https://www.italent.org.ua/wp-content/uploads/2019/10/aboutBg.svg');
+    background-image: url('/includes/images/backgrounds/aboutBg.svg');
     background-size: cover;
     background-position: bottom;
     z-index: -10;
@@ -147,7 +147,7 @@
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 
         .holder {
-            background-image: url('https://www.italent.org.ua/wp-content/uploads/2019/09/about_bg.png');
+            background-image: url('/includes/images/backgrounds/about_bg.png');
             background-size: cover;
             background-position: center center;
             @include myFlex(column);
@@ -502,7 +502,7 @@
 }
 
 .mentorBg {
-    background-image: url('https://www.italent.org.ua/wp-content/uploads/2019/09/mentorBg.svg');
+    background-image: url('/includes/images/backgrounds/mentorBg.svg');
     background-position: center top;
     background-size: cover;
     padding: 100px 0px;
@@ -678,7 +678,7 @@
             padding: 75 px 50px;
             transition: box-shadow 0.5s;
             position: relative;
-            background-image: url('https://www.italent.org.ua/wp-content/uploads/2019/10/winnerBg.svg');
+            background-image: url('/includes/images/backgrounds/winnerBg.svg');
             background-size: cover;
             background-position: center center;
 

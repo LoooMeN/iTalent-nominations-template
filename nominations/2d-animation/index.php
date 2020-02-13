@@ -23,7 +23,7 @@
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='https://helpx.adobe.com/content/dam/help/en/animate/how-to/create-2d-animation/_jcr_content/main-pars/image/create-2d-animation_1408x792.jpg'
+                    <img src='/includes/images/backgrounds/2DAAge_1.jpg'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
@@ -31,7 +31,7 @@
                     </div>
                 </div></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
-            <img src='http://animataurus.com/wp-content/uploads/2016/11/WALK_CYCLE.jpg'
+            <img src='/includes/images/backgrounds/2DAAge_2.jpg'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
@@ -46,27 +46,27 @@
         <h1 class='title'>Критерії за якими будуть<br>оцінювати вашу роботу</h1>
         <div class='kriterii'>
             <div class='innerWrapper shadow'>
-                <img src='https://image.flaticon.com/icons/svg/524/524527.svg' alt='icon'>
+                <img src='/includes/images/icons/puzzle.svg' alt='icon'>
                 <h2>STORYLINE</h2>
                 Цілісність історії, наскільки цікаво дивитись відео. Авторський сюжет, унікальність історії.</div>
             <div class='innerWrapper shadow'>
-                <img src='https://image.flaticon.com/icons/svg/148/148755.svg' alt='icon'>
+                <img src='/includes/images/icons/SoundIcon.svg' alt='icon'>
                 <h2>SOUNDTRACK</h2>
                 <p>Якість музичного супроводу та його відповідність до відеоряду, наскільки звуки відповідають тому, що відбувається в кадрі</p><a href='https://italent.org.ua/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ДО ЗВУКУ</div></a></div>
             <div class='innerWrapper shadow'>
-                <img src='https://image.flaticon.com/icons/svg/1055/1055687.svg' alt='icon'>
+                <img src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
                 <h2>FRAMESTYLE</h2>
                 Якість та кількість покадрової анімації</div>
             <div class='innerWrapper shadow'>
-                <img src='https://image.flaticon.com/icons/svg/330/330686.svg' alt='icon'>
+                <img src='/includes/images/icons/eye.svg' alt='icon'>
                 <h2>VISUAL</h2>
                 Якість стилю виконання</div>
             <div class='innerWrapper shadow'>
-                <img src='https://image.flaticon.com/icons/svg/1373/1373027.svg' alt='icon'>
+                <img src='/includes/images/icons/BrainInBox.svg' alt='icon'>
                 <h2>ОРИГІНАЛЬНА ІДЕЯ</h2>
                 Наскільки ідея унікальна</div>
             <div class='innerWrapper shadow'>
-                <img src='https://image.flaticon.com/icons/svg/214/214353.svg' alt='icon'>
+                <img src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ</h2>
                 Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</div>
         </div>
@@ -77,43 +77,43 @@
             <h1 class='title'>Вимоги до<br>вашої роботи:</h1>
             <div class='vimogi'>
     <div class='vimogaWrapper'>
-                    <img class='icon' src='https://image.flaticon.com/icons/svg/148/148723.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/Camera.svg' alt='icon'>
                     <div class='text'>
                         <h3>Необхідно надати</h3>
                         <p>посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='https://image.flaticon.com/icons/svg/148/148711.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Наявність сюжету в роботі</h3>
                         <p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='https://image.flaticon.com/icons/svg/148/148755.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/SoundIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Баланс звуку</h3>
                         <a href='https://italent.org.ua/sound_recommendations/' target='_blank' class=''><div class='button shadow'>ПЕРЕГЛЯНЬТЕ ЦІ РЕКОМЕНДАЦІЇ</div></a>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='https://image.flaticon.com/icons/svg/148/148855.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/SandClock.svg' alt='icon'>
                     <div class='text'>
                         <h3>Тривалість роботи</h3>
                         <p>повинна бути не менше 1 хвилини та не перевищувати 3 хвилини</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='https://image.flaticon.com/icons/svg/148/148711.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Додати зображення</h3>
                         <p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='https://image.flaticon.com/icons/svg/214/214353.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Назва роботи</h3>
                         <p>Роботу завантажено на Youtube слід називати наступним чином “iTalent 6 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 6 сезон – “Уявіть собі” – Ivahin_Ivan</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='https://image.flaticon.com/icons/svg/214/214353.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Відповідність</h3>
                         <a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>
@@ -125,11 +125,11 @@
 <section id='CTAbuttons' class='section'>
     <a href='https://italent.org.ua/#last_season' class='CTAbutton shadow unselectable'>
         <p>роботи попредніх сезонів</p>
-        <img class='buttonImg' src='https://italent.org.ua/wp-content/uploads/2019/08/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
     </a>
     <a href='https://italent.org.ua/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
-        <img class='buttonImg' src='https://italent.org.ua/wp-content/uploads/2019/08/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
     </a>
 </section>
 

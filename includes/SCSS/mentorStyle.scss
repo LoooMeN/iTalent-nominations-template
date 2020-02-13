@@ -65,7 +65,7 @@
 // SECTION 2
 
 .mentorBg {
-	background-image: url("https://italent.org.ua/wp-content/uploads/2019/10/mentorBg.svg");
+	background-image: url("/includes/images/backgrounds/mentorBg.svg");
 	@include bgOverride(20vh);
 	background-size: contain;
 	background-position: center 65%;
@@ -73,7 +73,7 @@
 
 #about {
 	div {
-		background-image: url("https://italent.org.ua/wp-content/uploads/2019/10/bgForStuff.svg");
+		background-image: url("/includes/images/backgrounds/bgForStuff.svg");
 		background-position: center center;
 		background-size: contain;
 		@include bgOverride(150px);
@@ -172,7 +172,7 @@
 }
 
 .wrapperAttention {
-	background-image: url("https://italent.org.ua/wp-content/uploads/2019/10/disksBg.svg");
+	background-image: url("/includes/images/backgrounds/disksBg.svg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -273,7 +273,7 @@
 
 
 .mentorListBg {
-	background-image: url('https://italent.org.ua/wp-content/uploads/2019/10/mentorListbG.svg');
+	background-image: url('/includes/images/backgrounds/mentorListbG.svg');
 	@include bgOverride(20vh);
 	background-size: contain;
 	background-position: center;

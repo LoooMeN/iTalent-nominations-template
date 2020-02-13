@@ -309,7 +309,7 @@ body .left {
   margin-left: -36px;
   margin-top: -36px;
   position: absolute;
-  background: url("//i.imgur.com/TxzC70f.png") no-repeat;
+  background: url("/includes/images/icons/TxzC70f.png") no-repeat;
   cursor: pointer;
 }
 
@@ -370,7 +370,7 @@ body .left {
 }
 
 .aboutWrap {
-  background-image: url("https://www.italent.org.ua/wp-content/uploads/2019/10/aboutBg.svg");
+  background-image: url("/includes/images/backgrounds/aboutBg.svg");
   background-size: cover;
   background-position: bottom;
   z-index: -10;
@@ -483,7 +483,7 @@ body .left {
 }
 
 #about .myContainer .holder {
-  background-image: url("https://www.italent.org.ua/wp-content/uploads/2019/09/about_bg.png");
+  background-image: url("/includes/images/backgrounds/about_bg.png");
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -932,7 +932,7 @@ body .left {
 }
 
 .mentorBg {
-  background-image: url("https://www.italent.org.ua/wp-content/uploads/2019/09/mentorBg.svg");
+  background-image: url("/includes/images/backgrounds/mentorBg.svg");
   background-position: center top;
   background-size: cover;
   padding: 100px 0px;
@@ -1202,7 +1202,7 @@ body .left {
   transition: box-shadow 0.5s;
   transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
   position: relative;
-  background-image: url("https://www.italent.org.ua/wp-content/uploads/2019/10/winnerBg.svg");
+  background-image: url("/includes/images/backgrounds/winnerBg.svg");
   background-size: cover;
   background-position: center center;
 }
