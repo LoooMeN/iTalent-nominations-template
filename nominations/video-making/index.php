@@ -52,7 +52,7 @@
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/eye.svg' alt='icon'>
                 <h2>ОПЕРАТОРСЬКА РОБОТА</h2>
-                <p>Відповідність базовим правилам побудови кадру, наявність крупних планів, врахування освітлення.</p><a href='https://italent.org.ua/advice_for_operators/'target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a></div>
+                <p>Відповідність базовим правилам побудови кадру, наявність крупних планів, врахування освітлення.</p><a href='/advice_for_operators/'target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a></div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/monitor2.svg' alt='icon'>
                 <h2>МОНТАЖ ТА ОБРОБКА</h2>
@@ -60,7 +60,7 @@
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/SoundIcon.svg' alt='icon'>
                 <h2>ЗВУКОВИЙ СУПРОВІД</h2>
-                <p>Наскільки звуки в кадрі відповідають відеоматеріалу. Зверніть увагу – звук можна записати окремо, якісно і змонтувати чудову роботу.</p><a href='https://italent.org.ua/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a></div>
+                <p>Наскільки звуки в кадрі відповідають відеоматеріалу. Зверніть увагу – звук можна записати окремо, якісно і змонтувати чудову роботу.</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a></div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ</h2>
@@ -82,7 +82,7 @@
                     <img class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Додати зображення</h3>
-                        <p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>
+                        <p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='/includes/documents/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='/includes/documents/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
@@ -118,18 +118,18 @@
                     <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Відповідність</h3>
-                        <a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>
+                        <a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>
                     </div>
                 </div></div>
     </section>
 </div><section class='section' id='registration'></section>
 
 <section id='CTAbuttons' class='section'>
-    <a href='https://italent.org.ua/#last_season' class='CTAbutton shadow unselectable'>
-        <p>роботи попредніх сезонів</p>
+    <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
+        <p>роботи попередніх сезонів</p>
         <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
     </a>
-    <a href='https://italent.org.ua/mentorship/' class='CTAbutton shadow unselectable'>
+    <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
         <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
     </a>
@@ -140,7 +140,7 @@
     <div class='grod' id='judgeGrod'>
         <script type='module' src='/includes/JS/judges.js'></script>
     </div>
-    <a href='https://italent.org.ua/#judges'>
+    <a href='/judges/'>
         <div class='judgeButton shadow'>усі судді</div>
     </a>
 </section>

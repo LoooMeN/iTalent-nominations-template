@@ -80,8 +80,7 @@
             </div>
             <div class="red questionBox shadow">
                 <h2>Що треба надсилати у архіві з роботою?</h2>
-                <p>Вам необхідно дуже уважно ознайомитися зі сторінкою своєї номінації:
-                    https://italent.org.ua/#nominations</p>
+                <p>Вам необхідно дуже уважно ознайомитися зі сторінкою своєї номінації.</p>
             </div>
             <div class="blue questionBox bigBox shadow">
                 <h2>Що я отримаю за участь?</h2>
@@ -124,7 +123,7 @@
                 <img src="/includes/images/icons/facebook.png" alt="facebook">
                 <p>Приєднуйтеся Facebook</p>
             </a>
-            <a href="https://italent.org.ua/faq-it/" target="_blank" class="button unselectable shadow faq">
+            <a href="/faq-it/" target="_blank" class="button unselectable shadow faq">
                 <img src="/includes/images/icons/info.png" alt="faq">
                 <p>Перегляньте FAQ</p>
             </a>

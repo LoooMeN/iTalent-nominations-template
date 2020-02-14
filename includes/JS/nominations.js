@@ -89,7 +89,7 @@ let testList = [{
         'ukName': 'Програмна обробка текстів',
         'icon': 'icon-grammar',
         'sec': 'tech',
-        'link': 'https://italent.org.ua/nominations/prog-text/'
+        'link': '/nominations/prog-text/'
     }
 ]
 
@@ -137,14 +137,12 @@ function create(toCreate) {
         let icon1 = document.createElement('i');
         let name = document.createElement('h2');
         let text = document.createElement('p');
-        let icon2 = document.createElement('img');
         let box = document.createElement('div');
         let flexington = document.createElement('div');
         let a = document.createElement('a');
 
         a.href = elem.link;
         icon1.classList.add(elem.icon, 'icon');
-        icon2.src = 'https://www.italent.org.ua/wp-content/uploads/2019/09/more.svg';
         nom.classList.add('nomination');
         nom.style.opacity = 0;
         name.innerText = elem.name;
@@ -166,46 +164,6 @@ function create(toCreate) {
         });
     }, 500)
 }
-
-// function create(toCreate) {
-//     if (document.querySelector('.nomination'))
-//         deleteNom();
-//     toCreate.forEach((elem) => {
-//         let nom = document.createElement('div');
-//         let icon1 = document.createElement('i');
-//         let name = document.createElement('h2');
-//         let text = document.createElement('p');
-//         let icon2 = document.createElement('img');
-//         let box = document.createElement('div');
-//         let flexington = document.createElement('div');
-//         let a = document.createElement('a');
-
-//         a.href = elem.link;
-//         icon1.classList.add(elem.icon, 'icon');
-//         icon2.src = 'https://www.italent.org.ua/wp-content/uploads/2019/09/more.svg';
-//         nom.classList.add('nomination');
-//         nom.style.opacity = 0;
-//         name.innerText = elem.name;
-//         text.innerText = 'Дізнатись більше ...'
-//         nom.appendChild(icon1);
-//         box.appendChild(name);
-//         flexington.appendChild(text);
-//         flexington.appendChild(icon2);
-//         flexington.classList.add('flexington');
-//         box.appendChild(flexington);
-//         box.classList.add('myContainer');
-//         nom.appendChild(box);
-//         a.appendChild(nom);
-//         a.classList.add('nomLink');
-//         main.appendChild(a);
-//     });
-//     let noms = document.querySelectorAll('.nomination');
-//     setTimeout(() => {
-//         noms.forEach((elem) => {
-//             elem.style.opacity = 1;
-//         });
-//     }, 500)
-// }
 
 function deleteNom() {
     let noms = document.querySelectorAll('.nomLink');

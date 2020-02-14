@@ -2,7 +2,7 @@
     "nomination1": {
         "ukrName": "3D ГРАФІКА",
         "ruName": "3D ГРАФИКА",
-        "url": "https://italent.org.ua/nominations/3d-graphics/",
+        "url": "/nominations/3d-graphics/",
         "desc": "У цій номінації вам потрібно зробити 3D модель і надати рендери у різних ракурсах. Уважно читайте вимоги до 3D моделі.",
         "id": "3D",
         "age": {
@@ -35,7 +35,7 @@
             },
             "2": {
                 "name": "ТЕКСТУРУВАННЯ",
-                "desc": "<p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p> <a href = 'https://italent.org.ua/sound_recommendations/'target = '_blank' > <div class = 'button unselectable' > РЕКОМЕНДАЦІЇ ДО ЗВУКУ </div></a> ",
+                "desc": "<p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p> <a href = '/sound_recommendations/'target = '_blank' > <div class = 'button unselectable' > РЕКОМЕНДАЦІЇ ДО ЗВУКУ </div></a> ",
                 "icon_link": "/includes/images/icons/HandWithIcons.svg"
             },
             "3": {
@@ -87,12 +87,12 @@
             },
             "8": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "9": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -110,7 +110,7 @@
     "nomination2": {
         "ukrName": "ЦИФРОВА ФОТОГРАФІЯ",
         "ruName": "ЦИФРОВАЯ ФОТОГРАФИЯ",
-        "url": "https://italent.org.ua/nominations/digital-photo/",
+        "url": "/nominations/digital-photo/",
         "desc": "У цій номінації вам потрібно зняти оригінальне фото і обробити його. Уважно читайте завдання до фото.",
         "id": "PHOTO",
         "age": {
@@ -175,12 +175,12 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -198,7 +198,7 @@
     "nomination3": {
         "ukrName": "2D ГРАФІКА",
         "ruName": "2D ГРАФИКА",
-        "url": "https://italent.org.ua/nominations/2d-graphics/",
+        "url": "/nominations/2d-graphics/",
         "desc": "У цій номінації вам потрібно намалювати зображення/іллюстрацію згідно з вимогами номіцації. Уважно читайте завдання до зображення.",
         "id": "2DG",
         "age": {
@@ -268,12 +268,12 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -291,7 +291,7 @@
     "nomination4": {
         "ukrName": "ВІДЕО МЕЙКІНГ",
         "ruName": "ВИДЕО МЕЙКИНГ",
-        "url": "https://italent.org.ua/nominations/video-making/",
+        "url": "/nominations/video-making/",
         "desc": "У цій номінації вам потрібно написати сценарій, зняти і змонтувати свій відеоролик. Уважно читайте завдання до відеоролику.",
         "id": "VID",
         "age": {
@@ -324,7 +324,7 @@
             },
             "2": {
                 "name": "ОПЕРАТОРСЬКА РОБОТА",
-                "desc": "<p>Відповідність базовим правилам побудови кадру, наявність крупних планів, врахування освітлення.</p><a href='https://italent.org.ua/advice_for_operators/'target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a>",
+                "desc": "<p>Відповідність базовим правилам побудови кадру, наявність крупних планів, врахування освітлення.</p><a href='/advice_for_operators/'target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a>",
                 "icon_link": "/includes/images/icons/eye.svg"
             },
             "3": {
@@ -334,7 +334,7 @@
             },
             "4": {
                 "name": "ЗВУКОВИЙ СУПРОВІД",
-                "desc": "<p>Наскільки звуки в кадрі відповідають відеоматеріалу. Зверніть увагу – звук можна записати окремо, якісно і змонтувати чудову роботу.</p><a href='https://italent.org.ua/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a>",
+                "desc": "<p>Наскільки звуки в кадрі відповідають відеоматеріалу. Зверніть увагу – звук можна записати окремо, якісно і змонтувати чудову роботу.</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a>",
                 "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
             "5": {
@@ -351,7 +351,7 @@
             },
             "2": {
                 "name": "Додати зображення",
-                "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
+                "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='/includes/documents/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='/includes/documents/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
             "3": {
@@ -381,7 +381,7 @@
             },
             "8": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -399,7 +399,7 @@
     "nomination5": {
         "ukrName": "2D АНІМАЦІЯ",
         "ruName": "2D АНИМАЦИЯ",
-        "url": "https://italent.org.ua/nominations/2d-animation/",
+        "url": "/nominations/2d-animation/",
         "desc": "У цій номінації вам потрібно написати сценарій, намалювати/зняти свою анімацію. Уважно читайте вимоги до анімації.",
         "id": "2DA",
         "age": {
@@ -432,7 +432,7 @@
             },
             "2": {
                 "name": "SOUNDTRACK",
-                "desc": "<p>Якість музичного супроводу та його відповідність до відеоряду, наскільки звуки відповідають тому, що відбувається в кадрі</p><a href='https://italent.org.ua/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ДО ЗВУКУ</div></a>",
+                "desc": "<p>Якість музичного супроводу та його відповідність до відеоряду, наскільки звуки відповідають тому, що відбувається в кадрі</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ДО ЗВУКУ</div></a>",
                 "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
             "3": {
@@ -464,12 +464,12 @@
             },
             "2": {
                 "name": "Наявність сюжету в роботі",
-                "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
+                "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='/includes/documents/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='/includes/documents/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "3": {
                 "name": "Баланс звуку",
-                "desc": "<a href='https://italent.org.ua/sound_recommendations/' target='_blank' class=''><div class='button shadow'>ПЕРЕГЛЯНЬТЕ ЦІ РЕКОМЕНДАЦІЇ</div></a>",
+                "desc": "<a href='/sound_recommendations/' target='_blank' class=''><div class='button shadow'>ПЕРЕГЛЯНЬТЕ ЦІ РЕКОМЕНДАЦІЇ</div></a>",
                 "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
             "4": {
@@ -479,7 +479,7 @@
             },
             "5": {
                 "name": "Додати зображення",
-                "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='https://italent.org.ua/wp-content/uploads/2019/07/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
+                "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='/includes/documents/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='/includes/documents/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
             "6": {
@@ -489,7 +489,7 @@
             },
             "7": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -507,7 +507,7 @@
     "nomination6": {
         "ukrName": "ПРОГРАМНА РОЗРОБКА",
         "ruName": "ПРОГРАМНАЯ РАЗРАБОТКА",
-        "url": "https://italent.org.ua/nominations/program-development/",
+        "url": "/nominations/program-development/",
         "desc": "У цій номінації вам потрібно зробити мобільний або десктопний додаток. Уважно читайте вимоги до вашої розробки.",
         "id": "PROG",
         "age": {
@@ -567,12 +567,12 @@
             },
             "3": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "4": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -590,7 +590,7 @@
     "nomination7": {
         "ukrName": "SCRATCH",
         "ruName": "SCRATCH",
-        "url": "https://italent.org.ua/nominations/scratch-development/",
+        "url": "/nominations/scratch-development/",
         "desc": "У цій номінації вам потрібно зробити свою гру і зняти трейлер до неї. Уважно читайте завдання до гри.",
         "id": "SCRATCH",
         "age": {
@@ -649,7 +649,7 @@
             "2": {
                 "name": "Необхідно зробити",
                 "desc": "відео-огляд своєї гри, тривалістю до 5 хвилин. В цьому відео показати саму гру, а також розповісти що саме і як Ви робили. Відео необхідно завантажити на Youtube та надати посилання, доступ до нього має бути обмежений для перегляду лише за посиланням",
-                "icon_link": "/includes/images/icons/Camera.svg"    
+                "icon_link": "/includes/images/icons/Camera.svg"
             },
             "3": {
                 "name": "Необхідно зробити туторіал",
@@ -668,12 +668,12 @@
             },
             "6": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "7": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -691,7 +691,7 @@
     "nomination8": {
         "ukrName": "GAMEDEV",
         "ruName": "GAMEDEV  ",
-        "url": "https://italent.org.ua/nominations/gamedev/",
+        "url": "/nominations/gamedev/",
         "desc": "У цій номінації вам потрібно зробити свою гру, надати трейлер та туторіал. Уважно читайте вимоги до гри.",
         "id": "GAMEDEV",
         "age": {
@@ -781,12 +781,12 @@
             },
             "6": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "7": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -804,7 +804,7 @@
     "nomination9": {
         "ukrName": "АПАРАТНА РОЗРОБКА",
         "ruName": "АПАРАТНАЯ РАЗРАБОТКА",
-        "url": "https://italent.org.ua/nominations/device-development/",
+        "url": "/nominations/device-development/",
         "desc": "У цій номінації вам потрібно зробити програмуємий пристрій (робот, вимірювач, ферму і т.д.). Уважно читайте вимоги до вашої розробки.",
         "id": "PROGAPP",
         "age": {
@@ -869,7 +869,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='/includes/images/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -879,7 +879,7 @@
             },
             "6": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -897,7 +897,7 @@
     "nomination10": {
         "ukrName": "САЙТ НА КОНСТРУКТОРІ",
         "ruName": "САЙТ НА КОНСТРУКТОРЕ",
-        "url": "https://italent.org.ua/nominations/page-on-constructor/",
+        "url": "/nominations/page-on-constructor/",
         "desc": "У цій номінації вам потрібно зробити свій сайт на конструкторі сайту. Уважно читайте завдання до сайту.",
         "id": "WEBCONST",
         "age": {
@@ -955,7 +955,7 @@
             },
             "4": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -973,7 +973,7 @@
     "nomination11": {
         "ukrName": "WEB APPLICATION",
         "ruName": "WEB APPLICATION",
-        "url": "https://italent.org.ua/nominations/web-application/",
+        "url": "/nominations/web-application/",
         "desc": "У цій номінації вам потрібно зробити свій веб додаток. Уважно читайте вимоги до вашого додатку.",
         "id": " WEBAPP",
         "age": {
@@ -1031,12 +1031,12 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -1054,7 +1054,7 @@
     "nomination12": {
         "ukrName": "WEB FRONT-END",
         "ruName": "WEB FRONT-END",
-        "url": "https://italent.org.ua/nominations/web-front-end/",
+        "url": "/nominations/web-front-end/",
         "desc": "У цій номінації вам потрібно зробити свій веб сайт. Уважно читайте вимоги до вашого сайту.",
         "id": "WEBFRONT",
         "age": {
@@ -1112,12 +1112,12 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -1135,7 +1135,7 @@
     "nomination13": {
         "ukrName": "ПРОГРАМНА ОБРОБКА ТЕКСТІВ",
         "ruName": "ПРОГРАМНАЯ ОБРОБОТКА ТЕКСТОВ",
-        "url": "https://italent.org.ua/nominations/prog-text/",
+        "url": "/nominations/prog-text/",
         "desc": "У цій номінації вам потрібно зробити програму, сторінку (веб аплікацію) або додаток на смартфон який обробляє / аналізує / створює тексти",
         "id": "",
         "age": {
@@ -1150,7 +1150,7 @@
         "partner": {
             "name": "Grammarly",
             "image_link": "/includes/images/partners/logo-grammarly.svg",
-            "desc": "Grammarly — це міжнародна компанія, яку заснували українці. Нещодавно вона стала 'єдинорогом' (її вартість перевищила 1 млрд $). Grammarly створює онлайн-сервіс на основі штучного інтелекту для допомоги в написанні текстів англійською мовою.",
+            "desc": " — це міжнародна компанія, яку заснували українці. Нещодавно вона стала 'єдинорогом' (її вартість перевищила 1 млрд $). Grammarly створює онлайн-сервіс на основі штучного інтелекту для допомоги в написанні текстів англійською мовою.",
             "link": "https://www.grammarly.com/"
         },
         "kriterii": {
@@ -1193,12 +1193,12 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = 'https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Відповідність",
-                "desc": "<a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },

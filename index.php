@@ -13,6 +13,36 @@
 </head>
 
 <body>
+    <section class="section" id="banner">
+        <div></div>
+        <div class="container">
+            <img src="/includes/images/logos/iTalent_logo_vertical.svg" alt="logo">
+            <h2>7 СЕЗОН АЙТЕЛЕНТ РОЗПОЧНЕТЬСЯ У ЛЮТОМУ</h2>
+            <div class="buttons">
+                <a href="/nominations/prog-text" targer="_blank">
+                    <div class="button">НОВА НОМІНАЦІЯ ВІД GRAMMARLY</div>
+                </a>
+                <a href="http://winners.italent.org.ua/" targer="_blank">
+                    <div class="button">ПЕРЕМОЖЦІ 6 СЕЗОНУ</div>
+                </a>
+                <a href="https://www.obozrevatel.com/ukr/tech/final-konkursu-italent-stali-vidomi-najkraschi-yuni-it-talanti-ukraini.htm" targer="_blank">
+                    <div class="button">ЯК ПРОЙШОВ ФІНАЛ 6 СЕЗОНУ</div>
+                </a>
+            </div>
+            <div class="zaPidtrimki">
+                <a href="https://grammarly.com" target="_blank" rel="noopener noreferrer">
+                    <img src="/includes/images/partners/grammarly_logo.svg" alt="grammarly">
+                </a>
+                <a href="https://mon.gov.ua" target="_blank" rel="noopener noreferrer">
+                    <img src="/includes/images/partners/mon.png" alt="mon">
+                </a>
+                <a href="https://rozetka.com.ua/search/?text=logitech&producer=42&p=1" target="_blank" rel="noopener noreferrer">
+                    <img src="/includes/images/partners/logitechG.svg" alt="grammarly">
+                </a>
+            </div>
+        </div>
+    </section>
+
     <section class="section" id="mediaLinks">
         <div class="grod">
             <a href="https://discord.gg/ywTQTpN" target="_blank" class="button unselectable shadow discord">
@@ -27,7 +57,7 @@
                 <img src="/includes/images/icons/facebook.png" alt="facebook">
                 <p>Приєднуйтеся Facebook</p>
             </a>
-            <a href="https://italent.org.ua/faq-it/" target="_blank" class="button unselectable shadow faq">
+            <a href="/faq-it/" target="_blank" class="button unselectable shadow faq">
                 <img src="/includes/images/icons/info.png" alt="faq">
                 <p>Перегляньте FAQ</p>
             </a>
@@ -155,7 +185,7 @@
         <div class="title">СУДДІ</div>
         <img src="/includes/images/backgrounds/judges.svg" alt="judges">
         <div class="link">
-            <a class="shadow" href="/judges.php">ДЕТАЛЬНІШЕ</a>
+            <a class="shadow" href="/judges/">ДЕТАЛЬНІШЕ</a>
         </div>
     </section>
 
@@ -179,7 +209,7 @@
             <div></div>
             <div class="heading">
                 <div class="title left">ЗНАЙДІТЬ СОБІ<br>МЕНТОРА</div>
-                <a class="" href="/mentor.php" target="_blank">
+                <a class="" href="/mentorship/" target="_blank">
                     <div class="shadow mentorBtn">ЗАЕРЄСТРУВАТИСЯ НА МЕНТОРСТВО</div>
                 </a>
             </div>

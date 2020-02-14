@@ -1,0 +1,36 @@
+@import 'utilityStyle';
+
+#advice {
+    .advices {
+        @include myGrid(1fr 1fr 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+        a {
+            width: 100%;
+            color: #21749B;
+            transition: 0.3s color;
+            @include myFlex(row);
+            flex-wrap: wrap;
+
+            .advice {
+                width: 300px;
+                @include myFlex(row);
+                height: 100px;
+                text-align: center;
+                padding: 30px;
+                margin-bottom: 40px;
+                border: 2px solid #21749B;
+                border-radius: 10px;
+                transition: 0.3s border-color;
+
+                &:hover {
+                    border-color: black;
+                }
+            }
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}

@@ -210,6 +210,7 @@ body {
 #mediaLinks {
     .grod {
         @include myGrid(repeat(4, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
         .discord:hover {
             background-color: #989FEC;
@@ -250,6 +251,28 @@ body {
             &:hover {
                 color: white;
                 box-shadow: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #mediaLinks {
+        .grod {
+            grid-template-columns: 1fr 1fr;
+
+            a {
+                padding: 10px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
             }
         }
     }
@@ -309,26 +332,4 @@ body {
     position: absolute;
     background: url("/includes/images/icons/TxzC70f.png") no-repeat;
     cursor: pointer;
-}
-
-@media only screen and (max-width: 768px) {
-    #mediaLinks {
-        .grod {
-            grid-template-columns: 1fr 1fr;
-
-            a {
-                padding: 10px;
-
-                img {
-                    width: 30px;
-                    height: 30px;
-                    margin-right: 10px;
-                }
-
-                p {
-                    font-size: 12px;
-                }
-            }
-        }
-    }
 }

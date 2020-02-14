@@ -39,11 +39,9 @@
     <section class='section' id='partner'>
         <h2>Партнер номінації:</h2>
         <div>
-            <a href='https://www.grammarly.com/' target='_blank' rel='noopener noreferrer'><img
-                    src='https://italent.org.ua/wp-content/uploads/2019/10/grammarly_logo.svg' alt='grammarly'></a>
-            <p><span>Grammarly</span> — це міжнародна компанія, яку заснували українці. Нещодавно вона стала
-                'єдинорогом' (її вартість перевищила 1 млрд $). Grammarly створює онлайн-сервіс на основі штучного
-                інтелекту для допомоги в написанні текстів англійською мовою.</p>
+            <a href='".$test['partner']['link']."' target='_blank' rel='noopener noreferrer'><img
+                    src='".$test['partner']['image_link']."' alt='".$test['partner']['name']."'></a>
+            <p><span>".$test['partner']['name']."</span>".$test['partner']['desc']."</p>
         </div>
     </section>
     ";
@@ -110,7 +108,6 @@
             <h1 class='title'>Вимоги до<br>вашої роботи:</h1>
             <div class='vimogi'>
     ";
-    print_r($test['vimogi']);
     foreach ($test['vimogi'] as $vim) {
         if ($vim['desc'][0] != '<')
             $vim['desc'] = '<p>'.$vim['desc'].'</p>';
@@ -129,11 +126,11 @@
 $string .= "<section class='section' id='registration'></section>
 
 <section id='CTAbuttons' class='section'>
-    <a href='https://italent.org.ua/#last_season' class='CTAbutton shadow unselectable'>
-        <p>роботи попредніх сезонів</p>
+    <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
+        <p>роботи попередніх сезонів</p>
         <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
     </a>
-    <a href='https://italent.org.ua/mentorship/' class='CTAbutton shadow unselectable'>
+    <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
         <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
     </a>
@@ -144,7 +141,7 @@ $string .= "<section class='section' id='registration'></section>
     <div class='grod' id='judgeGrod'>
         <script type='module' src='/includes/JS/judges.js'></script>
     </div>
-    <a href='https://italent.org.ua/#judges'>
+    <a href='/judges/'>
         <div class='judgeButton shadow'>усі судді</div>
     </a>
 </section>
@@ -158,5 +155,6 @@ $string .= "<section class='section' id='registration'></section>
 
 
 file_put_contents($name . "/index.php", $string);
-}
+};
+echo ('Nominations generated.');
 ?>

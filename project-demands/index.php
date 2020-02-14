@@ -7,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/demands.css">
     <title>Загальні вимоги до робіт</title>
-    <?php include "./includes/header.html";?>
+    <?php include "../includes/header.html";?>
 </head>
 
 <body>
     <section class="section" id="demands">
         <div class="title left">Загальні вимоги до робіт</div>
-        <a href="https://italent.org.ua/wp-content/uploads/2019/09/iTalent-6-Terms.pdf" class="shadow" target="_blank"
+        <a href="/includes/documents/iTalent-6-Terms.pdf" class="shadow" target="_blank"
             rel="noopener noreferrer">
             УМОВИ ПРОВЕДЕННЯ КОНКУРСУ
         </a>
@@ -69,7 +69,7 @@
         <p>Тобто, якщо на момент відкриття реєстрації учаснику 14 років, то ми будемо вважати що учаснику 14 років навіть якщо йому вже 15 на наступний день.</p>
     </section>
 
-    <?php include "./includes/footer.html";?>
+    <?php include "../includes/footer.html";?>
 </body>
 
 </html>

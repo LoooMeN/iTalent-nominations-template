@@ -199,6 +199,8 @@ body .left {
       -ms-flex-pack: center;
           justify-content: center;
   grid-gap: 10px;
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 #mediaLinks .grod .discord:hover {
@@ -258,6 +260,24 @@ body .left {
           box-shadow: none;
 }
 
+@media only screen and (max-width: 768px) {
+  #mediaLinks .grod {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  #mediaLinks .grod a {
+    padding: 10px;
+  }
+  #mediaLinks .grod a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  #mediaLinks .grod a p {
+    font-size: 12px;
+  }
+}
+
 .youtube-player {
   position: relative;
   padding-bottom: 56.23%;
@@ -313,21 +333,140 @@ body .left {
   cursor: pointer;
 }
 
+#banner {
+  background-image: url("/includes/images/backgrounds/bannerBg.svg");
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 10px;
+}
+
+#banner .container {
+  margin-top: 40px;
+  width: 80%;
+  text-align: center;
+}
+
+#banner .container img {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+#banner .container .zaPidtrimki {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-gap: 10px;
+  margin: auto;
+}
+
+#banner .container h2 {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 40px;
+  color: #303351;
+  font-size: 36px;
+}
+
+#banner .container .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+#banner .container .buttons a {
+  width: initial;
+}
+
+#banner .container .buttons .button {
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin: 5px;
+  -webkit-transition: 0.3s background-color;
+  transition: 0.3s background-color;
+  width: initial;
+  background-color: #40C5FF;
+}
+
+#banner .container .buttons .button:hover {
+  background-color: #0066cc;
+}
+
+@media only screen and (max-width: 1024px) {
+  #banner {
+    background-image: none;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #banner .container {
+    margin: auto;
+  }
+}
+
 @media only screen and (max-width: 768px) {
-  #mediaLinks .grod {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+  #banner {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    background-image: none;
   }
-  #mediaLinks .grod a {
-    padding: 10px;
+  #banner .container {
+    width: 100%;
   }
-  #mediaLinks .grod a img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+  #banner .container .buttons {
+    width: 80%;
   }
-  #mediaLinks .grod a p {
-    font-size: 12px;
+}
+
+@media only screen and (max-width: 425px) {
+  #banner {
+    min-height: initial;
+  }
+  #banner .container h2 {
+    font-size: 28px;
+  }
+  #banner .container .buttons {
+    max-width: 200px;
+  }
+  #banner .container .buttons a {
+    width: 100%;
+  }
+  #banner .container .zaPidtrimki {
+    -ms-grid-columns: (minmax(180px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 }
 
@@ -478,8 +617,8 @@ body .left {
       -ms-flex-pack: center;
           justify-content: center;
   grid-gap: 40px;
-  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 #about .myContainer .holder {
@@ -500,8 +639,8 @@ body .left {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   padding: 0px 20px;
   padding-top: 20px;
   overflow: hidden;
@@ -674,6 +813,8 @@ body .left {
   left: 0px;
   z-index: 1;
   background: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-align: left;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -777,10 +918,6 @@ body .left {
 }
 
 @media only screen and (max-width: 768px) {
-  #nominations .grod {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
   #nominations .grod .nomination {
     padding: 10px;
     grid-gap: 10px;

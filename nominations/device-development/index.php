@@ -90,7 +90,7 @@
                     <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Архів з роботою</h3>
-                        <p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='https://italent.org.ua/wp-content/uploads/2019/02/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>
+                        <p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='/includes/images/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
@@ -102,18 +102,18 @@
                     <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Відповідність</h3>
-                        <a href='https://italent.org.ua/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>
+                        <a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>
                     </div>
                 </div></div>
     </section>
 </div><section class='section' id='registration'></section>
 
 <section id='CTAbuttons' class='section'>
-    <a href='https://italent.org.ua/#last_season' class='CTAbutton shadow unselectable'>
-        <p>роботи попредніх сезонів</p>
+    <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
+        <p>роботи попередніх сезонів</p>
         <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
     </a>
-    <a href='https://italent.org.ua/mentorship/' class='CTAbutton shadow unselectable'>
+    <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
         <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
     </a>
@@ -124,7 +124,7 @@
     <div class='grod' id='judgeGrod'>
         <script type='module' src='/includes/JS/judges.js'></script>
     </div>
-    <a href='https://italent.org.ua/#judges'>
+    <a href='/judges/'>
         <div class='judgeButton shadow'>усі судді</div>
     </a>
 </section>

@@ -1,0 +1,17 @@
+@import 'utilityStyle';
+
+#soundRecomendations {
+    h2 {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        color: white;
+        background-color: #0198FE;
+        margin-bottom: 20px;
+        transition: 0.3s background-color;
+
+        &:hover {
+            background-color: rgb(19, 70, 123);
+        }
+    }
+}
