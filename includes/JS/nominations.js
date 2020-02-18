@@ -9,6 +9,22 @@ let testList = [{
         'link': '/nominations/prog-text/'
     },
     {
+        'ruName': 'Студ художня',
+        'ukName': 'Студ художня',
+        'icon': 'icon-art',
+        'sec': 'hud',
+        'new': true,
+        'link': '/nominations/stud-art/'
+    },
+    {
+        'ruName': 'Студ технічна',
+        'ukName': 'Студ технічна',
+        'icon': 'icon-tech',
+        'sec': 'hud',
+        'new': true,
+        'link': '/nominations/2d-graphics/'
+    },
+    {
         'ruName': '2D графика',
         'ukName': '2D графіка',
         'icon': 'icon-whh-shapes',

@@ -28,7 +28,7 @@
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 14 років</h2>
-                        <p>Тема роботи: Tribute to Arkanoid. Гра у стилі Arkanoid.</p>
+                        <p>Тема роботи: Тема роботи: Tribute to Arkanoid. Гра у стилі Arkanoid.</p>
                     </div>
                 </div><ul class='explanation'><div class='youtube-player' data-id='v68SuXDOtkM'></div></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі

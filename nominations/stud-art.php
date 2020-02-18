@@ -9,26 +9,32 @@
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
-    <title>САЙТ НА КОНСТРУКТОРІ</title>
+    <title>ХУДОЖНЯ НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ</title>
 </head>
 <body>
     <script>
-        var page = 'WEBCONST';
+        var page = 'stud-art';
     </script>
     <section class='section' id='aboutNomination'>
-    <h1 class='title'>САЙТ НА КОНСТРУКТОРІ</h1>
-    <p>У цій номінації вам потрібно зробити свій сайт на конструкторі сайту. Уважно читайте завдання до сайту.</p>
+    <h1 class='title'>ХУДОЖНЯ НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ</h1>
+    <p>У цій номінації вам необхідно розробити промо матеріал / лендінг для відомого або вигаданого бренду</p>
 </section>
-
+<div class='anouncement'>
+    <h3>Ця номінація ще не готова!</h3>
+    <p>Інформація на цій сторінці ще не була оновлена з минулого сезону!</p>
+    <div id='announceButton'>
+        ЗРОЗУМІЛО
+    </div>
+</div>
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/WebConstAgeBg.png'
+                    <img src='/includes/images/backgrounds/stud-art.jpg'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
-                        <h2>Від 8 до 14 років</h2>
-                        <p>Тема роботи: Тема роботи: вільна</p>
+                        <h2>Від 19 до 24 років</h2>
+                        <p>Тема роботи: вільна</p>
                     </div>
                 </div></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
@@ -39,21 +45,21 @@
         <h1 class='title'>Критерії за якими будуть<br>оцінювати вашу роботу</h1>
         <div class='kriterii'>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/BrainInBox.svg' alt='icon'>
-                <h2>ВІЗУАЛ</h2>
-                Зручність інтерфейсу. Акуратно і красиво використані блоки і елементи шаблону.</div>
+                <img src='/includes/images/icons/puzzle.svg' alt='icon'>
+                <h2>RECOGNITION</h2>
+                На скільки ваша робота репрезентує бренд. Має бути зрозуміло чим цей бренд займається.</div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/HandWithIcons.svg' alt='icon'>
-                <h2>КОНТЕНТ</h2>
-                Контент розкриває ідею проекту, унікальний і цікавий, повний (його достатньо для обраної цілі)</div>
+                <img src='/includes/images/icons/eye.svg' alt='icon'>
+                <h2>DESIGN</h2>
+                Ступінь відповідності роботи заданій тематиці і стилю. (промо)</div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/LightIcon.svg' alt='icon'>
-                <h2>ІДЕЯ ПРОЕКТУ</h2>
-                Проекту несе в собі певну ідею, наскільки він цікавий та може бути корисний іншим користувачам</div>
+                <img src='/includes/images/icons/TechnoLight.svg' alt='icon'>
+                <h2>IDEA</h2>
+                Оригінальність і привабливість (вірусність) ідеї.</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/mark.svg' alt='icon'>
-                <h2>ВІДПОВІДНІСТЬ</h2>
-                Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</div>
+                <h2>STYLE</h2>
+                Відповідність стилістики до обраного бренду.</div>
         </div>
     </section>
 </div>
@@ -64,20 +70,20 @@
     <div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
                     <div class='text'>
-                        <h3>Сайт має бути</h3>
-                        <p>зроблений із використанням CMS (WordPress, Joomla та ін.) або Конструктора (Wix, Tilda і т.п.)</p>
+                        <h3>Якщо ви робите відео / анімацію</h3>
+                        <p>Необхідно надати посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/Camera.svg' alt='icon'>
                     <div class='text'>
-                        <h3>Сайт має бути</h3>
-                        <p>розміщено в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome</p>
+                        <h3>Якщо ви робите сайт</h3>
+                        <p>Необхідно надати посилання на архів з сайтом у якому окрім самого сайту буде текстовий файл з посиланням на онлайн версію сайту. Сайт має коректно відображатись та працювати в останніх двох релізах браузеру Chrome</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/keyIcon.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
                     <div class='text'>
-                        <h3>Надати доступ</h3>
-                        <p>до адмін панелі сайту. Логін та пароль мають бути надані окремим текстовим файлом</p>
+                        <h3>Якщо ви робите графіку</h3>
+                        <p>Необхідно надати посилання на архів з остаточним результатом роботи (png / jpeg / obj) і папку зі скріншотами процесу розробки.</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
