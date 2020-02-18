@@ -199,8 +199,8 @@ body .left {
       -ms-flex-pack: center;
           justify-content: center;
   grid-gap: 10px;
-  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 #mediaLinks .grod .discord:hover {

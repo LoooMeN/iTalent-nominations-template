@@ -51,12 +51,12 @@
                 <p>Складність геометрії, наявність UV розгортки, використання модифікаторів і оптимізація геометрії</p></div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/HandWithIcons.svg' alt='icon'>
-                <h2>ТЕКСТУРУВАННЯ</h2>
-                <p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p> <a href = '/sound_recommendations/'target = '_blank' > <div class = 'button unselectable' > РЕКОМЕНДАЦІЇ ДО ЗВУКУ </div></a> </div>
+                <h2>TEXTURE</h2>
+                <p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p></div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/LightIcon.svg' alt='icon'>
-                <h2>LIGHTING</h2>
-                <p>Як освітлена сцена, за допомогою чого? як це реалізовано і наскільки світло композиційно і естетично пасує сцені</p></div>
+                <h2>RENDER</h2>
+                <p>Якість освітлення сцени, композиція сцени, якість рендеру,якість і зміст візуалізації.</p></div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ</h2>
@@ -71,8 +71,8 @@
     <div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
                     <div class='text'>
-                        <h3>Необхідно надати</h3>
-                        <p>3Д сцену в форматах .obj або .fbx у корені архіву</p>
+                        <h3><span style='color: red; font-size: 700'>УВАГА!!!</span> Необхідно надати</h3>
+                        <p>3Д сцену в форматах <span>.obj</span> або <span>.fbx</span> у корені архіву</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>

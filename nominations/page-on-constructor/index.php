@@ -39,12 +39,12 @@
         <div class='kriterii'>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/BrainInBox.svg' alt='icon'>
-                <h2>КРЕАТИВНІСТЬ І ДИЗАЙН</h2>
-                Креативність проекту — незвичайні рішення в дизайні, ефекти, ілюстрації</div>
+                <h2>ВІЗУАЛ</h2>
+                Зручність інтерфейсу. Акуратно і красиво використані блоки і елементи шаблону.</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/HandWithIcons.svg' alt='icon'>
                 <h2>КОНТЕНТ</h2>
-                Контент цікавий, оригінальний, легкий для сприйняття</div>
+                Контент розкриває ідею проекту, унікальний і цікавий, повний (його достатньо для обраної цілі)</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/LightIcon.svg' alt='icon'>
                 <h2>ІДЕЯ ПРОЕКТУ</h2>

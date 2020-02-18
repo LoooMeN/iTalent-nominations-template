@@ -29,7 +29,7 @@
                         <h2>Від 8 до 15 років</h2>
                         <p>Тема роботи: Тема роботи: вільна</p>
                     </div>
-                </div><ul class='explanation'><ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP 8266 / ESP32 / STM 32</li><li>Інші апаратні платформи</li></ul></ul></div><div class='ageGroupWrapper shadow'>
+                </div><ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP / STM 32 / SILABS / AVR / TI</li><li>Інші апаратні платформи</li></ul></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
             <img src='/includes/images/backgrounds/ProgApAgeBg_2.jpeg'
                 alt='Вікова категорія 1'>
@@ -37,7 +37,7 @@
                 <h2>Від 15 до 19 років</h2>
                 <p>Тема роботи: Тема роботи: вільна</p>
             </div>
-        </div><ul class='explanation'><ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP 8266 / ESP32 / STM 32</li><li>Інші апаратні платформи</li></ul></ul></div>        </div>
+        </div><ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP / STM 32 / SILABS / AVR / TI</li><li>Інші апаратні платформи</li></ul></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
         перемоги - одна робота отримує одну нагороду.</p>
     </section>
@@ -96,7 +96,7 @@
                     <img class='icon' src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Запропоновані теми розробки:</h3>
-                        <ul><li>Reimagine настольної гри (розумні шахи, ….)</li><li>Smart City</li><li>Smart House</li><li>Smart Farm</li><li>Smart Toy</li><li>Smart Security</li><li>Дослідницький танк / маніпулятор</li><li>Вільна тема</li></ul>
+                        <ul><li>Smart City</li><li>Smart House</li><li>Smart Farm</li><li>Smart Toy</li><li>Smart Security</li><li>Дослідницький танк / маніпулятор</li><li>Вільна тема</li></ul>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>

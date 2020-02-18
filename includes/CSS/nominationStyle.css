@@ -199,6 +199,8 @@ body .left {
       -ms-flex-pack: center;
           justify-content: center;
   grid-gap: 10px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 #mediaLinks .grod .discord:hover {
@@ -258,6 +260,24 @@ body .left {
           box-shadow: none;
 }
 
+@media only screen and (max-width: 768px) {
+  #mediaLinks .grod {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  #mediaLinks .grod a {
+    padding: 10px;
+  }
+  #mediaLinks .grod a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  #mediaLinks .grod a p {
+    font-size: 12px;
+  }
+}
+
 .youtube-player {
   position: relative;
   padding-bottom: 56.23%;
@@ -313,22 +333,38 @@ body .left {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
-  #mediaLinks .grod {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
-  #mediaLinks .grod a {
-    padding: 10px;
-  }
-  #mediaLinks .grod a img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-  }
-  #mediaLinks .grod a p {
-    font-size: 12px;
-  }
+.anouncement {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+  font-weight: 700;
+  z-index: 10000000;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.anouncement #announceButton {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 10px 20px;
 }
 
 #aboutNomination {
@@ -369,8 +405,8 @@ body .left {
     width: 90%;
   }
   #aboutNomination h1 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 40px;
   }
   #aboutNomination h1::before {
     height: 5px;
@@ -531,6 +567,31 @@ body .left {
   margin: auto;
   border: 1px solid black;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  #ageGroups .ageGroupsWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: top;
+        -ms-flex-align: top;
+            align-items: top;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #ageGroups .ageGroupsWrapper .ageGroupWrapper {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  #ageGroups .ageGroupsWrapper .ageGroupWrapper .ageGroupPreview .age p {
+    width: 90%;
+  }
 }
 
 .kriteriiBg {

@@ -1,10 +1,19 @@
 let main = document.querySelector('#noms');
 
 let testList = [{
+        'ruName': 'Програмная обработка текстов',
+        'ukName': 'Програмна обробка текстів',
+        'icon': 'icon-grammar',
+        'sec': 'tech',
+        'new': true,
+        'link': '/nominations/prog-text/'
+    },
+    {
         'ruName': '2D графика',
         'ukName': '2D графіка',
         'icon': 'icon-whh-shapes',
         'sec': 'hud',
+        'new': false,
         'link': '/nominations/2d-graphics/'
     },
     {
@@ -12,6 +21,7 @@ let testList = [{
         'ukName': '3D графіка',
         'icon': 'icon-modeling',
         'sec': 'hud',
+        'new': false,
         'link': '/nominations/3d-graphics/'
     },
     {
@@ -19,6 +29,7 @@ let testList = [{
         'ukName': 'Цифрове фото',
         'icon': 'icon-ps-photobucket',
         'sec': 'hud',
+        'new': false,
         'link': '/nominations/digital-photo/'
     },
     {
@@ -26,6 +37,7 @@ let testList = [{
         'ukName': 'Відеомейкінг',
         'icon': 'icon-video-edition',
         'sec': 'hud',
+        'new': false,
         'link': '/nominations/video-making/'
     },
     {
@@ -33,6 +45,7 @@ let testList = [{
         'ukName': '2D анімація',
         'icon': 'icon-cat',
         'sec': 'hud',
+        'new': false,
         'link': '/nominations/2d-animation/'
     },
     {
@@ -40,6 +53,7 @@ let testList = [{
         'ukName': 'Програмна розробка',
         'icon': 'icon-monitor',
         'sec': 'tech',
+        'new': false,
         'link': '/nominations/program-development/'
     },
     {
@@ -47,6 +61,7 @@ let testList = [{
         'ukName': 'Розробка на scratch',
         'icon': 'icon-snake',
         'sec': 'tech',
+        'new': false,
         'link': '/nominations/scratch-development/'
     },
     {
@@ -54,6 +69,7 @@ let testList = [{
         'ukName': 'Gamedev',
         'icon': 'icon-development',
         'sec': 'tech',
+        'new': false,
         'link': '/nominations/gamedev/'
     },
     {
@@ -61,6 +77,7 @@ let testList = [{
         'ukName': 'Апаратна розробка',
         'icon': 'icon-processor',
         'sec': 'tech',
+        'new': false,
         'link': '/nominations/device-development/'
     },
     {
@@ -68,6 +85,7 @@ let testList = [{
         'ukName': 'Сайт на конструкторі',
         'icon': 'icon-add',
         'sec': 'tech',
+        'new': false,
         'link': '/nominations/page-on-constructor/'
     },
     {
@@ -75,6 +93,7 @@ let testList = [{
         'ukName': 'ВЕБ Application',
         'icon': 'icon-application',
         'sec': 'tech',
+        'new': false,
         'link': '/nominations/web-application/'
     },
     {
@@ -82,14 +101,8 @@ let testList = [{
         'ukName': 'ВЕБ Front-end',
         'icon': 'icon-data',
         'sec': 'tech',
+        'new': false,
         'link': '/nominations/web-front-end/'
-    },
-    {
-        'ruName': 'Програмная обработка текстов',
-        'ukName': 'Програмна обробка текстів',
-        'icon': 'icon-grammar',
-        'sec': 'tech',
-        'link': '/nominations/prog-text/'
     }
 ]
 
@@ -122,7 +135,8 @@ function sortNom(sort) {
                 name: elem[lang == 'ru' ? 'ruName' : 'ukName'],
                 sec: elem['sec'],
                 icon: elem['icon'],
-                link: elem['link']
+                link: elem['link'],
+                new: elem['new']
             };
         }
     });
@@ -135,6 +149,7 @@ function create(toCreate) {
     toCreate.forEach((elem) => {
         let nom = document.createElement('div');
         let icon1 = document.createElement('i');
+        let newIcon = document.createElement('img');
         let name = document.createElement('h2');
         let text = document.createElement('p');
         let box = document.createElement('div');
@@ -142,9 +157,15 @@ function create(toCreate) {
         let a = document.createElement('a');
 
         a.href = elem.link;
+        newIcon.src = '/includes/images/icons/new.svg';
         icon1.classList.add(elem.icon, 'icon');
         nom.classList.add('nomination');
         nom.style.opacity = 0;
+        nom.style.position = 'relative';
+        newIcon.style.width = '40px';
+        newIcon.style.position = 'absolute';
+        newIcon.style.top = '5px';
+        newIcon.style.right = '5px';
         name.innerText = elem.name;
         text.innerText = 'Дізнатись більше ...'
         nom.appendChild(icon1);
@@ -153,6 +174,9 @@ function create(toCreate) {
         box.appendChild(flexington);
         box.classList.add('myContainer');
         nom.appendChild(box);
+        if (elem.new) {
+            nom.appendChild(newIcon);
+        }
         a.appendChild(nom);
         a.classList.add('nomLink');
         main.appendChild(a);

@@ -47,7 +47,7 @@
                 Сайт добре адаптований для мобільних пристроїв</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/LightIcon.svg' alt='icon'>
-                <h2>ІДЕЯ ПРОЕКТУ</h2>
+                <h2>ІДЕЯ / КОНТЕНТ / РЕАЛІЗАЦІЯ</h2>
                 Наявність та цікавість ідеї проекту, повнота її реалізації. Наскільки проект може бути корисний іншим користувачам.</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/mark.svg' alt='icon'>

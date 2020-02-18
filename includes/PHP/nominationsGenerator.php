@@ -33,6 +33,15 @@
 </section>
 ";
 
+if ($test['status'] == "no"){
+    $string .= "<div class='anouncement'>
+    <h3>Ця номінація ще не готова!</h3>
+    <p>Інформація на цій сторінці ще не була оновлена з минулого сезону!</p>
+    <div id='announceButton'>
+        ЗРОЗУМІЛО
+    </div>
+</div>";}
+
     if ($test["partner"]["name"] != "none") {
         $string .= "
 

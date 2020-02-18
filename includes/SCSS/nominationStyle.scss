@@ -1,5 +1,27 @@
 @import 'utilityStyle';
 
+.anouncement {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    @include myFlex(column);
+    font-size: 50px;
+    font-weight: 700;
+    z-index: 10000000;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+
+    #announceButton {
+        color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        padding: 10px 20px;
+    }
+}
+
 #aboutNomination {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     width: 70%;
@@ -38,8 +60,8 @@
         width: 90%;
 
         h1 {
-            font-size: 50px;
-            line-height: 60px;
+            font-size: 30px;
+            line-height: 40px;
 
             &::before {
                 height: 5px;
@@ -96,7 +118,6 @@
 #ageGroups {
     .ageGroupsWrapper {
         @include myFlex(row, top, space-between);
-        // width: 100%;
 
         .ageGroupWrapper {
             margin: 0 10px;
@@ -159,6 +180,27 @@
                         margin: auto;
                         border: 1px solid black;
                         border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #ageGroups {
+        .ageGroupsWrapper {
+            @include myFlex(column, top, space-between);
+
+            .ageGroupWrapper {
+                margin: 0;
+                margin-bottom: 30px;
+
+                .ageGroupPreview {
+                    .age {
+                        p {
+                            width: 90%;
+                        }
                     }
                 }
             }

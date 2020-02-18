@@ -79,10 +79,25 @@ function handleReg() {
     }
 }
 
+function handleAnnouncement() {
+    let button = document.querySelector('#announceButton');
+    let announce = document.querySelector('.anouncement');
+    let body = document.querySelector('body');
+
+    if (announce) {
+        body.style.overflow = "hidden";
+        button.addEventListener('click', (elem) => {
+            announce.remove();
+            body.style.overflow = "visible";
+        });
+    }
+}
+
 get_settings();
 handleReg();
 if (window.screen.width <= 768)
     set_hamburger_trigger();
 set_media();
-set_email_acceptor()
+set_email_acceptor();
+handleAnnouncement();
 document.title = document.title + " | iTalent всеукраїнський конкурс з IT та кіберспорту";
