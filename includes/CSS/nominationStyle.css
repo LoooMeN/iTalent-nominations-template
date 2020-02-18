@@ -557,6 +557,10 @@ body .left {
   margin-bottom: 10px;
 }
 
+#ageGroups .ageGroupsWrapper .ageGroupWrapper .explanation a {
+  color: black;
+}
+
 #ageGroups .ageGroupsWrapper .ageGroupWrapper .explanation a p {
   width: 100%;
   color: black;

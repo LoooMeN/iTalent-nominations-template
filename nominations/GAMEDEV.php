@@ -7,29 +7,38 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
-    <?php include '../../includes/header.html';?>
-    <title>SCRATCH</title>
+    <?php include '../includes/header.html';?>
+    <script src='/includes/JS/youtube.js'></script>
+    <title>GAMEDEV</title>
 </head>
 <body>
     <script>
-        var page = 'SCRATCH';
+        var page = 'GAMEDEV';
     </script>
     <section class='section' id='aboutNomination'>
-    <h1 class='title'>SCRATCH</h1>
-    <p>У цій номінації вам потрібно зробити свою гру і зняти трейлер до неї. Уважно читайте завдання до гри.</p>
+    <h1 class='title'>GAMEDEV</h1>
+    <p>У цій номінації вам потрібно зробити свою гру, надати трейлер та туторіал. Уважно читайте вимоги до гри.</p>
 </section>
 
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/ProgAgeBg_1.jpg'
+                    <img src='/includes/images/backgrounds/GameAgeBg_1.png'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
-                        <h2>Від 8 до 14 років</h2>
-                        <p>Тема роботи: Тема роботи: fly and gun - вертикальний аркадний шутер.</p>
+                        <h2>Від 8 до 15 років</h2>
+                        <p>Тема роботи: вільна</p>
                     </div>
-                </div><ul class='explanation'><a href='https://www.youtube.com/watch?v=1jI5tnS5Oek&amp;feature=youtu.be'><p>Приклади</p></a></ul></div>        </div>
+                </div></div><div class='ageGroupWrapper shadow'>
+        <div class='ageGroupPreview'>
+            <img src='/includes/images/backgrounds/GameAgeBg_2.png'
+                alt='Вікова категорія 1'>
+            <div class='age redGrad'>
+                <h2>Від 15 до 19 років</h2>
+                <p>Тема роботи: вільна</p>
+            </div>
+        </div></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
         перемоги - одна робота отримує одну нагороду.</p>
     </section>
@@ -39,24 +48,28 @@
         <div class='kriterii'>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/ConfetiIcon.svg' alt='icon'>
-                <h2>FUN&STORYLINE</h2>
-                Наскільки цікаво грати в цю гру, наявність, цілісність та цікавість сюжетної історії</div>
+                <h2>FUN</h2>
+                Цікавість сюжетної історії, оригінальність ідеї гри, креативність рішення. Наскільки цікаво грати в гру.</div>
+            <div class='innerWrapper shadow'>
+                <img src='/includes/images/icons/puzzle.svg' alt='icon'>
+                <h2>GAMEDESIGN</h2>
+                Стиль, якість виконання, наскільки приємно дивитись на гру. Зручність управління та навігації, наявність підказок.</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/listIcon.svg' alt='icon'>
                 <h2>COMPLETENESS</h2>
-                Чи дороблена гра</div>
+                Чи можна гру вже завтра викладати в Steam, або вона ще на стадії технічної демо-версії.</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/SoundIcon.svg' alt='icon'>
-                <h2>SOUNDTRACK</h2>
-                Якість музичного супроводу, автентичність та його відповідність сюжету гри</div>
+                <h2>АУДІО - СУПРОВІД</h2>
+                Якість музичного супроводу та його відповідність сюжету гри</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/eye.svg' alt='icon'>
                 <h2>VISUAL</h2>
-                Стиль, якість виконання, наскільки приємно дивитись на гру, зручність управління та навігації, наявність підказок та довідки</div>
+                Якість графіки. Дотримання обраної стилістики гри. Використання власноручно зроблених ігрових ассетів.</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/monitor.svg' alt='icon'>
-                <h2>PROGRAMMING</h2>
-                Кількість та складність алгоритмів, блоків</div>
+                <h2>TECHNICAL</h2>
+                Наскільки використовуються засоби програмування, кількість та складність алгоритмів; використання засобів та технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ</h2>
@@ -69,34 +82,34 @@
             <h1 class='title'>Вимоги до<br>вашої роботи:</h1>
             <div class='vimogi'>
     <div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
                     <div class='text'>
-                        <h3>Необхідно надати</h3>
-                        <p>посилання на онлайн версію проекту</p>
+                        <h3>Архів із грою</h3>
+                        <p>Папку із файлами запуску гри розміром не більше 5 гб. Якщо гра не запускається із цієї папки – робота розглядатись не буде.</p>
+                    </div>
+                </div><div class='vimogaWrapper'>
+                    <img class='icon' src='/includes/images/icons/GraphicsIcon.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Tutorial</h3>
+                        <p>Вбудована в гру інструкція про те як в неї грати. Наприклад: відео інструкція на початку гри (із можливістю пропустити відео), окремий навчальний рівень, частина першого рівня і т.д.</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/Camera.svg' alt='icon'>
                     <div class='text'>
                         <h3>Необхідно зробити</h3>
-                        <p>відео-огляд своєї гри, тривалістю до 5 хвилин. В цьому відео показати саму гру, а також розповісти що саме і як Ви робили. Відео необхідно завантажити на Youtube та надати посилання, доступ до нього має бути обмежений для перегляду лише за посиланням</p>
+                        <p>відео-огляд своєї гри, тривалістю до 5 хвилин. В цьому відео показати:</p><ul><li>Геймплей (сам ігровий процесс)</li><li>Ігрові механіки (пояснити їх)</li><li>Концепт, сюжет гри</li></ul><p>Відео необхідно завантажити на Youtube та надати посилання, доступ до нього має бути обмежений для перегляду лише за посиланням</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/GraphicsIcon.svg' alt='icon'>
-                    <div class='text'>
-                        <h3>Необхідно зробити туторіал</h3>
-                        <p>В гру має бути додано пояснення, як в неї грати: у вигляді туторіалу, як частини гри (наприклад, перший рівень - ознайомчий) або у вигляді текстової довідки</p>
-                    </div>
-                </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
-                    <div class='text'>
-                        <h3>Тема</h3>
-                        <p>робота має бути зроблена у жанрі вертикальний аркадний шутер</p>
-                    </div>
-                </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/monitor.svg' alt='icon'>
                     <div class='text'>
                         <h3>Якщо в грі</h3>
                         <p>є більше одного рівня – необхідно передбачити вибір рівня в меню гри (це необхідно щоб суддям не довелося проходити всі рівні до кінця, щоб оцінити роботу)</p>
+                    </div>
+                </div><div class='vimogaWrapper'>
+                    <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Архів із проектом гри</h3>
+                        <p>Окремий архів із усіма вихідними файлами гри</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
@@ -135,7 +148,7 @@
     </a>
 </section>
 
-<?php include '../../includes/footer.html';?>
+<?php include '../includes/footer.html';?>
 
 </body>
 

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/judges.css">
     <title>Судді</title>
-    <?php include "../includes/header.html";?>
+    <?php include "./includes/header.html";?>
     <script>
         var page = "judge";
     </script>
@@ -20,7 +20,7 @@
             <script type="module" src="/includes/JS/judges.js"></script>
         </div>
     </section>
-    <?php include "../includes/footer.html";?>
+    <?php include "./includes/footer.html";?>
 </body>
 
 </html>

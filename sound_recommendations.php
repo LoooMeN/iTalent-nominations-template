@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/soundRecomendationsStyle.css">
     <title>Рекомендації до звуку</title>
-    <?php include "../includes/header.html";?>
+    <?php include "./includes/header.html";?>
 </head>
 <body>
     <section class="section" id="soundRecomendations">
@@ -28,6 +28,6 @@
         <p>16/24 бит; 128/256/320 кбит/с .Когда параметры видео и аудио не совпадают – то мы получаем несинхронный звук с видео.</p>
         <p>Конечно же аудио лучше сохранять не в формате  mp3, а хотя бы WAV, в случае, если вы отдельно над звуком работаете в аудиоредакторе.</p>
     </section>
-    <?php include "../includes/footer.html";?>
+    <?php include "./includes/footer.html";?>
 </body>
 </html>

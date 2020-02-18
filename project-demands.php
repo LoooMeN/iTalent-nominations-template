@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/demands.css">
     <title>Загальні вимоги до робіт</title>
-    <?php include "../includes/header.html";?>
+    <?php include "./includes/header.html";?>
 </head>
 
 <body>
@@ -69,7 +69,7 @@
         <p>Тобто, якщо на момент відкриття реєстрації учаснику 14 років, то ми будемо вважати що учаснику 14 років навіть якщо йому вже 15 на наступний день.</p>
     </section>
 
-    <?php include "../includes/footer.html";?>
+    <?php include "./includes/footer.html";?>
 </body>
 
 </html>

@@ -7,27 +7,28 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
-    <?php include '../../includes/header.html';?>
-    <title>WEB FRONT-END</title>
+    <?php include '../includes/header.html';?>
+    <script src='/includes/JS/youtube.js'></script>
+    <title>WEB APPLICATION</title>
 </head>
 <body>
     <script>
-        var page = 'WEBFRONT';
+        var page = ' WEBAPP';
     </script>
     <section class='section' id='aboutNomination'>
-    <h1 class='title'>WEB FRONT-END</h1>
-    <p>У цій номінації вам потрібно зробити свій веб сайт. Уважно читайте вимоги до вашого сайту.</p>
+    <h1 class='title'>WEB APPLICATION</h1>
+    <p>У цій номінації вам потрібно зробити свій веб додаток. Уважно читайте вимоги до вашого додатку.</p>
 </section>
 
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/WebFrontAgeBg.png'
+                    <img src='/includes/images/backgrounds/WebAppAgeBg.jpg'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 19 років</h2>
-                        <p>Тема роботи: Тема роботи: вільна</p>
+                        <p>Тема роботи: вільна</p>
                     </div>
                 </div></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
@@ -38,17 +39,17 @@
         <h1 class='title'>Критерії за якими будуть<br>оцінювати вашу роботу</h1>
         <div class='kriterii'>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/eye.svg' alt='icon'>
-                <h2>ВІЗУАЛЬНА РЕАЛІЗАЦІЯ</h2>
-                Дизайн та зручність. Логічність структури та навігації. Влучність типографіки, самих текстів та ілюстрацій. Якість верстки.</div>
+                <img src='/includes/images/icons/DataBase.svg' alt='icon'>
+                <h2>БАЗА ДАНИХ І BACK-END</h2>
+                коректність і складність спроектованої бази-даних. Рівень і складність функціональної частини проекту</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
-                <h2>АДАПТИВНІСТЬ</h2>
-                Сайт добре адаптований для мобільних пристроїв</div>
+                <h2>ДИЗАЙН ТА FRONT-END</h2>
+                Юзабіліті, влучна типографіка, розмітка тексту. Відповідність стандартам розробки, використання javascript фреймворків. Технічна реалізація.</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/LightIcon.svg' alt='icon'>
-                <h2>ІДЕЯ / КОНТЕНТ / РЕАЛІЗАЦІЯ</h2>
-                Наявність та цікавість ідеї проекту, повнота її реалізації. Наскільки проект може бути корисний іншим користувачам.</div>
+                <h2>ІДЕЯ ПРОЕКТУ</h2>
+                Проект цікавий і корисний, може відбутися як бізнес або соціальний проект</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ</h2>
@@ -63,8 +64,8 @@
     <div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
                     <div class='text'>
-                        <h3>Дизайн та код</h3>
-                        <p>сайту має бути оригінальним (розробленим САМОСТІЙНО або у разі використання готових шаблонів – сайт має бути змінений що найменше на 70% від оригінального). У разі використання готових рішень – це необхідно вказати в описі роботи та вказати посилання на оригінал</p>
+                        <h3>Код сайту</h3>
+                        <p>Back-end частина та база даних мають бути оригінальними (розробленим САМОСТІЙНО).</p><p>Front-end вашого сайту може використовувати готові рішення дизайну чи верстки. У разі використання готових рішень – це необхідно вказати в описі роботи та вказати посилання на оригінал.</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
@@ -115,7 +116,7 @@
     </a>
 </section>
 
-<?php include '../../includes/footer.html';?>
+<?php include '../includes/footer.html';?>
 
 </body>
 

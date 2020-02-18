@@ -7,37 +7,30 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
-    <?php include '../../includes/header.html';?>
-    <title>2D ГРАФІКА</title>
+    <?php include '../includes/header.html';?>
+    <script src='/includes/JS/youtube.js'></script>
+    <title>WEB FRONT-END</title>
 </head>
 <body>
     <script>
-        var page = '2DG';
+        var page = 'WEBFRONT';
     </script>
     <section class='section' id='aboutNomination'>
-    <h1 class='title'>2D ГРАФІКА</h1>
-    <p>У цій номінації вам потрібно намалювати зображення/іллюстрацію згідно з вимогами номіцації. Уважно читайте завдання до зображення.</p>
+    <h1 class='title'>WEB FRONT-END</h1>
+    <p>У цій номінації вам потрібно зробити свій веб сайт. Уважно читайте вимоги до вашого сайту.</p>
 </section>
 
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/2DAgeBg_2.jpg'
+                    <img src='/includes/images/backgrounds/WebFrontAgeBg.png'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
-                        <h2>Від 8 до 15 років</h2>
-                        <p>Тема роботи: Тема роботи: стікери літніх емоцій.</p>
+                        <h2>Від 8 до 19 років</h2>
+                        <p>Тема роботи: вільна</p>
                     </div>
-                </div><ul class='explanation'>Вам потрібно намалювати стікерпак літніх емоцій (5+ штук).</ul></div><div class='ageGroupWrapper shadow'>
-        <div class='ageGroupPreview'>
-            <img src='/includes/images/backgrounds/2DGAgeBg_1.jpg'
-                alt='Вікова категорія 1'>
-            <div class='age redGrad'>
-                <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: Тема роботи: дизайн костюма колонізатора марсу.</p>
-            </div>
-        </div></div>        </div>
+                </div></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
         перемоги - одна робота отримує одну нагороду.</p>
     </section>
@@ -46,21 +39,17 @@
         <h1 class='title'>Критерії за якими будуть<br>оцінювати вашу роботу</h1>
         <div class='kriterii'>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/BrainInBox.svg' alt='icon'>
-                <h2>IDEA & IMPRESSION</h2>
-                Креативність і оригінальність ідеї. Сила впливу на сприйняття глядача.</div>
-            <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/monitor.svg' alt='icon'>
-                <h2>TECHNICAL</h2>
-                Якість рисовки. Гармонія пропорцій і композиції. Перспектива. Поєднання кольорів.</div>
-            <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/eye.svg' alt='icon'>
-                <h2>STYLE</h2>
-                Ступінь відповідності роботи заданій тематиці і стилю.</div>
+                <h2>ВІЗУАЛЬНА РЕАЛІЗАЦІЯ</h2>
+                Дизайн та зручність. Логічність структури та навігації. Влучність типографіки, самих текстів та ілюстрацій. Якість верстки.</div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/HandWithIcons.svg' alt='icon'>
-                <h2>MASTERING</h2>
-                Тільки для старшої вікової категорії. Професійний підхід. Оцінується рівень роботи, якщо б вона розглядалась, як частина портфоліо професіонала.</div>
+                <img src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
+                <h2>АДАПТИВНІСТЬ</h2>
+                Сайт добре адаптований для мобільних пристроїв</div>
+            <div class='innerWrapper shadow'>
+                <img src='/includes/images/icons/LightIcon.svg' alt='icon'>
+                <h2>ІДЕЯ / КОНТЕНТ / РЕАЛІЗАЦІЯ</h2>
+                Наявність та цікавість ідеї проекту, повнота її реалізації. Наскільки проект може бути корисний іншим користувачам.</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ</h2>
@@ -73,22 +62,22 @@
             <h1 class='title'>Вимоги до<br>вашої роботи:</h1>
             <div class='vimogi'>
     <div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/folderIcon.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
                     <div class='text'>
-                        <h3>Папка “Процес”</h3>
-                        <p>Має містити скріншоти вашої роботи зі стадії скетчингу, покраски і деталізації (щонайменше три для кожного етапу)</p>
+                        <h3>Дизайн та код</h3>
+                        <p>сайту має бути оригінальним (розробленим САМОСТІЙНО або у разі використання готових шаблонів – сайт має бути змінений що найменше на 70% від оригінального). У разі використання готових рішень – це необхідно вказати в описі роботи та вказати посилання на оригінал</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
                     <div class='text'>
-                        <h3>Результуюче зображення</h3>
-                        <p>розміщене у корені архіву. <br><br>Файл має називатись ім’ям конкурсанта: ПРІЗВИЩЕ_ІМ’Я.jpg. Угорі результуючого файлу має бути написано ваше ПІБ, нозва поботи і вік. На приклад: Ivahin_Ivan “Злий орк” 13 років.</p>
+                        <h3>Сайт має бути</h3>
+                        <p>розміщено в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/DataBase.svg' alt='icon'>
                     <div class='text'>
-                        <h3>якщо в роботі</h3>
-                        <p>використовуються нестандартні шрифти — вони також мають бути доданими до архіву.</p>
+                        <h3>Якщо для тестування сайту</h3>
+                        <p>необхідно занести в нього певний динамічний контент (наприклад для блогів, форумів і т.п.) – необхідно надати сайт із уже внесеними даними.</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
@@ -127,7 +116,7 @@
     </a>
 </section>
 
-<?php include '../../includes/footer.html';?>
+<?php include '../includes/footer.html';?>
 
 </body>
 

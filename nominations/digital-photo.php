@@ -7,35 +7,42 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
-    <?php include '../../includes/header.html';?>
-    <title>3D ГРАФІКА</title>
+    <?php include '../includes/header.html';?>
+    <script src='/includes/JS/youtube.js'></script>
+    <title>ЦИФРОВА ФОТОГРАФІЯ</title>
 </head>
 <body>
     <script>
-        var page = '3D';
+        var page = 'PHOTO';
     </script>
     <section class='section' id='aboutNomination'>
-    <h1 class='title'>3D ГРАФІКА</h1>
-    <p>У цій номінації вам потрібно зробити 3D модель і надати рендери у різних ракурсах. Уважно читайте вимоги до 3D моделі.</p>
+    <h1 class='title'>ЦИФРОВА ФОТОГРАФІЯ</h1>
+    <p>У цій номінації вам потрібно зняти оригінальне фото і обробити його. Уважно читайте завдання до фото.</p>
 </section>
-
+<div class='anouncement'>
+    <h3>Ця номінація ще не готова!</h3>
+    <p>Інформація на цій сторінці ще не була оновлена з минулого сезону!</p>
+    <div id='announceButton'>
+        ЗРОЗУМІЛО
+    </div>
+</div>
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/3DAgeBg_1.jpg'
+                    <img src='/includes/images/backgrounds/PhotoAgeBg_1.jpg'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
-                        <p>Тема роботи: вільна</p>
+                        <p>Тема роботи: заміна фону</p>
                     </div>
                 </div></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
-            <img src='/includes/images/backgrounds/3DAgeBg_2.webp'
+            <img src='/includes/images/backgrounds/PhotoAgeBg_2.jpg'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: вільна</p>
+                <p>Тема роботи: Мульти - експозиція</p>
             </div>
         </div></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
@@ -46,21 +53,21 @@
         <h1 class='title'>Критерії за якими будуть<br>оцінювати вашу роботу</h1>
         <div class='kriterii'>
             <div class='innerWrapper shadow'>
+                <img src='/includes/images/icons/TechnoLight.svg' alt='icon'>
+                <h2>CREATIVITY</h2>
+                Творчий задум, наскільки повно та креативно у роботі розкрита тема номінації, які образи та додаткові елементи автор використав для візуалізації поставленої задачі</div>
+            <div class='innerWrapper shadow'>
+                <img src='/includes/images/icons/eye.svg' alt='icon'>
+                <h2>FRAMESTYLE</h2>
+                Дотримання правил компонування кадру: правил композиції, третин, золотого перетину, тощо</div>
+            <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/monitor.svg' alt='icon'>
                 <h2>TECHNICAL</h2>
-                <p>Складність геометрії, наявність UV розгортки, використання модифікаторів і оптимізація геометрії</p></div>
-            <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/HandWithIcons.svg' alt='icon'>
-                <h2>TEXTURE</h2>
-                <p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p></div>
-            <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/LightIcon.svg' alt='icon'>
-                <h2>RENDER</h2>
-                <p>Якість освітлення сцени, композиція сцени, якість рендеру,якість і зміст візуалізації.</p></div>
+                Технічне виконання: наскільки влучно були використані можливості графічних редакторів — Adobe Photoshop, Adobe Lightroom тощо</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ</h2>
-                <p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p></div>
+                Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</div>
         </div>
     </section>
 </div>
@@ -71,44 +78,20 @@
     <div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
                     <div class='text'>
-                        <h3><span style='color: red; font-size: 700'>УВАГА!!!</span> Необхідно надати</h3>
-                        <p>3Д сцену в форматах <span>.obj</span> або <span>.fbx</span> у корені архіву</p>
+                        <h3>Оригінальні фото</h3>
+                        <p>до обробки у форматі *.jpg (для старшої групи – обидва оригінальні фото). Файли мають називатися наступним чином: ПРІЗВИЩЕ_ІМ’Я_Original.jpg.</p><p>УСІ ФОТО МАЮТЬ БУТИ ЗРОБЛЕНІ ВАМИ (можна із допомогою вчителя / батьів і т.п.)</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
                     <div class='text'>
-                        <h3>Робота має бути</h3>
-                        <p>оригінальною (розробленою САМОСТІЙНО) У разі використання готових моделей або туторіалів – проект має бути змінений що найменше на 70%. У разі використання готових рішень – це необхідно вказати в описі роботи та вказати посилання на модель або туторіал.</p>
+                        <h3>Архів з роботою</h3>
+                        <p>після використання графічних редакторів у форматі *.jpg. Файл має називатись наступним чином: ПРІЗВИЩЕ_ІМ’Я_Result.jpg.</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/folderIcon.svg' alt='icon'>
+                    <img class='icon' src='/includes/images/icons/GraphicsIcon.svg' alt='icon'>
                     <div class='text'>
-                        <h3>Папка Clay</h3>
-                        <p>має містити Clay render вашої роботи</p>
-                    </div>
-                </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/folderIcon.svg' alt='icon'>
-                    <div class='text'>
-                        <h3>Папка Render</h3>
-                        <p>має містити зображення головної 3D сцени. Якісний не шумний рендер розміру 1289*720 або 1920*1080</p>
-                    </div>
-                </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/folderIcon.svg' alt='icon'>
-                    <div class='text'>
-                        <h3>Папка Tex</h3>
-                        <p>має містити використані вами текстури</p>
-                    </div>
-                </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/folderIcon.svg' alt='icon'>
-                    <div class='text'>
-                        <h3>Папка Source</h3>
-                        <p>З файлами що використовувалися в роботі</p>
-                    </div>
-                </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/folderIcon.svg' alt='icon'>
-                    <div class='text'>
-                        <h3>Папка Screenshots</h3>
-                        <p>Зі скріншотами процессу розробки (обов’язково зі скріншотами сцени з увімкненною сіткою)</p>
+                        <h3>вихідний файл</h3>
+                        <p>(*psd – для Adobe Photoshop’у,. *.xcf — для Gimp’у — тощо) ОБОВ’ЯЗКОВО з усіма не склеєними шарами. Назва файлу маэ бути ПРІЗВИЩЕ_ІМ’Я</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
@@ -147,7 +130,7 @@
     </a>
 </section>
 
-<?php include '../../includes/footer.html';?>
+<?php include '../includes/footer.html';?>
 
 </body>
 

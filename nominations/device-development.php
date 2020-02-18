@@ -7,7 +7,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
-    <?php include '../../includes/header.html';?>
+    <?php include '../includes/header.html';?>
+    <script src='/includes/JS/youtube.js'></script>
     <title>АПАРАТНА РОЗРОБКА</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
-                        <p>Тема роботи: Тема роботи: вільна</p>
+                        <p>Тема роботи: вільна</p>
                     </div>
                 </div><ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP / STM 32 / SILABS / AVR / TI</li><li>Інші апаратні платформи</li></ul></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
@@ -35,7 +36,7 @@
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: Тема роботи: вільна</p>
+                <p>Тема роботи: вільна</p>
             </div>
         </div><ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP / STM 32 / SILABS / AVR / TI</li><li>Інші апаратні платформи</li></ul></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
@@ -129,7 +130,7 @@
     </a>
 </section>
 
-<?php include '../../includes/footer.html';?>
+<?php include '../includes/footer.html';?>
 
 </body>
 

@@ -7,7 +7,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
-    <?php include '../../includes/header.html';?>
+    <?php include '../includes/header.html';?>
+    <script src='/includes/JS/youtube.js'></script>
     <title>2D АНІМАЦІЯ</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
     </script>
     <section class='section' id='aboutNomination'>
     <h1 class='title'>2D АНІМАЦІЯ</h1>
-    <p>У цій номінації вам потрібно написати сценарій, намалювати/зняти свою анімацію. Уважно читайте вимоги до анімації.</p>
+    <p>У цій номінації вам потрібно зробити анімацію будь якою технікою (2D малювання, пластелин, стоп - моушн і т.д.), який буде візуалізацією вірша Ліни Костенко.</p>
 </section>
 
     <section id='ageGroups' class='section'>
@@ -27,17 +28,17 @@
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
-                        <p>Тема роботи: Тема роботи: вільна</p>
+                        <p>Тема роботи: анімувати вірш</p>
                     </div>
-                </div></div><div class='ageGroupWrapper shadow'>
+                </div><ul class='explanation'><p>Вірші на вибір:</p><ul><li><a href=''>FLEX</a></li></ul></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
             <img src='/includes/images/backgrounds/2DAAge_2.jpg'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: Тема роботи: вільна</p>
+                <p>Тема роботи: анімувати віргш</p>
             </div>
-        </div></div>        </div>
+        </div><ul class='explanation'><p>Вірші на вибір:</p><ul><li><a href=''>FLEX</a></li></ul></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
         перемоги - одна робота отримує одну нагороду.</p>
     </section>
@@ -48,11 +49,11 @@
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/puzzle.svg' alt='icon'>
                 <h2>STORYLINE</h2>
-                Цілісність історії, наскільки цікаво дивитись відео. Авторський сюжет, унікальність історії.</div>
+                Розкриття теми</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/SoundIcon.svg' alt='icon'>
                 <h2>SOUNDTRACK</h2>
-                <p>Якість музичного супроводу та його відповідність до відеоряду, наскільки звуки відповідають тому, що відбувається в кадрі</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ДО ЗВУКУ</div></a></div>
+                <p>Відповідність візуалізації звуковому супроводженню</p></div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
                 <h2>FRAMESTYLE</h2>
@@ -92,7 +93,7 @@
                     <img class='icon' src='/includes/images/icons/SoundIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Баланс звуку</h3>
-                        <a href='/sound_recommendations/' target='_blank' class=''><div class='button shadow'>ПЕРЕГЛЯНЬТЕ ЦІ РЕКОМЕНДАЦІЇ</div></a>
+                        <a href='/sound_recommendations' target='_blank' class=''><div class='button shadow'>ПЕРЕГЛЯНЬТЕ ЦІ РЕКОМЕНДАЦІЇ</div></a>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/SandClock.svg' alt='icon'>
@@ -143,7 +144,7 @@
     </a>
 </section>
 
-<?php include '../../includes/footer.html';?>
+<?php include '../includes/footer.html';?>
 
 </body>
 

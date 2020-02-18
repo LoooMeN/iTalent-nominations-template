@@ -3,12 +3,12 @@
     $data = file_get_contents("../data/nominations.json");
     $data = json_decode($data, true);
     $test = $data["nomination1"];
+    if (!file_exists('../../nominations'))
+        mkdir('../../nominations');
     foreach ($data as $test) {
         $name = explode("/", $test["url"]);
         $name = $name[count($name) - 2];
-        $name = "../../nominations/" . $name;
-        if (!file_exists($name))
-            mkdir($name);
+        $name = "../../nominations/" . $name . ".php";
         $string = "
 <!DOCTYPE html>
 <html lang='en'>
@@ -18,7 +18,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
-    <?php include '../../includes/header.html';?>
+    <?php include '../includes/header.html';?>
+    <script src='/includes/JS/youtube.js'></script>
     <title>".$test['ukrName']."</title>
 </head>
 <body>
@@ -155,7 +156,7 @@ $string .= "<section class='section' id='registration'></section>
     </a>
 </section>
 
-<?php include '../../includes/footer.html';?>
+<?php include '../includes/footer.html';?>
 
 </body>
 
@@ -163,7 +164,7 @@ $string .= "<section class='section' id='registration'></section>
 
 
 
-file_put_contents($name . "/index.php", $string);
+file_put_contents($name, $string);
 };
 echo ('Nominations generated.');
 ?>

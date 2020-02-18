@@ -7,7 +7,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
-    <?php include '../../includes/header.html';?>
+    <?php include '../includes/header.html';?>
+    <script src='/includes/JS/youtube.js'></script>
     <title>САЙТ НА КОНСТРУКТОРІ</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 14 років</h2>
-                        <p>Тема роботи: Тема роботи: вільна</p>
+                        <p>Тема роботи: вільна</p>
                     </div>
                 </div></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
@@ -109,7 +110,7 @@
     </a>
 </section>
 
-<?php include '../../includes/footer.html';?>
+<?php include '../includes/footer.html';?>
 
 </body>
 

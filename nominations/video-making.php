@@ -7,7 +7,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
-    <?php include '../../includes/header.html';?>
+    <?php include '../includes/header.html';?>
+    <script src='/includes/JS/youtube.js'></script>
     <title>ВІДЕО МЕЙКІНГ</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
-                        <p>Тема роботи: Тема роботи: зняти свій трейлер.</p>
+                        <p>Тема роботи: зняти свій трейлер.</p>
                     </div>
                 </div><ul class='explanation'><p>Вам потрібно зняти свій трейлер до мультфільму на вибір</p><ul><li>Шрек</li><li>Аліса у країні чудес</li></ul><br><p>Бажана мова титрів та озвучки: Україніська</p></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
@@ -35,7 +36,7 @@
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: Тема роботи: зняти свій трейлер.</p>
+                <p>Тема роботи: зняти свій трейлер.</p>
             </div>
         </div><ul class='explanation'><p>Вам потрібно зняти свій трейлер до фільму на вибір</p><ul><li>Термінатор</li><li>Матриця</li><li>Володар кілець</li></ul><br><p>Бажана мова титрів та озвучки: Україніська</p></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
@@ -145,7 +146,7 @@
     </a>
 </section>
 
-<?php include '../../includes/footer.html';?>
+<?php include '../includes/footer.html';?>
 
 </body>
 

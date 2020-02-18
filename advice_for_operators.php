@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/adviceStyle.css">
     <title>Поради до операторської роботи</title>
-    <?php include "../includes/header.html";?>
+    <?php include "./includes/header.html";?>
 </head>
 <body>
     <section class="section" id="advice">
@@ -20,6 +20,6 @@
                     <a href="https://bit.ly/2tQTzF3" target="_blank" rel="noopener noreferrer"><div class="advice"><h3>Бонус</h3></div></a>
         </div>
     </section>
-    <?php include "../includes/footer.html";?>
+    <?php include "./includes/footer.html";?>
 </body>
 </html>

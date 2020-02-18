@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/mentorStyle.css">
     <title>Менторство</title>
-    <?php include "../includes/header.html";?>
+    <?php include "./includes/header.html";?>
 </head>
 
 <body>
@@ -134,7 +134,7 @@
             </div>
         </section>
     </div>
-    <?php include "../includes/footer.html";?>
+    <?php include "./includes/footer.html";?>
 </body>
 
 </html>
