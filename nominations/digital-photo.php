@@ -10,8 +10,7 @@
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
     <title>ЦИФРОВА ФОТОГРАФІЯ</title>
-</head>
-<body>
+</head><body>
     <script>
         var page = 'PHOTO';
     </script>
@@ -19,13 +18,7 @@
     <h1 class='title'>ЦИФРОВА ФОТОГРАФІЯ</h1>
     <p>У цій номінації вам потрібно зняти оригінальне фото і обробити його. Уважно читайте завдання до фото.</p>
 </section>
-<div class='anouncement'>
-    <h3>Ця номінація ще не готова!</h3>
-    <p>Інформація на цій сторінці ще не була оновлена з минулого сезону!</p>
-    <div id='announceButton'>
-        ЗРОЗУМІЛО
-    </div>
-</div>
+
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
@@ -34,17 +27,17 @@
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
-                        <p>Тема роботи: Тема роботи: заміна фону</p>
+                        <p>Тема роботи: Охрана, корекція!</p>
                     </div>
-                </div></div><div class='ageGroupWrapper shadow'>
+                </div><ul class='explanation'><p>Помітили, що після виходу відомої пісні, тепер прийнято казати «корекція» замість «атмєна»? Тож скоригувати пропонуємо і вам! Беріть знімок та виправляйте фон на інший. Тема і жанр фоторобіт довільні, ключове – якісно і вдало підлаштувати новий фон до початкового зображення. Змінювати можна будь-що: портрет, пейзаж, спорт, предметні знімки. Пам’ятайте, що оцінюватиметься не тільки якість Вашої роботи у редакторі, але й комплекс естетичних та змістових вражень на які наштовхує глядача Ваша фотографія. Чим непомітніші зміни – тим краще.</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;'><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/c4/43/81/c4438124d2793430d2023e3d51072512.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://photoshop-usluga.online/wp-content/uploads/2019/11/hpFyRyEYp0.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.jpg' target='_blank'><p>ПРИКЛАД</p></a></div></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
             <img src='/includes/images/backgrounds/PhotoAgeBg_2.jpg'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: Тема роботи: Мульти - експозиція</p>
+                <p>Тема роботи: мульти - експозиція</p>
             </div>
-        </div></div>        </div>
+        </div><ul class='explanation'><p>Тематика цьогорічної конкурсної роботи для старшої групи вільна за сюжетом, жанром та стилем. Однак робота має бути виконана у техніці мультиекспозиції. Суть цього творчого прийому полягає у накладенні декількох (більше двох) знімків на одну картинну площину. Фотограф прагне досягти не тільки естетичної цілі, але й відкрити нові смисли багатогранного зображення. Технічно ви можете зробити такий знімок фотографуючи серією та поєднуючи кілька різних знімків. Головне – фінальна робота має бути стилістично досконалою і візуально зрозумілою.</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;'><a href='https://www.instagram.com/p/B8sowJUA5RM/' target='_blank'><p>ПРИКЛАД</p></a><a href='http://pustina.blogspot.com/2017/08/blog-post_19.html?spref=pi' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.pinterest.com/pin/472103973432568998/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.pinterest.com/pin/299348706472116700/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.instagram.com/p/B6iW3wcn8Si/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.instagram.com/p/B8e0m7aIsmK/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.instagram.com/p/B8IVj_IhBPx/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.instagram.com/p/B8IlJw3ny-7/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.instagram.com/p/B8ICzIjg49o/' target='_blank'><p>ПРИКЛАД</p></a></div></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
         перемоги - одна робота отримує одну нагороду.</p>
     </section>

@@ -10,8 +10,7 @@
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
     <title>2D ГРАФІКА</title>
-</head>
-<body>
+</head><body>
     <script>
         var page = '2DG';
     </script>
@@ -19,7 +18,33 @@
     <h1 class='title'>2D ГРАФІКА</h1>
     <p>У цій номінації вам потрібно намалювати зображення/іллюстрацію згідно з вимогами номіцації. Уважно читайте завдання до зображення.</p>
 </section>
-
+<div class='anouncement'>
+    <h3>Ця номінація ще не готова!</h3>
+    <p>Інформація на цій сторінці не оновлена! Тема роботм, вимоги і критерії можуть змінюватися.</p><p>Ми повідомимо вас у соц. мережах щойно номінація буде готова</p>
+    <div id='announceButton' style='margin-bottom: 40px;'>
+        ЗРОЗУМІЛО
+    </div>
+    <section class='section' id='mediaLinks' style='margin-top: 40px; padding-top: 0;'>
+    <div class='grod'>
+        <a href='https://discord.gg/ywTQTpN' target='_blank' class=' button unselectable shadow discord discordHovered aHovered'>
+            <img src='/includes/images/icons/discord.png' alt='discord'>
+            <p>Приєднуйтеся Discord</p>
+        </a>
+        <a href='https://telegram.im/@ITalent_ua' target='_blank' class='button unselectable shadow telegram telegramHovered aHovered'>
+            <img src='/includes/images/icons/telegram.png' alt='telegram'>
+            <p>Приєднуйтеся Telegram</p>
+        </a>
+        <a href='https://www.facebook.com/iTalent.ua/' target='_blank' class='button unselectable shadow facebook facebookHovered aHovered'>
+            <img src='/includes/images/icons/facebook.png' alt='facebook'>
+            <p>Приєднуйтеся Facebook</p>
+        </a>
+        <a href='/faq-it/' target='_blank' class='button unselectable shadow faq faqHovered aHovered'>
+            <img src='/includes/images/icons/info.png' alt='faq'>
+            <p>Перегляньте FAQ</p>
+        </a>
+    </div>
+</section>
+</div>
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
@@ -28,15 +53,15 @@
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
-                        <p>Тема роботи: Тема роботи: стікери літніх емоцій.</p>
+                        <p>Тема роботи: дизайн костюма колонізатора марсу.</p>
                     </div>
-                </div><ul class='explanation'>Вам потрібно намалювати стікерпак літніх емоцій (5+ штук).</ul></div><div class='ageGroupWrapper shadow'>
+                </div></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
             <img src='/includes/images/backgrounds/2DGAgeBg_1.jpg'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: Тема роботи: дизайн костюма колонізатора марсу.</p>
+                <p>Тема роботи: дизайн костюма колонізатора марсу.</p>
             </div>
         </div></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі

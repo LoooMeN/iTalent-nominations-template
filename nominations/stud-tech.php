@@ -9,35 +9,27 @@
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
-    <title>ПРОГРАМНА РОЗРОБКА</title>
+    <title>ТЕХНІЧНА НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ</title>
 </head><body>
     <script>
-        var page = 'PROG';
+        var page = '';
     </script>
     <section class='section' id='aboutNomination'>
-    <h1 class='title'>ПРОГРАМНА РОЗРОБКА</h1>
-    <p>У цій номінації вам потрібно зробити мобільний або десктопний додаток / чатбота. Уважно читайте вимоги до вашої розробки.</p>
+    <h1 class='title'>ТЕХНІЧНА НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ</h1>
+    <p>У цій номінації вам потрібно зробити програму, сторінку (веб аплікацію) або додаток на смартфон який обробляє / аналізує / створює тексти</p>
 </section>
 
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/ProgAgeBg_1.jpg'
+                    <img src='/includes/images/backgrounds/stud-tech.jpg'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
-                        <h2>Від 8 до 15 років</h2>
+                        <h2>Від 19 до 24 років</h2>
                         <p>Тема роботи: вільна</p>
                     </div>
-                </div><ul class='explanation'>Проблеми які ваш проект може вирішувати: <ul><li>Пошук телефонів (де друга шкарпетка?)</li><li>Оффлайн путівник по пам’яткам міст (міні гід у телефоні)</li><li>Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)</li><li>SOS додатки (наприклад: сповіщення поліції про пограбування)</li><li>Додатки для дієти (по штрихкоду дізнатись кількість калорій)</li><li>Вільна тема</li></ul><p>Будь ласка не робіть учбові проекти (на приклад калькулятори, шифрувальник цезаря і т.п.)</p></ul></div><div class='ageGroupWrapper shadow'>
-        <div class='ageGroupPreview'>
-            <img src='/includes/images/backgrounds/ProgAgeBg_2.jpg'
-                alt='Вікова категорія 1'>
-            <div class='age redGrad'>
-                <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: вільна</p>
-            </div>
-        </div><ul class='explanation'>Проблеми які ваш проект може вирішувати: <ul><li>Пошук телефонів (де друга шкарпетка?)</li><li>Оффлайн путівник по пам’яткам міст (міні гід у телефоні)</li><li>Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)</li><li>SOS додатки (наприклад: сповіщення поліції про пограбування)</li><li>Додатки для дієти (по штрихкоду дізнатись кількість калорій)</li><li>Вільна тема</li></ul><p>Будь ласка не робіть учбові проекти (на приклад калькулятори, шифрувальник цезаря і т.п.)</p></ul></div>        </div>
+                </div></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
         перемоги - одна робота отримує одну нагороду.</p>
     </section>
@@ -73,6 +65,12 @@
                     <div class='text'>
                         <h3>Архів із роботою</h3>
                         <p>має містити:</p><ul><li>Папку «Build» із скомпільованою програмою, готовою до запуску. Якщо програма не запуститься – робота не буде розглядатись</li><li>Папку «Source» із проектом програми із усіма файлами вихідного коду</li><li>Папку «Test Data» із тестовими файлами, якщо такі необхідні для перевірки роботи програми (Наприклад, якщо програма обробляє зображення – декілька відповідних зображень)</li></ul>
+                    </div>
+                </div><div class='vimogaWrapper'>
+                    <img class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
+                    <div class='text'>
+                        <h3>Якщо ви робите сайт</h3>
+                        <p>то він має бути розміщеній в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/GraphicsIcon.svg' alt='icon'>

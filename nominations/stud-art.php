@@ -10,8 +10,7 @@
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
     <title>ХУДОЖНЯ НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ</title>
-</head>
-<body>
+</head><body>
     <script>
         var page = 'stud-art';
     </script>
@@ -19,13 +18,7 @@
     <h1 class='title'>ХУДОЖНЯ НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ</h1>
     <p>У цій номінації вам необхідно розробити промо матеріал / лендінг для відомого або вигаданого бренду</p>
 </section>
-<div class='anouncement'>
-    <h3>Ця номінація ще не готова!</h3>
-    <p>Інформація на цій сторінці ще не була оновлена з минулого сезону!</p>
-    <div id='announceButton'>
-        ЗРОЗУМІЛО
-    </div>
-</div>
+
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>

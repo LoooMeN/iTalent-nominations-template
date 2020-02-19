@@ -10,8 +10,7 @@
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
     <title>АПАРАТНА РОЗРОБКА</title>
-</head>
-<body>
+</head><body>
     <script>
         var page = 'PROGAPP';
     </script>
@@ -28,7 +27,7 @@
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
-                        <p>Тема роботи: Тема роботи: вільна</p>
+                        <p>Тема роботи: вільна</p>
                     </div>
                 </div><ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP / STM 32 / SILABS / AVR / TI</li><li>Інші апаратні платформи</li></ul></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
@@ -36,7 +35,7 @@
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: Тема роботи: вільна</p>
+                <p>Тема роботи: вільна</p>
             </div>
         </div><ul class='explanation'><p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP / STM 32 / SILABS / AVR / TI</li><li>Інші апаратні платформи</li></ul></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі

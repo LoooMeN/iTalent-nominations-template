@@ -10,8 +10,7 @@
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
     <title>GAMEDEV</title>
-</head>
-<body>
+</head><body>
     <script>
         var page = 'GAMEDEV';
     </script>
@@ -28,7 +27,7 @@
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
-                        <p>Тема роботи: Тема роботи: вільна</p>
+                        <p>Тема роботи: вільна</p>
                     </div>
                 </div></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
@@ -36,7 +35,7 @@
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: Тема роботи: вільна</p>
+                <p>Тема роботи: вільна</p>
             </div>
         </div></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
@@ -57,7 +56,7 @@
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/listIcon.svg' alt='icon'>
                 <h2>COMPLETENESS</h2>
-                Чи можна гру вже завтра викладати в Steam, або вона ще на стадії технічної демо-версії.</div>
+                Наявність повноцінного (без багів) геймплею з точки зору задуму автора і жанру.</div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/SoundIcon.svg' alt='icon'>
                 <h2>АУДІО - СУПРОВІД</h2>

@@ -111,11 +111,6 @@ html {
   scroll-behavior: smooth;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,6 +215,22 @@ body .left {
   background-color: #48A0DC;
 }
 
+#mediaLinks .grod .discordHovered {
+  background-color: #989FEC;
+}
+
+#mediaLinks .grod .telegramHovered {
+  background-color: #47B0D3;
+}
+
+#mediaLinks .grod .facebookHovered {
+  background-color: #3B5998;
+}
+
+#mediaLinks .grod .faqHovered {
+  background-color: #48A0DC;
+}
+
 #mediaLinks .grod a {
   padding: 10px 40px;
   border-radius: 10px;
@@ -256,6 +267,12 @@ body .left {
 }
 
 #mediaLinks .grod a:hover {
+  color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#mediaLinks .grod .aHovered {
   color: white;
   -webkit-box-shadow: none;
           box-shadow: none;

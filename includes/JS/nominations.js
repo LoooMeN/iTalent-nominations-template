@@ -22,7 +22,7 @@ let testList = [{
         'icon': 'icon-tech',
         'sec': 'hud',
         'new': true,
-        'link': '/nominations/2d-graphics/'
+        'link': '/nominations/stud-tech/'
     },
     {
         'ruName': '2D графика',

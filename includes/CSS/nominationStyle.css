@@ -110,11 +110,6 @@ html {
   scroll-behavior: smooth;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,6 +214,22 @@ body .left {
   background-color: #48A0DC;
 }
 
+#mediaLinks .grod .discordHovered {
+  background-color: #989FEC;
+}
+
+#mediaLinks .grod .telegramHovered {
+  background-color: #47B0D3;
+}
+
+#mediaLinks .grod .facebookHovered {
+  background-color: #3B5998;
+}
+
+#mediaLinks .grod .faqHovered {
+  background-color: #48A0DC;
+}
+
 #mediaLinks .grod a {
   padding: 10px 40px;
   border-radius: 10px;
@@ -255,6 +266,12 @@ body .left {
 }
 
 #mediaLinks .grod a:hover {
+  color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#mediaLinks .grod .aHovered {
   color: white;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -333,8 +350,13 @@ body .left {
   cursor: pointer;
 }
 
+body {
+  position: relative;
+}
+
 .anouncement {
-  position: absolute;
+  position: fixed;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   display: -webkit-box;
@@ -365,6 +387,15 @@ body .left {
   font-size: 22px;
   cursor: pointer;
   padding: 10px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .anouncement h3 {
+    font-size: 30px;
+  }
+  .anouncement p {
+    width: 80%;
+  }
 }
 
 #aboutNomination {
@@ -559,10 +590,11 @@ body .left {
 
 #ageGroups .ageGroupsWrapper .ageGroupWrapper .explanation a {
   color: black;
+  margin: 10px;
 }
 
 #ageGroups .ageGroupsWrapper .ageGroupWrapper .explanation a p {
-  width: 100%;
+  width: initial;
   color: black;
   text-transform: uppercase;
   padding: 20px;
@@ -571,6 +603,13 @@ body .left {
   margin: auto;
   border: 1px solid black;
   border-radius: 10px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+#ageGroups .ageGroupsWrapper .ageGroupWrapper .explanation a p:hover {
+  color: #2F80ED;
+  border-color: #2F80ED;
 }
 
 @media only screen and (max-width: 768px) {
@@ -592,6 +631,9 @@ body .left {
   #ageGroups .ageGroupsWrapper .ageGroupWrapper {
     margin: 0;
     margin-bottom: 30px;
+  }
+  #ageGroups .ageGroupsWrapper .ageGroupWrapper .explanation {
+    padding: 20px 15px;
   }
   #ageGroups .ageGroupsWrapper .ageGroupWrapper .ageGroupPreview .age p {
     width: 90%;

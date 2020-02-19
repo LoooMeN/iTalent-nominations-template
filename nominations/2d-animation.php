@@ -10,8 +10,7 @@
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
     <title>2D АНІМАЦІЯ</title>
-</head>
-<body>
+</head><body>
     <script>
         var page = '2DA';
     </script>
@@ -28,7 +27,7 @@
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
-                        <p>Тема роботи: Тема роботи: анімувати вірш</p>
+                        <p>Тема роботи: анімувати вірш</p>
                     </div>
                 </div><ul class='explanation'><p>Вірші на вибір:</p><ul><li><a href=''>FLEX</a></li></ul></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
@@ -36,7 +35,7 @@
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: Тема роботи: анімувати віргш</p>
+                <p>Тема роботи: анімувати віргш</p>
             </div>
         </div><ul class='explanation'><p>Вірші на вибір:</p><ul><li><a href=''>FLEX</a></li></ul></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі

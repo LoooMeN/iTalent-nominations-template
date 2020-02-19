@@ -10,8 +10,7 @@
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
     <title>ВІДЕО МЕЙКІНГ</title>
-</head>
-<body>
+</head><body>
     <script>
         var page = 'VID';
     </script>
@@ -19,7 +18,33 @@
     <h1 class='title'>ВІДЕО МЕЙКІНГ</h1>
     <p>У цій номінації вам потрібно написати сценарій, зняти і змонтувати свій відеоролик. Уважно читайте завдання до відеоролику.</p>
 </section>
-
+<div class='anouncement'>
+    <h3>Ця номінація ще не готова!</h3>
+    <p>Інформація на цій сторінці не оновлена! Тема роботм, вимоги і критерії можуть змінюватися.</p><p>Ми повідомимо вас у соц. мережах щойно номінація буде готова</p>
+    <div id='announceButton' style='margin-bottom: 40px;'>
+        ЗРОЗУМІЛО
+    </div>
+    <section class='section' id='mediaLinks' style='margin-top: 40px; padding-top: 0;'>
+    <div class='grod'>
+        <a href='https://discord.gg/ywTQTpN' target='_blank' class=' button unselectable shadow discord discordHovered aHovered'>
+            <img src='/includes/images/icons/discord.png' alt='discord'>
+            <p>Приєднуйтеся Discord</p>
+        </a>
+        <a href='https://telegram.im/@ITalent_ua' target='_blank' class='button unselectable shadow telegram telegramHovered aHovered'>
+            <img src='/includes/images/icons/telegram.png' alt='telegram'>
+            <p>Приєднуйтеся Telegram</p>
+        </a>
+        <a href='https://www.facebook.com/iTalent.ua/' target='_blank' class='button unselectable shadow facebook facebookHovered aHovered'>
+            <img src='/includes/images/icons/facebook.png' alt='facebook'>
+            <p>Приєднуйтеся Facebook</p>
+        </a>
+        <a href='/faq-it/' target='_blank' class='button unselectable shadow faq faqHovered aHovered'>
+            <img src='/includes/images/icons/info.png' alt='faq'>
+            <p>Перегляньте FAQ</p>
+        </a>
+    </div>
+</section>
+</div>
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
@@ -28,7 +53,7 @@
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
-                        <p>Тема роботи: Тема роботи: зняти свій трейлер.</p>
+                        <p>Тема роботи: зняти свій трейлер.</p>
                     </div>
                 </div><ul class='explanation'><p>Вам потрібно зняти свій трейлер до мультфільму на вибір</p><ul><li>Шрек</li><li>Аліса у країні чудес</li></ul><br><p>Бажана мова титрів та озвучки: Україніська</p></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
@@ -36,7 +61,7 @@
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: Тема роботи: зняти свій трейлер.</p>
+                <p>Тема роботи: зняти свій трейлер.</p>
             </div>
         </div><ul class='explanation'><p>Вам потрібно зняти свій трейлер до фільму на вибір</p><ul><li>Термінатор</li><li>Матриця</li><li>Володар кілець</li></ul><br><p>Бажана мова титрів та озвучки: Україніська</p></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
