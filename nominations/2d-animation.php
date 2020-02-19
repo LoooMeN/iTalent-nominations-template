@@ -18,7 +18,33 @@
     <h1 class='title'>2D АНІМАЦІЯ</h1>
     <p>У цій номінації вам потрібно зробити анімацію будь якою технікою (2D малювання, пластелин, стоп - моушн і т.д.), який буде візуалізацією вірша Ліни Костенко.</p>
 </section>
-
+<div class='anouncement'>
+    <h3>Ця номінація ще не готова!</h3>
+    <p>Інформація на цій сторінці не оновлена! Тема роботм, вимоги і критерії можуть змінюватися.</p><p>Ми повідомимо вас у соц. мережах щойно номінація буде готова</p>
+    <div id='announceButton' style='margin-bottom: 40px;'>
+        ЗРОЗУМІЛО
+    </div>
+    <section class='section' id='mediaLinks' style='margin-top: 40px; padding-top: 0;'>
+    <div class='grod'>
+        <a href='https://discord.gg/ywTQTpN' target='_blank' class=' button unselectable shadow discord discordHovered aHovered'>
+            <img src='/includes/images/icons/discord.png' alt='discord'>
+            <p>Приєднуйтеся Discord</p>
+        </a>
+        <a href='https://telegram.im/@ITalent_ua' target='_blank' class='button unselectable shadow telegram telegramHovered aHovered'>
+            <img src='/includes/images/icons/telegram.png' alt='telegram'>
+            <p>Приєднуйтеся Telegram</p>
+        </a>
+        <a href='https://www.facebook.com/iTalent.ua/' target='_blank' class='button unselectable shadow facebook facebookHovered aHovered'>
+            <img src='/includes/images/icons/facebook.png' alt='facebook'>
+            <p>Приєднуйтеся Facebook</p>
+        </a>
+        <a href='/faq-it/' target='_blank' class='button unselectable shadow faq faqHovered aHovered'>
+            <img src='/includes/images/icons/info.png' alt='faq'>
+            <p>Перегляньте FAQ</p>
+        </a>
+    </div>
+</section>
+</div>
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
