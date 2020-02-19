@@ -12,7 +12,7 @@
     <title>GAMEDEV</title>
 </head><body>
     <script>
-        var page = 'GAMEDEV';
+        var page = 'gamedev';
     </script>
     <section class='section' id='aboutNomination'>
     <h1 class='title'>GAMEDEV</h1>
