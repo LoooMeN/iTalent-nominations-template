@@ -1,0 +1,3 @@
+# ignore builder
+/includes/PHP/nominationsGenerator.php
+/includes/data/nominations.json
