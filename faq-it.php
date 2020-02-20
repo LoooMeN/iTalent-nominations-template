@@ -35,7 +35,7 @@
             </div>
             <div class="red questionBox shadow">
                 <h2>Яка дата кінця реєстрації?</h2>
-                <p>1.12.2019 (дата може змінитися)</p>
+                <p>24 квітня 2020 (дата може змінитися)</p>
             </div>
             <div class="green questionBox bigBox shadow">
                 <h2>На фінал потрібно їхати за свій рахунок?</h2>
