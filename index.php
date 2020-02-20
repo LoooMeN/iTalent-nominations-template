@@ -17,7 +17,7 @@
         <div></div>
         <div class="container">
             <img src="/includes/images/logos/iTalent_logo_vertical.svg" alt="logo">
-            <h2>7 СЕЗОН АЙТЕЛЕНТ РОЗПОЧНЕТЬСЯ У ЛЮТОМУ</h2>
+            <h2>7 СЕЗОН iTalent РОЗПОЧНЕТЬСЯ У ЛЮТОМУ</h2>
             <div class="buttons">
                 <a href="/nominations/prog-text" targer="_blank">
                     <div class="button">НОВА НОМІНАЦІЯ ВІД GRAMMARLY</div>
@@ -174,7 +174,7 @@
         <div>
             <div class="title left">КІБЕРСПОРТ</div>
             <p>Ми зробили окремий сайт для учасників, що хочуть порівняти свій AРМ та стратегічні здібності на
-                кібераренах</p>
+                кібер аренах</p>
             <div class="link">
                 <a class="shadow" href="http://cybersport.italent.org.ua/">ПРИЄДНАТИСЯ ДО БОЮ</a>
             </div>
@@ -182,17 +182,28 @@
     </section>
 
     <section class="section" id="judges">
+        <div>
+            <div class="title left">СУДДІ</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nemo.</p>
+            <div class="link">
+                <a class="shadow" href="/judges/">ДЕТАЛЬНІШЕ</a>
+            </div>
+        </div>
+        <img src="/includes/images/backgrounds/judges.svg" alt="judges">
+    </section>
+
+    <!-- <section class="section" id="judges">
         <div class="title">СУДДІ</div>
         <img src="/includes/images/backgrounds/judges.svg" alt="judges">
         <div class="link">
             <a class="shadow" href="/judges/">ДЕТАЛЬНІШЕ</a>
         </div>
-    </section>
+    </section> -->
 
-    <!-- <section class="section" id="plakat">
+    <section class="section" id="plakat">
         <div class="grod">
             <div>
-                <img src="/includes/images/includes/iTalent-plakat-preview.gif" alt="plakat">
+                <img src="/includes/images/iTalent-plakat-preview.png" alt="plakat" class="shadow">
             </div>
             <div>
                 <h2 class="title left">РОЗДРУКУЙ ПЛАКАТ</h2>
@@ -202,7 +213,7 @@
                     href="/includes/images/iTalent-plakat.pdf">ЗАВАНТАЖИТИ ПЛАКАТ</a>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <div class="mentorBg bgOverride">
         <section class="section" id="mentor">
@@ -223,7 +234,7 @@
                             <li>Екперти з ІТ, провідні спеціалісти кращих ІТ компаній</li>
                             <li>Викладачі кафедри інформатики та інтелектуальної власності НТУ ХПІ</li>
                             <li>Викладачі провідних ІТ шкіл</li>
-                            <li>Волонтери з Unic Factory</li>
+                            <li>Волонтери з Unit Factory</li>
                         </ul>
                     </div>
                 </div>

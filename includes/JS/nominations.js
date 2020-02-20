@@ -9,18 +9,18 @@ let testList = [{
         'link': '/nominations/prog-text/'
     },
     {
-        'ruName': 'Студ художня',
-        'ukName': 'Студ художня',
+        'ruName': 'Студ art',
+        'ukName': 'Студ art',
         'icon': 'icon-art',
         'sec': 'hud',
         'new': true,
         'link': '/nominations/stud-art/'
     },
     {
-        'ruName': 'Студ технічна',
-        'ukName': 'Студ технічна',
+        'ruName': 'Студ tech',
+        'ukName': 'Студ tech',
         'icon': 'icon-tech',
-        'sec': 'hud',
+        'sec': 'tech',
         'new': true,
         'link': '/nominations/stud-tech/'
     },

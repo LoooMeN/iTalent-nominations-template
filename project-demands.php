@@ -13,7 +13,7 @@
 <body>
     <section class="section" id="demands">
         <div class="title left">Загальні вимоги до робіт</div>
-        <a href="/includes/documents/iTalent-6-Terms.pdf" class="shadow" target="_blank"
+        <a href="/includes/documents/iTalent-7-Terms.pdf" class="shadow" target="_blank"
             rel="noopener noreferrer">
             УМОВИ ПРОВЕДЕННЯ КОНКУРСУ
         </a>

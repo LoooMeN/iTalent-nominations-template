@@ -110,11 +110,6 @@ html {
   scroll-behavior: smooth;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,6 +214,22 @@ body .left {
   background-color: #48A0DC;
 }
 
+#mediaLinks .grod .discordHovered {
+  background-color: #989FEC;
+}
+
+#mediaLinks .grod .telegramHovered {
+  background-color: #47B0D3;
+}
+
+#mediaLinks .grod .facebookHovered {
+  background-color: #3B5998;
+}
+
+#mediaLinks .grod .faqHovered {
+  background-color: #48A0DC;
+}
+
 #mediaLinks .grod a {
   padding: 10px 40px;
   border-radius: 10px;
@@ -255,6 +266,12 @@ body .left {
 }
 
 #mediaLinks .grod a:hover {
+  color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#mediaLinks .grod .aHovered {
   color: white;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -646,6 +663,9 @@ body .left {
   overflow: hidden;
   margin: auto;
   border-radius: 8px;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #about .myContainer .holder div {
@@ -961,7 +981,8 @@ body .left {
   }
 }
 
-#cybersport {
+#cybersport,
+#judges {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 3fr 2fr;
@@ -976,13 +997,15 @@ body .left {
   padding: 0px 40px;
 }
 
-#cybersport p {
+#cybersport p,
+#judges p {
   line-height: 24px;
   margin: 50px 0;
   width: 80%;
 }
 
-#cybersport a {
+#cybersport a,
+#judges a {
   background: #00B1FF;
   border-radius: 6px;
   color: white;
@@ -996,75 +1019,68 @@ body .left {
   cursor: pointer;
 }
 
-#cybersport a:hover {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-#cybersport img {
-  width: 100%;
-  height: 150%;
-}
-
-@media only screen and (max-width: 768px) {
-  #cybersport {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    padding: 0;
-  }
-  #cybersport img {
-    display: none;
-  }
-  #cybersport div {
-    text-align: center;
-  }
-  #cybersport div p {
-    width: 100%;
-  }
-  #cybersport a {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 100%;
-  }
-}
-
-#judges {
-  text-align: center;
-}
-
-#judges img {
-  max-width: 400px;
-}
-
-#judges a {
-  background: #00B1FF;
-  border-radius: 6px;
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-  padding: 15px 40px;
-  text-decoration: none;
-  -webkit-transition: -webkit-box-shadow 0.5s;
-  transition: -webkit-box-shadow 0.5s;
-  transition: box-shadow 0.5s;
-  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
-}
-
+#cybersport a:hover,
 #judges a:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
+#cybersport img,
+#judges img {
+  width: 100%;
+}
+
+#judges {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 3fr;
+      grid-template-columns: 2fr 3fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 60px;
+}
+
 @media only screen and (max-width: 768px) {
+  #cybersport,
+  #judges {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 0px;
+    padding: 0;
+    padding-bottom: 60px;
+  }
+  #cybersport img,
   #judges img {
-    width: 200px;
+    width: 300px;
+    margin: auto;
   }
-  #judges .title {
-    margin-bottom: 20px;
+  #cybersport div,
+  #judges div {
+    text-align: center;
   }
-  #judges a {
+  #cybersport div p,
+  #judges div p {
     width: 100%;
-    top: 20px;
+  }
+  #cybersport a,
+  #judges a {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+  }
+  #judges img {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  #judges div {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
 }
 
@@ -1604,7 +1620,9 @@ body .left {
 }
 
 #plakat .grod div img {
-  width: 100%;
+  width: 325px;
+  float: right;
+  margin-right: 40px;
 }
 
 #plakat .grod div p {
@@ -1626,10 +1644,22 @@ body .left {
           box-shadow: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   #plakat .grod {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+  #plakat .grod div {
+    width: 100%;
+    text-align: center;
+  }
+  #plakat .grod div .left {
+    text-align: center;
+  }
+  #plakat .grod div img {
+    float: initial;
+    width: 300px;
+    margin: auto;
   }
 }
 
@@ -1642,12 +1672,12 @@ body .left {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 2fr;
       grid-template-columns: 1fr 1fr 1fr 2fr;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   grid-gap: 20px;
 }
 
@@ -1669,14 +1699,14 @@ body .left {
   #contact .grod {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: top;
+        -ms-flex-align: top;
+            align-items: top;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
     grid-gap: 10px;
   }
   #contact .grod div {
