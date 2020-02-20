@@ -9,6 +9,14 @@ let testList = [{
         'link': '/nominations/prog-text/'
     },
     {
+        'ruName': 'Саунд дизайн',
+        'ukName': 'Саунд дизайн',
+        'icon': 'icon-microphone',
+        'sec': 'all',
+        'new': true,
+        'link': ''
+    },
+    {
         'ruName': 'Студ art',
         'ukName': 'Студ art',
         'icon': 'icon-art',
@@ -27,7 +35,7 @@ let testList = [{
     {
         'ruName': '2D графика',
         'ukName': '2D графіка',
-        'icon': 'icon-whh-shapes',
+        'icon': 'icon-drawing',
         'sec': 'hud',
         'new': false,
         'link': '/nominations/2d-graphics/'

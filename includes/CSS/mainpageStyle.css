@@ -476,7 +476,7 @@ body .left {
     font-size: 28px;
   }
   #banner .container .buttons {
-    max-width: 200px;
+    max-width: 80%;
   }
   #banner .container .buttons a {
     width: 100%;
@@ -1719,5 +1719,27 @@ body .left {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
+  }
+}
+
+#video {
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  padding-bottom: 120px;
+}
+
+#video .white {
+  color: white;
+}
+
+#video .holder {
+  width: 60%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #video .holder {
+    width: 100%;
   }
 }

@@ -42,6 +42,12 @@
             </div>
         </div>
     </section>
+    <section class="section" id="video">
+        <div class="title white">ВІДЕО З ФІНАЛУ</div>
+        <div class="holder">
+        <div class="youtube-player" data-id="0SXxt0hqgJ8"></div>
+        </div>
+    </section>
 
     <section class="section" id="mediaLinks">
         <div class="grod">
@@ -136,12 +142,7 @@
         </section>
     </div>
 
-    <!-- <section class="section" id="registration">
-        <h2 class="title">РЕЄСТРАЦІЮ ВІДКРИТО</h2>
-        <a href="https://forms.gle/vTrBqb5HXp3SkCby8" target="_blank">
-            <div class="regBtn shadow">ЗАРЕЄСТРУВАТИСЯ</div>
-        </a>
-    </section> -->
+    <section class="section" id="registration"></section>
 
     <section class="section" id="mediaAboutUs">
         <h2 class="title">ЗМІ ПРО НАС</h2>
@@ -151,7 +152,6 @@
         </div>
         <script src="/includes/JS/youtube.js"></script>
     </section>
-
 
     <section class="section" id="nominations">
         <div class="nominationsWrapper">
@@ -173,8 +173,7 @@
         <img src="/includes/images/backgrounds/boy.svg" alt="cybersport">
         <div>
             <div class="title left">КІБЕРСПОРТ</div>
-            <p>Ми зробили окремий сайт для учасників, що хочуть порівняти свій AРМ та стратегічні здібності на
-                кібер аренах</p>
+            <p>Ми зробили окремий сайт для учасників, що хочуть порівняти свій AРМ та стратегічні здібності на кібер аренах</p>
             <div class="link">
                 <a class="shadow" href="http://cybersport.italent.org.ua/">ПРИЄДНАТИСЯ ДО БОЮ</a>
             </div>
@@ -184,21 +183,13 @@
     <section class="section" id="judges">
         <div>
             <div class="title left">СУДДІ</div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nemo.</p>
+            <p>Профессіонали з IT ендустрії України!</p>
             <div class="link">
                 <a class="shadow" href="/judges/">ДЕТАЛЬНІШЕ</a>
             </div>
         </div>
         <img src="/includes/images/backgrounds/judges.svg" alt="judges">
     </section>
-
-    <!-- <section class="section" id="judges">
-        <div class="title">СУДДІ</div>
-        <img src="/includes/images/backgrounds/judges.svg" alt="judges">
-        <div class="link">
-            <a class="shadow" href="/judges/">ДЕТАЛЬНІШЕ</a>
-        </div>
-    </section> -->
 
     <section class="section" id="plakat">
         <div class="grod">
