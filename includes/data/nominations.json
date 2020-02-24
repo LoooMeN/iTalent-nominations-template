@@ -120,7 +120,7 @@
                 "from": "8",
                 "to": "15",
                 "tema": "Охрана, корекція!",
-                "task": "<p>Помітили, що після виходу відомої пісні, тепер прийнято казати «корекція» замість «атмєна»? Тож скоригувати пропонуємо і вам! Беріть знімок та виправляйте фон на інший. Тема і жанр фоторобіт довільні, ключове – якісно і вдало підлаштувати новий фон до початкового зображення. Змінювати можна будь-що: портрет, пейзаж, спорт, предметні знімки. Пам’ятайте, що оцінюватиметься не тільки якість Вашої роботи у редакторі, але й комплекс естетичних та змістових вражень на які наштовхує глядача Ваша фотографія. Чим непомітніші зміни – тим краще.</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;'><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/c4/43/81/c4438124d2793430d2023e3d51072512.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://photoshop-usluga.online/wp-content/uploads/2019/11/hpFyRyEYp0.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.jpg' target='_blank'><p>ПРИКЛАД</p></a></div>",
+                "task": "<p>Помітили, що після виходу відомої пісні, тепер прийнято казати «корекція» замість «атмєна»? Тож скоригувати пропонуємо і вам! Беріть знімок та виправляйте фон на інший. Тема і жанр фоторобіт довільні, ключове – якісно і вдало підлаштувати новий фон до початкового зображення. Змінювати можна будь-що: портрет, пейзаж, спорт, предметні знімки. Пам’ятайте, що оцінюватиметься не тільки якість Вашої роботи у редакторі, але й комплекс естетичних та змістових вражень на які наштовхує глядача Ваша фотографія. Чим непомітніші зміни – тим краще.</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;'><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/c4/43/81/c4438124d2793430d2023e3d51072512.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://photoshop-usluga.online/wp-content/uploads/2019/11/hpFyRyEYp0.jpg' target='_blank'><p>ПРИКЛАД</p></a></div>",
                 "image": "/includes/images/backgrounds/PhotoAgeBg_1.jpg"
             },
             "2": {
@@ -162,7 +162,7 @@
         "vimogi": {
             "1": {
                 "name": "Оригінальні фото",
-                "desc": "<p>до обробки у форматі *.jpg (для старшої групи – обидва оригінальні фото). Файли мають називатися наступним чином: ПРІЗВИЩЕ_ІМ’Я_Original.jpg.</p><p>УСІ ФОТО МАЮТЬ БУТИ ЗРОБЛЕНІ ВАМИ (можна із допомогою вчителя / батьів і т.п.)</p>",
+                "desc": "<p>до обробки у форматі *.jpg (усі фото мають бути зроблені вами). Файли мають називатися наступним чином: ПРІЗВИЩЕ_ІМ’Я_Original.jpg.</p><p>УСІ ФОТО МАЮТЬ БУТИ ЗРОБЛЕНІ ВАМИ (можна із допомогою вчителя / батьів і т.п.)</p>",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
             "2": {
@@ -172,7 +172,7 @@
             },
             "3": {
                 "name": "вихідний файл",
-                "desc": "(*psd – для Adobe Photoshop’у,. *.xcf — для Gimp’у — тощо) ОБОВ’ЯЗКОВО з усіма не склеєними шарами. Назва файлу маэ бути ПРІЗВИЩЕ_ІМ’Я",
+                "desc": "(*psd – для Adobe Photoshop’у,. *.xcf — для Gimp’у — тощо) ОБОВ’ЯЗКОВО з усіма не склеєними шарами. Назва файлу має бути ПРІЗВИЩЕ_ІМ’Я",
                 "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
             "4": {
@@ -294,9 +294,9 @@
     "nomination4": {
         "ukrName": "ВІДЕО МЕЙКІНГ",
         "ruName": "ВИДЕО МЕЙКИНГ",
-        "status": "no",
+        "status": "ready",
         "url": "/nominations/video-making/",
-        "desc": "У цій номінації вам потрібно написати сценарій, зняти і змонтувати свій відеоролик. Уважно читайте завдання до відеоролику.",
+        "desc": "У цій номінації вам потрібно написати сценарій, зняти і змонтувати свій трейлер до фільму / мультфільму. Головна задача - зацікавити трейлером глядача до перегляду фільму / мультфільму. Уважно читайте завдання до відеоролику.",
         "id": "VID",
         "age": {
             "1": {
@@ -403,9 +403,9 @@
     "nomination5": {
         "ukrName": "2D АНІМАЦІЯ",
         "ruName": "2D АНИМАЦИЯ",
-        "status": "ready",
+        "status": "no",
         "url": "/nominations/2d-animation/",
-        "desc": "У цій номінації вам потрібно зробити анімацію будь якою технікою (2D малювання, пластелин, стоп - моушн і т.д.), який буде візуалізацією вірша Ліни Костенко.",
+        "desc": "У цій номінації вам потрібно зробити анімацію будь якою технікою (мальовану, пластилінову, перекладку, предметну, пісочну, векторну, стоп-моушн, силуетну і т.д.), який буде візуалізацією вірша Ліни Костенко.",
         "id": "2DA",
         "age": {
             "1": {
@@ -418,7 +418,7 @@
             "2": {
                 "from": "15",
                 "to": "19",
-                "tema": "анімувати віргш",
+                "tema": "анімувати вірш",
                 "task": "<p>Вірші на вибір:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/kostenko/акварелі-дитинства.mp3' target='_blank'><p>Акварелі дитинства</p></a><a href='/includes/documents/kostenko/вже-почалось-мабуть-майбутнє.mp3' target='_blank'><p>Вже почалось, мабуть, майбутнє</p></a><a href='/includes/documents/kostenko/вночі-із-хаосу-безсоння.mp3' target='_blank'><p>Вночі із хаосу безсоння</p></a><a href='/includes/documents/kostenko/гондоли-чорні.mp3' target='_blank'><p>Гондоли - чорні</p></a><a href='/includes/documents/kostenko/і-знову-пролог.mp3' target='_blank'><p>І знову пролог</p></a><a href='/includes/documents/kostenko/і-не-минає-не-минає.mp3' target='_blank'><p>І не минає, не минає!</p></a><a href='/includes/documents/kostenko/місто-премісто-прамісто-моє.mp3' target='_blank'><p>Місто, премісто, прамісто моє!</p></a><a href='/includes/documents/kostenko/недумано-негадано.mp3' target='_blank'><p>Недумано, негадано</p></a><a href='/includes/documents/kostenko/послухаю-цей-дощ.mp3' target='_blank'><p>Послухаю цей дощ</p></a><a href='/includes/documents/kostenko/сосновий-ліс-перебирає-струни.mp3' target='_blank'><p>Сосновий ліс перебирає струни</p></a><a href='/includes/documents/kostenko/хочется-чуда.mp3' target='_blank'><p>Хочется чуда</p></a><a href='/includes/documents/kostenko/що-в-нас-було.mp3' target='_blank'><p>Що в нас було</p></a><a href='/includes/documents/kostenko/юдоль-плачу-земля-моя-планета.mp3' target='_blank'><p>Юдоль плачу, земля моя, планета</p></a><a href='/includes/documents/kostenko/я-вранці-голос-горлиці-люблю.mp3' target='_blank'><p>Я вранці голос горлиці люблю</p></a></div>",
                 "image": "/includes/images/backgrounds/2DAAge_2.jpg"
             }

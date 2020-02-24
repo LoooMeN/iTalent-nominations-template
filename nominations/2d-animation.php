@@ -16,9 +16,35 @@
     </script>
     <section class='section' id='aboutNomination'>
     <h1 class='title'>2D АНІМАЦІЯ</h1>
-    <p>У цій номінації вам потрібно зробити анімацію будь якою технікою (2D малювання, пластелин, стоп - моушн і т.д.), який буде візуалізацією вірша Ліни Костенко.</p>
+    <p>У цій номінації вам потрібно зробити анімацію будь якою технікою (мальовану, пластилінову, перекладку, предметну, пісочну, векторну, стоп-моушн, силуетну і т.д.), який буде візуалізацією вірша Ліни Костенко.</p>
 </section>
-
+<div class='anouncement'>
+    <h3>Ця номінація ще не готова!</h3>
+    <p>Інформація на цій сторінці не оновлена! Тема роботм, вимоги і критерії можуть змінюватися.</p><p>Ми повідомимо вас у соц. мережах щойно номінація буде готова</p>
+    <div id='announceButton' style='margin-bottom: 40px;'>
+        ЗРОЗУМІЛО
+    </div>
+    <section class='section' id='mediaLinks' style='margin-top: 40px; padding-top: 0;'>
+    <div class='grod'>
+        <a href='https://discord.gg/ywTQTpN' target='_blank' class=' button unselectable shadow discord discordHovered aHovered'>
+            <img src='/includes/images/icons/discord.png' alt='discord'>
+            <p>Приєднуйтеся Discord</p>
+        </a>
+        <a href='https://telegram.im/@ITalent_ua' target='_blank' class='button unselectable shadow telegram telegramHovered aHovered'>
+            <img src='/includes/images/icons/telegram.png' alt='telegram'>
+            <p>Приєднуйтеся Telegram</p>
+        </a>
+        <a href='https://www.facebook.com/iTalent.ua/' target='_blank' class='button unselectable shadow facebook facebookHovered aHovered'>
+            <img src='/includes/images/icons/facebook.png' alt='facebook'>
+            <p>Приєднуйтеся Facebook</p>
+        </a>
+        <a href='/faq-it/' target='_blank' class='button unselectable shadow faq faqHovered aHovered'>
+            <img src='/includes/images/icons/info.png' alt='faq'>
+            <p>Перегляньте FAQ</p>
+        </a>
+    </div>
+</section>
+</div>
     <section id='ageGroups' class='section'>
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
@@ -35,7 +61,7 @@
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
-                <p>Тема роботи: анімувати віргш</p>
+                <p>Тема роботи: анімувати вірш</p>
             </div>
         </div><ul class='explanation'><p>Вірші на вибір:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/kostenko/акварелі-дитинства.mp3' target='_blank'><p>Акварелі дитинства</p></a><a href='/includes/documents/kostenko/вже-почалось-мабуть-майбутнє.mp3' target='_blank'><p>Вже почалось, мабуть, майбутнє</p></a><a href='/includes/documents/kostenko/вночі-із-хаосу-безсоння.mp3' target='_blank'><p>Вночі із хаосу безсоння</p></a><a href='/includes/documents/kostenko/гондоли-чорні.mp3' target='_blank'><p>Гондоли - чорні</p></a><a href='/includes/documents/kostenko/і-знову-пролог.mp3' target='_blank'><p>І знову пролог</p></a><a href='/includes/documents/kostenko/і-не-минає-не-минає.mp3' target='_blank'><p>І не минає, не минає!</p></a><a href='/includes/documents/kostenko/місто-премісто-прамісто-моє.mp3' target='_blank'><p>Місто, премісто, прамісто моє!</p></a><a href='/includes/documents/kostenko/недумано-негадано.mp3' target='_blank'><p>Недумано, негадано</p></a><a href='/includes/documents/kostenko/послухаю-цей-дощ.mp3' target='_blank'><p>Послухаю цей дощ</p></a><a href='/includes/documents/kostenko/сосновий-ліс-перебирає-струни.mp3' target='_blank'><p>Сосновий ліс перебирає струни</p></a><a href='/includes/documents/kostenko/хочется-чуда.mp3' target='_blank'><p>Хочется чуда</p></a><a href='/includes/documents/kostenko/що-в-нас-було.mp3' target='_blank'><p>Що в нас було</p></a><a href='/includes/documents/kostenko/юдоль-плачу-земля-моя-планета.mp3' target='_blank'><p>Юдоль плачу, земля моя, планета</p></a><a href='/includes/documents/kostenko/я-вранці-голос-горлиці-люблю.mp3' target='_blank'><p>Я вранці голос горлиці люблю</p></a></div></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі

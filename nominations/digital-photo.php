@@ -29,7 +29,7 @@
                         <h2>Від 8 до 15 років</h2>
                         <p>Тема роботи: Охрана, корекція!</p>
                     </div>
-                </div><ul class='explanation'><p>Помітили, що після виходу відомої пісні, тепер прийнято казати «корекція» замість «атмєна»? Тож скоригувати пропонуємо і вам! Беріть знімок та виправляйте фон на інший. Тема і жанр фоторобіт довільні, ключове – якісно і вдало підлаштувати новий фон до початкового зображення. Змінювати можна будь-що: портрет, пейзаж, спорт, предметні знімки. Пам’ятайте, що оцінюватиметься не тільки якість Вашої роботи у редакторі, але й комплекс естетичних та змістових вражень на які наштовхує глядача Ваша фотографія. Чим непомітніші зміни – тим краще.</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;'><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/c4/43/81/c4438124d2793430d2023e3d51072512.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://photoshop-usluga.online/wp-content/uploads/2019/11/hpFyRyEYp0.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.jpg' target='_blank'><p>ПРИКЛАД</p></a></div></ul></div><div class='ageGroupWrapper shadow'>
+                </div><ul class='explanation'><p>Помітили, що після виходу відомої пісні, тепер прийнято казати «корекція» замість «атмєна»? Тож скоригувати пропонуємо і вам! Беріть знімок та виправляйте фон на інший. Тема і жанр фоторобіт довільні, ключове – якісно і вдало підлаштувати новий фон до початкового зображення. Змінювати можна будь-що: портрет, пейзаж, спорт, предметні знімки. Пам’ятайте, що оцінюватиметься не тільки якість Вашої роботи у редакторі, але й комплекс естетичних та змістових вражень на які наштовхує глядача Ваша фотографія. Чим непомітніші зміни – тим краще.</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;'><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/c4/43/81/c4438124d2793430d2023e3d51072512.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://photoshop-usluga.online/wp-content/uploads/2019/11/hpFyRyEYp0.jpg' target='_blank'><p>ПРИКЛАД</p></a></div></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
             <img src='/includes/images/backgrounds/PhotoAgeBg_2.jpg'
                 alt='Вікова категорія 1'>
@@ -72,7 +72,7 @@
                     <img class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Оригінальні фото</h3>
-                        <p>до обробки у форматі *.jpg (для старшої групи – обидва оригінальні фото). Файли мають називатися наступним чином: ПРІЗВИЩЕ_ІМ’Я_Original.jpg.</p><p>УСІ ФОТО МАЮТЬ БУТИ ЗРОБЛЕНІ ВАМИ (можна із допомогою вчителя / батьів і т.п.)</p>
+                        <p>до обробки у форматі *.jpg (усі фото мають бути зроблені вами). Файли мають називатися наступним чином: ПРІЗВИЩЕ_ІМ’Я_Original.jpg.</p><p>УСІ ФОТО МАЮТЬ БУТИ ЗРОБЛЕНІ ВАМИ (можна із допомогою вчителя / батьів і т.п.)</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
@@ -84,7 +84,7 @@
                     <img class='icon' src='/includes/images/icons/GraphicsIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>вихідний файл</h3>
-                        <p>(*psd – для Adobe Photoshop’у,. *.xcf — для Gimp’у — тощо) ОБОВ’ЯЗКОВО з усіма не склеєними шарами. Назва файлу маэ бути ПРІЗВИЩЕ_ІМ’Я</p>
+                        <p>(*psd – для Adobe Photoshop’у,. *.xcf — для Gimp’у — тощо) ОБОВ’ЯЗКОВО з усіма не склеєними шарами. Назва файлу має бути ПРІЗВИЩЕ_ІМ’Я</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
