@@ -183,7 +183,7 @@
     <section class="section" id="judges">
         <div>
             <div class="title left">СУДДІ</div>
-            <p>Профессіонали з IT ендустрії України!</p>
+            <p>Профессіонали з IT - ендустрії України!</p>
             <div class="link">
                 <a class="shadow" href="/judges/">ДЕТАЛЬНІШЕ</a>
             </div>
