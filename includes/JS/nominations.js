@@ -14,7 +14,7 @@ let testList = [{
         'icon': 'icon-microphone',
         'sec': 'all',
         'new': true,
-        'link': ''
+        'link': '/nominations/sound-design/'
     },
     {
         'ruName': 'Студ art',

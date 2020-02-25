@@ -9,14 +9,14 @@
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
-    <title>ТЕХНІЧНА НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ</title>
+    <title>Саунд дизайн | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
 </head><body>
     <script>
         var page = '';
     </script>
     <section class='section' id='aboutNomination'>
-    <h1 class='title'>ТЕХНІЧНА НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ</h1>
-    <p>треба ще почекати трохи ;)</p>
+    <h1 class='title'>Саунд дизайн</h1>
+    <p>У цій номінації вам потрібно озвучити короткий мультфільм</p>
 </section>
 <div class='anouncement'>
     <h3>Ця номінація ще не готова!</h3>
@@ -52,10 +52,10 @@
                     <img src='/includes/images/backgrounds/stud-tech.jpg'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
-                        <h2>Від 19 до 24 років</h2>
-                        <p>Тема роботи: вільна</p>
+                        <h2>Від 8 до 24 років</h2>
+                        <p>Тема роботи: озвучити мультфільм (музика, звуки голосів, фонові звуки і т.д.)</p>
                     </div>
-                </div></div>        </div>
+                </div><ul class='explanation'><p>Оберіть і завантажте мультфільм зі списку:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/video/Video1' target='_blank'><p>ВІДЕО</p></a><a href='/includes/documents/video/Video2' target='_blank'><p>ВІДЕО</p></a><a href='/includes/documents/video/Video3' target='_blank'><p>ВІДЕО</p></a><a href='/includes/documents/video/Video4' target='_blank'><p>ВІДЕО</p></a></div><p>Корисні посилання:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='https://youtu.be/73OcUBSB0CY' target='_blank'><p>ПОСИЛАННЯ</p></a><a href='https://youtu.be/hf_amnu14kU' target='_blank'><p>ПОСИЛАННЯ</p></a><a href='https://youtu.be/gpg4O-nKB-A' target='_blank'><p>ПОСИЛАННЯ</p></a></div></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
         перемоги - одна робота отримує одну нагороду.</p>
     </section>

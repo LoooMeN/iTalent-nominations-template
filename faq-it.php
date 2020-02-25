@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/faqStyle.css">
-    <title>FAQ IT</title>
+    <title>FAQ IT | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
     <?php include "./includes/header.html";?>
 </head>
 

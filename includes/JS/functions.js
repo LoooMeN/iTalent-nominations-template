@@ -101,4 +101,3 @@ if (window.screen.width <= 768)
 set_media();
 set_email_acceptor();
 handleAnnouncement();
-document.title = document.title + " | iTalent всеукраїнський конкурс з IT та кіберспорту";

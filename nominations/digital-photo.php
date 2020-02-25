@@ -9,7 +9,7 @@
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
-    <title>ЦИФРОВА ФОТОГРАФІЯ</title>
+    <title>ЦИФРОВА ФОТОГРАФІЯ | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
 </head><body>
     <script>
         var page = 'PHOTO';

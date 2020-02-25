@@ -9,13 +9,13 @@
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
     <?php include '../includes/header.html';?>
     <script src='/includes/JS/youtube.js'></script>
-    <title>ХУДОЖНЯ НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ</title>
+    <title>Студентська ART | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
 </head><body>
     <script>
         var page = 'stud-art';
     </script>
     <section class='section' id='aboutNomination'>
-    <h1 class='title'>ХУДОЖНЯ НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ</h1>
+    <h1 class='title'>Студентська ART</h1>
     <p>У цій номінації вам необхідно розробити промо матеріал / лендінг для відомого або вигаданого бренду</p>
 </section>
 <div class='anouncement'>
