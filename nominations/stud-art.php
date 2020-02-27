@@ -66,19 +66,19 @@
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/puzzle.svg' alt='icon'>
                 <h2>RECOGNITION</h2>
-                На скільки ваша робота репрезентує бренд. Має бути зрозуміло чим цей бренд займається.</div>
+                <p>На скільки ваша робота репрезентує бренд. Має бути зрозуміло чим цей бренд займається.</p></div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/eye.svg' alt='icon'>
                 <h2>DESIGN</h2>
-                Ступінь відповідності роботи заданій тематиці і стилю. (промо)</div>
+                <p>Ступінь відповідності роботи заданій тематиці і стилю. (промо)</p></div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/TechnoLight.svg' alt='icon'>
                 <h2>IDEA</h2>
-                Оригінальність і привабливість (вірусність) ідеї.</div>
+                <p>Оригінальність і привабливість (вірусність) ідеї.</p></div>
             <div class='innerWrapper shadow'>
                 <img src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>STYLE</h2>
-                Відповідність стилістики до обраного бренду.</div>
+                <p>Відповідність стилістики до обраного бренду.</p></div>
         </div>
     </section>
 </div>

@@ -645,7 +645,6 @@ body {
   background-size: contain;
   padding: 800px 0;
   background-repeat: no-repeat;
-  z-index: -1;
   margin: -800px 0;
   background-position: center center;
 }

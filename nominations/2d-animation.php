@@ -110,7 +110,7 @@
                     <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Назва роботи</h3>
-                        <p>Роботу завантажено на Youtube слід називати наступним чином “iTalent 6 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 6 сезон – “Уявіть собі” – Ivahin_Ivan</p>
+                        <p>Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 7 сезон – “Уявіть собі” – Ivahin_Ivan</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>

@@ -380,7 +380,7 @@
             },
             "7": {
                 "name": "Назва роботи",
-                "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 6 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 6 сезон – “Уявіть собі” – Ivahin_Ivan",
+                "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 7 сезон – “Уявіть собі” – Ivahin_Ivan",
                 "icon_link": "/includes/images/icons/mark.svg"
             },
             "8": {
@@ -489,7 +489,7 @@
             },
             "6": {
                 "name": "Назва роботи",
-                "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 6 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 6 сезон – “Уявіть собі” – Ivahin_Ivan",
+                "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 7 сезон – “Уявіть собі” – Ivahin_Ivan",
                 "icon_link": "/includes/images/icons/mark.svg"
             },
             "7": {
@@ -1251,22 +1251,22 @@
         "kriterii": {
             "1": {
                 "name": "RECOGNITION",
-                "desc": "На скільки ваша робота репрезентує бренд. Має бути зрозуміло чим цей бренд займається.",
+                "desc": "<p>На скільки ваша робота репрезентує бренд. Має бути зрозуміло чим цей бренд займається.</p>",
                 "icon_link": "/includes/images/icons/puzzle.svg"
             },
             "2": {
                 "name": "DESIGN",
-                "desc": "Ступінь відповідності роботи заданій тематиці і стилю. (промо)",
+                "desc": "<p>Ступінь відповідності роботи заданій тематиці і стилю. (промо)</p>",
                 "icon_link": "/includes/images/icons/eye.svg"
             },
             "3": {
                 "name": "IDEA",
-                "desc": "Оригінальність і привабливість (вірусність) ідеї.",
+                "desc": "<p>Оригінальність і привабливість (вірусність) ідеї.</p>",
                 "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
             "4": {
                 "name": "STYLE",
-                "desc": "Відповідність стилістики до обраного бренду.",
+                "desc": "<p>Відповідність стилістики до обраного бренду.</p>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -1328,22 +1328,22 @@
         "kriterii": {
             "1": {
                 "name": "ІНТЕРФЕЙС І ЮЗАБІЛІТІ",
-                "desc": "Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та використання, швидкість роботи",
+                "desc": "<p>Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та використання, швидкість роботи</p>",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "2": {
                 "name": "PRACTICAL & INNOVATING",
-                "desc": "Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу реалізації",
+                "desc": "<p>Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу реалізації</p>",
                 "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
             "3": {
                 "name": "TECHNICAL",
-                "desc": "наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.",
+                "desc": "<p>наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.</p>",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
-                "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
+                "desc": "<p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -1388,7 +1388,7 @@
     "nomination15": {
         "ukrName": "Саунд дизайн",
         "ruName": "Саунд дизайн",
-        "status": "no",
+        "status": "ready",
         "url": "/nominations/sound-design/",
         "desc": "У цій номінації вам потрібно озвучити короткий мультфільм",
         "id": "",
@@ -1398,7 +1398,7 @@
                 "to": "24",
                 "tema": "озвучити мультфільм (музика, звуки голосів, фонові звуки і т.д.)",
                 "task": "<p>Оберіть і завантажте мультфільм зі списку:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/video/Video1.mp4' target='_blank'><p>ВІДЕО</p></a><a href='/includes/documents/video/Video2.mp4' target='_blank'><p>ВІДЕО</p></a><a href='/includes/documents/video/Video3.mp4' target='_blank'><p>ВІДЕО</p></a><a href='/includes/documents/video/Video4.mp4' target='_blank'><p>ВІДЕО</p></a></div><p>Корисні посилання:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='https://youtu.be/73OcUBSB0CY' target='_blank'><p>ПОСИЛАННЯ</p></a><a href='https://youtu.be/hf_amnu14kU' target='_blank'><p>ПОСИЛАННЯ</p></a><a href='https://youtu.be/gpg4O-nKB-A' target='_blank'><p>ПОСИЛАННЯ</p></a></div>",
-                "image": "/includes/images/backgrounds/stud-tech.jpg"
+                "image": "/includes/images/backgrounds/soundAge_1.jpg"
             }
         },
         "partner": {
@@ -1409,50 +1409,50 @@
         },
         "kriterii": {
             "1": {
-                "name": "ІНТЕРФЕЙС І ЮЗАБІЛІТІ",
-                "desc": "Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та використання, швидкість роботи",
-                "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
+                "name": "ВІДПОВІДНІСТЬ ДО ВІДЕО",
+                "desc": "<p>На скільки озвучка (звуки, голос, музика) відповідають тому, що відбувається у відео.</p>",
+                "icon_link": "/includes/images/icons/puzzle.svg"
             },
             "2": {
-                "name": "PRACTICAL & INNOVATING",
-                "desc": "Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу реалізації",
-                "icon_link": "/includes/images/icons/TechnoLight.svg"
+                "name": "ЯКІСТЬ ОЗВУЧКИ",
+                "desc": "<p>Якість запису звуку, якість зведення і виконання.</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a>",
+                "icon_link": "/includes/images/icons/soundIcon.svg"
             },
             "3": {
-                "name": "TECHNICAL",
-                "desc": "наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.",
-                "icon_link": "/includes/images/icons/monitor.svg"
+                "name": "ОРИГІНАЛЬНІСТЬ",
+                "desc": "<p>Нестандартні, але доцільні рішення. Фантазія та підхід до озвучки персонажів і звуків.</p>",
+                "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
-                "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
+                "desc": "<p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
             "1": {
-                "name": "Архів із роботою",
-                "desc": "<p>має містити:</p><ul><li>Папку «Build» із скомпільованою програмою, готовою до запуску. Якщо програма не запуститься – робота не буде розглядатись</li><li>Папку «Source» із проектом програми із усіма файлами вихідного коду</li><li>Папку «Test Data» із тестовими файлами, якщо такі необхідні для перевірки роботи програми (Наприклад, якщо програма обробляє зображення – декілька відповідних зображень)</li></ul>",
-                "icon_link": "/includes/images/icons/BoxIcon.svg"
+                "name": "Необхідно надати",
+                "desc": "посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням",
+                "icon_link": "/includes/images/icons/Camera.svg"
             },
             "2": {
-                "name": "Якщо ви робите сайт",
-                "desc": "то він має бути розміщеній в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome",
-                "icon_link": "/includes/images/icons/worldIcon.svg"
+                "name": "Додати зображення",
+                "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='/includes/documents/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='/includes/documents/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
+                "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
             "3": {
-                "name": "Додати",
-                "desc": "файл manual.pdf з інформацією про проект (опис, інструкція по запуску та роботі)",
-                "icon_link": "/includes/images/icons/GraphicsIcon.svg"
+                "name": "Додати титри",
+                "desc": "Титри вашої роботи мають перечисляти усіх хто приймав участь у цій роботі",
+                "icon_link": "/includes/images/icons/mark.svg"
             },
             "4": {
-                "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
-                "icon_link": "/includes/images/icons/BoxIcon.svg"
-            },
-            "5": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "icon_link": "/includes/images/icons/mark.svg"
+            },
+            "5": {
+                "name": "Назва роботи",
+                "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + Прізвище та ім’я озвучка аніміції. Приклад: iTalent 7 сезон – Ivahin_Ivan озвучка анімації",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
