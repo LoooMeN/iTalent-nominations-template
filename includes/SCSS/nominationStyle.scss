@@ -134,6 +134,8 @@ body {
 }
 
 #ageGroups {
+    z-index: 1;
+
     .ageGroupsWrapper {
         @include myFlex(row, top, space-between);
 

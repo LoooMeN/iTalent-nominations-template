@@ -42,7 +42,7 @@
                 <h2>ВІДПОВІДНІСТЬ ДО ВІДЕО</h2>
                 <p>На скільки озвучка (звуки, голос, музика) відповідають тому, що відбувається у відео.</p></div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/soundIcon.svg' alt='icon'>
+                <img src='/includes/images/icons/SoundIcon.svg' alt='icon'>
                 <h2>ЯКІСТЬ ОЗВУЧКИ</h2>
                 <p>Якість запису звуку, якість зведення і виконання.</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a></div>
             <div class='innerWrapper shadow'>
