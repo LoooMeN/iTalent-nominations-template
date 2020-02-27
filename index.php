@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
@@ -12,20 +12,20 @@
     <title>Головна | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
 </head>
 
-<body>
+<body>~
     <section class="section" id="banner">
         <div></div>
         <div class="container">
             <img src="/includes/images/logos/iTalent_logo_vertical.svg" alt="logo">
             <h2>7 СЕЗОН iTalent РОЗПОЧНЕТЬСЯ У ЛЮТОМУ</h2>
             <div class="buttons">
-                <a href="/nominations/prog-text" targer="_blank">
+                <a href="/nominations/prog-text" target="_blank">
                     <div class="button">НОВА НОМІНАЦІЯ ВІД GRAMMARLY</div>
                 </a>
-                <a href="http://winners.italent.org.ua/" targer="_blank">
+                <a href="http://winners.italent.org.ua/" target="_blank">
                     <div class="button">ПЕРЕМОЖЦІ 6 СЕЗОНУ</div>
                 </a>
-                <a href="https://www.obozrevatel.com/ukr/tech/final-konkursu-italent-stali-vidomi-najkraschi-yuni-it-talanti-ukraini.htm" targer="_blank">
+                <a href="https://www.obozrevatel.com/ukr/tech/final-konkursu-italent-stali-vidomi-najkraschi-yuni-it-talanti-ukraini.htm" target="_blank">
                     <div class="button">ЯК ПРОЙШОВ ФІНАЛ 6 СЕЗОНУ</div>
                 </a>
             </div>

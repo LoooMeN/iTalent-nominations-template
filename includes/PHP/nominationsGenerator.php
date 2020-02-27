@@ -11,7 +11,7 @@
         $name = "../../nominations/" . $name . ".php";
         $string = "
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='uk'>
 
 <head>
     <meta charset='UTF-8'>
