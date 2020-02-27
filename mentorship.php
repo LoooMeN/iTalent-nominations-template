@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/mentorStyle.css">
     <title>Менторство | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
-    <?php include "./includes/header.html";?>
+    <?php include "./includes/meta.html";?>
 </head>
 
 <body>
+    <?php include "./includes/header.html";?>
     <script>
         var page = 'mentor';
     </script>

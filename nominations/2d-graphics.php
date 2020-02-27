@@ -7,10 +7,11 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='/includes/CSS/nominationStyle.css'>
-    <?php include '../includes/header.html';?>
+    <?php include '../includes/meta.html';?>
     <script src='/includes/JS/youtube.js'></script>
     <title>2D ГРАФІКА | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
 </head><body>
+    <?php include '../includes/header.html';?>
     <script>
         var page = '2DG';
     </script>

@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/demands.css">
     <title>Загальні вимоги до робіт | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
-    <?php include "./includes/header.html";?>
+    <?php include "./includes/meta.html";?>
 </head>
 
 <body>
+    <?php include "./includes/header.html";?>
     <section class="section" id="demands">
         <div class="title left">Загальні вимоги до робіт</div>
         <a href="/includes/documents/iTalent-7-Terms.pdf" class="shadow" target="_blank"

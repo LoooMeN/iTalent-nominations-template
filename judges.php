@@ -7,13 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/judges.css">
     <title>Судді | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
-    <?php include "./includes/header.html";?>
     <script>
         var page = "judge";
     </script>
+    <?php include "./includes/meta.html";?>
 </head>
 
 <body>
+    <?php include "./includes/header.html";?>
     <section id="judgeList" class="section">
         <h1 class="title">СУДДІ</h1>
         <div class="grod" id="judgeGrod">

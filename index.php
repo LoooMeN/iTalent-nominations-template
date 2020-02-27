@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"
         integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
     <title>Головна | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
+    <?php include "./includes/meta.html";?>
 </head>
 
 <body>
