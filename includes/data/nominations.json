@@ -1416,7 +1416,7 @@
             "2": {
                 "name": "ЯКІСТЬ ОЗВУЧКИ",
                 "desc": "<p>Якість запису звуку, якість зведення і виконання.</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a>",
-                "icon_link": "/includes/images/icons/soundIcon.svg"
+                "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
             "3": {
                 "name": "ОРИГІНАЛЬНІСТЬ",
