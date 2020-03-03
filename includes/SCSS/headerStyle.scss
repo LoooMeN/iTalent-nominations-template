@@ -214,7 +214,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    #header {
+    #myHeader {
         .flexington {
             .menuWrapper {
                 width: 100%;
@@ -223,6 +223,7 @@
                 .logo {
                     margin-right: 0;
                     padding-bottom: 0;
+                    width: 80%;
                 }
 
                 .logoWrapper {
@@ -230,7 +231,11 @@
                     justify-content: space-around;
                     align-items: center;
 
-                    div {
+                    a {
+                        text-align: center;
+                    }
+
+                    .mobileMenuSwitch {
                         margin-right: 20px;
                     }
                 }
