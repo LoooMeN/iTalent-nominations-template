@@ -89,7 +89,7 @@
             <div>
                 <div class="flexington">
                     <div class="myIcon">
-                        <img src="/includes/images/icons/Ellipse1.png" alt="icon">
+                        <img src="/includes/images/icons/Ellipse1.webp" alt="icon">
                         <p>1</p>
                     </div>
                     <div>
@@ -102,7 +102,7 @@
             <div>
                 <div class="flexington">
                     <div class="myIcon">
-                        <img src="/includes/images/icons/Ellipse1.png" alt="icon">
+                        <img src="/includes/images/icons/Ellipse1.webp" alt="icon">
                         <p>2</p>
                     </div>
                     <div>
@@ -114,7 +114,7 @@
             <div>
                 <div class="flexington">
                     <div class="myIcon">
-                        <img src="/includes/images/icons/Ellipse1.png" alt="icon">
+                        <img src="/includes/images/icons/Ellipse1.webp" alt="icon">
                         <p>3</p>
                     </div>
                     <div>

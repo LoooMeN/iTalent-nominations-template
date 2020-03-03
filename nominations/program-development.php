@@ -24,7 +24,7 @@
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/ProgAgeBg_1.jpg'
+                    <img src='/includes/images/backgrounds/ProgAgeBg_1.webp'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
@@ -32,7 +32,7 @@
                     </div>
                 </div><ul class='explanation'>Проблеми які ваш проект може вирішувати: <ul><li>Пошук телефонів (де друга шкарпетка?)</li><li>Оффлайн путівник по пам’яткам міст (міні гід у телефоні)</li><li>Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)</li><li>SOS додатки (наприклад: сповіщення поліції про пограбування)</li><li>Додатки для дієти (по штрихкоду дізнатись кількість калорій)</li><li>Вільна тема</li></ul><p>Будь ласка не робіть учбові проекти (на приклад калькулятори, шифрувальник цезаря і т.п.)</p></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
-            <img src='/includes/images/backgrounds/ProgAgeBg_2.jpg'
+            <img src='/includes/images/backgrounds/ProgAgeBg_2.webp'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
@@ -85,7 +85,7 @@
                     <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Архів з роботою</h3>
-                        <p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>
+                        <p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
@@ -100,11 +100,11 @@
 <section id='CTAbuttons' class='section'>
     <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
         <p>роботи попередніх сезонів</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
     <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
 </section>
 

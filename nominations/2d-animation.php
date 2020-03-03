@@ -24,21 +24,21 @@
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/2DAAge_1.jpg'
+                    <img src='/includes/images/backgrounds/2DAAge_1.webp'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
                         <p>Тема роботи: анімувати вірш</p>
                     </div>
-                </div><ul class='explanation'><p>Вірші на вибір:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/kostenko/акварелі-дитинства.mp3' target='_blank'><p>Акварелі дитинства</p></a><a href='/includes/documents/kostenko/послухаю-цей-дощ.mp3' target='_blank'><p>Послухаю цей дощ</p></a><a href='/includes/documents/kostenko/що-в-нас-було.mp3' target='_blank'><p>Що в нас було</p></a><a href='/includes/documents/kostenko/я-вранці-голос-горлиці-люблю.mp3' target='_blank'><p>Я вранці голос горлиці люблю</p></a></div><div style='display: flex; justify-content: center; align-items: center; flex-direction: row;'><p>Вірші взято з сайту</p><a href='https://www.radiosvoboda.org/a/25780907.html?fbclid=IwAR3ZqP9aC85RwskEkft_6Us_Kl5vPTCV0kh7B5qTcn7vXRGGoC85f2UE9Qw' target='_blank'><img style='width: 200px' src='/includes/images/partners/radio-svoboda.png'></a></div>'</ul></div><div class='ageGroupWrapper shadow'>
+                </div><ul class='explanation'><p>Вірші на вибір:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/kostenko/акварелі-дитинства.mp3' target='_blank'><p>Акварелі дитинства</p></a><a href='/includes/documents/kostenko/послухаю-цей-дощ.mp3' target='_blank'><p>Послухаю цей дощ</p></a><a href='/includes/documents/kostenko/що-в-нас-було.mp3' target='_blank'><p>Що в нас було</p></a><a href='/includes/documents/kostenko/я-вранці-голос-горлиці-люблю.mp3' target='_blank'><p>Я вранці голос горлиці люблю</p></a></div><div style='display: flex; justify-content: center; align-items: center; flex-direction: row;'><p>Вірші взято з сайту</p><a href='https://www.radiosvoboda.org/a/25780907.html?fbclid=IwAR3ZqP9aC85RwskEkft_6Us_Kl5vPTCV0kh7B5qTcn7vXRGGoC85f2UE9Qw' target='_blank'><img style='width: 200px' alt='radio svoboda' src='/includes/images/partners/radio-svoboda.webp'></a></div>'</ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
-            <img src='/includes/images/backgrounds/2DAAge_2.jpg'
+            <img src='/includes/images/backgrounds/2DAAge_2.webp'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
                 <p>Тема роботи: анімувати вірш</p>
             </div>
-        </div><ul class='explanation'><p>Вірші на вибір:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/kostenko/вночі-із-хаосу-безсоння.mp3' target='_blank'><p>Вночі із хаосу безсоння</p></a><a href='/includes/documents/kostenko/гондоли-чорні.mp3' target='_blank'><p>Гондоли - чорні</p></a><a href='/includes/documents/kostenko/і-не-минає-не-минає.mp3' target='_blank'><p>І не минає, не минає!</p></a><a href='/includes/documents/kostenko/місто-премісто-прамісто-моє.mp3' target='_blank'><p>Місто, премісто, прамісто моє!</p></a><a href='/includes/documents/kostenko/недумано-негадано.mp3' target='_blank'><p>Недумано, негадано</p></a><a href='/includes/documents/kostenko/юдоль-плачу-земля-моя-планета.mp3' target='_blank'><p>Юдоль плачу, земля моя, планета</p></a></div><div style='display: flex; justify-content: center; align-items: center; flex-direction: row;'><p>Вірші взято з сайту</p><a href='https://www.radiosvoboda.org/a/25780907.html?fbclid=IwAR3ZqP9aC85RwskEkft_6Us_Kl5vPTCV0kh7B5qTcn7vXRGGoC85f2UE9Qw' target='_blank'><img style='width: 200px' src='/includes/images/partners/radio-svoboda.png'></a></div></ul></div>        </div>
+        </div><ul class='explanation'><p>Вірші на вибір:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/kostenko/вночі-із-хаосу-безсоння.mp3' target='_blank'><p>Вночі із хаосу безсоння</p></a><a href='/includes/documents/kostenko/гондоли-чорні.mp3' target='_blank'><p>Гондоли - чорні</p></a><a href='/includes/documents/kostenko/і-не-минає-не-минає.mp3' target='_blank'><p>І не минає, не минає!</p></a><a href='/includes/documents/kostenko/місто-премісто-прамісто-моє.mp3' target='_blank'><p>Місто, премісто, прамісто моє!</p></a><a href='/includes/documents/kostenko/недумано-негадано.mp3' target='_blank'><p>Недумано, негадано</p></a><a href='/includes/documents/kostenko/юдоль-плачу-земля-моя-планета.mp3' target='_blank'><p>Юдоль плачу, земля моя, планета</p></a></div><div style='display: flex; justify-content: center; align-items: center; flex-direction: row;'><p>Вірші взято з сайту</p><a href='https://www.radiosvoboda.org/a/25780907.html?fbclid=IwAR3ZqP9aC85RwskEkft_6Us_Kl5vPTCV0kh7B5qTcn7vXRGGoC85f2UE9Qw' target='_blank'><img style='width: 200px'  alt='radio svoboda' src='/includes/images/partners/radio-svoboda.webp'></a></div></ul></div>        </div>
     <p>*Допускається розробка та подача проектів у складі команди, проте зауважте, що у разі
         перемоги - одна робота отримує одну нагороду.</p>
     </section>
@@ -126,11 +126,11 @@
 <section id='CTAbuttons' class='section'>
     <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
         <p>роботи попередніх сезонів</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
     <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
 </section>
 

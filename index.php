@@ -35,7 +35,7 @@
                     <img src="/includes/images/partners/grammarly_logo.svg" alt="grammarly">
                 </a>
                 <a href="https://mon.gov.ua" target="_blank" rel="noopener noreferrer">
-                    <img src="/includes/images/partners/mon.png" alt="mon">
+                    <img src="/includes/images/partners/mon.webp" alt="mon">
                 </a>
                 <a href="https://rozetka.com.ua/search/?text=logitech&producer=42&p=1" target="_blank" rel="noopener noreferrer">
                     <img src="/includes/images/partners/logitechG.svg" alt="grammarly">
@@ -53,19 +53,19 @@
     <section class="section" id="mediaLinks">
         <div class="grod">
             <a href="https://discord.gg/ywTQTpN" target="_blank" class="button unselectable shadow discord">
-                <img src="/includes/images/icons/discord.png" alt="discord">
+                <img src="/includes/images/icons/discord.webp" alt="discord">
                 <p>Приєднуйтеся Discord</p>
             </a>
             <a href="https://telegram.im/@ITalent_ua" target="_blank" class="button unselectable shadow telegram">
-                <img src="/includes/images/icons/telegram.png" alt="telegram">
+                <img src="/includes/images/icons/telegram.webp" alt="telegram">
                 <p>Приєднуйтеся Telegram</p>
             </a>
             <a href="https://www.facebook.com/iTalent.ua/" target="_blank" class="button unselectable shadow facebook">
-                <img src="/includes/images/icons/facebook.png" alt="facebook">
+                <img src="/includes/images/icons/facebook.webp" alt="facebook">
                 <p>Приєднуйтеся Facebook</p>
             </a>
             <a href="/faq-it/" target="_blank" class="button unselectable shadow faq">
-                <img src="/includes/images/icons/info.png" alt="faq">
+                <img src="/includes/images/icons/info.webp" alt="faq">
                 <p>Перегляньте FAQ</p>
             </a>
         </div>
@@ -195,7 +195,7 @@
     <section class="section" id="plakat">
         <div class="grod">
             <div>
-                <img src="/includes/images/iTalent-plakat-preview.png" alt="plakat" class="shadow">
+                <img src="/includes/images/iTalent-plakat-preview.webp" alt="plakat" class="shadow">
             </div>
             <div>
                 <h2 class="title left">РОЗДРУКУЙ ПЛАКАТ</h2>
@@ -279,19 +279,19 @@
         <h2 class="title">ОРГАНІЗАТОРИ</h2>
         <div class="myContainer">
             <div>
-                <span><img src="/includes/images/partners/KIK.png"
+                <span><img src="/includes/images/partners/KIK.webp"
                         alt="organizer"></span>
                 <p>МГО “Київський Інтелект Клуб”</p>
             </div>
             <div>
                 <span><img class="bigger"
-                        src="/includes/images/partners/new_udcpo_logo.png"
+                        src="/includes/images/partners/new_udcpo_logo.webp"
                         alt="organizer"></span>
                 <p>Український Державний Центр Позашкільної Освіти</p>
             </div>
             <div>
                 <span><img
-                        src="/includes/images/partners/Garmony.png"
+                        src="/includes/images/partners/Garmony.webp"
                         alt="organizer"></span>
                 <p>ГО “Всесвіт у гармонії”</p>
             </div>
@@ -301,17 +301,17 @@
     <section class="section" id="contact">
         <h2 class="title left">КОМАНДА</h2>
         <div class="grod">
-            <div><img src="/includes/images/Photos/Anton.png"
+            <div><img src="/includes/images/Photos/Anton.webp"
                     alt="anton">
                 <h3 class="subTitle left">Антон Еременко</h3>
                 <p>Founder</p>
             </div>
-            <div><img src="/includes/images/Photos/Kostya.jpg"
+            <div><img src="/includes/images/Photos/Kostya.webp"
                     alt="kostya">
                 <h3 class="subTitle left">Костя Бахарев</h3>
                 <p>Project manager</p>
             </div>
-            <div><img src="/includes/images/Photos/Vlad.jpg" alt="vlad">
+            <div><img src="/includes/images/Photos/Vlad.webp" alt="vlad">
                 <h3 class="subTitle left">Владислав Стрільчик</h3>
                 <p>Project coordinator</p>
             </div>

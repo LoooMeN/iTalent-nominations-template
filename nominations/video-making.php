@@ -24,7 +24,7 @@
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/VideoAgeBg_1.jpg'
+                    <img src='/includes/images/backgrounds/VideoAgeBg_1.webp'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
@@ -32,7 +32,7 @@
                     </div>
                 </div><ul class='explanation'><p>Вам потрібно зняти свій трейлер до мультфільму на вибір</p><ul><li>Шрек</li><li>Аліса у країні чудес</li></ul><br><p>Бажана мова титрів та озвучки: Українська</p></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
-            <img src='/includes/images/backgrounds/VideoAgeBg_2.jpg'
+            <img src='/includes/images/backgrounds/VideoAgeBg_2.webp'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
@@ -128,11 +128,11 @@
 <section id='CTAbuttons' class='section'>
     <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
         <p>роботи попередніх сезонів</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
     <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
 </section>
 

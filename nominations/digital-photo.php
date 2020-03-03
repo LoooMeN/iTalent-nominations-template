@@ -24,15 +24,15 @@
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/PhotoAgeBg_1.jpg'
+                    <img src='/includes/images/backgrounds/PhotoAgeBg_1.webp'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
                         <p>Тема роботи: Охрана, корекція!</p>
                     </div>
-                </div><ul class='explanation'><p>Помітили, що після виходу відомої пісні, тепер прийнято казати «корекція» замість «атмєна»? Тож скоригувати пропонуємо і вам! Беріть знімок та виправляйте фон на інший. Тема і жанр фоторобіт довільні, ключове – якісно і вдало підлаштувати новий фон до початкового зображення. Змінювати можна будь-що: портрет, пейзаж, спорт, предметні знімки. Пам’ятайте, що оцінюватиметься не тільки якість Вашої роботи у редакторі, але й комплекс естетичних та змістових вражень на які наштовхує глядача Ваша фотографія. Чим непомітніші зміни – тим краще.</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;'><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/c4/43/81/c4438124d2793430d2023e3d51072512.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://photoshop-usluga.online/wp-content/uploads/2019/11/hpFyRyEYp0.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='/includes/documents/photoref1.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='/includes/documents/photoref2.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='/includes/documents/photoref3.jpg' target='_blank'><p>ПРИКЛАД</p></a></div></ul></div><div class='ageGroupWrapper shadow'>
+                </div><ul class='explanation'><p>Помітили, що після виходу відомої пісні, тепер прийнято казати «корекція» замість «атмєна»? Тож скоригувати пропонуємо і вам! Беріть знімок та виправляйте фон на інший. Тема і жанр фоторобіт довільні, ключове – якісно і вдало підлаштувати новий фон до початкового зображення. Змінювати можна будь-що: портрет, пейзаж, спорт, предметні знімки. Пам’ятайте, що оцінюватиметься не тільки якість Вашої роботи у редакторі, але й комплекс естетичних та змістових вражень на які наштовхує глядача Ваша фотографія. Чим непомітніші зміни – тим краще.</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;'><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.webp' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/c4/43/81/c4438124d2793430d2023e3d51072512.webp' target='_blank'><p>ПРИКЛАД</p></a><a href='https://photoshop-usluga.online/wp-content/uploads/2019/11/hpFyRyEYp0.webp' target='_blank'><p>ПРИКЛАД</p></a><a href='/includes/documents/photoref1.webp' target='_blank'><p>ПРИКЛАД</p></a><a href='/includes/documents/photoref2.webp' target='_blank'><p>ПРИКЛАД</p></a><a href='/includes/documents/photoref3.webp' target='_blank'><p>ПРИКЛАД</p></a></div></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
-            <img src='/includes/images/backgrounds/PhotoAgeBg_2.jpg'
+            <img src='/includes/images/backgrounds/PhotoAgeBg_2.webp'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
@@ -73,13 +73,13 @@
                     <img class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Оригінальні фото</h3>
-                        <p>до обробки у форматі *.jpg (усі фото мають бути зроблені вами). Файли мають називатися наступним чином: ПРІЗВИЩЕ_ІМ’Я_Original.jpg.</p><p>УСІ ФОТО МАЮТЬ БУТИ ЗРОБЛЕНІ ВАМИ (можна із допомогою вчителя / батьів і т.п.)</p>
+                        <p>до обробки у форматі *.webp (усі фото мають бути зроблені вами). Файли мають називатися наступним чином: ПРІЗВИЩЕ_ІМ’Я_Original.webp.</p><p>УСІ ФОТО МАЮТЬ БУТИ ЗРОБЛЕНІ ВАМИ (можна із допомогою вчителя / батьів і т.п.)</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Архів з роботою</h3>
-                        <p>після використання графічних редакторів у форматі *.jpg. Файл має називатись наступним чином: ПРІЗВИЩЕ_ІМ’Я_Result.jpg.</p>
+                        <p>після використання графічних редакторів у форматі *.webp. Файл має називатись наступним чином: ПРІЗВИЩЕ_ІМ’Я_Result.webp.</p>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/GraphicsIcon.svg' alt='icon'>
@@ -91,7 +91,7 @@
                     <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Архів з роботою</h3>
-                        <p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>
+                        <p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>
                     </div>
                 </div><div class='vimogaWrapper'>
                     <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
@@ -106,11 +106,11 @@
 <section id='CTAbuttons' class='section'>
     <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
         <p>роботи попередніх сезонів</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
     <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.png'>
+        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
 </section>
 

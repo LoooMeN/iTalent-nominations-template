@@ -48,10 +48,16 @@ function set_email_acceptor() {
 }
 
 function get_settings() {
-    var request = new XMLHttpRequest();
-    request.open("GET", "/includes/data/settings.json", false);
-    request.send();
-    settings = JSON.parse(request.responseText);
+    axios.get('/includes/data/settings.json')
+        .then(function (response) {
+            settings = response.data;
+            handleReg();
+            set_media();
+        });
+    set_email_acceptor();
+    handleAnnouncement();
+    if (window.screen.width <= 768)
+        set_hamburger_trigger();
 }
 
 function set_media() {
@@ -95,9 +101,3 @@ function handleAnnouncement() {
 }
 
 get_settings();
-handleReg();
-if (window.screen.width <= 768)
-    set_hamburger_trigger();
-set_media();
-set_email_acceptor();
-handleAnnouncement();

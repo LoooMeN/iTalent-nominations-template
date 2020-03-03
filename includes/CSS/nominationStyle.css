@@ -346,7 +346,7 @@ body .left {
   margin-left: -36px;
   margin-top: -36px;
   position: absolute;
-  background: url("/includes/images/icons/TxzC70f.png") no-repeat;
+  background: url("/includes/images/icons/TxzC70f.webp") no-repeat;
   cursor: pointer;
 }
 
@@ -804,7 +804,7 @@ body {
 }
 
 #vimogi .vimogi .vimogaWrapper .icon {
-  background-image: url("/includes/images/icons/Ellipse1.png");
+  background-image: url("/includes/images/icons/Ellipse1.webp");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;

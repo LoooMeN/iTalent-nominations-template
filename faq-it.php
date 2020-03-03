@@ -113,19 +113,19 @@
     <section class="section" id="mediaLinks">
         <div class="grod">
             <a href="https://discord.gg/ywTQTpN" target="_blank" class="button unselectable shadow discord">
-                <img src="/includes/images/icons/discord.png" alt="discord">
+                <img src="/includes/images/icons/discord.webp" alt="discord">
                 <p>Приєднуйтеся Discord</p>
             </a>
             <a href="https://telegram.im/@ITalent_ua" target="_blank" class="button unselectable shadow telegram">
-                <img src="/includes/images/icons/telegram.png" alt="telegram">
+                <img src="/includes/images/icons/telegram.webp" alt="telegram">
                 <p>Приєднуйтеся Telegram</p>
             </a>
             <a href="https://www.facebook.com/iTalent.ua/" target="_blank" class="button unselectable shadow facebook">
-                <img src="/includes/images/icons/facebook.png" alt="facebook">
+                <img src="/includes/images/icons/facebook.webp" alt="facebook">
                 <p>Приєднуйтеся Facebook</p>
             </a>
             <a href="/faq-it/" target="_blank" class="button unselectable shadow faq">
-                <img src="/includes/images/icons/info.png" alt="faq">
+                <img src="/includes/images/icons/info.webp" alt="faq">
                 <p>Перегляньте FAQ</p>
             </a>
         </div>
