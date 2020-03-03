@@ -182,6 +182,7 @@ function create(toCreate) {
 
         a.href = elem.link;
         newIcon.src = '/includes/images/icons/new.svg';
+        newIcon.alt = 'new nomination';
         icon1.classList.add(elem.icon, 'icon');
         nom.classList.add('nomination');
         nom.style.opacity = 0;
