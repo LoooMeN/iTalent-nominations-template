@@ -172,7 +172,7 @@ var judgeList = [{
     'photo': '/includes/images/Photos/Ostrovniy.webp',
     'position': 'all',
     'fb': '',
-    'noms': ['WRBFRONT'],
+    'noms': ['WEBFRONT'],
 }, {
     'name': 'АНТОНІНА ВІННИК',
     'descr': 'Звукорежисер, фолі-артист, вокальний тренер, засновник Tonique Vocal School',
