@@ -46,19 +46,19 @@ if ($test['status'] == "no"){
     <section class='section' id='mediaLinks' style='margin-top: 40px; padding-top: 0;'>
     <div class='grod'>
         <a href='https://discord.gg/ywTQTpN' target='_blank' class=' button unselectable shadow discord discordHovered aHovered'>
-            <img loading="lazy"  src='/includes/images/icons/discord.webp' alt='discord'>
+            <img loading='lazy'  src='/includes/images/icons/discord.webp' alt='discord'>
             <p>Приєднуйтеся Discord</p>
         </a>
         <a href='https://telegram.im/@ITalent_ua' target='_blank' class='button unselectable shadow telegram telegramHovered aHovered'>
-            <img loading="lazy"  src='/includes/images/icons/telegram.webp' alt='telegram'>
+            <img loading='lazy'  src='/includes/images/icons/telegram.webp' alt='telegram'>
             <p>Приєднуйтеся Telegram</p>
         </a>
         <a href='https://www.facebook.com/iTalent.ua/' target='_blank' class='button unselectable shadow facebook facebookHovered aHovered'>
-            <img loading="lazy"  src='/includes/images/icons/facebook.webp' alt='facebook'>
+            <img loading='lazy'  src='/includes/images/icons/facebook.webp' alt='facebook'>
             <p>Приєднуйтеся Facebook</p>
         </a>
         <a href='/faq-it/' target='_blank' class='button unselectable shadow faq faqHovered aHovered'>
-            <img loading="lazy"  src='/includes/images/icons/info.webp' alt='faq'>
+            <img loading='lazy'  src='/includes/images/icons/info.webp' alt='faq'>
             <p>Перегляньте FAQ</p>
         </a>
     </div>
@@ -71,7 +71,7 @@ if ($test['status'] == "no"){
     <section class='section' id='partner'>
         <h2>Партнер номінації:</h2>
         <div>
-            <a href='".$test['partner']['link']."' target='_blank' rel='noopener noreferrer'><img loading="lazy" 
+            <a href='".$test['partner']['link']."' target='_blank' rel='noopener noreferrer'><img loading='lazy' 
                     src='".$test['partner']['image_link']."' alt='".$test['partner']['name']."'></a>
             <p><span>".$test['partner']['name']."</span>".$test['partner']['desc']."</p>
         </div>
@@ -83,7 +83,7 @@ if ($test['status'] == "no"){
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img loading="lazy"  src='".$test['age'][1]['image']."'
+                    <img loading='lazy'  src='".$test['age'][1]['image']."'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від ".$test['age'][1]['from'].' до '.$test['age'][1]['to']." років</h2>
@@ -97,7 +97,7 @@ if ($test['status'] == "no"){
     {
         $string .= "<div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
-            <img loading="lazy"  src='".$test['age'][2]['image']."'
+            <img loading='lazy'  src='".$test['age'][2]['image']."'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від ".$test['age'][2]['from'].' до '.$test['age'][2]['to']." років</h2>
@@ -124,7 +124,7 @@ if ($test['status'] == "no"){
 
     foreach ($test['kriterii'] as $krit) {
         $string .= "    <div class='innerWrapper shadow'>
-                <img loading="lazy"  src='".$krit['icon_link']."' alt='icon'>
+                <img loading='lazy'  src='".$krit['icon_link']."' alt='icon'>
                 <h2>".$krit['name']."</h2>
                 ".$krit['desc']."</div>
         ";
@@ -144,7 +144,7 @@ if ($test['status'] == "no"){
         if ($vim['desc'][0] != '<')
             $vim['desc'] = '<p>'.$vim['desc'].'</p>';
         $string .= "<div class='vimogaWrapper'>
-                    <img loading="lazy"  class='icon' src='".$vim['icon_link']."' alt='icon'>
+                    <img loading='lazy'  class='icon' src='".$vim['icon_link']."' alt='icon'>
                     <div class='text'>
                         <h3>".$vim['name']."</h3>
                         ".$vim['desc']."
@@ -160,11 +160,11 @@ $string .= "<section class='section' id='registration'></section>
 <section id='CTAbuttons' class='section'>
     <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
         <p>роботи попередніх сезонів</p>
-        <img loading="lazy"  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
+        <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
     <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
-        <img loading="lazy"  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
+        <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
 </section>
 

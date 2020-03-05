@@ -24,7 +24,7 @@
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/VideoAgeBg_1.webp'
+                    <img loading='lazy'  src='/includes/images/backgrounds/VideoAgeBg_1.webp'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 15 років</h2>
@@ -32,7 +32,7 @@
                     </div>
                 </div><ul class='explanation'><p>Вам потрібно зняти свій трейлер до мультфільму на вибір</p><ul><li>Шрек</li><li>Аліса у країні чудес</li></ul><br><p>Бажана мова титрів та озвучки: Українська</p></ul></div><div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
-            <img src='/includes/images/backgrounds/VideoAgeBg_2.webp'
+            <img loading='lazy'  src='/includes/images/backgrounds/VideoAgeBg_2.webp'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
                 <h2>Від 15 до 19 років</h2>
@@ -47,23 +47,23 @@
         <h1 class='title'>Критерії за якими будуть<br>оцінювати вашу роботу</h1>
         <div class='kriterii'>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/puzzle.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/puzzle.svg' alt='icon'>
                 <h2>СЮЖЕТ</h2>
                 <p>Впізнаваність фільму, виклик інтересу у глядача, повнота розкриття теми, цілісність та цікавість сюжету, cила впливу на сприйняття глядача</p><a href='https://bit.ly/2IGyYNW' target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a></div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/eye.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/eye.svg' alt='icon'>
                 <h2>ОПЕРАТОРСЬКА РОБОТА</h2>
                 <p>Відповідність базовим правилам побудови кадру, наявність крупних планів, врахування освітлення.</p><a href='/advice_for_operators/'target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a></div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/monitor2.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/monitor2.svg' alt='icon'>
                 <h2>МОНТАЖ ТА ОБРОБКА</h2>
                 <p>Якість відео монтажу, чи використовувались спеціальні ефекти.</p><a href='https://www.youtube.com/watch?v=HIJpN6LBM0I' target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a></div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/SoundIcon.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/SoundIcon.svg' alt='icon'>
                 <h2>ЗВУКОВИЙ СУПРОВІД</h2>
                 <p>Наскільки звуки в кадрі відповідають відеоматеріалу. Зверніть увагу – звук можна записати окремо, якісно і змонтувати чудову роботу.</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a></div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/mark.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ</h2>
                 Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</div>
         </div>
@@ -74,49 +74,49 @@
             <h1 class='title'>Вимоги до<br>вашої роботи:</h1>
             <div class='vimogi'>
     <div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/Camera.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/Camera.svg' alt='icon'>
                     <div class='text'>
                         <h3>Необхідно надати</h3>
                         <p>посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Додати зображення</h3>
                         <p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='/includes/documents/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='/includes/documents/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Додати титри</h3>
                         <p>Титри вашої роботи мають перечисляти усіх хто приймав участь у цій роботі</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/SandClock.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/SandClock.svg' alt='icon'>
                     <div class='text'>
                         <h3>Тривалість роботи</h3>
                         <p>повинна бути не менше 1 хвилини та не перевищувати 3 хвилини</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Тема</h3>
                         <p>роботи має відповідати завданню.</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/LightIcon.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/LightIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Оригінальна ідея</h3>
                         <p>Відео має бути зняте вами (дозволено використання лише 20% вставок сторонніх відео матеріалів)</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Назва роботи</h3>
                         <p>Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 7 сезон – “Уявіть собі” – Ivahin_Ivan</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Відповідність</h3>
                         <a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>
@@ -128,11 +128,11 @@
 <section id='CTAbuttons' class='section'>
     <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
         <p>роботи попередніх сезонів</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
+        <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
     <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
+        <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
 </section>
 

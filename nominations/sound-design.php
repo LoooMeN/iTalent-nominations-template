@@ -13,7 +13,7 @@
 </head><body>
     <?php include '../includes/header.html';?>
     <script>
-        var page = '';
+        var page = 'SOUND';
     </script>
     <section class='section' id='aboutNomination'>
     <h1 class='title'>Саунд дизайн</h1>
@@ -24,7 +24,7 @@
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/soundAge_1.webp'
+                    <img loading='lazy'  src='/includes/images/backgrounds/soundAge_1.webp'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 24 років</h2>
@@ -39,19 +39,19 @@
         <h1 class='title'>Критерії за якими будуть<br>оцінювати вашу роботу</h1>
         <div class='kriterii'>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/puzzle.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/puzzle.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ ДО ВІДЕО</h2>
                 <p>На скільки озвучка (звуки, голос, музика) відповідають тому, що відбувається у відео.</p></div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/SoundIcon.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/SoundIcon.svg' alt='icon'>
                 <h2>ЯКІСТЬ ОЗВУЧКИ</h2>
                 <p>Якість запису звуку, якість зведення і виконання.</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a></div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/TechnoLight.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/TechnoLight.svg' alt='icon'>
                 <h2>ОРИГІНАЛЬНІСТЬ</h2>
                 <p>Нестандартні, але доцільні рішення. Фантазія та підхід до озвучки персонажів і звуків.</p></div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/mark.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ</h2>
                 <p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p></div>
         </div>
@@ -62,31 +62,31 @@
             <h1 class='title'>Вимоги до<br>вашої роботи:</h1>
             <div class='vimogi'>
     <div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/Camera.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/Camera.svg' alt='icon'>
                     <div class='text'>
                         <h3>Необхідно надати</h3>
                         <p>посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/ImageIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Додати зображення</h3>
                         <p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='/includes/documents/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='/includes/documents/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Додати титри</h3>
                         <p>Титри вашої роботи мають перечисляти усіх хто приймав участь у цій роботі</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Відповідність</h3>
                         <a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Назва роботи</h3>
                         <p>Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + Прізвище та ім’я озвучка аніміції. Приклад: iTalent 7 сезон – Ivahin_Ivan озвучка анімації</p>
@@ -98,11 +98,11 @@
 <section id='CTAbuttons' class='section'>
     <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
         <p>роботи попередніх сезонів</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
+        <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
     <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
+        <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
 </section>
 

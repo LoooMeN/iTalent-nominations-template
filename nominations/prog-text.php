@@ -13,7 +13,7 @@
 </head><body>
     <?php include '../includes/header.html';?>
     <script>
-        var page = '';
+        var page = 'PROGTEXT';
     </script>
     <section class='section' id='aboutNomination'>
     <h1 class='title'>ПРОГРАМНА ОБРОБКА ТЕКСТІВ</h1>
@@ -24,7 +24,7 @@
     <section class='section' id='partner'>
         <h2>Партнер номінації:</h2>
         <div>
-            <a href='https://www.grammarly.com/' target='_blank' rel='noopener noreferrer'><img
+            <a href='https://www.grammarly.com/' target='_blank' rel='noopener noreferrer'><img loading='lazy' 
                     src='/includes/images/partners/logo-grammarly.svg' alt='Grammarly'></a>
             <p><span>Grammarly</span> — це міжнародна компанія, яку заснували українці. Нещодавно вона стала 'єдинорогом' (її вартість перевищила 1 млрд $). Grammarly створює онлайн-сервіс на основі штучного інтелекту для допомоги в написанні текстів англійською мовою.</p>
         </div>
@@ -34,7 +34,7 @@
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/ProgTextAgeBg.webp'
+                    <img loading='lazy'  src='/includes/images/backgrounds/ProgTextAgeBg.webp'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 19 років</h2>
@@ -49,19 +49,19 @@
         <h1 class='title'>Критерії за якими будуть<br>оцінювати вашу роботу</h1>
         <div class='kriterii'>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/PC&PhoneIcon.svg' alt='icon'>
                 <h2>ІНТЕРФЕЙС І ЮЗАБІЛІТІ</h2>
                 Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та використання, швидкість роботи</div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/TechnoLight.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/TechnoLight.svg' alt='icon'>
                 <h2>PRACTICAL & INNOVATING</h2>
                 Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу реалізації</div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/monitor.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/monitor.svg' alt='icon'>
                 <h2>TECHNICAL</h2>
                 наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.</div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/mark.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ</h2>
                 Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</div>
         </div>
@@ -72,31 +72,31 @@
             <h1 class='title'>Вимоги до<br>вашої роботи:</h1>
             <div class='vimogi'>
     <div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Архів із роботою</h3>
                         <p>має містити:</p><ul><li>Папку «Build» із скомпільованою програмою, готовою до запуску. Якщо програма не запуститься – робота не буде розглядатись</li><li>Папку «Source» із проектом програми із усіма файлами вихідного коду</li><li>Папку «Test Data» із тестовими файлами, якщо такі необхідні для перевірки роботи програми (Наприклад, якщо програма обробляє зображення – декілька відповідних зображень)</li></ul>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Якщо ви робите сайт</h3>
                         <p>то він має бути розміщеній в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/GraphicsIcon.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/GraphicsIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Додати</h3>
                         <p>файл manual.pdf з інформацією про проект (опис, інструкція по запуску та роботі)</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/BoxIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Архів з роботою</h3>
                         <p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Відповідність</h3>
                         <a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>
@@ -108,11 +108,11 @@
 <section id='CTAbuttons' class='section'>
     <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
         <p>роботи попередніх сезонів</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
+        <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
     <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
+        <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
 </section>
 

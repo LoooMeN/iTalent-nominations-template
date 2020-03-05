@@ -24,7 +24,7 @@
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img src='/includes/images/backgrounds/WebConstAgeBg.webp'
+                    <img loading='lazy'  src='/includes/images/backgrounds/WebConstAgeBg.webp'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
                         <h2>Від 8 до 14 років</h2>
@@ -39,19 +39,19 @@
         <h1 class='title'>Критерії за якими будуть<br>оцінювати вашу роботу</h1>
         <div class='kriterii'>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/BrainInBox.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/BrainInBox.svg' alt='icon'>
                 <h2>ВІЗУАЛ</h2>
                 Зручність інтерфейсу. Акуратно і красиво використані блоки і елементи шаблону.</div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/HandWithIcons.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/HandWithIcons.svg' alt='icon'>
                 <h2>КОНТЕНТ</h2>
                 Контент розкриває ідею проекту, унікальний і цікавий, повний (його достатньо для обраної цілі)</div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/LightIcon.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/LightIcon.svg' alt='icon'>
                 <h2>ІДЕЯ ПРОЕКТУ</h2>
                 Проекту несе в собі певну ідею, наскільки він цікавий та може бути корисний іншим користувачам</div>
             <div class='innerWrapper shadow'>
-                <img src='/includes/images/icons/mark.svg' alt='icon'>
+                <img loading='lazy'  src='/includes/images/icons/mark.svg' alt='icon'>
                 <h2>ВІДПОВІДНІСТЬ</h2>
                 Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</div>
         </div>
@@ -62,25 +62,25 @@
             <h1 class='title'>Вимоги до<br>вашої роботи:</h1>
             <div class='vimogi'>
     <div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Сайт має бути</h3>
                         <p>зроблений із використанням CMS (WordPress, Joomla та ін.) або Конструктора (Wix, Tilda і т.п.)</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/worldIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Сайт має бути</h3>
                         <p>розміщено в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/keyIcon.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/keyIcon.svg' alt='icon'>
                     <div class='text'>
                         <h3>Надати доступ</h3>
                         <p>до адмін панелі сайту. Логін та пароль мають бути надані окремим текстовим файлом</p>
                     </div>
                 </div><div class='vimogaWrapper'>
-                    <img class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
+                    <img loading='lazy'  class='icon' src='/includes/images/icons/mark.svg' alt='icon'>
                     <div class='text'>
                         <h3>Відповідність</h3>
                         <a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>
@@ -92,11 +92,11 @@
 <section id='CTAbuttons' class='section'>
     <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
         <p>роботи попередніх сезонів</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
+        <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
     <a href='/mentorship/' class='CTAbutton shadow unselectable'>
         <p>потрібна допомога с проектом?</p>
-        <img class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
+        <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
 </section>
 
