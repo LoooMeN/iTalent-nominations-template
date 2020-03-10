@@ -3,6 +3,7 @@ let settings;
 function set_hamburger_trigger() {
     let burger = document.querySelector(".mobileMenuSwitch");
     let mobileMenu = document.querySelector("#mobileMenu");
+    let mobileChildren = document.querySelectorAll('.mobileChild');
 
     burger.addEventListener("click", function () {
         if (mobileMenu.classList.contains("open")) {
@@ -17,6 +18,15 @@ function set_hamburger_trigger() {
                 burger.classList.remove("rotateRight");
             burger.classList.add("rotateLeft");
         }
+    });
+
+    mobileChildren.forEach(function (elem) {
+        elem.addEventListener('click', function () {
+            mobileMenu.classList.remove("open");
+            mobileMenu.classList.add("closed");
+            burger.classList.remove("rotateLeft");
+            burger.classList.add("rotateRight");
+        })
     })
 }
 
