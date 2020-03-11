@@ -1235,7 +1235,7 @@
         "id": "STUDART",
         "age": {
             "1": {
-                "from": "19",
+                "from": "15",
                 "to": "24",
                 "tema": "вільна",
                 "task": "none",
@@ -1385,7 +1385,7 @@
             }
         }
     },
-    "nomination15": {
+    "nomination16": {
         "ukrName": "Саунд дизайн",
         "ruName": "Саунд дизайн",
         "status": "ready",

@@ -53,7 +53,7 @@
                     <img loading='lazy'  src='/includes/images/backgrounds/stud-art.webp'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
-                        <h2>Від 19 до 24 років</h2>
+                        <h2>Від 15 до 24 років</h2>
                         <p>Тема роботи: вільна</p>
                     </div>
                 </div></div>        </div>
