@@ -137,7 +137,7 @@ let button2 = document.querySelector('#tech');
 let button3 = document.querySelector('#hud');
 
 let sort = 'all';
-sortNom(sort);
+// sortNom(sort);
 
 function flex() {
     sort = this.id;
