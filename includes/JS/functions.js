@@ -3,6 +3,7 @@ let settings;
 function set_hamburger_trigger() {
     let burger = document.querySelector(".mobileMenuSwitch");
     let mobileMenu = document.querySelector("#mobileMenu");
+    let mobileChildren = document.querySelectorAll('.mobileChild');
 
     burger.addEventListener("click", function () {
         if (mobileMenu.classList.contains("open")) {
@@ -17,6 +18,15 @@ function set_hamburger_trigger() {
                 burger.classList.remove("rotateRight");
             burger.classList.add("rotateLeft");
         }
+    });
+
+    mobileChildren.forEach(function (elem) {
+        elem.addEventListener('click', function () {
+            mobileMenu.classList.remove("open");
+            mobileMenu.classList.add("closed");
+            burger.classList.remove("rotateLeft");
+            burger.classList.add("rotateRight");
+        })
     })
 }
 
@@ -48,10 +58,16 @@ function set_email_acceptor() {
 }
 
 function get_settings() {
-    var request = new XMLHttpRequest();
-    request.open("GET", "/includes/data/settings.json", false);
-    request.send();
-    settings = JSON.parse(request.responseText);
+    axios.get('/includes/data/settings.json')
+        .then(function (response) {
+            settings = response.data;
+            handleReg();
+            set_media();
+        });
+    set_email_acceptor();
+    handleAnnouncement();
+    if (window.screen.width <= 768)
+        set_hamburger_trigger();
 }
 
 function set_media() {
@@ -95,10 +111,3 @@ function handleAnnouncement() {
 }
 
 get_settings();
-handleReg();
-if (window.screen.width <= 768)
-    set_hamburger_trigger();
-set_media();
-set_email_acceptor();
-handleAnnouncement();
-document.title = document.title + " | iTalent всеукраїнський конкурс з IT та кіберспорту";

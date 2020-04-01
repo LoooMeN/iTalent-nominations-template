@@ -1,0 +1,56 @@
+"id": "3D",
+"id": "PHOTO",
+"id": "2DG",
+"id": "VID",
+"id": "2DA",
+"id": "PROG",
+"id": "SCRATCH",
+"id": "GAMEDEV",
+"id": "PROGAPP",
+"id": "WEBCONST",
+"id": "WEBAPP",
+"id": "WEBFRONT",
+"id": "PROGTEXT",
+"id": "STUDART",
+"id": "STUDTECH",
+"id": "SOUND",
+
+Adrianov.webp
+Andriushchenko.webp
+Andrushchenko.webp
+Anton.webp
+Ashirov.webp
+Bogdaovich.webp
+Bortyuk.webp
+Davidenko.webp
+Diriavka.webp
+Dobrovolckaya.webp
+Egorov.webp
+Ekimenko.webp
+Elchaninov.webp
+Farisey.webp
+Glushko.webp
+Grishenko.webp
+Izmaylova.webp
+Karkunov.webp
+Kolomiec.webp
+Kornienko.webp
+Kostya.webp
+Kravcov.webp
+Kryvych.webp
+Kubrak.webp
+Kuzevich.webp
+Lyubinec.webp
+Merphy.webp
+Mindra.webp
+Neyman.webp
+Ostrovniy.webp
+Rumuancev.webp
+Saprykina.webp
+Schub.webp
+Syvokon.webp
+Tebeshevska.webp
+Tkach.webp
+Vasyuk.webp
+Vinnik.webp
+Vlad.webp

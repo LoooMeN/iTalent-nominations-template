@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/adviceStyle.css">
-    <title>Поради до операторської роботи</title>
-    <?php include "./includes/header.html";?>
+    <title>Поради до операторської роботи | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
+    <?php include "./includes/meta.html";?>
 </head>
+
 <body>
+    <?php include "./includes/header.html";?>
     <section class="section" id="advice">
         <div class="title left">Поради до операторської роботи</div>
         <div class="advices">

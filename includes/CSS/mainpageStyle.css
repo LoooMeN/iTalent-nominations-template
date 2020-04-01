@@ -346,7 +346,7 @@ body .left {
   margin-left: -36px;
   margin-top: -36px;
   position: absolute;
-  background: url("/includes/images/icons/TxzC70f.png") no-repeat;
+  background: url("/includes/images/icons/TxzC70f.webp") no-repeat;
   cursor: pointer;
 }
 
@@ -639,7 +639,7 @@ body .left {
 }
 
 #about .myContainer .holder {
-  background-image: url("/includes/images/backgrounds/about_bg.png");
+  background-image: url("/includes/images/backgrounds/about_bg.webp");
   background-size: cover;
   background-position: center center;
   display: -webkit-box;

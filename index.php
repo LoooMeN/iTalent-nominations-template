@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
@@ -8,36 +8,37 @@
     <link rel="stylesheet" href="/includes/CSS/mainpageStyle.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"
         integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
-    <?php include "./includes/header.html";?>
-    <title>Головна</title>
+    <title>Головна | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
+    <?php include "./includes/meta.html";?>
 </head>
 
 <body>
+    <?php include "./includes/header.html";?>
     <section class="section" id="banner">
         <div></div>
         <div class="container">
-            <img src="/includes/images/logos/iTalent_logo_vertical.svg" alt="logo">
+            <img loading="lazy"  src="/includes/images/logos/iTalent_logo_vertical.svg" alt="logo">
             <h2>7 СЕЗОН iTalent РОЗПОЧНЕТЬСЯ У ЛЮТОМУ</h2>
             <div class="buttons">
-                <a href="/nominations/prog-text" targer="_blank">
+                <a href="/nominations/prog-text" target="_blank">
                     <div class="button">НОВА НОМІНАЦІЯ ВІД GRAMMARLY</div>
                 </a>
-                <a href="http://winners.italent.org.ua/" targer="_blank">
+                <a href="http://winners.italent.org.ua/" target="_blank">
                     <div class="button">ПЕРЕМОЖЦІ 6 СЕЗОНУ</div>
                 </a>
-                <a href="https://www.obozrevatel.com/ukr/tech/final-konkursu-italent-stali-vidomi-najkraschi-yuni-it-talanti-ukraini.htm" targer="_blank">
+                <a href="https://www.obozrevatel.com/ukr/tech/final-konkursu-italent-stali-vidomi-najkraschi-yuni-it-talanti-ukraini.htm" target="_blank">
                     <div class="button">ЯК ПРОЙШОВ ФІНАЛ 6 СЕЗОНУ</div>
                 </a>
             </div>
             <div class="zaPidtrimki">
                 <a href="https://grammarly.com" target="_blank" rel="noopener noreferrer">
-                    <img src="/includes/images/partners/grammarly_logo.svg" alt="grammarly">
+                    <img loading="lazy"  src="/includes/images/partners/grammarly_logo.svg" alt="grammarly">
                 </a>
                 <a href="https://mon.gov.ua" target="_blank" rel="noopener noreferrer">
-                    <img src="/includes/images/partners/mon.png" alt="mon">
+                    <img loading="lazy"  src="/includes/images/partners/mon.webp" alt="mon">
                 </a>
                 <a href="https://rozetka.com.ua/search/?text=logitech&producer=42&p=1" target="_blank" rel="noopener noreferrer">
-                    <img src="/includes/images/partners/logitechG.svg" alt="grammarly">
+                    <img loading="lazy"  src="/includes/images/partners/logitechG.svg" alt="grammarly">
                 </a>
             </div>
         </div>
@@ -52,19 +53,19 @@
     <section class="section" id="mediaLinks">
         <div class="grod">
             <a href="https://discord.gg/ywTQTpN" target="_blank" class="button unselectable shadow discord">
-                <img src="/includes/images/icons/discord.png" alt="discord">
+                <img loading="lazy"  src="/includes/images/icons/discord.webp" alt="discord">
                 <p>Приєднуйтеся Discord</p>
             </a>
             <a href="https://telegram.im/@ITalent_ua" target="_blank" class="button unselectable shadow telegram">
-                <img src="/includes/images/icons/telegram.png" alt="telegram">
+                <img loading="lazy"  src="/includes/images/icons/telegram.webp" alt="telegram">
                 <p>Приєднуйтеся Telegram</p>
             </a>
             <a href="https://www.facebook.com/iTalent.ua/" target="_blank" class="button unselectable shadow facebook">
-                <img src="/includes/images/icons/facebook.png" alt="facebook">
+                <img loading="lazy"  src="/includes/images/icons/facebook.webp" alt="facebook">
                 <p>Приєднуйтеся Facebook</p>
             </a>
             <a href="/faq-it/" target="_blank" class="button unselectable shadow faq">
-                <img src="/includes/images/icons/info.png" alt="faq">
+                <img loading="lazy"  src="/includes/images/icons/info.webp" alt="faq">
                 <p>Перегляньте FAQ</p>
             </a>
         </div>
@@ -75,8 +76,8 @@
         <section class="section" id="dates">
             <h1 class="title">ЕТАПИ ПРОВЕДЕННЯ КОНКУРСУ</h1>
             <div class="imgWrap">
-                <img src="includes/images/backgrounds/steps.svg" class="myDesktop" alt="steps">
-                <img src="includes/images/backgrounds/steps_mobile.svg" class="myMobile"
+                <img loading="lazy"  src="includes/images/backgrounds/steps.svg" class="myDesktop" alt="steps">
+                <img loading="lazy"  src="includes/images/backgrounds/steps_mobile.svg" class="myMobile"
                     alt="steps">
             </div>
         </section>
@@ -85,25 +86,25 @@
             <h2 class="title">ПАРТНЕРИ</h2>
             <div class="grod generalPartners">
                 <a href="https://rozetka.com.ua/search/?text=logitech&producer=42&p=1" target="_blank">
-                    <img src="/includes/images/partners/Logitech_print_black_LG.svg"
+                    <img loading="lazy"  src="/includes/images/partners/Logitech_print_black_LG.svg"
                         alt="logitech">
                 </a>
                 <a href="https://www.grammarly.com/" target="_blank">
-                    <img src="/includes/images/partners/logo-grammarly.svg" alt="grammarly">
+                    <img loading="lazy"  src="/includes/images/partners/logo-grammarly.svg" alt="grammarly">
                 </a>
             </div>
             <div class="grod specialPartners">
                 <a href="https://dou.ua/" target="_blank">
-                    <img src="/includes/images/partners/dou_logo.svg" alt="dou">
+                    <img loading="lazy"  src="/includes/images/partners/dou_logo.svg" alt="dou">
                 </a>
                 <a href="http://cyberzone.kiev.ua/" target="_blank">
-                    <img src="/includes/images/partners/cyberzone.svg" alt="cyberzone">
+                    <img loading="lazy"  src="/includes/images/partners/cyberzone.svg" alt="cyberzone">
                 </a>
                 <a href="https://www.insart.com/" target="_blank">
-                    <img src="/includes/images/partners/insart.svg" alt="insart">
+                    <img loading="lazy"  src="/includes/images/partners/insart.svg" alt="insart">
                 </a>
                 <a href="http://gameinside.ua/" target="_blank">
-                    <img src="/includes/images/partners/gameinside_dark.svg" alt="gameinside">
+                    <img loading="lazy"  src="/includes/images/partners/gameinside_dark.svg" alt="gameinside">
                 </a>
             </div>
         </section>
@@ -113,25 +114,25 @@
             <h1 class="title">ПРО КОНКУРС</h1>
             <div class="myContainer">
                 <div class="holder">
-                    <div><img src="/includes/images/icons/2150094.svg" alt="icon"></div>
+                    <div><img loading="lazy"  src="/includes/images/icons/2150094.svg" alt="icon"></div>
                     <h1 class="subTitle myWhite">ITALENT</h1>
                     <p class="myWhite">перший та найбільший в Україні конкурс з ІТ проектів та кіберспорту серед молоді
                         віком до 19 років</p>
                 </div>
                 <div class="holder">
-                    <div><img src="/includes/images/icons/vesi.svg" alt="icon"></div>
+                    <div><img loading="lazy"  src="/includes/images/icons/vesi.svg" alt="icon"></div>
                     <h1 class="subTitle myWhite">СУДДІ</h1>
                     <p class="myWhite">кращі фахівці провідних ІТ компаній України</p>
                 </div>
                 <div class="holder">
-                    <div><img src="/includes/images/icons/goal.svg" alt="icon"></div>
+                    <div><img loading="lazy"  src="/includes/images/icons/goal.svg" alt="icon"></div>
                     <h1 class="subTitle myWhite">МЕТА ПРОЕКТУ</h1>
                     <p class="myWhite">надати українській молоді можливість отримання найкращих IT компетенцій та
                         закласти
                         фундамент для професійної реалізації</p>
                 </div>
                 <div class="holder">
-                    <div><img src="/includes/images/icons/teamwork.svg" alt="icon">
+                    <div><img loading="lazy"  src="/includes/images/icons/teamwork.svg" alt="icon">
                     </div>
                     <h1 class="subTitle myWhite">УЧАСНИКИ</h1>
                     <p class="myWhite">понад 6000 дітей зі всієї України вже прийняли участь у конкурсі і стали
@@ -164,13 +165,14 @@
                 </div>
             </div>
             <div class="grod" id="noms">
-                <script src="/includes/JS/nominations.js"></script>
+                <a href="/nominations/prog-text/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-grammar icon"></i><div class="myContainer"><h2>Програмна обробка текстів</h2><p>Дізнатись більше ...</p><div></div></div><img src="/includes/images/icons/new.svg" alt="new nomination" style="width: 40px; position: absolute; top: 5px; right: 5px;"></div></a><a href="/nominations/sound-design/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-microphone icon"></i><div class="myContainer"><h2>Саунд дизайн</h2><p>Дізнатись більше ...</p><div></div></div><img src="/includes/images/icons/new.svg" alt="new nomination" style="width: 40px; position: absolute; top: 5px; right: 5px;"></div></a><a href="/nominations/stud-art/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-art icon"></i><div class="myContainer"><h2>Студ art</h2><p>Дізнатись більше ...</p><div></div></div><img src="/includes/images/icons/new.svg" alt="new nomination" style="width: 40px; position: absolute; top: 5px; right: 5px;"></div></a><a href="/nominations/stud-tech/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-tech icon"></i><div class="myContainer"><h2>Студ tech</h2><p>Дізнатись більше ...</p><div></div></div><img src="/includes/images/icons/new.svg" alt="new nomination" style="width: 40px; position: absolute; top: 5px; right: 5px;"></div></a><a href="/nominations/2d-graphics/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-drawing icon"></i><div class="myContainer"><h2>2D графіка</h2><p>Дізнатись більше ...</p><div></div></div></div></a><a href="/nominations/3d-graphics/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-modeling icon"></i><div class="myContainer"><h2>3D графіка</h2><p>Дізнатись більше ...</p><div></div></div></div></a><a href="/nominations/digital-photo/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-ps-photobucket icon"></i><div class="myContainer"><h2>Цифрове фото</h2><p>Дізнатись більше ...</p><div></div></div></div></a><a href="/nominations/video-making/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-video-edition icon"></i><div class="myContainer"><h2>Відеомейкінг</h2><p>Дізнатись більше ...</p><div></div></div></div></a><a href="/nominations/2d-animation/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-cat icon"></i><div class="myContainer"><h2>2D анімація</h2><p>Дізнатись більше ...</p><div></div></div></div></a><a href="/nominations/program-development/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-monitor icon"></i><div class="myContainer"><h2>Програмна розробка</h2><p>Дізнатись більше ...</p><div></div></div></div></a><a href="/nominations/scratch-development/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-snake icon"></i><div class="myContainer"><h2>Розробка на scratch</h2><p>Дізнатись більше ...</p><div></div></div></div></a><a href="/nominations/gamedev/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-development icon"></i><div class="myContainer"><h2>Gamedev</h2><p>Дізнатись більше ...</p><div></div></div></div></a><a href="/nominations/device-development/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-processor icon"></i><div class="myContainer"><h2>Апаратна розробка</h2><p>Дізнатись більше ...</p><div></div></div></div></a><a href="/nominations/page-on-constructor/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-add icon"></i><div class="myContainer"><h2>Сайт на конструкторі</h2><p>Дізнатись більше ...</p><div></div></div></div></a><a href="/nominations/web-application/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-application icon"></i><div class="myContainer"><h2>ВЕБ Application</h2><p>Дізнатись більше ...</p><div></div></div></div></a><a href="/nominations/web-front-end/" class="nomLink"><div class="nomination" style="opacity: 1; position: relative;"><i class="icon-data icon"></i><div class="myContainer"><h2>ВЕБ Front-end</h2><p>Дізнатись більше ...</p><div></div></div></div></a>
             </div>
+            <script src="/includes/JS/nominations.js"></script>
         </div>
     </section>
 
     <section class="section" id="cybersport">
-        <img src="/includes/images/backgrounds/boy.svg" alt="cybersport">
+        <img loading="lazy"  src="/includes/images/backgrounds/boy.svg" alt="cybersport">
         <div>
             <div class="title left">КІБЕРСПОРТ</div>
             <p>Ми зробили окремий сайт для учасників, що хочуть порівняти свій AРМ та стратегічні здібності на кібер аренах</p>
@@ -183,18 +185,18 @@
     <section class="section" id="judges">
         <div>
             <div class="title left">СУДДІ</div>
-            <p>Профессіонали з IT ендустрії України!</p>
+            <p>Профессіонали з IT - ендустрії України!</p>
             <div class="link">
                 <a class="shadow" href="/judges/">ДЕТАЛЬНІШЕ</a>
             </div>
         </div>
-        <img src="/includes/images/backgrounds/judges.svg" alt="judges">
+        <img loading="lazy"  src="/includes/images/backgrounds/judges.svg" alt="judges">
     </section>
 
     <section class="section" id="plakat">
         <div class="grod">
             <div>
-                <img src="/includes/images/iTalent-plakat-preview.png" alt="plakat" class="shadow">
+                <img loading="lazy"  src="/includes/images/iTalent-plakat-preview.webp" alt="plakat" class="shadow">
             </div>
             <div>
                 <h2 class="title left">РОЗДРУКУЙ ПЛАКАТ</h2>
@@ -217,7 +219,7 @@
             </div>
             <div class="info">
                 <div>
-                    <img src="/includes/images/icons/mentorIcon1.svg" alt="icon">
+                    <img loading="lazy"  src="/includes/images/icons/mentorIcon1.svg" alt="icon">
                     <h2 class="left">Хто наші ментори?</h2>
                     <div></div>
                     <div>
@@ -230,7 +232,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="/includes/images/icons/mentorIcon1.svg" alt="icon">
+                    <img loading="lazy"  src="/includes/images/icons/mentorIcon1.svg" alt="icon">
                     <h2 class="left">Чим ментор допоможе?</h2>
                     <div></div>
                     <div>
@@ -243,7 +245,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="/includes/images/icons/mentorIcon1.svg" alt="icon">
+                    <img loading="lazy"  src="/includes/images/icons/mentorIcon1.svg" alt="icon">
                     <h2 class="left">Як працювати з ментором?</h2>
                     <div></div>
                     <div>
@@ -278,19 +280,19 @@
         <h2 class="title">ОРГАНІЗАТОРИ</h2>
         <div class="myContainer">
             <div>
-                <span><img src="/includes/images/partners/KIK.png"
+                <span><img loading="lazy"  src="/includes/images/partners/KIK.webp"
                         alt="organizer"></span>
                 <p>МГО “Київський Інтелект Клуб”</p>
             </div>
             <div>
-                <span><img class="bigger"
-                        src="/includes/images/partners/new_udcpo_logo.png"
+                <span><img loading="lazy"  class="bigger"
+                        src="/includes/images/partners/new_udcpo_logo.webp"
                         alt="organizer"></span>
                 <p>Український Державний Центр Позашкільної Освіти</p>
             </div>
             <div>
-                <span><img
-                        src="/includes/images/partners/Garmony.png"
+                <span><img loading="lazy" 
+                        src="/includes/images/partners/Garmony.webp"
                         alt="organizer"></span>
                 <p>ГО “Всесвіт у гармонії”</p>
             </div>
@@ -300,17 +302,17 @@
     <section class="section" id="contact">
         <h2 class="title left">КОМАНДА</h2>
         <div class="grod">
-            <div><img src="/includes/images/Photos/Anton.png"
+            <div><img loading="lazy"  src="/includes/images/Photos/Anton.webp"
                     alt="anton">
                 <h3 class="subTitle left">Антон Еременко</h3>
                 <p>Founder</p>
             </div>
-            <div><img src="/includes/images/Photos/Kostya.jpg"
+            <div><img loading="lazy"  src="/includes/images/Photos/Kostya.webp"
                     alt="kostya">
                 <h3 class="subTitle left">Костя Бахарев</h3>
                 <p>Project manager</p>
             </div>
-            <div><img src="/includes/images/Photos/Vlad.jpg" alt="vlad">
+            <div><img loading="lazy"  src="/includes/images/Photos/Vlad.webp" alt="vlad">
                 <h3 class="subTitle left">Владислав Стрільчик</h3>
                 <p>Project coordinator</p>
             </div>

@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     judgeList.forEach((elem) => {
         if (elem.noms.indexOf(page) >= 0 || elem.position == page ||
-            (elem.position == 'all' && page == 'mentor')) {
+            (elem.position == 'all' && (page == 'mentor' || page == 'judge'))) {
             var mainDiv = document.createElement('div');
             var mainImg = document.createElement('img');
             var mainH4 = document.createElement('h4');

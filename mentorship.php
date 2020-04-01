@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/mentorStyle.css">
-    <title>Менторство</title>
-    <?php include "./includes/header.html";?>
+    <title>Менторство | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
+    <?php include "./includes/meta.html";?>
 </head>
 
 <body>
+    <?php include "./includes/header.html";?>
     <script>
         var page = 'mentor';
     </script>
@@ -88,7 +89,7 @@
             <div>
                 <div class="flexington">
                     <div class="myIcon">
-                        <img src="/includes/images/icons/Ellipse1.png" alt="icon">
+                        <img loading="lazy"  src="/includes/images/icons/Ellipse1.webp" alt="icon">
                         <p>1</p>
                     </div>
                     <div>
@@ -101,7 +102,7 @@
             <div>
                 <div class="flexington">
                     <div class="myIcon">
-                        <img src="/includes/images/icons/Ellipse1.png" alt="icon">
+                        <img loading="lazy"  src="/includes/images/icons/Ellipse1.webp" alt="icon">
                         <p>2</p>
                     </div>
                     <div>
@@ -113,7 +114,7 @@
             <div>
                 <div class="flexington">
                     <div class="myIcon">
-                        <img src="/includes/images/icons/Ellipse1.png" alt="icon">
+                        <img loading="lazy"  src="/includes/images/icons/Ellipse1.webp" alt="icon">
                         <p>3</p>
                     </div>
                     <div>

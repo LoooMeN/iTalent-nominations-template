@@ -134,6 +134,8 @@ body {
 }
 
 #ageGroups {
+    z-index: 1;
+
     .ageGroupsWrapper {
         @include myFlex(row, top, space-between);
 
@@ -244,7 +246,6 @@ body {
     background-size: contain;
     padding: 800px 0;
     background-repeat: no-repeat;
-    z-index: -1;
     margin: -800px 0;
     background-position: center center;
 }
@@ -356,7 +357,7 @@ body {
             margin-bottom: 40px;
 
             .icon {
-                background-image: url("/includes/images/icons/Ellipse1.png");
+                background-image: url("/includes/images/icons/Ellipse1.webp");
                 background-size: cover;
                 background-repeat: no-repeat;
                 padding: 20px;

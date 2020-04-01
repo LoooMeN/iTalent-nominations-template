@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/faqStyle.css">
-    <title>FAQ IT</title>
-    <?php include "./includes/header.html";?>
+    <title>FAQ IT | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
+    <?php include "./includes/meta.html";?>
 </head>
 
 <body>
+    <?php include "./includes/header.html";?>
     <section class="section" id="faq">
         <h1 class="title left">FAQ</h1>
         <h4 class="subtitle">frequently asked questions</h4>
@@ -35,7 +36,7 @@
             </div>
             <div class="red questionBox shadow">
                 <h2>Яка дата кінця реєстрації?</h2>
-                <p>24 квітня 2020 (дата може змінитися)</p>
+                <p>9 травня 2020 (дата може змінитися)</p>
             </div>
             <div class="green questionBox bigBox shadow">
                 <h2>На фінал потрібно їхати за свій рахунок?</h2>
@@ -112,19 +113,19 @@
     <section class="section" id="mediaLinks">
         <div class="grod">
             <a href="https://discord.gg/ywTQTpN" target="_blank" class="button unselectable shadow discord">
-                <img src="/includes/images/icons/discord.png" alt="discord">
+                <img loading="lazy"  src="/includes/images/icons/discord.webp" alt="discord">
                 <p>Приєднуйтеся Discord</p>
             </a>
             <a href="https://telegram.im/@ITalent_ua" target="_blank" class="button unselectable shadow telegram">
-                <img src="/includes/images/icons/telegram.png" alt="telegram">
+                <img loading="lazy"  src="/includes/images/icons/telegram.webp" alt="telegram">
                 <p>Приєднуйтеся Telegram</p>
             </a>
             <a href="https://www.facebook.com/iTalent.ua/" target="_blank" class="button unselectable shadow facebook">
-                <img src="/includes/images/icons/facebook.png" alt="facebook">
+                <img loading="lazy"  src="/includes/images/icons/facebook.webp" alt="facebook">
                 <p>Приєднуйтеся Facebook</p>
             </a>
             <a href="/faq-it/" target="_blank" class="button unselectable shadow faq">
-                <img src="/includes/images/icons/info.png" alt="faq">
+                <img loading="lazy"  src="/includes/images/icons/info.webp" alt="faq">
                 <p>Перегляньте FAQ</p>
             </a>
         </div>

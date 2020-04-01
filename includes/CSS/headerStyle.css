@@ -347,7 +347,7 @@ body .left {
   margin-left: -36px;
   margin-top: -36px;
   position: absolute;
-  background: url("/includes/images/icons/TxzC70f.png") no-repeat;
+  background: url("/includes/images/icons/TxzC70f.webp") no-repeat;
   cursor: pointer;
 }
 
@@ -360,21 +360,21 @@ body .left {
   min-height: 100px;
 }
 
-#header {
+#myHeader {
   width: 100%;
   position: fixed;
   z-index: 1000000;
 }
 
-#header .noTrigger-hvr-underline-from-left:before {
+#myHeader .noTrigger-hvr-underline-from-left:before {
   background: #00B1FF;
 }
 
-#header .noTrigger-hvr-underline-from-left {
+#myHeader .noTrigger-hvr-underline-from-left {
   width: 100%;
 }
 
-#header .flexington {
+#myHeader .flexington {
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,7 +392,7 @@ body .left {
   height: 70px;
 }
 
-#header .flexington .menuWrapper {
+#myHeader .flexington .menuWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -406,25 +406,25 @@ body .left {
           justify-content: space-between;
 }
 
-#header .flexington .menuWrapper .logo {
+#myHeader .flexington .menuWrapper .logo {
   margin-right: 50px;
 }
 
-#header .flexington .menuWrapper .mobileMenuSwitch {
+#myHeader .flexington .menuWrapper .mobileMenuSwitch {
   width: 30px;
 }
 
-#header .flexington .menuWrapper .rotateLeft {
+#myHeader .flexington .menuWrapper .rotateLeft {
   -webkit-animation: rotateLeft 0.5s;
           animation: rotateLeft 0.5s;
 }
 
-#header .flexington .menuWrapper .rotateRight {
+#myHeader .flexington .menuWrapper .rotateRight {
   -webkit-animation: rotateRight 0.5s;
           animation: rotateRight 0.5s;
 }
 
-#header .flexington .menuWrapper .myMobile nav {
+#myHeader .flexington .menuWrapper .myMobile nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -445,39 +445,39 @@ body .left {
   left: 100%;
 }
 
-#header .flexington .menuWrapper .myMobile nav a {
+#myHeader .flexington .menuWrapper .myMobile nav a {
   font-size: 20px;
 }
 
-#header .flexington .menuWrapper .myMobile nav .navSubElement {
+#myHeader .flexington .menuWrapper .myMobile nav .navSubElement {
   color: black;
   margin: 20px 0;
   margin-left: 60px;
 }
 
-#header .flexington .menuWrapper .myMobile nav .navElement {
+#myHeader .flexington .menuWrapper .myMobile nav .navElement {
   margin: 20px;
   width: 100%;
 }
 
-#header .flexington .menuWrapper .myMobile nav .navElement:active {
+#myHeader .flexington .menuWrapper .myMobile nav .navElement:active {
   color: white;
 }
 
-#header .flexington .menuWrapper .myMobile .open {
+#myHeader .flexington .menuWrapper .myMobile .open {
   left: 0;
 }
 
-#header .flexington .menuWrapper .myMobile .closed {
+#myHeader .flexington .menuWrapper .myMobile .closed {
   left: 100%;
 }
 
-#header .flexington .menuWrapper img {
+#myHeader .flexington .menuWrapper img {
   height: 50px;
   padding: 10px 0;
 }
 
-#header .flexington .menuWrapper .switch {
+#myHeader .flexington .menuWrapper .switch {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -486,7 +486,7 @@ body .left {
           align-items: center;
 }
 
-#header .flexington .menuWrapper .switch .arrow {
+#myHeader .flexington .menuWrapper .switch .arrow {
   margin-left: 10px;
   background-color: black;
   width: 10px;
@@ -499,7 +499,7 @@ body .left {
   position: relative;
 }
 
-#header .flexington .menuWrapper .switch .arrow:before {
+#myHeader .flexington .menuWrapper .switch .arrow:before {
   content: "1";
   color: white;
   background-color: white;
@@ -514,12 +514,12 @@ body .left {
   top: 3px;
 }
 
-#header .flexington .menuWrapper .switch .arrow:hover {
+#myHeader .flexington .menuWrapper .switch .arrow:hover {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
-#header .flexington .menuWrapper .myDesktop {
+#myHeader .flexington .menuWrapper .myDesktop {
   min-width: 50%;
   color: #6F838D;
   display: -webkit-box;
@@ -537,18 +537,18 @@ body .left {
           align-items: center;
 }
 
-#header .flexington .menuWrapper .navElement {
+#myHeader .flexington .menuWrapper .navElement {
   height: 100%;
   width: 200px;
   cursor: pointer;
 }
 
-#header .flexington .menuWrapper .navElement .hidden {
+#myHeader .flexington .menuWrapper .navElement .hidden {
   display: none;
   background-color: white;
 }
 
-#header .flexington .menuWrapper .navElement .hidden div {
+#myHeader .flexington .menuWrapper .navElement .hidden div {
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -560,11 +560,11 @@ body .left {
   transition: color 0.2s;
 }
 
-#header .flexington .menuWrapper .navElement .hidden div:hover {
+#myHeader .flexington .menuWrapper .navElement .hidden div:hover {
   color: #00B1FF;
 }
 
-#header .flexington .menuWrapper .navElement a {
+#myHeader .flexington .menuWrapper .navElement a {
   line-height: 70px;
   color: #6F838D;
   font-weight: bold;
@@ -572,15 +572,15 @@ body .left {
   transition: color 0.2s;
 }
 
-#header .flexington .menuWrapper .navElement:hover .hidden {
+#myHeader .flexington .menuWrapper .navElement:hover .hidden {
   display: block;
 }
 
-#header .flexington .menuWrapper .navElement:hover .noTrigger-hvr-underline-from-left:before {
+#myHeader .flexington .menuWrapper .navElement:hover .noTrigger-hvr-underline-from-left:before {
   right: 0;
 }
 
-#header .flexington .menuWrapper .navElement:hover a {
+#myHeader .flexington .menuWrapper .navElement:hover a {
   color: #00B1FF;
 }
 
@@ -629,18 +629,19 @@ body .left {
 }
 
 @media only screen and (max-width: 768px) {
-  #header .flexington .menuWrapper {
+  #myHeader .flexington .menuWrapper {
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #header .flexington .menuWrapper .logo {
+  #myHeader .flexington .menuWrapper .logo {
     margin-right: 0;
     padding-bottom: 0;
+    width: 80%;
   }
-  #header .flexington .menuWrapper .logoWrapper {
+  #myHeader .flexington .menuWrapper .logoWrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -650,10 +651,13 @@ body .left {
         -ms-flex-align: center;
             align-items: center;
   }
-  #header .flexington .menuWrapper .logoWrapper div {
+  #myHeader .flexington .menuWrapper .logoWrapper a {
+    text-align: center;
+  }
+  #myHeader .flexington .menuWrapper .logoWrapper .mobileMenuSwitch {
     margin-right: 20px;
   }
-  #header .flexington .menuWrapper .navElement {
+  #myHeader .flexington .menuWrapper .navElement {
     color: black;
   }
 }

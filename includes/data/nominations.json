@@ -12,7 +12,7 @@
                 "to": "15",
                 "tema": "людство у 2245 році",
                 "task": "<p>Усі ми розуміємо що у 2245 році людство змінится, але ніхто точно не може сказати як саме! Ваша задача на цьому сезоні конкурсу це уявити і реалізувати ваше бачення майбутнього. :)</p><p>Це може бути:</p><ul><li>модель людини</li><li>солдат </li><li>космічний корабель</li><li>місто </li><li>автомобіль </li><li>ваша кімната </li><li>домашня тварина</li></ul>",
-                "image": "/includes/images/backgrounds/3DAgeBg_1.jpg"
+                "image": "/includes/images/backgrounds/3DAgeBg_1.webp"
             },
             "2": {
                 "from": "15",
@@ -88,7 +88,7 @@
             },
             "8": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "9": {
@@ -120,15 +120,15 @@
                 "from": "8",
                 "to": "15",
                 "tema": "Охрана, корекція!",
-                "task": "<p>Помітили, що після виходу відомої пісні, тепер прийнято казати «корекція» замість «атмєна»? Тож скоригувати пропонуємо і вам! Беріть знімок та виправляйте фон на інший. Тема і жанр фоторобіт довільні, ключове – якісно і вдало підлаштувати новий фон до початкового зображення. Змінювати можна будь-що: портрет, пейзаж, спорт, предметні знімки. Пам’ятайте, що оцінюватиметься не тільки якість Вашої роботи у редакторі, але й комплекс естетичних та змістових вражень на які наштовхує глядача Ваша фотографія. Чим непомітніші зміни – тим краще.</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;'><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/c4/43/81/c4438124d2793430d2023e3d51072512.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://photoshop-usluga.online/wp-content/uploads/2019/11/hpFyRyEYp0.jpg' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.jpg' target='_blank'><p>ПРИКЛАД</p></a></div>",
-                "image": "/includes/images/backgrounds/PhotoAgeBg_1.jpg"
+                "task": "<p>Помітили, що після виходу відомої пісні, тепер прийнято казати «корекція» замість «атмєна»? Тож скоригувати пропонуємо і вам! Беріть знімок та виправляйте фон на інший. Тема і жанр фоторобіт довільні, ключове – якісно і вдало підлаштувати новий фон до початкового зображення. Змінювати можна будь-що: портрет, пейзаж, спорт, предметні знімки. Пам’ятайте, що оцінюватиметься не тільки якість Вашої роботи у редакторі, але й комплекс естетичних та змістових вражень на які наштовхує глядача Ваша фотографія. Чим непомітніші зміни – тим краще.</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;'><a href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.webp' target='_blank'><p>ПРИКЛАД</p></a><a href='https://i.pinimg.com/originals/c4/43/81/c4438124d2793430d2023e3d51072512.webp' target='_blank'><p>ПРИКЛАД</p></a><a href='https://photoshop-usluga.online/wp-content/uploads/2019/11/hpFyRyEYp0.webp' target='_blank'><p>ПРИКЛАД</p></a><a href='/includes/documents/photoref1.webp' target='_blank'><p>ПРИКЛАД</p></a><a href='/includes/documents/photoref2.webp' target='_blank'><p>ПРИКЛАД</p></a><a href='/includes/documents/photoref3.webp' target='_blank'><p>ПРИКЛАД</p></a></div>",
+                "image": "/includes/images/backgrounds/PhotoAgeBg_1.webp"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "мульти - експозиція",
                 "task": "<p>Тематика цьогорічної конкурсної роботи для старшої групи вільна за сюжетом, жанром та стилем. Однак робота має бути виконана у техніці мультиекспозиції. Суть цього творчого прийому полягає у накладенні декількох (більше двох) знімків на одну картинну площину. Фотограф прагне досягти не тільки естетичної цілі, але й відкрити нові смисли багатогранного зображення. Технічно ви можете зробити такий знімок фотографуючи серією та поєднуючи кілька різних знімків. Головне – фінальна робота має бути стилістично досконалою і візуально зрозумілою.</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: space-around; flex-wrap: wrap;'><a href='https://www.instagram.com/p/B8sowJUA5RM/' target='_blank'><p>ПРИКЛАД</p></a><a href='http://pustina.blogspot.com/2017/08/blog-post_19.html?spref=pi' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.pinterest.com/pin/472103973432568998/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.pinterest.com/pin/299348706472116700/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.instagram.com/p/B6iW3wcn8Si/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.instagram.com/p/B8e0m7aIsmK/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.instagram.com/p/B8IVj_IhBPx/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.instagram.com/p/B8IlJw3ny-7/' target='_blank'><p>ПРИКЛАД</p></a><a href='https://www.instagram.com/p/B8ICzIjg49o/' target='_blank'><p>ПРИКЛАД</p></a></div>",
-                "image": "/includes/images/backgrounds/PhotoAgeBg_2.jpg"
+                "image": "/includes/images/backgrounds/PhotoAgeBg_2.webp"
             }
         },
         "partner": {
@@ -162,22 +162,22 @@
         "vimogi": {
             "1": {
                 "name": "Оригінальні фото",
-                "desc": "<p>до обробки у форматі *.jpg (для старшої групи – обидва оригінальні фото). Файли мають називатися наступним чином: ПРІЗВИЩЕ_ІМ’Я_Original.jpg.</p><p>УСІ ФОТО МАЮТЬ БУТИ ЗРОБЛЕНІ ВАМИ (можна із допомогою вчителя / батьів і т.п.)</p>",
+                "desc": "<p>до обробки у форматі *.webp (усі фото мають бути зроблені вами). Файли мають називатися наступним чином: ПРІЗВИЩЕ_ІМ’Я_Original.webp.</p><p>УСІ ФОТО МАЮТЬ БУТИ ЗРОБЛЕНІ ВАМИ (можна із допомогою вчителя / батьів і т.п.)</p>",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
             "2": {
                 "name": "Архів з роботою",
-                "desc": "після використання графічних редакторів у форматі *.jpg. Файл має називатись наступним чином: ПРІЗВИЩЕ_ІМ’Я_Result.jpg.",
+                "desc": "після використання графічних редакторів у форматі *.webp. Файл має називатись наступним чином: ПРІЗВИЩЕ_ІМ’Я_Result.webp.",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "3": {
                 "name": "вихідний файл",
-                "desc": "(*psd – для Adobe Photoshop’у,. *.xcf — для Gimp’у — тощо) ОБОВ’ЯЗКОВО з усіма не склеєними шарами. Назва файлу маэ бути ПРІЗВИЩЕ_ІМ’Я",
+                "desc": "(*psd – для Adobe Photoshop’у,. *.xcf — для Gimp’у — тощо) ОБОВ’ЯЗКОВО з усіма не склеєними шарами. Назва файлу має бути ПРІЗВИЩЕ_ІМ’Я",
                 "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -200,7 +200,7 @@
     "nomination3": {
         "ukrName": "2D ГРАФІКА",
         "ruName": "2D ГРАФИКА",
-        "status": "no",
+        "status": "ready",
         "url": "/nominations/2d-graphics/",
         "desc": "У цій номінації вам потрібно намалювати зображення/іллюстрацію згідно з вимогами номіцації. Уважно читайте завдання до зображення.",
         "id": "2DG",
@@ -208,16 +208,16 @@
             "1": {
                 "from": "8",
                 "to": "15",
-                "tema": "дизайн костюма колонізатора марсу.",
-                "task": "none",
-                "image": "/includes/images/backgrounds/2DAgeBg_2.jpg"
+                "tema": "Костюм дослідника Марсу",
+                "task": "<p>Люди планують незабаром заснувати науково-дослідницьку базу на Марсі, вирощувати там рослини, добувати мінерали, жити і досліджувати червону планету. Уяви собі, в якому костюмі / скафандрі має бути зручно першим поселенцям Марсу.</p><p>Намалюй костюм на людині (чоловік або жінка) у повний зріст, зпереду або в напівоберті, на будь-якому нейтральному фоні.</p><p><span>УВАГА</span></p><ul><li>Дизайн костюму має відповідати сучасним знанням про планету Марс, атмосфера, ландшафт та погода на планеті має враховуватися</li><li>Воєнна тематика не допускається (ми за мирний космос :) )</li><li>Костюм для стандартного жителя землі (не робот, не мутант, не тварина, ...).</li><li>Ви можете додати характерні риси вашому костюму подумав о профессії його власника або власниці, можливо він технік, геолог, лікар, механів, біолог і т.д.</li><li>Не забувайте що поєднання кольорів, передача матеріалів, увага до деталей, світло і тінь допоможуть розкрити ваш крутецький костюм!</li></ul>",
+                "image": "/includes/images/backgrounds/2DAgeBg_2.webp"
             },
             "2": {
                 "from": "15",
                 "to": "19",
-                "tema": "дизайн костюма колонізатора марсу.",
-                "task": "none",
-                "image": "/includes/images/backgrounds/2DGAgeBg_1.jpg"
+                "tema": "Костюм дослідника Марсу",
+                "task": "<p>Люди планують незабаром заснувати науково-дослідницьку базу на Марсі, вирощувати там рослини, добувати мінерали, жити і досліджувати червону планету. Уяви собі, в якому костюмі / скафандрі має бути зручно першим поселенцям Марсу.</p><p>Намалюй костюм на дорослій людині (чоловік або жінка) у повний зріст. Зобрази костюм у трьох преокціях, спереду, сзаду, і в напівоберті. Усі деталі костюма повинні добре читатися, познач основні кольори і виділи різні матеріали. Якщо у костюма є рюкзак або зйомний шолом, його можна показати окремо. Також зобрази свого героя у костюмі під час дослідження поверхні марс. Продумай позу та ємоції, не забувай про тіні і рефлекси! Збери усі зображення на одному листі і надсилай нам!</p><p><span>УВАГА</span></p><ul><li>Дизайн костюму має відповідати сучасним знанням про планету Марс, атмосфера, ландшафт та погода на планеті має враховуватися</li><li>Дизайн костюму - сама важлива частина вашої роботи. У кінечному результаті саме персонаж у костюмі має бути героем вашої роботи, а не поверхня Марсу.</li><li>Воєнна тематика не допускається (ми за мирний космос :) )</li><li>Костюм для стандартного жителя землі (не робот, не мутант, не тварина, ...).</li><li>Ви можете додати характерні риси вашому костюму подумав о профессії його власника або власниці, можливо він технік, геолог, лікар, механів, біолог і т.д.</li><li>Не забувайте що поєднання кольорів, передача матеріалів, увага до деталей, світло і тінь допоможуть розкрити ваш крутецький костюм!</li></ul>",
+                "image": "/includes/images/backgrounds/2DGAgeBg_1.webp"
             }
         },
         "partner": {
@@ -261,7 +261,7 @@
             },
             "2": {
                 "name": "Результуюче зображення",
-                "desc": "<p>розміщене у корені архіву. <br><br>Файл має називатись ім’ям конкурсанта: ПРІЗВИЩЕ_ІМ’Я.jpg. Угорі результуючого файлу має бути написано ваше ПІБ, нозва поботи і вік. На приклад: Ivahin_Ivan “Злий орк” 13 років.</p>",
+                "desc": "<p>розміщене у корені архіву. <br><br>Файл має називатись ім’ям конкурсанта: ПРІЗВИЩЕ_ІМ’Я.webp. Угорі результуючого файлу має бути написано ваше ПІБ, нозва поботи і вік. На приклад: Ivahin_Ivan “Злий орк” 13 років.</p>",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
             "3": {
@@ -271,7 +271,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -294,24 +294,24 @@
     "nomination4": {
         "ukrName": "ВІДЕО МЕЙКІНГ",
         "ruName": "ВИДЕО МЕЙКИНГ",
-        "status": "no",
+        "status": "ready",
         "url": "/nominations/video-making/",
-        "desc": "У цій номінації вам потрібно написати сценарій, зняти і змонтувати свій відеоролик. Уважно читайте завдання до відеоролику.",
+        "desc": "У цій номінації вам потрібно написати сценарій, зняти і змонтувати свій трейлер до фільму / мультфільму. Головна задача - зацікавити трейлером глядача до перегляду фільму / мультфільму. Уважно читайте завдання до відеоролику.",
         "id": "VID",
         "age": {
             "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "зняти свій трейлер.",
-                "task": "<p>Вам потрібно зняти свій трейлер до мультфільму на вибір</p><ul><li>Шрек</li><li>Аліса у країні чудес</li></ul><br><p>Бажана мова титрів та озвучки: Україніська</p>",
-                "image": "/includes/images/backgrounds/VideoAgeBg_1.jpg"
+                "task": "<p>Вам потрібно зняти свій трейлер до мультфільму на вибір</p><ul><li>Шрек</li><li>Аліса у країні чудес</li></ul><br><p>Бажана мова титрів та озвучки: Українська</p>",
+                "image": "/includes/images/backgrounds/VideoAgeBg_1.webp"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "зняти свій трейлер.",
-                "task": "<p>Вам потрібно зняти свій трейлер до фільму на вибір</p><ul><li>Термінатор</li><li>Матриця</li><li>Володар кілець</li></ul><br><p>Бажана мова титрів та озвучки: Україніська</p>",
-                "image": "/includes/images/backgrounds/VideoAgeBg_2.jpg"
+                "task": "<p>Вам потрібно зняти свій трейлер до фільму на вибір</p><ul><li>Термінатор</li><li>Матриця</li><li>Володар кілець</li></ul><br><p>Бажана мова титрів та озвучки: Українська</p>",
+                "image": "/includes/images/backgrounds/VideoAgeBg_2.webp"
             }
         },
         "partner": {
@@ -380,7 +380,7 @@
             },
             "7": {
                 "name": "Назва роботи",
-                "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 6 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 6 сезон – “Уявіть собі” – Ivahin_Ivan",
+                "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 7 сезон – “Уявіть собі” – Ivahin_Ivan",
                 "icon_link": "/includes/images/icons/mark.svg"
             },
             "8": {
@@ -405,22 +405,22 @@
         "ruName": "2D АНИМАЦИЯ",
         "status": "ready",
         "url": "/nominations/2d-animation/",
-        "desc": "У цій номінації вам потрібно зробити анімацію будь якою технікою (2D малювання, пластелин, стоп - моушн і т.д.), який буде візуалізацією вірша Ліни Костенко.",
+        "desc": "У цій номінації вам потрібно зробити анімацію, «виконати можете і моушен графікою і анімаційно (мальовану, пластилінову, перекладку, предметну, пісочну, векторну, стоп-моушн, силуетну і т.д.), який буде візуалізацією вірша Ліни Костенко.",
         "id": "2DA",
         "age": {
             "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "анімувати вірш",
-                "task": "<p>Вірші на вибір:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/kostenko/акварелі-дитинства.mp3' target='_blank'><p>Акварелі дитинства</p></a><a href='/includes/documents/kostenko/вже-почалось-мабуть-майбутнє.mp3' target='_blank'><p>Вже почалось, мабуть, майбутнє</p></a><a href='/includes/documents/kostenko/вночі-із-хаосу-безсоння.mp3' target='_blank'><p>Вночі із хаосу безсоння</p></a><a href='/includes/documents/kostenko/гондоли-чорні.mp3' target='_blank'><p>Гондоли - чорні</p></a><a href='/includes/documents/kostenko/і-знову-пролог.mp3' target='_blank'><p>І знову пролог</p></a><a href='/includes/documents/kostenko/і-не-минає-не-минає.mp3' target='_blank'><p>І не минає, не минає!</p></a><a href='/includes/documents/kostenko/місто-премісто-прамісто-моє.mp3' target='_blank'><p>Місто, премісто, прамісто моє!</p></a><a href='/includes/documents/kostenko/недумано-негадано.mp3' target='_blank'><p>Недумано, негадано</p></a><a href='/includes/documents/kostenko/послухаю-цей-дощ.mp3' target='_blank'><p>Послухаю цей дощ</p></a><a href='/includes/documents/kostenko/сосновий-ліс-перебирає-струни.mp3' target='_blank'><p>Сосновий ліс перебирає струни</p></a><a href='/includes/documents/kostenko/хочется-чуда.mp3' target='_blank'><p>Хочется чуда</p></a><a href='/includes/documents/kostenko/що-в-нас-було.mp3' target='_blank'><p>Що в нас було</p></a><a href='/includes/documents/kostenko/юдоль-плачу-земля-моя-планета.mp3' target='_blank'><p>Юдоль плачу, земля моя, планета</p></a><a href='/includes/documents/kostenko/я-вранці-голос-горлиці-люблю.mp3' target='_blank'><p>Я вранці голос горлиці люблю</p></a></div>",
-                "image": "/includes/images/backgrounds/2DAAge_1.jpg"
+                "task": "<p>Вірші на вибір:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/kostenko/акварелі-дитинства.mp3' target='_blank'><p>Акварелі дитинства</p></a><a href='/includes/documents/kostenko/послухаю-цей-дощ.mp3' target='_blank'><p>Послухаю цей дощ</p></a><a href='/includes/documents/kostenko/що-в-нас-було.mp3' target='_blank'><p>Що в нас було</p></a><a href='/includes/documents/kostenko/я-вранці-голос-горлиці-люблю.mp3' target='_blank'><p>Я вранці голос горлиці люблю</p></a></div><div style='display: flex; justify-content: center; align-items: center; flex-direction: row;'><p>Вірші взято з сайту</p><a href='https://www.radiosvoboda.org/a/25780907.html?fbclid=IwAR3ZqP9aC85RwskEkft_6Us_Kl5vPTCV0kh7B5qTcn7vXRGGoC85f2UE9Qw' target='_blank'><img loading='lazy'  style='width: 200px' alt='radio svoboda' src='/includes/images/partners/radio-svoboda.webp'></a></div>'",
+                "image": "/includes/images/backgrounds/2DAAge_1.webp"
             },
             "2": {
                 "from": "15",
                 "to": "19",
-                "tema": "анімувати віргш",
-                "task": "<p>Вірші на вибір:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/kostenko/акварелі-дитинства.mp3' target='_blank'><p>Акварелі дитинства</p></a><a href='/includes/documents/kostenko/вже-почалось-мабуть-майбутнє.mp3' target='_blank'><p>Вже почалось, мабуть, майбутнє</p></a><a href='/includes/documents/kostenko/вночі-із-хаосу-безсоння.mp3' target='_blank'><p>Вночі із хаосу безсоння</p></a><a href='/includes/documents/kostenko/гондоли-чорні.mp3' target='_blank'><p>Гондоли - чорні</p></a><a href='/includes/documents/kostenko/і-знову-пролог.mp3' target='_blank'><p>І знову пролог</p></a><a href='/includes/documents/kostenko/і-не-минає-не-минає.mp3' target='_blank'><p>І не минає, не минає!</p></a><a href='/includes/documents/kostenko/місто-премісто-прамісто-моє.mp3' target='_blank'><p>Місто, премісто, прамісто моє!</p></a><a href='/includes/documents/kostenko/недумано-негадано.mp3' target='_blank'><p>Недумано, негадано</p></a><a href='/includes/documents/kostenko/послухаю-цей-дощ.mp3' target='_blank'><p>Послухаю цей дощ</p></a><a href='/includes/documents/kostenko/сосновий-ліс-перебирає-струни.mp3' target='_blank'><p>Сосновий ліс перебирає струни</p></a><a href='/includes/documents/kostenko/хочется-чуда.mp3' target='_blank'><p>Хочется чуда</p></a><a href='/includes/documents/kostenko/що-в-нас-було.mp3' target='_blank'><p>Що в нас було</p></a><a href='/includes/documents/kostenko/юдоль-плачу-земля-моя-планета.mp3' target='_blank'><p>Юдоль плачу, земля моя, планета</p></a><a href='/includes/documents/kostenko/я-вранці-голос-горлиці-люблю.mp3' target='_blank'><p>Я вранці голос горлиці люблю</p></a></div>",
-                "image": "/includes/images/backgrounds/2DAAge_2.jpg"
+                "tema": "анімувати вірш",
+                "task": "<p>Вірші на вибір:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/kostenko/вночі-із-хаосу-безсоння.mp3' target='_blank'><p>Вночі із хаосу безсоння</p></a><a href='/includes/documents/kostenko/гондоли-чорні.mp3' target='_blank'><p>Гондоли - чорні</p></a><a href='/includes/documents/kostenko/і-не-минає-не-минає.mp3' target='_blank'><p>І не минає, не минає!</p></a><a href='/includes/documents/kostenko/місто-премісто-прамісто-моє.mp3' target='_blank'><p>Місто, премісто, прамісто моє!</p></a><a href='/includes/documents/kostenko/недумано-негадано.mp3' target='_blank'><p>Недумано, негадано</p></a><a href='/includes/documents/kostenko/юдоль-плачу-земля-моя-планета.mp3' target='_blank'><p>Юдоль плачу, земля моя, планета</p></a></div><div style='display: flex; justify-content: center; align-items: center; flex-direction: row;'><p>Вірші взято з сайту</p><a href='https://www.radiosvoboda.org/a/25780907.html?fbclid=IwAR3ZqP9aC85RwskEkft_6Us_Kl5vPTCV0kh7B5qTcn7vXRGGoC85f2UE9Qw' target='_blank'><img loading='lazy'  style='width: 200px'  alt='radio svoboda' src='/includes/images/partners/radio-svoboda.webp'></a></div>",
+                "image": "/includes/images/backgrounds/2DAAge_2.webp"
             }
         },
         "partner": {
@@ -489,7 +489,7 @@
             },
             "6": {
                 "name": "Назва роботи",
-                "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 6 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 6 сезон – “Уявіть собі” – Ivahin_Ivan",
+                "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 7 сезон – “Уявіть собі” – Ivahin_Ivan",
                 "icon_link": "/includes/images/icons/mark.svg"
             },
             "7": {
@@ -522,14 +522,14 @@
                 "to": "15",
                 "tema": "вільна",
                 "task": "Проблеми які ваш проект може вирішувати: <ul><li>Пошук телефонів (де друга шкарпетка?)</li><li>Оффлайн путівник по пам’яткам міст (міні гід у телефоні)</li><li>Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)</li><li>SOS додатки (наприклад: сповіщення поліції про пограбування)</li><li>Додатки для дієти (по штрихкоду дізнатись кількість калорій)</li><li>Вільна тема</li></ul><p>Будь ласка не робіть учбові проекти (на приклад калькулятори, шифрувальник цезаря і т.п.)</p>",
-                "image": "/includes/images/backgrounds/ProgAgeBg_1.jpg"
+                "image": "/includes/images/backgrounds/ProgAgeBg_1.webp"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "вільна",
                 "task": "Проблеми які ваш проект може вирішувати: <ul><li>Пошук телефонів (де друга шкарпетка?)</li><li>Оффлайн путівник по пам’яткам міст (міні гід у телефоні)</li><li>Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)</li><li>SOS додатки (наприклад: сповіщення поліції про пограбування)</li><li>Додатки для дієти (по штрихкоду дізнатись кількість калорій)</li><li>Вільна тема</li></ul><p>Будь ласка не робіть учбові проекти (на приклад калькулятори, шифрувальник цезаря і т.п.)</p>",
-                "image": "/includes/images/backgrounds/ProgAgeBg_2.jpg"
+                "image": "/includes/images/backgrounds/ProgAgeBg_2.webp"
             }
         },
         "partner": {
@@ -573,7 +573,7 @@
             },
             "3": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "4": {
@@ -606,7 +606,7 @@
                 "to": "14",
                 "tema": "Tribute to Arkanoid. Гра у стилі Arkanoid.",
                 "task": "<div class='youtube-player' data-id='v68SuXDOtkM'></div>",
-                "image": "/includes/images/backgrounds/ProgAgeBg_1.jpg"
+                "image": "/includes/images/backgrounds/ProgAgeBg_1.webp"
             }
         },
         "partner": {
@@ -675,7 +675,7 @@
             },
             "6": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "7": {
@@ -701,21 +701,21 @@
         "status": "ready",
         "url": "/nominations/gamedev/",
         "desc": "У цій номінації вам потрібно зробити свою гру, надати трейлер та туторіал. Уважно читайте вимоги до гри.",
-        "id": "gamedev",
+        "id": "GAMEDEV",
         "age": {
             "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "вільна",
                 "task": "none",
-                "image": "/includes/images/backgrounds/GameAgeBg_1.png"
+                "image": "/includes/images/backgrounds/GameAgeBg_1.webp"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "вільна",
                 "task": "none",
-                "image": "/includes/images/backgrounds/GameAgeBg_2.png"
+                "image": "/includes/images/backgrounds/GameAgeBg_2.webp"
             }
         },
         "partner": {
@@ -789,7 +789,7 @@
             },
             "6": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "7": {
@@ -822,14 +822,14 @@
                 "to": "15",
                 "tema": "вільна",
                 "task": "<p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP / STM 32 / SILABS / AVR / TI</li><li>Інші апаратні платформи</li></ul>",
-                "image": "/includes/images/backgrounds/ProgApAgeBg_1.jpeg"
+                "image": "/includes/images/backgrounds/ProgApAgeBg_1.webp"
             },
             "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "вільна",
                 "task": "<p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP / STM 32 / SILABS / AVR / TI</li><li>Інші апаратні платформи</li></ul>",
-                "image": "/includes/images/backgrounds/ProgApAgeBg_2.jpeg"
+                "image": "/includes/images/backgrounds/ProgApAgeBg_2.webp"
             }
         },
         "partner": {
@@ -878,7 +878,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='/includes/images/archive_instructions.jpg' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='/includes/images/archive_instructions.webp' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -916,7 +916,7 @@
                 "to": "14",
                 "tema": "вільна",
                 "task": "none",
-                "image": "/includes/images/backgrounds/WebConstAgeBg.png"
+                "image": "/includes/images/backgrounds/WebConstAgeBg.webp"
             }
         },
         "partner": {
@@ -986,14 +986,14 @@
         "status": "ready",
         "url": "/nominations/web-application/",
         "desc": "У цій номінації вам потрібно зробити свій веб додаток. Уважно читайте вимоги до вашого додатку.",
-        "id": " WEBAPP",
+        "id": "WEBAPP",
         "age": {
             "1": {
                 "from": "8",
                 "to": "19",
                 "tema": "вільна",
                 "task": "none",
-                "image": "/includes/images/backgrounds/WebAppAgeBg.jpg"
+                "image": "/includes/images/backgrounds/WebAppAgeBg.webp"
             }
         },
         "partner": {
@@ -1042,7 +1042,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -1075,7 +1075,7 @@
                 "to": "19",
                 "tema": "вільна",
                 "task": "none",
-                "image": "/includes/images/backgrounds/WebFrontAgeBg.png"
+                "image": "/includes/images/backgrounds/WebFrontAgeBg.webp"
             }
         },
         "partner": {
@@ -1124,7 +1124,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -1150,14 +1150,14 @@
         "status": "ready",
         "url": "/nominations/prog-text/",
         "desc": "У цій номінації вам потрібно зробити програму, сторінку (веб аплікацію) або додаток на смартфон який обробляє / аналізує / створює тексти",
-        "id": "",
+        "id": "PROGTEXT",
         "age": {
             "1": {
                 "from": "8",
                 "to": "19",
                 "tema": "на вибір",
                 "task": "<ul class='explanation shown'><p>Проблеми, які ваш проект може вирішувати:</p><li>Електронний конспект. Додаток, який дозволяє сфотографувати свій конспект і розпізнати його.Може бути корисно, щоб робити пошук по конспектах з таких предметів, як історія чи зарубіжна література.</li><li>Питально-відповідальна система з якогось предмету (наприклад, з географії) за структурованою інформацією з підручника.</li><li>Визначення фейкових новин / визначення тролінгу в коментарях до новин.</li><li>Перекладач з діалектної української на літературну (і навпаки). Можна брати будь-який діалект України: львівську ґвару, подільський діалект, волинський діалект, лемківську мову, закарпатський говір тощо.</li><li>Транслітератор власних назв з англійської на українську (Hemingway =&gt; Гемінґвей).</li><li>Зібрати імена добрих і злих літературних персонажів і написати класифікатор на лінгвістичних ознаках, який визначає, чи персонаж із вашим іменем був би злим чи добрим.</li><li>Генератор мовних каламбурів.</li><li>Визначення вірусних заголовків новин: як написати заголовок новини так, щоб на нього клацала максимальна кількість людей.</li><li>Своя (вільна) тема, яка стосується опрацювання текстів.</li></ul>",
-                "image": "/includes/images/backgrounds/ProgTextAgeBg.jpg"
+                "image": "/includes/images/backgrounds/ProgTextAgeBg.webp"
             }
         },
         "partner": {
@@ -1206,7 +1206,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -1227,19 +1227,19 @@
         }
     },
     "nomination14": {
-        "ukrName": "ХУДОЖНЯ НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ",
-        "ruName": "ХУДОЖНЯ НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ",
+        "ukrName": "Студентська ART",
+        "ruName": "Студентська ART",
         "status": "no",
         "url": "/nominations/stud-art/",
         "desc": "У цій номінації вам необхідно розробити промо матеріал / лендінг для відомого або вигаданого бренду",
-        "id": "stud-art",
+        "id": "STUDART",
         "age": {
             "1": {
-                "from": "19",
+                "from": "15",
                 "to": "24",
                 "tema": "вільна",
                 "task": "none",
-                "image": "/includes/images/backgrounds/stud-art.jpg"
+                "image": "/includes/images/backgrounds/stud-art.webp"
             }
         },
         "partner": {
@@ -1251,22 +1251,22 @@
         "kriterii": {
             "1": {
                 "name": "RECOGNITION",
-                "desc": "На скільки ваша робота репрезентує бренд. Має бути зрозуміло чим цей бренд займається.",
+                "desc": "<p>На скільки ваша робота репрезентує бренд. Має бути зрозуміло чим цей бренд займається.</p>",
                 "icon_link": "/includes/images/icons/puzzle.svg"
             },
             "2": {
                 "name": "DESIGN",
-                "desc": "Ступінь відповідності роботи заданій тематиці і стилю. (промо)",
+                "desc": "<p>Ступінь відповідності роботи заданій тематиці і стилю. (промо)</p>",
                 "icon_link": "/includes/images/icons/eye.svg"
             },
             "3": {
                 "name": "IDEA",
-                "desc": "Оригінальність і привабливість (вірусність) ідеї.",
+                "desc": "<p>Оригінальність і привабливість (вірусність) ідеї.</p>",
                 "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
             "4": {
                 "name": "STYLE",
-                "desc": "Відповідність стилістики до обраного бренду.",
+                "desc": "<p>Відповідність стилістики до обраного бренду.</p>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -1304,19 +1304,19 @@
         }
     },
     "nomination15": {
-        "ukrName": "ТЕХНІЧНА НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ",
-        "ruName": "ТЕХНІЧНА НОМІНАЦІЯ ДЛЯ СТУДЕНТІВ",
+        "ukrName": "Студентська TECH",
+        "ruName": "Студентська TECH",
         "status": "no",
         "url": "/nominations/stud-tech/",
         "desc": "треба ще почекати трохи ;)",
-        "id": "",
+        "id": "STUDTECH",
         "age": {
             "1": {
-                "from": "19",
+                "from": "15",
                 "to": "24",
                 "tema": "вільна",
                 "task": "none",
-                "image": "/includes/images/backgrounds/stud-tech.jpg"
+                "image": "/includes/images/backgrounds/stud-tech.webp"
             }
         },
         "partner": {
@@ -1328,22 +1328,22 @@
         "kriterii": {
             "1": {
                 "name": "ІНТЕРФЕЙС І ЮЗАБІЛІТІ",
-                "desc": "Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та використання, швидкість роботи",
+                "desc": "<p>Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та використання, швидкість роботи</p>",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
             "2": {
                 "name": "PRACTICAL & INNOVATING",
-                "desc": "Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу реалізації",
+                "desc": "<p>Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу реалізації</p>",
                 "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
             "3": {
                 "name": "TECHNICAL",
-                "desc": "наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.",
+                "desc": "<p>наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.</p>",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
             "4": {
                 "name": "ВІДПОВІДНІСТЬ",
-                "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
+                "desc": "<p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
@@ -1365,12 +1365,94 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.jpg' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "icon_link": "/includes/images/icons/mark.svg"
+            }
+        },
+        "rekomendacii": {
+            "1": {
+                "name": "none",
+                "desc": "none"
+            },
+            "2": {
+                "name": "none",
+                "desc": "none"
+            }
+        }
+    },
+    "nomination16": {
+        "ukrName": "Саунд дизайн",
+        "ruName": "Саунд дизайн",
+        "status": "ready",
+        "url": "/nominations/sound-design/",
+        "desc": "У цій номінації вам потрібно озвучити короткий мультфільм",
+        "id": "SOUND",
+        "age": {
+            "1": {
+                "from": "8",
+                "to": "24",
+                "tema": "озвучити мультфільм (музика, звуки голосів, фонові звуки і т.д.)",
+                "task": "<p>Оберіть і завантажте мультфільм зі списку:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='/includes/documents/video/Video1.mp4' target='_blank'><p>ВІДЕО</p></a><a href='/includes/documents/video/Video2.mp4' target='_blank'><p>ВІДЕО</p></a><a href='/includes/documents/video/Video3.mp4' target='_blank'><p>ВІДЕО</p></a><a href='/includes/documents/video/Video4.mp4' target='_blank'><p>ВІДЕО</p></a></div><p>Корисні посилання:</p><div style='display: flex; flex-direction: row; width: 100%; justify-content: flex-start; flex-wrap: wrap;'><a href='https://youtu.be/73OcUBSB0CY' target='_blank'><p>ПОСИЛАННЯ</p></a><a href='https://youtu.be/hf_amnu14kU' target='_blank'><p>ПОСИЛАННЯ</p></a><a href='https://youtu.be/gpg4O-nKB-A' target='_blank'><p>ПОСИЛАННЯ</p></a></div>",
+                "image": "/includes/images/backgrounds/soundAge_1.webp"
+            }
+        },
+        "partner": {
+            "name": "none",
+            "image_link": "none",
+            "desc": "none",
+            "link": "none"
+        },
+        "kriterii": {
+            "1": {
+                "name": "ВІДПОВІДНІСТЬ ДО ВІДЕО",
+                "desc": "<p>На скільки озвучка (звуки, голос, музика) відповідають тому, що відбувається у відео.</p>",
+                "icon_link": "/includes/images/icons/puzzle.svg"
+            },
+            "2": {
+                "name": "ЯКІСТЬ ОЗВУЧКИ",
+                "desc": "<p>Якість запису звуку, якість зведення і виконання.</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a>",
+                "icon_link": "/includes/images/icons/SoundIcon.svg"
+            },
+            "3": {
+                "name": "ОРИГІНАЛЬНІСТЬ",
+                "desc": "<p>Нестандартні, але доцільні рішення. Фантазія та підхід до озвучки персонажів і звуків.</p>",
+                "icon_link": "/includes/images/icons/TechnoLight.svg"
+            },
+            "4": {
+                "name": "ВІДПОВІДНІСТЬ",
+                "desc": "<p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p>",
+                "icon_link": "/includes/images/icons/mark.svg"
+            }
+        },
+        "vimogi": {
+            "1": {
+                "name": "Необхідно надати",
+                "desc": "посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням",
+                "icon_link": "/includes/images/icons/Camera.svg"
+            },
+            "2": {
+                "name": "Додати зображення",
+                "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='/includes/documents/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='/includes/documents/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
+                "icon_link": "/includes/images/icons/ImageIcon.svg"
+            },
+            "3": {
+                "name": "Додати титри",
+                "desc": "Титри вашої роботи мають перечисляти усіх хто приймав участь у цій роботі",
+                "icon_link": "/includes/images/icons/mark.svg"
+            },
+            "4": {
+                "name": "Відповідність",
+                "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
+                "icon_link": "/includes/images/icons/mark.svg"
+            },
+            "5": {
+                "name": "Назва роботи",
+                "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + Прізвище та ім’я озвучка аніміції. Приклад: iTalent 7 сезон – Ivahin_Ivan озвучка анімації",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },

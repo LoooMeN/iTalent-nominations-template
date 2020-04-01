@@ -257,7 +257,7 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
         .holder {
-            background-image: url('/includes/images/backgrounds/about_bg.png');
+            background-image: url('/includes/images/backgrounds/about_bg.webp');
             background-size: cover;
             background-position: center center;
             @include myFlex(column);

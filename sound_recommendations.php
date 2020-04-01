@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/soundRecomendationsStyle.css">
-    <title>Рекомендації до звуку</title>
-    <?php include "./includes/header.html";?>
+    <title>Рекомендації до звуку | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
+    <?php include "./includes/meta.html";?>
 </head>
+
 <body>
+    <?php include "./includes/header.html";?>
     <section class="section" id="soundRecomendations">
         <h1 class="title left">Рекомендації до звуку</h1>
         <h2 class="advice">ЗАПИСУЙТЕ МАКСИМАЛЬНО ЧИСТО І ЯКІСНО</h2>

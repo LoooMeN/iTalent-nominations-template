@@ -9,6 +9,7 @@
 
 	.grod {
 		@include myGrid(1fr 1fr, center top);
+		margin-top: 50px;
 
 		div {
 			p {
