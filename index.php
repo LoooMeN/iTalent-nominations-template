@@ -18,13 +18,12 @@
         <div></div>
         <div class="container">
             <img loading="lazy"  src="/includes/images/logos/iTalent_logo_vertical.svg" alt="logo">
-            <h2>7 СЕЗОН iTalent РОЗПОЧНЕТЬСЯ У ЛЮТОМУ</h2>
+            <h2>РЕЄСТРАЦІЮ ВІДКРИТО <br>ДАТИ І ЕТАПИ ПЕРЕНЕСЕНІ</h2>
+            <p>Любі друзі, через пандемію коронавірусу дати і етапи конкурсу перенесені на невизначений строк, залишайтеся на зв'язку, але реєструватися вже можно. :)</p>
+            <p>До речі, про реєстрацію, ми зробилу круту аплікацію для того щоб усім було зручно, зацініть. :))</p>
             <div class="buttons">
                 <a href="/nominations/prog-text" target="_blank">
                     <div class="button">НОВА НОМІНАЦІЯ ВІД GRAMMARLY</div>
-                </a>
-                <a href="http://winners.italent.org.ua/" target="_blank">
-                    <div class="button">ПЕРЕМОЖЦІ 6 СЕЗОНУ</div>
                 </a>
                 <a href="https://www.obozrevatel.com/ukr/tech/final-konkursu-italent-stali-vidomi-najkraschi-yuni-it-talanti-ukraini.htm" target="_blank">
                     <div class="button">ЯК ПРОЙШОВ ФІНАЛ 6 СЕЗОНУ</div>

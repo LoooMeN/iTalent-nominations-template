@@ -403,6 +403,12 @@ body .left {
   font-size: 36px;
 }
 
+#banner .container p {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
 #banner .container .buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -474,6 +480,9 @@ body .left {
   }
   #banner .container h2 {
     font-size: 28px;
+  }
+  #banner .container p {
+    font-size: 12px;
   }
   #banner .container .buttons {
     max-width: 80%;
