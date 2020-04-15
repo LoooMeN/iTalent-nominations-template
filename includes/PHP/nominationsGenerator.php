@@ -2,7 +2,7 @@
     header("Content-Type: text/plain");
     $data = file_get_contents("../data/nominations.json");
     $data = json_decode($data, true);
-    $test = $data["nomination1"];
+
     if (!file_exists('../../nominations'))
         mkdir('../../nominations');
     foreach ($data as $test) {
