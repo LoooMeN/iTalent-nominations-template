@@ -1,5 +1,5 @@
 {
-    "nomination1": {
+    "3d-graphics": {
         "ukrName": "3D ГРАФІКА",
         "ruName": "3D ГРАФИКА",
         "status": "ready",
@@ -108,7 +108,7 @@
             }
         }
     },
-    "nomination2": {
+    "digital-photo": {
         "ukrName": "ЦИФРОВА ФОТОГРАФІЯ",
         "ruName": "ЦИФРОВАЯ ФОТОГРАФИЯ",
         "status": "ready",
@@ -197,7 +197,7 @@
             }
         }
     },
-    "nomination3": {
+    "2d-graphics": {
         "ukrName": "2D ГРАФІКА",
         "ruName": "2D ГРАФИКА",
         "status": "ready",
@@ -291,7 +291,7 @@
             }
         }
     },
-    "nomination4": {
+    "video-making": {
         "ukrName": "ВІДЕО МЕЙКІНГ",
         "ruName": "ВИДЕО МЕЙКИНГ",
         "status": "ready",
@@ -400,7 +400,7 @@
             }
         }
     },
-    "nomination5": {
+    "2d-animation": {
         "ukrName": "2D АНІМАЦІЯ",
         "ruName": "2D АНИМАЦИЯ",
         "status": "ready",
@@ -509,7 +509,7 @@
             }
         }
     },
-    "nomination6": {
+    "program-development": {
         "ukrName": "ПРОГРАМНА РОЗРОБКА",
         "ruName": "ПРОГРАМНАЯ РАЗРАБОТКА",
         "status": "ready",
@@ -593,7 +593,7 @@
             }
         }
     },
-    "nomination7": {
+    "scratch-development": {
         "ukrName": "SCRATCH",
         "ruName": "SCRATCH",
         "status": "ready",
@@ -695,7 +695,7 @@
             }
         }
     },
-    "nomination8": {
+    "gamedev": {
         "ukrName": "GAMEDEV",
         "ruName": "GAMEDEV",
         "status": "ready",
@@ -809,7 +809,7 @@
             }
         }
     },
-    "nomination9": {
+    "device-development": {
         "ukrName": "АПАРАТНА РОЗРОБКА",
         "ruName": "АПАРАТНАЯ РАЗРАБОТКА",
         "status": "ready",
@@ -903,7 +903,7 @@
             }
         }
     },
-    "nomination10": {
+    "page-on-constructor": {
         "ukrName": "САЙТ НА КОНСТРУКТОРІ",
         "ruName": "САЙТ НА КОНСТРУКТОРЕ",
         "status": "ready",
@@ -980,7 +980,7 @@
             }
         }
     },
-    "nomination11": {
+    "web-application": {
         "ukrName": "WEB APPLICATION",
         "ruName": "WEB APPLICATION",
         "status": "ready",
@@ -1062,7 +1062,7 @@
             }
         }
     },
-    "nomination12": {
+    "web-front-end": {
         "ukrName": "WEB FRONT-END",
         "ruName": "WEB FRONT-END",
         "status": "ready",
@@ -1144,7 +1144,7 @@
             }
         }
     },
-    "nomination13": {
+    "prog-text": {
         "ukrName": "ПРОГРАМНА ОБРОБКА ТЕКСТІВ",
         "ruName": "ПРОГРАМНАЯ ОБРОБОТКА ТЕКСТОВ",
         "status": "ready",
@@ -1226,7 +1226,7 @@
             }
         }
     },
-    "nomination14": {
+    "stud-art": {
         "ukrName": "Студентська ART",
         "ruName": "Студентська ART",
         "status": "no",
@@ -1303,7 +1303,7 @@
             }
         }
     },
-    "nomination15": {
+    "stud-tech": {
         "ukrName": "Студентська TECH",
         "ruName": "Студентська TECH",
         "status": "no",
@@ -1385,7 +1385,7 @@
             }
         }
     },
-    "nomination16": {
+    "sound-design": {
         "ukrName": "Саунд дизайн",
         "ruName": "Саунд дизайн",
         "status": "ready",
