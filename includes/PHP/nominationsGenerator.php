@@ -158,7 +158,7 @@ if ($test['status'] == "no"){
 $string .= "<section class='section' id='registration'></section>
 
 <section id='CTAbuttons' class='section'>
-    <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
+    <a href='http://winners.italent.org.ua/?utm_source=iTalent' class='CTAbutton shadow unselectable'>
         <p>роботи попередніх сезонів</p>
         <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>
