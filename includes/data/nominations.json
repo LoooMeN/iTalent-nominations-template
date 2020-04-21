@@ -7,14 +7,14 @@
         "desc": "У цій номінації вам потрібно зробити 3D модель і надати рендери у різних ракурсах. Уважно читайте вимоги до 3D моделі.",
         "id": "3D",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "людство у 2245 році",
                 "task": "<p>Усі ми розуміємо що у 2245 році людство змінится, але ніхто точно не може сказати як саме! Ваша задача на цьому сезоні конкурсу це уявити і реалізувати ваше бачення майбутнього. :)</p><p>Це може бути:</p><ul><li>модель людини</li><li>солдат </li><li>космічний корабель</li><li>місто </li><li>автомобіль </li><li>ваша кімната </li><li>домашня тварина</li></ul>",
                 "image": "/includes/images/backgrounds/3DAgeBg_1.webp"
             },
-            {
+            "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "людство у 2245 році",
@@ -29,80 +29,80 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "TECHNICAL",
                 "desc": "<p>Складність геометрії, наявність UV розгортки, використання модифікаторів і оптимізація геометрії</p>",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
-            {
+            "2": {
                 "name": "TEXTURE",
                 "desc": "<p>Правильність маппінгу текстури, Hand-paint текстури чи скачані матеріали, реалістичність матеріалів</p>",
                 "icon_link": "/includes/images/icons/HandWithIcons.svg"
             },
-            {
+            "3": {
                 "name": "RENDER",
                 "desc": "<p>Якість освітлення сцени, композиція сцени, якість рендеру,якість і зміст візуалізації.</p>",
                 "icon_link": "/includes/images/icons/LightIcon.svg"
             },
-            {
+            "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "<p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "<span style='color: red; font-size: 700'>УВАГА!!!</span> Необхідно надати",
                 "desc": "3Д сцену в форматах <span>.obj</span> або <span>.fbx</span> у корені архіву",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
-            {
+            "2": {
                 "name": "Робота має бути",
                 "desc": "оригінальною (розробленою САМОСТІЙНО) У разі використання готових моделей або туторіалів – проект має бути змінений що найменше на 70%. У разі використання готових рішень – це необхідно вказати в описі роботи та вказати посилання на модель або туторіал.",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "3": {
                 "name": "Папка Clay",
                 "desc": "має містити Clay render вашої роботи",
                 "icon_link": "/includes/images/icons/folderIcon.svg"
             },
-            {
+            "4": {
                 "name": "Папка Render",
                 "desc": "має містити зображення головної 3D сцени. Якісний не шумний рендер розміру 1289*720 або 1920*1080",
                 "icon_link": "/includes/images/icons/folderIcon.svg"
             },
-            {
+            "5": {
                 "name": "Папка Tex",
                 "desc": "має містити використані вами текстури",
                 "icon_link": "/includes/images/icons/folderIcon.svg"
             },
-            {
+            "6": {
                 "name": "Папка Source",
                 "desc": "З файлами що використовувалися в роботі",
                 "icon_link": "/includes/images/icons/folderIcon.svg"
             },
-            {
+            "7": {
                 "name": "Папка Screenshots",
                 "desc": "Зі скріншотами процессу розробки (обов’язково зі скріншотами сцени з увімкненною сіткою)",
                 "icon_link": "/includes/images/icons/folderIcon.svg"
             },
-            {
+            "8": {
                 "name": "Архів з роботою",
                 "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "9": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -116,14 +116,14 @@
         "desc": "У цій номінації вам потрібно зняти оригінальне фото і обробити його. Уважно читайте завдання до фото.",
         "id": "PHOTO",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "Охрана, корекція!",
                 "task": "<p>Помітили, що після виходу відомої пісні, тепер прийнято казати «корекція» замість «атмєна»? Тож скоригувати пропонуємо і вам! Беріть знімок та виправляйте фон на інший. Тема і жанр фоторобіт довільні, ключове – якісно і вдало підлаштувати новий фон до початкового зображення. Змінювати можна будь-що: портрет, пейзаж, спорт, предметні знімки. Пам’ятайте, що оцінюватиметься не тільки якість Вашої роботи у редакторі, але й комплекс естетичних та змістових вражень на які наштовхує глядача Ваша фотографія. Чим непомітніші зміни – тим краще.</p><div class='buttons' style='justify-content: space-around;'><a class='button' href='https://i.pinimg.com/originals/30/47/fd/3047fd9f0470fe3669c4f333c185ec78.webp' target='_blank'><p>ПРИКЛАД</p></a><a class='button' href='https://i.pinimg.com/originals/c4/43/81/c4438124d2793430d2023e3d51072512.webp' target='_blank'><p>ПРИКЛАД</p></a><a class='button' href='https://photoshop-usluga.online/wp-content/uploads/2019/11/hpFyRyEYp0.webp' target='_blank'><p>ПРИКЛАД</p></a><a class='button' href='/includes/documents/photoref1.webp' target='_blank'><p>ПРИКЛАД</p></a><a class='button' href='/includes/documents/photoref2.webp' target='_blank'><p>ПРИКЛАД</p></a><a class='button' href='/includes/documents/photoref3.webp' target='_blank'><p>ПРИКЛАД</p></a></div>",
                 "image": "/includes/images/backgrounds/PhotoAgeBg_1.webp"
             },
-            {
+            "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "мульти - експозиція",
@@ -138,60 +138,60 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "CREATIVITY",
                 "desc": "Творчий задум, наскільки повно та креативно у роботі розкрита тема номінації, які образи та додаткові елементи автор використав для візуалізації поставленої задачі",
                 "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
-            {
+            "2": {
                 "name": "FRAMESTYLE",
                 "desc": "Дотримання правил компонування кадру: правил композиції, третин, золотого перетину, тощо",
                 "icon_link": "/includes/images/icons/eye.svg"
             },
-            {
+            "3": {
                 "name": "TECHNICAL",
                 "desc": "Технічне виконання: наскільки влучно були використані можливості графічних редакторів — Adobe Photoshop, Adobe Lightroom тощо",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
-            {
+            "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Оригінальні фото",
                 "desc": "<p>до обробки у форматі *.webp (усі фото мають бути зроблені вами). Файли мають називатися наступним чином: ПРІЗВИЩЕ_ІМ’Я_Original.webp.</p><p>УСІ ФОТО МАЮТЬ БУТИ ЗРОБЛЕНІ ВАМИ (можна із допомогою вчителя / батьів і т.п.)</p>",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
-            {
+            "2": {
                 "name": "Архів з роботою",
                 "desc": "після використання графічних редакторів у форматі *.webp. Файл має називатись наступним чином: ПРІЗВИЩЕ_ІМ’Я_Result.webp.",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "3": {
                 "name": "вихідний файл",
                 "desc": "(*psd – для Adobe Photoshop’у,. *.xcf — для Gimp’у — тощо) ОБОВ’ЯЗКОВО з усіма не склеєними шарами. Назва файлу має бути ПРІЗВИЩЕ_ІМ’Я",
                 "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
-            {
+            "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "5": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -205,14 +205,14 @@
         "desc": "У цій номінації вам потрібно намалювати зображення/іллюстрацію згідно з вимогами номіцації. Уважно читайте завдання до зображення.",
         "id": "2DG",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "Костюм дослідника Марсу",
                 "task": "<p>Люди планують незабаром заснувати науково-дослідницьку базу на Марсі, вирощувати там рослини, добувати мінерали, жити і досліджувати червону планету. Уяви собі, в якому костюмі / скафандрі має бути зручно першим поселенцям Марсу.</p><p>Намалюй костюм на людині (чоловік або жінка) у повний зріст, зпереду або в напівоберті, на будь-якому нейтральному фоні.</p><p><span>УВАГА</span></p><ul><li>Дизайн костюму має відповідати сучасним знанням про планету Марс, атмосфера, ландшафт та погода на планеті має враховуватися</li><li>Воєнна тематика не допускається (ми за мирний космос :) )</li><li>Костюм для стандартного жителя землі (не робот, не мутант, не тварина, ...).</li><li>Ви можете додати характерні риси вашому костюму подумав о профессії його власника або власниці, можливо він технік, геолог, лікар, механів, біолог і т.д.</li><li>Не забувайте що поєднання кольорів, передача матеріалів, увага до деталей, світло і тінь допоможуть розкрити ваш крутецький костюм!</li></ul>",
                 "image": "/includes/images/backgrounds/2DAgeBg_2.webp"
             },
-            {
+            "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "Костюм дослідника Марсу",
@@ -227,65 +227,65 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "IDEA & IMPRESSION",
                 "desc": "Креативність і оригінальність ідеї. Сила впливу на сприйняття глядача.",
                 "icon_link": "/includes/images/icons/BrainInBox.svg"
             },
-            {
+            "2": {
                 "name": "TECHNICAL",
                 "desc": "Якість рисовки. Гармонія пропорцій і композиції. Перспектива. Поєднання кольорів.",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
-            {
+            "3": {
                 "name": "STYLE",
                 "desc": "Ступінь відповідності роботи заданій тематиці і стилю.",
                 "icon_link": "/includes/images/icons/eye.svg"
             },
-            {
+            "4": {
                 "name": "MASTERING",
                 "desc": "Тільки для старшої вікової категорії. Професійний підхід. Оцінується рівень роботи, якщо б вона розглядалась, як частина портфоліо професіонала.",
                 "icon_link": "/includes/images/icons/HandWithIcons.svg"
             },
-            {
+            "5": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Папка “Процес”",
                 "desc": "Має містити скріншоти вашої роботи зі стадії скетчингу, покраски і деталізації (щонайменше три для кожного етапу)",
                 "icon_link": "/includes/images/icons/folderIcon.svg"
             },
-            {
+            "2": {
                 "name": "Результуюче зображення",
                 "desc": "<p>розміщене у корені архіву. <br><br>Файл має називатись ім’ям конкурсанта: ПРІЗВИЩЕ_ІМ’Я.webp. Угорі результуючого файлу має бути написано ваше ПІБ, нозва поботи і вік. На приклад: Ivahin_Ivan “Злий орк” 13 років.</p>",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
-            {
+            "3": {
                 "name": "якщо в роботі",
                 "desc": "використовуються нестандартні шрифти — вони також мають бути доданими до архіву.",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "5": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -299,14 +299,14 @@
         "desc": "У цій номінації вам потрібно написати сценарій, зняти і змонтувати свій трейлер до фільму / мультфільму. Головна задача - зацікавити трейлером глядача до перегляду фільму / мультфільму. Уважно читайте завдання до відеоролику.",
         "id": "VID",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "зняти свій трейлер.",
                 "task": "<p>Вам потрібно зняти свій трейлер до мультфільму на вибір</p><ul><li>Шрек</li><li>Аліса у країні чудес</li></ul><br><p>Бажана мова титрів та озвучки: Українська</p>",
                 "image": "/includes/images/backgrounds/VideoAgeBg_1.webp"
             },
-            {
+            "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "зняти свій трейлер.",
@@ -321,80 +321,80 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "СЮЖЕТ",
                 "desc": "<p>Впізнаваність фільму, виклик інтересу у глядача, повнота розкриття теми, цілісність та цікавість сюжету, cила впливу на сприйняття глядача</p><a href='https://bit.ly/2IGyYNW' target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a>",
                 "icon_link": "/includes/images/icons/puzzle.svg"
             },
-            {
+            "2": {
                 "name": "ОПЕРАТОРСЬКА РОБОТА",
                 "desc": "<p>Відповідність базовим правилам побудови кадру, наявність крупних планів, врахування освітлення.</p><a href='/advice_for_operators/'target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a>",
                 "icon_link": "/includes/images/icons/eye.svg"
             },
-            {
+            "3": {
                 "name": "МОНТАЖ ТА ОБРОБКА",
                 "desc": "<p>Якість відео монтажу, чи використовувались спеціальні ефекти.</p><a href='https://www.youtube.com/watch?v=HIJpN6LBM0I' target='_blank'><div class='button unselectable'>КОРИСНЕ ПОСИЛАННЯ</div></a>",
                 "icon_link": "/includes/images/icons/monitor2.svg"
             },
-            {
+            "4": {
                 "name": "ЗВУКОВИЙ СУПРОВІД",
                 "desc": "<p>Наскільки звуки в кадрі відповідають відеоматеріалу. Зверніть увагу – звук можна записати окремо, якісно і змонтувати чудову роботу.</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a>",
                 "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
-            {
+            "5": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Необхідно надати",
                 "desc": "посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням",
                 "icon_link": "/includes/images/icons/Camera.svg"
             },
-            {
+            "2": {
                 "name": "Додати зображення",
                 "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='/includes/documents/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='/includes/documents/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
-            {
+            "3": {
                 "name": "Додати титри",
                 "desc": "Титри вашої роботи мають перечисляти усіх хто приймав участь у цій роботі",
                 "icon_link": "/includes/images/icons/mark.svg"
             },
-            {
+            "4": {
                 "name": "Тривалість роботи",
                 "desc": "повинна бути не менше 1 хвилини та не перевищувати 3 хвилини",
                 "icon_link": "/includes/images/icons/SandClock.svg"
             },
-            {
+            "5": {
                 "name": "Тема",
                 "desc": "роботи має відповідати завданню.",
                 "icon_link": "/includes/images/icons/mark.svg"
             },
-            {
+            "6": {
                 "name": "Оригінальна ідея",
                 "desc": "Відео має бути зняте вами (дозволено використання лише 20% вставок сторонніх відео матеріалів)",
                 "icon_link": "/includes/images/icons/LightIcon.svg"
             },
-            {
+            "7": {
                 "name": "Назва роботи",
                 "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 7 сезон – “Уявіть собі” – Ivahin_Ivan",
                 "icon_link": "/includes/images/icons/mark.svg"
             },
-            {
+            "8": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -408,14 +408,14 @@
         "desc": "У цій номінації вам потрібно зробити анімацію, «виконати можете і моушен графікою і анімаційно (мальовану, пластилінову, перекладку, предметну, пісочну, векторну, стоп-моушн, силуетну і т.д.), який буде візуалізацією вірша Ліни Костенко.",
         "id": "2DA",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "анімувати вірш",
                 "task": "<p>Вірші на вибір:</p><div class='buttons'><a class='button' href='/includes/documents/kostenko/акварелі-дитинства.mp3' target='_blank'><p>Акварелі дитинства</p></a><a class='button' href='/includes/documents/kostenko/послухаю-цей-дощ.mp3' target='_blank'><p>Послухаю цей дощ</p></a><a class='button' href='/includes/documents/kostenko/що-в-нас-було.mp3' target='_blank'><p>Що в нас було</p></a><a class='button' href='/includes/documents/kostenko/я-вранці-голос-горлиці-люблю.mp3' target='_blank'><p>Я вранці голос горлиці люблю</p></a></div><div style='display: flex; justify-content: center; align-items: center; flex-direction: row;'><p>Вірші взято з сайту</p><a href='https://www.radiosvoboda.org/a/25780907.html?fbclid=IwAR3ZqP9aC85RwskEkft_6Us_Kl5vPTCV0kh7B5qTcn7vXRGGoC85f2UE9Qw' target='_blank'><img loading='lazy'  style='width: 200px' alt='radio svoboda' src='/includes/images/partners/radio-svoboda.webp'></a></div>'",
                 "image": "/includes/images/backgrounds/2DAAge_1.webp"
             },
-            {
+            "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "анімувати вірш",
@@ -430,80 +430,80 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "STORYLINE",
                 "desc": "Розкриття теми",
                 "icon_link": "/includes/images/icons/puzzle.svg"
             },
-            {
+            "2": {
                 "name": "SOUNDTRACK",
                 "desc": "<p>Відповідність візуалізації звуковому супроводженню</p>",
                 "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
-            {
+            "3": {
                 "name": "FRAMESTYLE",
                 "desc": "Якість та кількість покадрової анімації",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "4": {
                 "name": "VISUAL",
                 "desc": "Якість стилю виконання",
                 "icon_link": "/includes/images/icons/eye.svg"
             },
-            {
+            "5": {
                 "name": "ОРИГІНАЛЬНА ІДЕЯ",
                 "desc": "Наскільки ідея унікальна",
                 "icon_link": "/includes/images/icons/BrainInBox.svg"
             },
-            {
+            "6": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Необхідно надати",
                 "desc": "посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням",
                 "icon_link": "/includes/images/icons/Camera.svg"
             },
-            {
+            "2": {
                 "name": "Наявність сюжету в роботі",
                 "desc": "<p>Роботи без сюжету, тобто такі, що складаються лише із анімаційних прийомів - розглядатись не будуть.</p>",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "3": {
                 "name": "Баланс звуку",
                 "desc": "<a href='/sound_recommendations' target='_blank' class=''><div class='button shadow'>ПЕРЕГЛЯНЬТЕ ЦІ РЕКОМЕНДАЦІЇ</div></a>",
                 "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
-            {
+            "4": {
                 "name": "Тривалість роботи",
                 "desc": "повинна бути не менше 1 хвилини та не перевищувати 3 хвилини",
                 "icon_link": "/includes/images/icons/SandClock.svg"
             },
-            {
+            "5": {
                 "name": "Додати зображення",
                 "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='/includes/documents/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='/includes/documents/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
-            {
+            "6": {
                 "name": "Назва роботи",
                 "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + “Назва роботи” + Прізвище та ім’я. Приклад: iTalent 7 сезон – “Уявіть собі” – Ivahin_Ivan",
                 "icon_link": "/includes/images/icons/mark.svg"
             },
-            {
+            "7": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -517,14 +517,14 @@
         "desc": "У цій номінації вам потрібно зробити мобільний або десктопний додаток / чатбота. Уважно читайте вимоги до вашої розробки.",
         "id": "PROG",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "вільна",
                 "task": "Проблеми які ваш проект може вирішувати: <ul><li>Пошук телефонів (де друга шкарпетка?)</li><li>Оффлайн путівник по пам’яткам міст (міні гід у телефоні)</li><li>Вимк / Вкл фун-ції телефона за геолокацією (безшумний режим у школі)</li><li>SOS додатки (наприклад: сповіщення поліції про пограбування)</li><li>Додатки для дієти (по штрихкоду дізнатись кількість калорій)</li><li>Вільна тема</li></ul><p>Будь ласка не робіть учбові проекти (на приклад калькулятори, шифрувальник цезаря і т.п.)</p>",
                 "image": "/includes/images/backgrounds/ProgAgeBg_1.webp"
             },
-            {
+            "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "вільна",
@@ -539,55 +539,55 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "ІНТЕРФЕЙС І ЮЗАБІЛІТІ",
                 "desc": "Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та використання, швидкість роботи",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "2": {
                 "name": "PRACTICAL & INNOVATING",
                 "desc": "Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу реалізації",
                 "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
-            {
+            "3": {
                 "name": "TECHNICAL",
                 "desc": "наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
-            {
+            "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Архів із роботою",
                 "desc": "<p>має містити:</p><ul><li>Папку «Build» із скомпільованою програмою, готовою до запуску. Якщо програма не запуститься – робота не буде розглядатись</li><li>Папку «Source» із проектом програми із усіма файлами вихідного коду</li><li>Папку «Test Data» із тестовими файлами, якщо такі необхідні для перевірки роботи програми (Наприклад, якщо програма обробляє зображення – декілька відповідних зображень)</li></ul>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "2": {
                 "name": "Додати",
                 "desc": "файл manual.pdf з інформацією про проект (опис, інструкція по запуску та роботі)",
                 "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
-            {
+            "3": {
                 "name": "Архів з роботою",
-                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>href='",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "4": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -601,7 +601,7 @@
         "desc": "У цій номінації вам потрібно зробити свою гру і зняти трейлер до неї. Уважно читайте завдання до гри.",
         "id": "SCRATCH",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "14",
                 "tema": "Tribute to Arkanoid. Гра у стилі Arkanoid.",
@@ -616,80 +616,80 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "FUN&STORYLINE",
                 "desc": "Наскільки цікаво грати в цю гру, наявність, цілісність та цікавість сюжетної історії",
                 "icon_link": "/includes/images/icons/ConfetiIcon.svg"
             },
-            {
+            "2": {
                 "name": "COMPLETENESS",
                 "desc": "Чи дороблена гра",
                 "icon_link": "/includes/images/icons/listIcon.svg"
             },
-            {
+            "3": {
                 "name": "SOUNDTRACK",
                 "desc": "Якість музичного супроводу, автентичність та його відповідність сюжету гри",
                 "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
-            {
+            "4": {
                 "name": "VISUAL",
                 "desc": "Стиль, якість виконання, наскільки приємно дивитись на гру, зручність управління та навігації, наявність підказок та довідки",
                 "icon_link": "/includes/images/icons/eye.svg"
             },
-            {
+            "5": {
                 "name": "PROGRAMMING",
                 "desc": "Кількість та складність алгоритмів, блоків",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
-            {
+            "6": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Необхідно надати",
                 "desc": "посилання на онлайн версію проекту",
                 "icon_link": "/includes/images/icons/worldIcon.svg"
             },
-            {
+            "2": {
                 "name": "Необхідно зробити",
                 "desc": "відео-огляд своєї гри, тривалістю до 5 хвилин. В цьому відео показати саму гру, а також розповісти що саме і як Ви робили. Відео необхідно завантажити на Youtube та надати посилання, доступ до нього має бути обмежений для перегляду лише за посиланням",
                 "icon_link": "/includes/images/icons/Camera.svg"
             },
-            {
+            "3": {
                 "name": "Необхідно зробити туторіал",
                 "desc": "В гру має бути додано пояснення, як в неї грати: у вигляді туторіалу, як частини гри (наприклад, перший рівень - ознайомчий) або у вигляді текстової довідки",
                 "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
-            {
+            "4": {
                 "name": "Тема",
                 "desc": "робота має бути зроблена у жанрі вертикальний аркадний шутер",
                 "icon_link": "/includes/images/icons/mark.svg"
             },
-            {
+            "5": {
                 "name": "Якщо в грі",
                 "desc": "є більше одного рівня – необхідно передбачити вибір рівня в меню гри (це необхідно щоб суддям не довелося проходити всі рівні до кінця, щоб оцінити роботу)",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "6": {
                 "name": "Архів з роботою",
-                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>href='",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "7": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -703,14 +703,14 @@
         "desc": "У цій номінації вам потрібно зробити свою гру, надати трейлер та туторіал. Уважно читайте вимоги до гри.",
         "id": "GAMEDEV",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "вільна",
                 "task": "none",
                 "image": "/includes/images/backgrounds/GameAgeBg_1.webp"
             },
-            {
+            "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "вільна",
@@ -725,85 +725,85 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "FUN",
                 "desc": "Цікавість сюжетної історії, оригінальність ідеї гри, креативність рішення. Наскільки цікаво грати в гру.",
                 "icon_link": "/includes/images/icons/ConfetiIcon.svg"
             },
-            {
+            "2": {
                 "name": "GAMEDESIGN",
                 "desc": "Стиль, якість виконання, наскільки приємно дивитись на гру. Зручність управління та навігації, наявність підказок.",
                 "icon_link": "/includes/images/icons/puzzle.svg"
             },
-            {
+            "3": {
                 "name": "COMPLETENESS",
                 "desc": "Наявність повноцінного (без багів) геймплею з точки зору задуму автора і жанру.",
                 "icon_link": "/includes/images/icons/listIcon.svg"
             },
-            {
+            "4": {
                 "name": "АУДІО - СУПРОВІД",
                 "desc": "Якість музичного супроводу та його відповідність сюжету гри",
                 "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
-            {
+            "5": {
                 "name": "VISUAL",
                 "desc": "Якість графіки. Дотримання обраної стилістики гри. Використання власноручно зроблених ігрових ассетів.",
                 "icon_link": "/includes/images/icons/eye.svg"
             },
-            {
+            "6": {
                 "name": "TECHNICAL",
                 "desc": "Наскільки використовуються засоби програмування, кількість та складність алгоритмів; використання засобів та технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
-            {
+            "7": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Архів із грою",
                 "desc": "Папку із файлами запуску гри розміром не більше 5 гб. Якщо гра не запускається із цієї папки – робота розглядатись не буде.",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "2": {
                 "name": "Tutorial",
                 "desc": "Вбудована в гру інструкція про те як в неї грати. Наприклад: відео інструкція на початку гри (із можливістю пропустити відео), окремий навчальний рівень, частина першого рівня і т.д.",
                 "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
-            {
+            "3": {
                 "name": "Необхідно зробити",
                 "desc": "<p>відео-огляд своєї гри, тривалістю до 5 хвилин. В цьому відео показати:</p><ul><li>Геймплей (сам ігровий процесс)</li><li>Ігрові механіки (пояснити їх)</li><li>Концепт, сюжет гри</li></ul><p>Відео необхідно завантажити на Youtube та надати посилання, доступ до нього має бути обмежений для перегляду лише за посиланням</p>",
                 "icon_link": "/includes/images/icons/Camera.svg"
             },
-            {
+            "4": {
                 "name": "Якщо в грі",
                 "desc": "є більше одного рівня – необхідно передбачити вибір рівня в меню гри (це необхідно щоб суддям не довелося проходити всі рівні до кінця, щоб оцінити роботу)",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
-            {
+            "5": {
                 "name": "Архів із проектом гри",
                 "desc": "Окремий архів із усіма вихідними файлами гри",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "6": {
                 "name": "Архів з роботою",
-                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>href='",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "7": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -817,14 +817,14 @@
         "desc": "У цій номінації вам потрібно зробити програмуємий пристрій (робот, вимірювач, ферму і т.д.). Уважно читайте вимоги до вашої розробки.",
         "id": "PROGAPP",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "15",
                 "tema": "вільна",
                 "task": "<p>Технології:</p><li>Raspberry Pi і аналоги (Orange PI, Banana PI, інші)</li><li>Arduino і аналоги</li><li>ESP / STM 32 / SILABS / AVR / TI</li><li>Інші апаратні платформи</li></ul>",
                 "image": "/includes/images/backgrounds/ProgApAgeBg_1.webp"
             },
-            {
+            "2": {
                 "from": "15",
                 "to": "19",
                 "tema": "вільна",
@@ -839,65 +839,65 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "DESIGN",
                 "desc": "Наскільки зовнішній вигляд та інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "2": {
                 "name": "SOFTWARE & HARDWARE",
                 "desc": "кількість та складність алгоритмів; використання засобів та технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.п. Якість, складність та функціональність апаратної частини розробки",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
-            {
+            "3": {
                 "name": "PRACTICAL & INNOVATION",
                 "desc": "Корисність, можливість прикладного застосування. Інноваційність самої розробки або способу реалізації, оригінальність",
                 "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
-            {
+            "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Необхідно надати",
                 "desc": "посилання на архів у форматі zip. Назва архіву має бути ПРІЗВИЩЕ_ІМ’Я.zip.",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "2": {
                 "name": "Архів має містити",
                 "desc": "Папку «Source» із проектом програми із усіма файлами вихідного коду. Папку «Presentation» із pdf документом, який містить детальний опис розробки (функції, схема, лістинг основної частини коду, інструкція по використанню, фотографії пристрою та за наявності – знімки екрану інтерфейсу)",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "3": {
                 "name": "Необхідно зробити",
                 "desc": "відео, тривалістю до 5 хвилин, в якому Ви показуєте та розповідаєте про призначення розробки, як працює пристрій, що саме і як Ви робили. Відео необхідно завантажити на Youtube та надати посилання, доступ до нього має бути обмежений для перегляду лише за посиланням",
                 "icon_link": "/includes/images/icons/Camera.svg"
             },
-            {
+            "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "5": {
                 "name": "Запропоновані теми розробки:",
                 "desc": "<ul><li>Smart City</li><li>Smart House</li><li>Smart Farm</li><li>Smart Toy</li><li>Smart Security</li><li>Дослідницький танк / маніпулятор</li><li>Вільна тема</li></ul>",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "6": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -911,7 +911,7 @@
         "desc": "У цій номінації вам потрібно зробити свій сайт на конструкторі сайту. Уважно читайте завдання до сайту.",
         "id": "WEBCONST",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "14",
                 "tema": "вільна",
@@ -926,55 +926,55 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "ВІЗУАЛ",
                 "desc": "Зручність інтерфейсу. Акуратно і красиво використані блоки і елементи шаблону.",
                 "icon_link": "/includes/images/icons/BrainInBox.svg"
             },
-            {
+            "2": {
                 "name": "КОНТЕНТ",
                 "desc": "Контент розкриває ідею проекту, унікальний і цікавий, повний (його достатньо для обраної цілі)",
                 "icon_link": "/includes/images/icons/HandWithIcons.svg"
             },
-            {
+            "3": {
                 "name": "ІДЕЯ ПРОЕКТУ",
                 "desc": "Проекту несе в собі певну ідею, наскільки він цікавий та може бути корисний іншим користувачам",
                 "icon_link": "/includes/images/icons/LightIcon.svg"
             },
-            {
+            "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Сайт має бути",
                 "desc": "зроблений із використанням CMS (WordPress, Joomla та ін.) або Конструктора (Wix, Tilda і т.п.)",
                 "icon_link": "/includes/images/icons/worldIcon.svg"
             },
-            {
+            "2": {
                 "name": "Сайт має бути",
                 "desc": "розміщено в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome",
                 "icon_link": "/includes/images/icons/worldIcon.svg"
             },
-            {
+            "3": {
                 "name": "Надати доступ",
                 "desc": "до адмін панелі сайту. Логін та пароль мають бути надані окремим текстовим файлом",
                 "icon_link": "/includes/images/icons/keyIcon.svg"
             },
-            {
+            "4": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -988,7 +988,7 @@
         "desc": "У цій номінації вам потрібно зробити свій веб додаток. Уважно читайте вимоги до вашого додатку.",
         "id": "WEBAPP",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "19",
                 "tema": "вільна",
@@ -1003,60 +1003,60 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "БАЗА ДАНИХ І BACK-END",
                 "desc": "коректність і складність спроектованої бази-даних. Рівень і складність функціональної частини проекту",
                 "icon_link": "/includes/images/icons/DataBase.svg"
             },
-            {
+            "2": {
                 "name": "ДИЗАЙН ТА FRONT-END",
                 "desc": "Юзабіліті, влучна типографіка, розмітка тексту. Відповідність стандартам розробки, використання javascript фреймворків. Технічна реалізація.",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "3": {
                 "name": "ІДЕЯ ПРОЕКТУ",
                 "desc": "Проект цікавий і корисний, може відбутися як бізнес або соціальний проект",
                 "icon_link": "/includes/images/icons/LightIcon.svg"
             },
-            {
+            "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Код сайту",
                 "desc": "<p>Back-end частина та база даних мають бути оригінальними (розробленим САМОСТІЙНО).</p><p>Front-end вашого сайту може використовувати готові рішення дизайну чи верстки. У разі використання готових рішень – це необхідно вказати в описі роботи та вказати посилання на оригінал.</p>",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "2": {
                 "name": "Сайт має бути",
                 "desc": "розміщено в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome",
                 "icon_link": "/includes/images/icons/worldIcon.svg"
             },
-            {
+            "3": {
                 "name": "Якщо для тестування сайту",
                 "desc": "необхідно занести в нього певний динамічний контент (наприклад для блогів, форумів і т.п.) – необхідно надати сайт із уже внесеними даними.",
                 "icon_link": "/includes/images/icons/DataBase.svg"
             },
-            {
+            "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "5": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -1070,7 +1070,7 @@
         "desc": "У цій номінації вам потрібно зробити свій веб сайт. Уважно читайте вимоги до вашого сайту.",
         "id": "WEBFRONT",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "19",
                 "tema": "вільна",
@@ -1085,60 +1085,60 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "ВІЗУАЛЬНА РЕАЛІЗАЦІЯ",
                 "desc": "Дизайн та зручність. Логічність структури та навігації. Влучність типографіки, самих текстів та ілюстрацій. Якість верстки.",
                 "icon_link": "/includes/images/icons/eye.svg"
             },
-            {
+            "2": {
                 "name": "АДАПТИВНІСТЬ",
                 "desc": "Сайт добре адаптований для мобільних пристроїв",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "3": {
                 "name": "ІДЕЯ / КОНТЕНТ / РЕАЛІЗАЦІЯ",
                 "desc": "Наявність та цікавість ідеї проекту, повнота її реалізації. Наскільки проект може бути корисний іншим користувачам.",
                 "icon_link": "/includes/images/icons/LightIcon.svg"
             },
-            {
+            "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Дизайн та код",
                 "desc": "сайту має бути оригінальним (розробленим САМОСТІЙНО або у разі використання готових шаблонів – сайт має бути змінений що найменше на 70% від оригінального). У разі використання готових рішень – це необхідно вказати в описі роботи та вказати посилання на оригінал",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "2": {
                 "name": "Сайт має бути",
                 "desc": "розміщено в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome",
                 "icon_link": "/includes/images/icons/worldIcon.svg"
             },
-            {
+            "3": {
                 "name": "Якщо для тестування сайту",
                 "desc": "необхідно занести в нього певний динамічний контент (наприклад для блогів, форумів і т.п.) – необхідно надати сайт із уже внесеними даними.",
                 "icon_link": "/includes/images/icons/DataBase.svg"
             },
-            {
+            "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "5": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -1152,7 +1152,7 @@
         "desc": "У цій номінації вам потрібно зробити програму, сторінку (веб аплікацію) або додаток на смартфон який обробляє / аналізує / створює тексти",
         "id": "PROGTEXT",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "19",
                 "tema": "на вибір",
@@ -1167,60 +1167,60 @@
             "link": "https://www.grammarly.com/"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "ІНТЕРФЕЙС І ЮЗАБІЛІТІ",
                 "desc": "Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та використання, швидкість роботи",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "2": {
                 "name": "PRACTICAL & INNOVATING",
                 "desc": "Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу реалізації",
                 "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
-            {
+            "3": {
                 "name": "TECHNICAL",
                 "desc": "наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
-            {
+            "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Архів із роботою",
                 "desc": "<p>має містити:</p><ul><li>Папку «Build» із скомпільованою програмою, готовою до запуску. Якщо програма не запуститься – робота не буде розглядатись</li><li>Папку «Source» із проектом програми із усіма файлами вихідного коду</li><li>Папку «Test Data» із тестовими файлами, якщо такі необхідні для перевірки роботи програми (Наприклад, якщо програма обробляє зображення – декілька відповідних зображень)</li></ul>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "2": {
                 "name": "Якщо ви робите сайт",
                 "desc": "то він має бути розміщеній в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome",
                 "icon_link": "/includes/images/icons/worldIcon.svg"
             },
-            {
+            "3": {
                 "name": "Додати",
                 "desc": "файл manual.pdf з інформацією про проект (опис, інструкція по запуску та роботі)",
                 "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
-            {
+            "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "5": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -1234,7 +1234,7 @@
         "desc": "У цій номінації вам необхідно розробити промо матеріал / лендінг для відомого або вигаданого бренду",
         "id": "STUDART",
         "age": {
-            {
+            "1": {
                 "from": "15",
                 "to": "24",
                 "tema": "вільна",
@@ -1249,55 +1249,55 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "RECOGNITION",
                 "desc": "<p>На скільки ваша робота репрезентує бренд. Має бути зрозуміло чим цей бренд займається.</p>",
                 "icon_link": "/includes/images/icons/puzzle.svg"
             },
-            {
+            "2": {
                 "name": "DESIGN",
                 "desc": "<p>Ступінь відповідності роботи заданій тематиці і стилю. (промо)</p>",
                 "icon_link": "/includes/images/icons/eye.svg"
             },
-            {
+            "3": {
                 "name": "IDEA",
                 "desc": "<p>Оригінальність і привабливість (вірусність) ідеї.</p>",
                 "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
-            {
+            "4": {
                 "name": "STYLE",
                 "desc": "<p>Відповідність стилістики до обраного бренду.</p>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Якщо ви робите відео / анімацію",
                 "desc": "<p>Необхідно надати посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням</p>",
                 "icon_link": "/includes/images/icons/worldIcon.svg"
             },
-            {
+            "2": {
                 "name": "Якщо ви робите сайт",
                 "desc": "Необхідно надати посилання на архів з сайтом у якому окрім самого сайту буде текстовий файл з посиланням на онлайн версію сайту. Сайт має коректно відображатись та працювати в останніх двох релізах браузеру Chrome",
                 "icon_link": "/includes/images/icons/Camera.svg"
             },
-            {
+            "3": {
                 "name": "Якщо ви робите графіку",
                 "desc": "Необхідно надати посилання на архів з остаточним результатом роботи (png / jpeg / obj) і папку зі скріншотами процесу розробки.",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
-            {
+            "4": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -1311,7 +1311,7 @@
         "desc": "треба ще почекати трохи ;)",
         "id": "STUDTECH",
         "age": {
-            {
+            "1": {
                 "from": "15",
                 "to": "24",
                 "tema": "вільна",
@@ -1326,60 +1326,60 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "ІНТЕРФЕЙС І ЮЗАБІЛІТІ",
                 "desc": "<p>Наскільки інтерфейс розробки: сучасний, привабливий, зручний та зрозумілий. Легкість запуску та використання, швидкість роботи</p>",
                 "icon_link": "/includes/images/icons/PC&PhoneIcon.svg"
             },
-            {
+            "2": {
                 "name": "PRACTICAL & INNOVATING",
                 "desc": "<p>Корисність, можливість прикладного застосування. Іноваційність самої розробки або способу реалізації</p>",
                 "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
-            {
+            "3": {
                 "name": "TECHNICAL",
                 "desc": "<p>наскільки проект технологічний, чистота коду, кількість та складність алгоритмів; використання технологій: робота з мережею, з базами даних, ввід/вивід даних, логування і т.і.</p>",
                 "icon_link": "/includes/images/icons/monitor.svg"
             },
-            {
+            "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "<p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Архів із роботою",
                 "desc": "<p>має містити:</p><ul><li>Папку «Build» із скомпільованою програмою, готовою до запуску. Якщо програма не запуститься – робота не буде розглядатись</li><li>Папку «Source» із проектом програми із усіма файлами вихідного коду</li><li>Папку «Test Data» із тестовими файлами, якщо такі необхідні для перевірки роботи програми (Наприклад, якщо програма обробляє зображення – декілька відповідних зображень)</li></ul>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "2": {
                 "name": "Якщо ви робите сайт",
                 "desc": "то він має бути розміщеній в інтернеті і має коректно відображатись та працювати в останніх двох релізах браузеру Chrome",
                 "icon_link": "/includes/images/icons/worldIcon.svg"
             },
-            {
+            "3": {
                 "name": "Додати",
                 "desc": "файл manual.pdf з інформацією про проект (опис, інструкція по запуску та роботі)",
                 "icon_link": "/includes/images/icons/GraphicsIcon.svg"
             },
-            {
+            "4": {
                 "name": "Архів з роботою",
                 "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
-            {
+            "5": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
@@ -1393,7 +1393,7 @@
         "desc": "У цій номінації вам потрібно озвучити короткий мультфільм",
         "id": "SOUND",
         "age": {
-            {
+            "1": {
                 "from": "8",
                 "to": "24",
                 "tema": "озвучити мультфільм (музика, звуки голосів, фонові звуки і т.д.)",
@@ -1408,60 +1408,60 @@
             "link": "none"
         },
         "kriterii": {
-            {
+            "1": {
                 "name": "ВІДПОВІДНІСТЬ ДО ВІДЕО",
                 "desc": "<p>На скільки озвучка (звуки, голос, музика) відповідають тому, що відбувається у відео.</p>",
                 "icon_link": "/includes/images/icons/puzzle.svg"
             },
-            {
+            "2": {
                 "name": "ЯКІСТЬ ОЗВУЧКИ",
                 "desc": "<p>Якість запису звуку, якість зведення і виконання.</p><a href='/sound_recommendations/' target='_blank'><div class='button unselectable'>РЕКОМЕНДАЦІЇ ПО ЗВУКУ</div></a>",
                 "icon_link": "/includes/images/icons/SoundIcon.svg"
             },
-            {
+            "3": {
                 "name": "ОРИГІНАЛЬНІСТЬ",
                 "desc": "<p>Нестандартні, але доцільні рішення. Фантазія та підхід до озвучки персонажів і звуків.</p>",
                 "icon_link": "/includes/images/icons/TechnoLight.svg"
             },
-            {
+            "4": {
                 "name": "ВІДПОВІДНІСТЬ",
                 "desc": "<p>Умовам конкурсу та вимогам до робіт. Роботи, що не відповідають вимогам – розглядитись суддями не будуть.</p>",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "vimogi": {
-            {
+            "1": {
                 "name": "Необхідно надати",
                 "desc": "посилання на відео, яке завантажене на Youtube. Доступ до нього має бути обмежений для перегляду лише за посиланням",
                 "icon_link": "/includes/images/icons/Camera.svg"
             },
-            {
+            "2": {
                 "name": "Додати зображення",
                 "desc": "<p>У початкові титри вашої роботи (перші кадри) треба додати заставку довжиною у 5 секунд.</p><a href='/includes/documents/zastavka_iTalent_video.png' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PNG</a><a href='/includes/documents/zastavka_iTalent_video.pdf' target='_blank' class='button shadow'>ЗАВАНТАЖИТИ PDF</a>",
                 "icon_link": "/includes/images/icons/ImageIcon.svg"
             },
-            {
+            "3": {
                 "name": "Додати титри",
                 "desc": "Титри вашої роботи мають перечисляти усіх хто приймав участь у цій роботі",
                 "icon_link": "/includes/images/icons/mark.svg"
             },
-            {
+            "4": {
                 "name": "Відповідність",
                 "desc": "<a href='/project-demands/' target='_blank'><div class = 'button shadow'> ЗАГАЛЬНИМ ВИМОГАМ ДО РОБІТ </div> </a>",
                 "icon_link": "/includes/images/icons/mark.svg"
             },
-            {
+            "5": {
                 "name": "Назва роботи",
                 "desc": "Роботу завантажено на Youtube слід називати наступним чином “iTalent 7 сезон” – + Прізвище та ім’я озвучка аніміції. Приклад: iTalent 7 сезон – Ivahin_Ivan озвучка анімації",
                 "icon_link": "/includes/images/icons/mark.svg"
             }
         },
         "rekomendacii": {
-            {
+            "1": {
                 "name": "none",
                 "desc": "none"
             },
-            {
+            "2": {
                 "name": "none",
                 "desc": "none"
             }
