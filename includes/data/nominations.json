@@ -88,7 +88,7 @@
             },
             "8": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "9": {
@@ -177,7 +177,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -271,7 +271,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -573,7 +573,7 @@
             },
             "3": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>href='",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "4": {
@@ -675,7 +675,7 @@
             },
             "6": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>href='",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "7": {
@@ -789,7 +789,7 @@
             },
             "6": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>href='",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "7": {
@@ -878,7 +878,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p><p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p><p>архів необхідно завантажити на онлайн сховище GoogleDrive.</p><p>УВАГА! Не забудьте надати доступ до архіву.</p><a href='/includes/images/archive_instructions.webp' target='_blank' class='button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ</a>",
+                "desc": "<p>обов’язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -1042,7 +1042,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -1124,7 +1124,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -1206,7 +1206,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
@@ -1365,7 +1365,7 @@
             },
             "4": {
                 "name": "Архів з роботою",
-                "desc": "<p>слід називати ім’ям конкурсанта. Приклад: Ivahin_Ivan.zip</p> <p> обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший. </p> <p> архів необхідно завантажити на онлайн сховище GoogleDrive.</p> <p> УВАГА!Не забудьте надати доступ до архіву. </p><a href = '/includes/images/archive_instructions.webp' target = '_blank'><div class = 'button shadow'>ДЕТАЛЬНА ІНСТРУКЦІЯ ТУТ </div> </a>",
+                "desc": "<p>обов’ язково заархівувати саме у “zip” формат, а не “rar” чи інший.</p>",
                 "icon_link": "/includes/images/icons/BoxIcon.svg"
             },
             "5": {
