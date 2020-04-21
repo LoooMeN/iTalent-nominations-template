@@ -83,29 +83,29 @@ if ($test['status'] == "no"){
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img loading='lazy'  src='".$test['age'][1]['image']."'
+                    <img loading='lazy'  src='".$test['age'][0]['image']."'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
-                        <h2>Від ".$test['age'][1]['from'].' до '.$test['age'][1]['to']." років</h2>
-                        <p>Тема роботи: ".$test['age'][1]['tema']."</p>
+                        <h2>Від ".$test['age'][0]['from'].' до '.$test['age'][0]['to']." років</h2>
+                        <p>Тема роботи: ".$test['age'][0]['tema']."</p>
                     </div>
                 </div>";
-                if ($test['age'][1]["task"] != "none")
-                    $string .= "<ul class='explanation'>".$test['age'][1]["task"]."</ul>";
+                if ($test['age'][0]["task"] != "none")
+                    $string .= "<ul class='explanation'>".$test['age'][0]["task"]."</ul>";
                 $string .= "</div>";
-    if ($test['age'][2])
+    if (@$test['age'][1])
     {
         $string .= "<div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
-            <img loading='lazy'  src='".$test['age'][2]['image']."'
+            <img loading='lazy'  src='".$test['age'][1]['image']."'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
-                <h2>Від ".$test['age'][2]['from'].' до '.$test['age'][2]['to']." років</h2>
-                <p>Тема роботи: ".$test['age'][2]['tema']."</p>
+                <h2>Від ".$test['age'][1]['from'].' до '.$test['age'][1]['to']." років</h2>
+                <p>Тема роботи: ".$test['age'][1]['tema']."</p>
             </div>
         </div>";
-        if ($test['age'][2]["task"] != "none")
-            $string .= "<ul class='explanation'>".$test['age'][2]["task"]."</ul>";
+        if ($test['age'][1]["task"] != "none")
+            $string .= "<ul class='explanation'>".$test['age'][1]["task"]."</ul>";
         $string .= "</div>";
     }
 
