@@ -603,7 +603,7 @@
         "age": [
             {
                 "from": "8",
-                "to": "14",
+                "to": "15",
                 "tema": "Tribute to Arkanoid. Гра у стилі Arkanoid.",
                 "task": "<div class='youtube-player' data-id='v68SuXDOtkM'></div>",
                 "image": "/includes/images/backgrounds/ProgAgeBg_1.webp"
@@ -908,7 +908,7 @@
         "age": [
             {
                 "from": "8",
-                "to": "14",
+                "to": "15",
                 "tema": "вільна",
                 "task": "none",
                 "image": "/includes/images/backgrounds/WebConstAgeBg.webp"
