@@ -956,7 +956,7 @@
             {
                 "name": "Надати доступ",
                 "desc": "до адмін панелі сайту. Логін та пароль мають бути надані окремим текстовим файлом",
-                "icon_link": "/includes/images/icons/keyIcon.svg"
+                "icon_link": "/includes/images/icons/KeyIcon.svg"
             },
             {
                 "name": "Відповідність",
