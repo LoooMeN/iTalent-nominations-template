@@ -597,15 +597,7 @@ body {
   margin: 10px;
 }
 
-#ageGroups .ageGroupsWrapper .ageGroupWrapper .explanation .buttons{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-
-#ageGroups .ageGroupsWrapper .ageGroupWrapper .explanation .button p{
+#ageGroups .ageGroupsWrapper .ageGroupWrapper .explanation a p {
   width: initial;
   color: black;
   text-transform: uppercase;
