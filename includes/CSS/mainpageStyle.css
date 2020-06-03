@@ -110,6 +110,23 @@ html {
   scroll-behavior: smooth;
 }
 
+.button {
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin: 5px;
+  -webkit-transition: 0.3s background-color;
+  transition: 0.3s background-color;
+  width: initial;
+  background-color: #40C5FF;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #0066cc;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;

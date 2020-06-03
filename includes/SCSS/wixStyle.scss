@@ -96,6 +96,8 @@ h2 {
     .wixCircles {
         position: absolute;
         z-index: -10;
+        left: 0;
+        width: 100%;
     }
 
     .goalContainer {
@@ -127,12 +129,14 @@ h2 {
             padding: 30px 40px;
             background-color: white;
             cursor: pointer;
+            height: 150px;
             border-radius: 10px;
 
             p {
                 font-size: 20px;
                 color: black;
                 margin-bottom: 30px;
+                min-height: 50px;
             }
         }
 
@@ -213,7 +217,7 @@ h2 {
     position: relative;
     margin-bottom: 400px;
 
-    img {
+    .instructionsBg {
         position: absolute;
         width: 100%;
         z-index: -10;
@@ -259,7 +263,7 @@ h2 {
             margin-left: 100px;
             font-size: 16px;
             font-weight: 500;
-            text-transform: uppercase;
+            text-transform: lowercase;
             line-height: 23px;
             margin-top: 0;
             margin-bottom: 50px;
@@ -328,12 +332,8 @@ h2 {
 
     a {
         margin-top: 40px;
-        width: 400px;
         text-align: center;
-
-        .button {
-            width: 400px;
-        }
+        @include myFlex(row);
     }
 
     .container {
@@ -379,7 +379,7 @@ h2 {
     }
 
     p {
-        text-transform: uppercase;
+        text-transform: sentancecase;
         line-height: initial;
     }
 
@@ -417,3 +417,326 @@ h2 {
 }
 
 // endof faq
+
+
+@media only screen and (max-width: 1440px) {
+
+    #ourGoal {
+        .linkContainer {
+            margin-top: 40px;
+            width: 80%;
+            @include myGrid(1fr 1fr, center, center, 40px);
+
+            div {}
+        }
+    }
+
+    #howTo {
+        .container {
+            .cat {
+                @include myFlex(row);
+
+                img {
+                    width: 90%;
+                }
+            }
+
+            ul {
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+}
+
+//laptop 1440
+
+@media only screen and (max-width: 1024px) {
+    #banner {
+        .wixBanner {
+            width: 60%;
+        }
+
+        .bannerContainer {
+            @include myGrid(1fr 2fr);
+
+            .messageContainer {
+
+                h1 {
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    #ourGoal {
+        .goalContainer {
+            width: 65%;
+        }
+
+        .linkContainer {
+            margin-top: 40px;
+            width: 100%;
+            @include myGrid(1fr 1fr, center, center, 40px);
+        }
+    }
+
+
+    #instructions {
+        .container {
+            width: 80%;
+
+            .cardsHolder {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+//laptop 1024
+
+@media only screen and (max-width: 768px) {
+    #banner {
+        .wixBanner {
+            display: none;
+        }
+
+        .bannerContainer {
+            @include myGrid(1fr);
+
+            .messageContainer {
+
+                h1 {
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    #forWho {
+        .container {
+            @include myGrid(1fr 1fr, center, center, 20px);
+            width: 100%;
+
+            div {
+                width: 340px;
+                height: 320px;
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                h4 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    #instructions {
+        .instructionsBg {
+            position: absolute;
+            width: 100%;
+            z-index: -10;
+            top: 20%;
+        }
+
+        .container {
+            width: 90%;
+
+            .cardsHolder {
+                margin-left: 0;
+
+                .linkContainer {
+                    div {
+                        width: 100%;
+                        height: 300px;
+
+                        p {
+                            min-height: 150px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #howTo {
+        .subTitle {
+            margin-left: 0;
+        }
+
+        .container {
+            .cat {
+                img {
+                    width: 100%;
+                }
+            }
+
+            ul {
+                li {
+                    font-size: 14px;
+                    margin: 20px 0;
+                }
+            }
+        }
+
+        a {
+            margin-top: 40px;
+            @include myFlex(row);
+            text-align: center;
+        }
+    }
+
+    #faq {
+        span {
+            font-size: 50px;
+        }
+
+        .question {
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .answer {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+//tablet 768
+
+@media only screen and (max-width: 450px) {
+    .subTitle {
+        margin-left: 0;
+    }
+
+    #ourGoal {
+        margin-bottom: 100px;
+
+        .wixCircles {
+            top: 20%;
+        }
+
+        .goalContainer {
+            width: 100%;
+        }
+
+        .linkContainer {
+            @include myGrid(1fr);
+
+            div {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    #forWho {
+        margin-bottom: 100px;
+
+        .container {
+            @include myGrid(1fr);
+
+            div {
+                margin: auto;
+            }
+        }
+    }
+
+    #instructions {
+        margin-bottom: 100px;
+
+        .subTitle {
+            text-align: center !important;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+
+        .instructionsBg {
+            display: none;
+        }
+
+        .container {
+            .instructionHolder {
+                margin-bottom: 40px;
+                @include myFlex(row);
+
+                .icon {
+                    width: 90px;
+                    height: 90px;
+
+                    img {
+                        width: 90px;
+                        height: 90px;
+                    }
+                }
+            }
+
+            .instructionsText {
+                margin-left: 0;
+                margin-bottom: 100px;
+                padding: 10px 30px;
+            }
+
+            .cardsHolder {
+                .linkContainer {
+                    @include myGrid(1fr 1fr);
+
+                    div {
+                        padding: 10px 20px;
+                        width: 100%;
+                        height: 250px;
+
+                        p {
+                            font-size: 12px;
+                            min-height: 130px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #howTo {
+        margin-bottom: 150px;
+
+        .subTitle {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            @include myGrid(1fr);
+
+            ul {
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+
+    #faq {
+        .line {
+            width: 250px;
+        }
+    }
+}

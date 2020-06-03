@@ -36,14 +36,14 @@
         <img src="/includes/images/wixImages/wixCircles.svg" alt="wixCircles" class="wixCircles">
         <div class="goalContainer">
             <p><span>Наша ціль</span> — допомогти освітнім закладам створити свою онлайн-присутність.</p>
-            <p>преміумплан та спеціальний шаблон дозволить вам швидко запустити ефективний сайт та створити
+            <p>Преміумплан та спеціальний шаблон дозволять вам швидко запустити ефективний сайт та створити
                 онлайн-доступ до
                 інформації вашого закладу.</p>
         </div>
         <div class="linkContainer">
             <a href="https://www.wix.com/website-template/view/html/2610" target="_blank" rel="noopener noreferrer">
                 <div class="shadow">
-                    <p>Шаблон спеціально для Вас</p>
+                    <p>Шаблон спеціально для вас</p>
                     <div class="iconHolder">
                         <i class="icon-arrowRight"></i>
                     </div>
@@ -81,7 +81,7 @@
     </section> <!-- done -->
 
     <section class="section" id="instructions">
-        <img src="/includes/images/wixImages/instructionsBg.svg" alt="instructions background">
+        <img src="/includes/images/wixImages/instructionsBg.svg" alt="instructions background" class="instructionsBg">
         <div class="container">
             <h3 class="subTitle textLeft">Ми створили покрокову інструкцію, що допоможе РОЗРОБИТИ зручний вебсайт для
                 вашого навчального закладу.
@@ -98,13 +98,16 @@
                     сайт</a>
                 — оберіть шаблон, який підходить вам найбільше, або почніть з
                 нуля. Додайте
-                <a href="https://www.wix.com/getasite/wix-logo-maker-uk" target="_blank" rel="noopener noreferrer">логотип</a>
+                <a href="https://www.wix.com/getasite/wix-logo-maker-uk" target="_blank"
+                    rel="noopener noreferrer">логотип</a>
                 або
                 герб, детальну інформацію про заклад, зображення, тексти та розклад, налаштуйте способи зв’язку. У
                 нас є англомовні статті про те,
-                <a href="https://www.wix.com/blog/ecommerce/2019/10/how-to-start-an-online-store" target="_blank" rel="noopener noreferrer">як запустити інтернет-магазин</a>
+                <a href="https://www.wix.com/blog/ecommerce/2019/10/how-to-start-an-online-store" target="_blank"
+                    rel="noopener noreferrer">як запустити інтернет-магазин</a>
                 чи
-                <a href="https://www.wix.com/blog/2018/08/how-to-create-one-page-website" target="_blank" rel="noopener noreferrer">створити лендингову сторінку</a>.
+                <a href="https://www.wix.com/blog/2018/08/how-to-create-one-page-website" target="_blank"
+                    rel="noopener noreferrer">створити лендингову сторінку</a>.
             </p>
             <div class="instructionHolder">
                 <div class="icon">
@@ -114,7 +117,8 @@
                 <h3>Домен</h3>
             </div>
             <p class="instructionsText">Створіть та зареєструйте
-                <a href="https://support.wix.com/en/article/connecting-your-own-domain-name" target="_blank" rel="noopener noreferrer">домен</a>
+                <a href="https://support.wix.com/en/article/connecting-your-own-domain-name" target="_blank"
+                    rel="noopener noreferrer">домен</a>
                 за допомогою Wix або приєднайте той, який у вас
                 вже є. Домен потрібен, аби відвідувачам було простіше знайти вас в інтернеті. Також Wix пропонує
                 безкоштовний і безпечний
@@ -135,7 +139,8 @@
             <div class="cardsHolder">
                 <h4>МИ РЕКОМЕНДУЄМО ЗМІНИТИ ТАКІ ЕЛЕМЕНТИ:</h4>
                 <div class="linkContainer">
-                    <a href="https://support.wix.com/en/article/creating-a-logo-with-the-wix-logo-maker" target="_blank" rel="noopener noreferrer">
+                    <a href="https://support.wix.com/en/article/creating-a-logo-with-the-wix-logo-maker" target="_blank"
+                        rel="noopener noreferrer">
                         <div class="shadow">
                             <p>Додайте свій логотип/герб. Якщо у вас його ще немає, ви можете створити його власноруч
                             </p>
@@ -144,7 +149,8 @@
                             </div>
                         </div>
                     </a>
-                    <a href="https://support.wix.com/en/article/changing-your-page-background-color" target="_blank" rel="noopener noreferrer">
+                    <a href="https://support.wix.com/en/article/changing-your-page-background-color" target="_blank"
+                        rel="noopener noreferrer">
                         <div class="shadow">
                             <p>Змініть кольори</p>
                             <div class="iconHolder">
@@ -152,7 +158,8 @@
                             </div>
                         </div>
                     </a>
-                    <a href="https://support.wix.com/en/article/changing-your-text-font" target="_blank" rel="noopener noreferrer">
+                    <a href="https://support.wix.com/en/article/changing-your-text-font" target="_blank"
+                        rel="noopener noreferrer">
                         <div class="shadow">
                             <p>Змініть шрифт</p>
                             <div class="iconHolder">
@@ -160,7 +167,8 @@
                             </div>
                         </div>
                     </a>
-                    <a href="https://support.wix.com/en/article/adding-and-editing-text" target="_blank" rel="noopener noreferrer">
+                    <a href="https://support.wix.com/en/article/adding-and-editing-text" target="_blank"
+                        rel="noopener noreferrer">
                         <div class="shadow">
                             <p>Відредагуйте текст</p>
                             <div class="iconHolder">
@@ -168,7 +176,8 @@
                             </div>
                         </div>
                     </a>
-                    <a href="https://support.wix.com/en/article/about-the-new-wix-blog" target="_blank" rel="noopener noreferrer">
+                    <a href="https://support.wix.com/en/article/about-the-new-wix-blog" target="_blank"
+                        rel="noopener noreferrer">
                         <div class="shadow">
                             <p>Створіть власний контент, спілкуйтесь у коментарях та поширюйте в соціальних мережах
                                 статті з вашого блогу</p>
@@ -177,7 +186,8 @@
                             </div>
                         </div>
                     </a>
-                    <a href="https://support.wix.com/en/article/about-wix-forms" target="_blank" rel="noopener noreferrer">
+                    <a href="https://support.wix.com/en/article/about-wix-forms" target="_blank"
+                        rel="noopener noreferrer">
                         <div class="shadow">
                             <p>Налаштуйте форму</p>
                             <div class="iconHolder">
@@ -185,7 +195,8 @@
                             </div>
                         </div>
                     </a>
-                    <a href="https://support.wix.com/en/article/adding-and-setting-up-the-table-master-app" target="_blank" rel="noopener noreferrer">
+                    <a href="https://support.wix.com/en/article/adding-and-setting-up-the-table-master-app"
+                        target="_blank" rel="noopener noreferrer">
                         <div class="shadow">
                             <p>Зв’язуйте свій розклад, створений у Google таблиці, з розкладом на сайті</p>
                             <div class="iconHolder">
@@ -193,7 +204,8 @@
                             </div>
                         </div>
                     </a>
-                    <a href="https://support.wix.com/en/article/managing-your-social-bar-and-social-icons" target="_blank" rel="noopener noreferrer">
+                    <a href="https://support.wix.com/en/article/managing-your-social-bar-and-social-icons"
+                        target="_blank" rel="noopener noreferrer">
                         <div class="shadow">
                             <p>Налаштуйте соціальні мережі</p>
                             <div class="iconHolder">
@@ -212,7 +224,7 @@
 
         <div class="container">
             <ul>
-                <li>Щоб отримати преміумплан Вам необхідно заповнити форму.</li>
+                <li>Щоб отримати преміумплан вам необхідно заповнити форму.</li>
                 <li>Заповніть форму. Вказуйте дані уважно, додайте офіційний імейл навчального закладу.
                 </li>
                 <li>Після обробки анкети, вам будуть надісланий лист з інструкцією про те, як активувати преміумплан.
@@ -242,7 +254,9 @@
             <div class="answer">
                 <span>A:</span>
                 <p>Ні, ви можете самостійно створити сайт, скориставшись
-                    усіма описаними вище інструментами Wix. У рамках даної ініціативи ми не створюємо для вас сайт, а надаємо можливість отримати преміумплан, необхідний для повноцінного запуску вебсайту для навчального закладу.</p>
+                    усіма описаними вище інструментами Wix. У рамках даної ініціативи ми не створюємо для вас сайт, а
+                    надаємо можливість отримати преміумплан, необхідний для повноцінного запуску вебсайту для
+                    навчального закладу.</p>
             </div>
         </div>
         <div class="container">
@@ -264,7 +278,10 @@
             </div>
             <div class="answer">
                 <span>A:</span>
-                <p>Преміумплан буде діяти 1 рік з моменту активації. Ваш вебсайт не зникне після закінчення дії преміумплану. Якщо ви продовжите користуватися сервісами Wix понад рік, оплату за наступний рік буде списано автоматично. Ви завчасно отримаєте про це електронного листа і зможете скасувати автоматичне поновлення.</p>
+                <p>Преміумплан буде діяти 1 рік з моменту активації. Ваш вебсайт не зникне після закінчення дії
+                    преміумплану. Якщо ви продовжите користуватися сервісами Wix понад рік, оплату за наступний рік буде
+                    списано автоматично. Ви завчасно отримаєте про це електронного листа і зможете скасувати автоматичне
+                    поновлення.</p>
             </div>
         </div>
         <div class="container">
@@ -308,7 +325,8 @@
             </div>
             <div class="answer">
                 <span>A:</span>
-                <p>Подати заявку можна до 30 вересня 2020 року. Усі подані після цього заявки розглядатися не будуть.</p>
+                <p>Подати заявку можна до 30 вересня 2020 року. Усі подані після цього заявки розглядатися не будуть.
+                </p>
             </div>
         </div>
     </section>
