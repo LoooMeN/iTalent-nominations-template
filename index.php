@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/includes/CSS/mainpageStyle.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"
-        integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
     <title>Головна | iTalent всеукраїнський конкурс з IT та кіберспорту</title>
     <?php include "./includes/meta.html";?>
 </head>
@@ -18,13 +16,12 @@
         <div></div>
         <div class="container">
             <img loading="lazy"  src="/includes/images/logos/iTalent_logo_vertical.svg" alt="logo">
-            <h2>7 СЕЗОН iTalent РОЗПОЧНЕТЬСЯ У ЛЮТОМУ</h2>
+            <h2>РЕЄСТРАЦІЮ ВІДКРИТО <br>ДАТИ І ЕТАПИ ПЕРЕНЕСЕНІ</h2>
+            <p>Любі друзі, через пандемію коронавірусу дати і етапи конкурсу перенесені на невизначений строк, залишайтеся на зв'язку, але реєструватися вже можно. :)</p>
+            <p>До речі, про реєстрацію, ми зробили круту аплікацію для того щоб усім було зручно, зацініть. :))</p>
             <div class="buttons">
                 <a href="/nominations/prog-text" target="_blank">
                     <div class="button">НОВА НОМІНАЦІЯ ВІД GRAMMARLY</div>
-                </a>
-                <a href="http://winners.italent.org.ua/" target="_blank">
-                    <div class="button">ПЕРЕМОЖЦІ 6 СЕЗОНУ</div>
                 </a>
                 <a href="https://www.obozrevatel.com/ukr/tech/final-konkursu-italent-stali-vidomi-najkraschi-yuni-it-talanti-ukraini.htm" target="_blank">
                     <div class="button">ЯК ПРОЙШОВ ФІНАЛ 6 СЕЗОНУ</div>
@@ -185,7 +182,7 @@
     <section class="section" id="judges">
         <div>
             <div class="title left">СУДДІ</div>
-            <p>Профессіонали з IT - ендустрії України!</p>
+            <p>Професіонали з IT - індустрії України!</p>
             <div class="link">
                 <a class="shadow" href="/judges/">ДЕТАЛЬНІШЕ</a>
             </div>
@@ -200,7 +197,7 @@
             </div>
             <div>
                 <h2 class="title left">РОЗДРУКУЙ ПЛАКАТ</h2>
-                <p>Повісь у себе у навчальному закладі, на холодильнику, в під'їзді, де завгодно і отимай "+" у карму!
+                <p>Повісь у себе у навчальному закладі, на холодильнику, в під'їзді, де завгодно і отримай "+" у карму!
                     :)</p>
                 <a target="_blank" class="shadow"
                     href="/includes/images/iTalent-plakat.pdf">ЗАВАНТАЖИТИ ПЛАКАТ</a>

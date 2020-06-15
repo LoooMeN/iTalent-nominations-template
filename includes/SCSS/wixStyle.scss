@@ -1,0 +1,742 @@
+@import 'utilityStyle';
+
+.subTitle {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00B1FF;
+    width: 90%;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    font-size: bold;
+    color: #00B1FF;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.textLeft {
+    text-align: left !important;
+}
+
+.textCenter {
+    text-align: center !important;
+}
+
+#banner {
+    width: 100%;
+    position: relative;
+    margin-bottom: 200px;
+
+    .wixLogoHolder {
+        width: 100%;
+
+        .wixLogo {
+            width: 50%;
+            margin: 60px 0;
+        }
+    }
+
+    .wixBanner {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -10;
+        width: 50%;
+    }
+
+    .bannerContainer {
+        width: 80%;
+        margin: auto;
+
+        @include myGrid(1fr 1fr);
+
+        .messageContainer {
+            width: 100%;
+            margin: auto;
+
+            @include myFlex(column);
+
+            a {
+                text-align: center;
+            }
+
+            h1,
+            p {
+                text-transform: uppercase;
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            h1 {
+                width: 80%;
+                font-size: 29px;
+            }
+
+            p {
+                width: 90%;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+// endof #banner
+
+
+#ourGoal {
+    position: relative;
+    margin-bottom: 370px;
+
+    .wixCircles {
+        position: absolute;
+        z-index: -10;
+        left: 0;
+        width: 100%;
+    }
+
+    .goalContainer {
+        @include myFlex(column);
+        width: 50%;
+        margin: auto;
+
+        p {
+            font-size: 24px;
+            line-height: initial;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 30px;
+
+            span {
+                text-transform: uppercase;
+                color: #00B1FF;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .linkContainer {
+        @include myGrid(1fr 1fr, center, center, 80px);
+        width: 60%;
+        margin: auto;
+
+        div {
+            padding: 30px 40px;
+            background-color: white;
+            cursor: pointer;
+            height: 150px;
+            border-radius: 10px;
+
+            p {
+                font-size: 20px;
+                color: black;
+                margin-bottom: 30px;
+                min-height: 50px;
+            }
+        }
+
+        .iconHolder {
+            background-color: #00b1ff;
+            padding: 0;
+            @include myFlex(row);
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+
+            i {
+                color: white;
+            }
+        }
+    }
+}
+
+// endof #ourGoal
+
+#forWho {
+    margin-bottom: 270px;
+
+    .container {
+        @include myGrid(1fr 1fr, center, center, 80px);
+        margin: auto;
+        width: 50%;
+
+        div {
+            width: 430px;
+            height: 420px;
+            @include myFlex(column);
+            position: relative;
+
+            .blueBox {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                z-index: -10;
+                top: 0px;
+            }
+
+            img {
+                width: 160px;
+                height: 160px;
+                margin-bottom: 40px;
+            }
+
+            h4,
+            p {
+                color: white;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            h4 {
+                font-size: 20px;
+                font-weight: bold;
+                max-width: 80%;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                max-width: 90%;
+                line-height: initial;
+            }
+        }
+    }
+}
+
+// endof forWho
+
+
+#instructions {
+    width: 100%;
+    position: relative;
+    margin-bottom: 400px;
+
+    .instructionsBg {
+        position: absolute;
+        width: 100%;
+        z-index: -10;
+        top: 0;
+    }
+
+    .container {
+        width: 45%;
+        margin: auto;
+
+        .instructionHolder {
+            @include myFlex(row, center, flex-start);
+
+            .icon {
+                width: 70px;
+                height: 70px;
+                position: relative;
+                @include myFlex(row);
+
+                img {
+                    width: 70px;
+                    position: absolute;
+                    z-index: -10;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+
+            h3 {
+                color: black;
+                font-size: 24px;
+                font-weight: 500;
+                text-align: left;
+                margin-left: 30px;
+                text-transform: uppercase;
+            }
+        }
+
+        .instructionsText {
+            margin-left: 100px;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: lowercase;
+            line-height: 23px;
+            margin-top: 0;
+            margin-bottom: 50px;
+
+            a {
+                color: #2F80ED;
+                text-decoration: underline;
+            }
+        }
+
+        .cardsHolder {
+            margin-left: 100px;
+
+            h4 {
+                margin-top: 80px;
+                margin-bottom: 40px;
+                color: #00B1FF;
+            }
+
+            .linkContainer {
+                @include myGrid(1fr 1fr, center, center, 20px);
+                width: 100%;
+                margin: auto;
+
+                div {
+                    padding: 30px 40px;
+                    width: 400px;
+                    box-sizing: border-box;
+                    height: 250px;
+                    background-color: white;
+                    cursor: pointer;
+                    border-radius: 10px;
+                    margin-bottom: 20px;
+
+                    p {
+                        font-size: 18px;
+                        color: black;
+                        margin-bottom: 30px;
+                        line-height: 140%;
+                        min-height: 100px;
+                    }
+                }
+
+                .iconHolder {
+                    background-color: #00b1ff;
+                    padding: 0;
+                    @include myFlex(row);
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50px;
+
+                    i {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// endof instructions
+
+#howTo {
+    margin-bottom: 240px;
+    @include myFlex(column);
+
+    a {
+        margin-top: 40px;
+        text-align: center;
+        @include myFlex(row);
+    }
+
+    .container {
+        @include myGrid(1fr 1fr);
+        margin: 40px 0;
+        width: 80%;
+        margin: auto;
+
+        .cat {
+            text-align: center;
+        }
+
+        ul {
+            li {
+                margin: 40px 0;
+                font-size: 18px;
+            }
+        }
+    }
+
+}
+
+// endof howTo
+
+#faq {
+
+    .container {
+        margin-bottom: 100px;
+    }
+
+    .line {
+        width: 500px;
+        height: 1px;
+        box-sizing: border-box;
+        background-color: #00B1FF;
+        margin-bottom: 35px;
+    }
+
+    span {
+        font-size: 70px;
+        font-weight: 500;
+        margin-right: 30px;
+    }
+
+    p {
+        text-transform: sentancecase;
+        line-height: initial;
+    }
+
+    .question {
+        @include myFlex(row, center, flex-start);
+        margin-left: 20px;
+
+        span {
+            color: #00B1FF;
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 29px;
+        }
+    }
+
+    .answer {
+        @include myFlex(row, center, flex-start);
+        margin-left: 20px;
+
+        span {
+            color: black;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 500;
+            margin-left: 5px;
+        }
+    }
+
+}
+
+// endof faq
+
+
+@media only screen and (max-width: 1440px) {
+
+    #ourGoal {
+        .linkContainer {
+            margin-top: 40px;
+            width: 80%;
+            @include myGrid(1fr 1fr, center, center, 40px);
+
+            div {}
+        }
+    }
+
+    #howTo {
+        .container {
+            .cat {
+                @include myFlex(row);
+
+                img {
+                    width: 90%;
+                }
+            }
+
+            ul {
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+}
+
+//laptop 1440
+
+@media only screen and (max-width: 1024px) {
+    #banner {
+        .wixBanner {
+            width: 60%;
+        }
+
+        .bannerContainer {
+            @include myGrid(1fr 2fr);
+
+            .messageContainer {
+
+                h1 {
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    #ourGoal {
+        .goalContainer {
+            width: 65%;
+        }
+
+        .linkContainer {
+            margin-top: 40px;
+            width: 100%;
+            @include myGrid(1fr 1fr, center, center, 40px);
+        }
+    }
+
+
+    #instructions {
+        .container {
+            width: 80%;
+
+            .cardsHolder {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+//laptop 1024
+
+@media only screen and (max-width: 768px) {
+    #banner {
+        .wixBanner {
+            display: none;
+        }
+
+        .bannerContainer {
+            @include myGrid(1fr);
+
+            .messageContainer {
+
+                h1 {
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    #forWho {
+        .container {
+            @include myGrid(1fr 1fr, center, center, 20px);
+            width: 100%;
+
+            div {
+                width: 340px;
+                height: 320px;
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                h4 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    #instructions {
+        .instructionsBg {
+            position: absolute;
+            width: 100%;
+            z-index: -10;
+            top: 20%;
+        }
+
+        .container {
+            width: 90%;
+
+            .cardsHolder {
+                margin-left: 0;
+
+                .linkContainer {
+                    div {
+                        width: 100%;
+                        height: 300px;
+
+                        p {
+                            min-height: 150px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #howTo {
+        .subTitle {
+            margin-left: 0;
+        }
+
+        .container {
+            .cat {
+                img {
+                    width: 100%;
+                }
+            }
+
+            ul {
+                li {
+                    font-size: 14px;
+                    margin: 20px 0;
+                }
+            }
+        }
+
+        a {
+            margin-top: 40px;
+            @include myFlex(row);
+            text-align: center;
+        }
+    }
+
+    #faq {
+        span {
+            font-size: 50px;
+        }
+
+        .question {
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .answer {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+//tablet 768
+
+@media only screen and (max-width: 450px) {
+    .subTitle {
+        margin-left: 0;
+    }
+
+    #ourGoal {
+        margin-bottom: 100px;
+
+        .wixCircles {
+            top: 20%;
+        }
+
+        .goalContainer {
+            width: 100%;
+        }
+
+        .linkContainer {
+            @include myGrid(1fr);
+
+            div {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    #forWho {
+        margin-bottom: 100px;
+
+        .container {
+            @include myGrid(1fr);
+
+            div {
+                margin: auto;
+            }
+        }
+    }
+
+    #instructions {
+        margin-bottom: 100px;
+
+        .subTitle {
+            text-align: center !important;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+
+        .instructionsBg {
+            display: none;
+        }
+
+        .container {
+            .instructionHolder {
+                margin-bottom: 40px;
+                @include myFlex(row);
+
+                .icon {
+                    width: 90px;
+                    height: 90px;
+
+                    img {
+                        width: 90px;
+                        height: 90px;
+                    }
+                }
+            }
+
+            .instructionsText {
+                margin-left: 0;
+                margin-bottom: 100px;
+                padding: 10px 30px;
+            }
+
+            .cardsHolder {
+                .linkContainer {
+                    @include myGrid(1fr 1fr);
+
+                    div {
+                        padding: 10px 20px;
+                        width: 100%;
+                        height: 250px;
+
+                        p {
+                            font-size: 12px;
+                            min-height: 130px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #howTo {
+        margin-bottom: 150px;
+
+        .subTitle {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            @include myGrid(1fr);
+
+            ul {
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+
+    #faq {
+        .line {
+            width: 250px;
+        }
+    }
+}

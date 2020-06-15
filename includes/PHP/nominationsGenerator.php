@@ -2,7 +2,7 @@
     header("Content-Type: text/plain");
     $data = file_get_contents("../data/nominations.json");
     $data = json_decode($data, true);
-    $test = $data["nomination1"];
+
     if (!file_exists('../../nominations'))
         mkdir('../../nominations');
     foreach ($data as $test) {
@@ -83,29 +83,29 @@ if ($test['status'] == "no"){
         <div class='ageGroupsWrapper'>
             <div class='ageGroupWrapper shadow'>
                 <div class='ageGroupPreview'>
-                    <img loading='lazy'  src='".$test['age'][1]['image']."'
+                    <img loading='lazy'  src='".$test['age'][0]['image']."'
                         alt='Вікова категорія 1'>
                     <div class='age blueGrad'>
-                        <h2>Від ".$test['age'][1]['from'].' до '.$test['age'][1]['to']." років</h2>
-                        <p>Тема роботи: ".$test['age'][1]['tema']."</p>
+                        <h2>Від ".$test['age'][0]['from'].' до '.$test['age'][0]['to']." років</h2>
+                        <p>Тема роботи: ".$test['age'][0]['tema']."</p>
                     </div>
                 </div>";
-                if ($test['age'][1]["task"] != "none")
-                    $string .= "<ul class='explanation'>".$test['age'][1]["task"]."</ul>";
+                if ($test['age'][0]["task"] != "none")
+                    $string .= "<ul class='explanation'>".$test['age'][0]["task"]."</ul>";
                 $string .= "</div>";
-    if ($test['age'][2])
+    if (@$test['age'][1])
     {
         $string .= "<div class='ageGroupWrapper shadow'>
         <div class='ageGroupPreview'>
-            <img loading='lazy'  src='".$test['age'][2]['image']."'
+            <img loading='lazy'  src='".$test['age'][1]['image']."'
                 alt='Вікова категорія 1'>
             <div class='age redGrad'>
-                <h2>Від ".$test['age'][2]['from'].' до '.$test['age'][2]['to']." років</h2>
-                <p>Тема роботи: ".$test['age'][2]['tema']."</p>
+                <h2>Від ".$test['age'][1]['from'].' до '.$test['age'][1]['to']." років</h2>
+                <p>Тема роботи: ".$test['age'][1]['tema']."</p>
             </div>
         </div>";
-        if ($test['age'][2]["task"] != "none")
-            $string .= "<ul class='explanation'>".$test['age'][2]["task"]."</ul>";
+        if ($test['age'][1]["task"] != "none")
+            $string .= "<ul class='explanation'>".$test['age'][1]["task"]."</ul>";
         $string .= "</div>";
     }
 
@@ -158,7 +158,7 @@ if ($test['status'] == "no"){
 $string .= "<section class='section' id='registration'></section>
 
 <section id='CTAbuttons' class='section'>
-    <a href='http://winners.italent.org.ua/' class='CTAbutton shadow unselectable'>
+    <a href='http://winners.italent.org.ua/?utm_source=iTalent' class='CTAbutton shadow unselectable'>
         <p>роботи попередніх сезонів</p>
         <img loading='lazy'  class='buttonImg' src='/includes/images/icons/Vector-3.webp' alt='button'>
     </a>

@@ -126,6 +126,22 @@ html {
     scroll-behavior: smooth;
 }
 
+.button {
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 5px;
+    transition: 0.3s background-color;
+    width: initial;
+    background-color: #40C5FF;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: rgb(0, 102, 204);
+    }
+}
+
 html,
 body {
     // height: 100%;
