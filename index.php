@@ -26,6 +26,9 @@
                 <a href="https://www.obozrevatel.com/ukr/tech/final-konkursu-italent-stali-vidomi-najkraschi-yuni-it-talanti-ukraini.htm" target="_blank">
                     <div class="button">ЯК ПРОЙШОВ ФІНАЛ 6 СЕЗОНУ</div>
                 </a>
+                <a href="https://italent.org.ua/wix/" target="_blank">
+                    <div class="button">ПРЕМІУМПЛАН ВІД WIX БЕЗКОШТОВНО</div>
+                </a>
             </div>
             <div class="zaPidtrimki">
                 <a href="https://grammarly.com" target="_blank" rel="noopener noreferrer">
@@ -40,6 +43,7 @@
             </div>
         </div>
     </section>
+
     <section class="section" id="video">
         <div class="title white">ВІДЕО З ФІНАЛУ</div>
         <div class="holder">
@@ -66,6 +70,26 @@
                 <p>Перегляньте FAQ</p>
             </a>
         </div>
+    </section>
+
+    <section class="section" id="howTo">
+        <h3 class="subTitle">ОТРИМАЙ БЕЗКОШТОВНИЙ ПРЕМІУМПЛАН ВІД WIX</h3>
+        <div class="container">
+            <ul>
+                <li>Щоб отримати преміумплан вам необхідно заповнити форму.</li>
+                <li>Заповніть форму. Вказуйте дані уважно, додайте офіційний імейл навчального закладу.
+                </li>
+                <li>Після обробки анкети, вам будуть надісланий лист з інструкцією про те, як активувати преміумплан.
+                </li>
+                <li>Редагуйте шаблон і починайте користуватись преміумпланом.</li>
+            </ul>
+            <div class="cat">
+                <img src="/includes/images/wixImages/cat.png" alt="cubecat">
+            </div>
+        </div>
+        <a href="https://forms.gle/T2Z3j3ys1YzoJnU57" target="_blank">
+            <div class="button shadow">ДЕТАЛЬНІШЕ</div>
+        </a>
     </section>
 
     <!-- ДАТИ ТА ЕТАПИ -->
@@ -315,6 +339,7 @@
             </div>
         </div>
     </section>
+
     <?php include "./includes/footer.html";?>
 </body>
 

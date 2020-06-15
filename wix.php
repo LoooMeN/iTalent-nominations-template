@@ -220,8 +220,6 @@
 
     <section class="section" id="howTo">
         <h3 class="subTitle">ЯК ОТРИМАТИ безкоштовний ПРЕМІУМПЛАН</h3>
-
-
         <div class="container">
             <ul>
                 <li>Щоб отримати преміумплан вам необхідно заповнити форму.</li>
@@ -235,9 +233,6 @@
                 <img src="/includes/images/wixImages/cat.png" alt="cubecat">
             </div>
         </div>
-
-
-
         <a href="https://forms.gle/T2Z3j3ys1YzoJnU57" target="_blank">
             <div class="button shadow">Подати заявку на преміумплан</div>
         </a>
