@@ -87,7 +87,7 @@
                 <img src="/includes/images/wixImages/cat.png" alt="cubecat">
             </div>
         </div>
-        <a href="https://forms.gle/T2Z3j3ys1YzoJnU57" target="_blank">
+        <a href="https://italent.org.ua/wix/" target="_blank">
             <div class="button shadow">ДЕТАЛЬНІШЕ</div>
         </a>
     </section>
