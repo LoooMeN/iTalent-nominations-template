@@ -94,14 +94,14 @@
 
     <!-- ДАТИ ТА ЕТАПИ -->
     <div class="aboutWrap bgOverride">
-        <section class="section" id="dates">
+        <!-- <section class="section" id="dates">
             <h1 class="title">ЕТАПИ ПРОВЕДЕННЯ КОНКУРСУ</h1>
             <div class="imgWrap">
                 <img loading="lazy"  src="includes/images/backgrounds/steps.svg" class="myDesktop" alt="steps">
                 <img loading="lazy"  src="includes/images/backgrounds/steps_mobile.svg" class="myMobile"
                     alt="steps">
             </div>
-        </section>
+        </section> -->
 
         <section class="section" id="mainPartners">
             <h2 class="title">ПАРТНЕРИ</h2>
